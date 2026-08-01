@@ -1,0 +1,54 @@
+{
+  "collections": [
+    {
+      "id": 800000,
+      "handle": "lighting",
+      "title": "Planted Tank Lighting",
+      "body_html": "<p>Full-spectrum LED bars, clip lights and controllers for growing plants, not just seeing fish.</p>",
+      "updated_at": "2026-08-01T00:00:00+00:00",
+      "published_at": "2026-08-01T00:00:00+00:00",
+      "sort_order": "manual",
+      "published_scope": "web"
+    },
+    {
+      "id": 800001,
+      "handle": "co2",
+      "title": "CO2 Systems",
+      "body_html": "<p>Regulators, diffusers and drop checkers. Everything for injected CO2 except the gas itself.</p>",
+      "updated_at": "2026-08-01T00:00:00+00:00",
+      "published_at": "2026-08-01T00:00:00+00:00",
+      "sort_order": "manual",
+      "published_scope": "web"
+    },
+    {
+      "id": 800002,
+      "handle": "tools",
+      "title": "Aquascaping Tools",
+      "body_html": "<p>Stainless tweezers, scissors, scrapers and maintenance kits built for working inside glass.</p>",
+      "updated_at": "2026-08-01T00:00:00+00:00",
+      "published_at": "2026-08-01T00:00:00+00:00",
+      "sort_order": "manual",
+      "published_scope": "web"
+    },
+    {
+      "id": 800003,
+      "handle": "hardscape",
+      "title": "Substrate & Hardscape",
+      "body_html": "<p>Aqua soil, sand, Seiryu stone and spider wood for building the layout.</p>",
+      "updated_at": "2026-08-01T00:00:00+00:00",
+      "published_at": "2026-08-01T00:00:00+00:00",
+      "sort_order": "manual",
+      "published_scope": "web"
+    },
+    {
+      "id": 800004,
+      "handle": "testing",
+      "title": "Water Testing",
+      "body_html": "<p>Liquid kits, digital meters and strips for keeping parameters where plants and livestock want them.</p>",
+      "updated_at": "2026-08-01T00:00:00+00:00",
+      "published_at": "2026-08-01T00:00:00+00:00",
+      "sort_order": "manual",
+      "published_scope": "web"
+    }
+  ]
+}

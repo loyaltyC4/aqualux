@@ -1,0 +1,78 @@
+import { AddToCart } from "components/cart/add-to-cart";
+import Price from "components/price";
+import { Product } from "lib/shopify/types";
+import { VariantSelector } from "./variant-selector";
+
+export function ProductDescription({ product }: { product: Product }) {
+  const summary = product.description
+    ? product.description.split(". ").slice(0, 2).join(". ")
+    : "";
+
+  return (
+    <div className="flex flex-col">
+      <h1 className="text-3xl font-semibold leading-tight md:text-4xl">
+        {product.title}
+      </h1>
+
+      <div className="mt-4 flex items-center gap-3">
+        <span className="rounded-full bg-[#f2a93b] px-4 py-1.5 text-lg font-semibold text-black">
+          <Price
+            amount={product.priceRange.minVariantPrice.amount}
+            currencyCode={product.priceRange.minVariantPrice.currencyCode}
+          />
+        </span>
+        {product.availableForSale ? (
+          <span className="text-sm text-neutral-400">
+            In stock · ships 1-2 days
+          </span>
+        ) : (
+          <span className="text-sm text-red-400">Currently out of stock</span>
+        )}
+      </div>
+
+      {summary ? (
+        <p className="mt-5 text-sm leading-relaxed text-neutral-300">
+          {summary}
+          {summary.endsWith(".") ? "" : "."}
+        </p>
+      ) : null}
+
+      <div className="mt-6">
+        <VariantSelector
+          options={product.options}
+          variants={product.variants}
+        />
+      </div>
+
+      <div className="mt-2">
+        <AddToCart product={product} />
+      </div>
+
+      <ul className="mt-6 grid grid-cols-1 gap-2 text-sm text-neutral-400 sm:grid-cols-2">
+        {[
+          "Hand-picked and quality-checked",
+          "Free sticker sheet in every box",
+          "Encrypted checkout with Stripe",
+          "30-day easy returns",
+        ].map((t) => (
+          <li key={t} className="flex items-center gap-2">
+            <svg
+              viewBox="0 0 24 24"
+              className="h-4 w-4 flex-none text-[#f2a93b]"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2.5}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m5 13 4 4L19 7"
+              />
+            </svg>
+            {t}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}

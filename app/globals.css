@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/container-queries";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+  img[loading="lazy"] {
+    clip-path: inset(0.6px);
+  }
+}
+
+a,
+input,
+button,
+select,
+textarea {
+  @apply focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#f2a93b]/70 focus-visible:ring-offset-2 focus-visible:ring-offset-[#060d0e];
+}
+
+/* ===== Aqualux — deep water design system ===== */
+:root {
+  --aq-deep: #060d0e; /* canvas: deep water */
+  --aq-panel: #0d1618; /* raised surface */
+  --aq-panel2: #121e21; /* elevated surface */
+  --aq-line: rgba(236, 234, 228, 0.09);
+  --aq-amber: #f2a93b; /* single accent: grow light */
+  --aq-bone: #eceae4; /* primary text */
+  --aq-muted: #8a9a9c; /* secondary text */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.028em;
+  font-feature-settings: "ss01";
+}
+
+/* Spec numbers use mono — motivated: this is a spec-driven category */
+.aq-spec {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Fixed grain overlay — pointer-events-none, never on a scrolling container */
+.aq-grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Scroll reveal — transform + opacity only */
+@media (prefers-reduced-motion: no-preference) {
+  .aq-reveal {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  .aq-reveal.is-in {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 0.8s var(--ease-out-expo),
+      transform 0.8s var(--ease-out-expo);
+  }
+}
+
+@keyframes aq-marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.aq-marquee {
+  animation: aq-marquee 40s linear infinite;
+  will-change: transform;
+}
+
+/* Caustic light sweep behind the hero */
+@keyframes aq-caustic {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: translate3d(-2%, 0, 0) scale(1.04);
+  }
+  50% {
+    opacity: 0.55;
+    transform: translate3d(2%, 1%, 0) scale(1.1);
+  }
+}
+.aq-caustic {
+  animation: aq-caustic 14s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aq-marquee,
+  .aq-caustic {
+    animation: none;
+  }
+  .aq-reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
