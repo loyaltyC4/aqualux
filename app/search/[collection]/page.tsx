@@ -7,13 +7,19 @@ import Grid from "components/grid";
 import ProductGridItems from "components/layout/product-grid-items";
 import { FilterBar } from "components/layout/search/filter-bar";
 import { defaultSort, sorting } from "lib/constants";
-import { COLLECTION_IMAGE, SITE_NAME } from "lib/brand";
+import { COLLECTION_IMAGE, COLLECTIONS, SITE_NAME } from "lib/brand";
 import { baseUrl } from "lib/utils";
 import {
   applyFilters,
   availableFacets,
   parseFiltersFromSearchParams,
 } from "lib/filters";
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return COLLECTIONS.map((c) => ({ collection: c.handle }));
+}
 
 export async function generateMetadata(props: {
   params: Promise<{ collection: string }>;

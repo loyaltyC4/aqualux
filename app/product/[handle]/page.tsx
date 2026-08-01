@@ -18,6 +18,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import { staticGetProducts } from "lib/shopify/static-data";
+
+/**
+ * Without these two, PPR serves a prerendered shell with HTTP 200 for ANY
+ * handle and only streams notFound() in afterwards. That is a soft 404:
+ * /product/total-nonsense returned 200 and was indexable, so a crawler could
+ * mint unlimited junk URLs against this route. Enumerating the real handles
+ * and refusing everything else makes unknown products a hard 404 at routing
+ * time, before a shell is ever produced.
+ */
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return staticGetProducts({}).map((p) => ({ handle: p.handle }));
+}
 
 export async function generateMetadata(props: {
   params: Promise<{ handle: string }>;
