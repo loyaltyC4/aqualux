@@ -21,7 +21,9 @@
           "product_id": 7000000000,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -51,15 +53,44 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-          "image_id": null
+          "image_id": 9000000
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000000,
+          "product_id": 7000000000,
+          "position": 1,
+          "src": "/products/planted-starter-bundle-light-tools-test-kit.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Planted Starter Bundle - Light + Tools + Test Kit",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000000,
+        "product_id": 7000000000,
+        "position": 1,
+        "src": "/products/planted-starter-bundle-light-tools-test-kit.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Planted Starter Bundle - Light + Tools + Test Kit",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Includes", "Aurora 20in LED, 5-pc tool set, master test kit"],
-        ["Saves", "$42 vs buying separately"],
-        ["Best for", "First planted tank"]
+        [
+          "Includes",
+          "Aurora 20in LED, 5-pc tool set, master test kit"
+        ],
+        [
+          "Saves",
+          "$42 vs buying separately"
+        ],
+        [
+          "Best for",
+          "First planted tank"
+        ]
       ],
       "_cat": "lighting"
     },
@@ -84,7 +115,9 @@
           "product_id": 7000000001,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -114,15 +147,44 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000001",
-          "image_id": null
+          "image_id": 9000001
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000001,
+          "product_id": 7000000001,
+          "position": 1,
+          "src": "/products/co2-starter-bundle-regulator-diffuser-checker.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "CO2 Starter Bundle - Regulator + Diffuser + Checker",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000001,
+        "product_id": 7000000001,
+        "position": 1,
+        "src": "/products/co2-starter-bundle-regulator-diffuser-checker.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "CO2 Starter Bundle - Regulator + Diffuser + Checker",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Includes", "Regulator + solenoid, inline atomiser, drop checker"],
-        ["Saves", "$40 vs buying separately"],
-        ["Note", "Cylinder not included"]
+        [
+          "Includes",
+          "Regulator + solenoid, inline atomiser, drop checker"
+        ],
+        [
+          "Saves",
+          "$40 vs buying separately"
+        ],
+        [
+          "Note",
+          "Cylinder not included"
+        ]
       ],
       "_cat": "co2"
     },
@@ -147,7 +209,9 @@
           "product_id": 7000000002,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -177,17 +241,52 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000002",
-          "image_id": null
+          "image_id": 9000002
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000002,
+          "product_id": 7000000002,
+          "position": 1,
+          "src": "/products/aurora-24-7-planted-tank-led-30in.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Aurora 24/7 Planted Tank LED - 30in",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000002,
+        "product_id": 7000000002,
+        "position": 1,
+        "src": "/products/aurora-24-7-planted-tank-led-30in.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Aurora 24/7 Planted Tank LED - 30in",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Length", "30-36 in (extendable)"],
-        ["Spectrum", "Full RGB + 6500K white"],
-        ["Power", "24 W"],
-        ["Modes", "24/7 auto, DIY custom, manual"],
-        ["Rating", "IP68 waterproof"]
+        [
+          "Length",
+          "30-36 in (extendable)"
+        ],
+        [
+          "Spectrum",
+          "Full RGB + 6500K white"
+        ],
+        [
+          "Power",
+          "24 W"
+        ],
+        [
+          "Modes",
+          "24/7 auto, DIY custom, manual"
+        ],
+        [
+          "Rating",
+          "IP68 waterproof"
+        ]
       ],
       "_cat": "lighting"
     },
@@ -212,7 +311,9 @@
           "product_id": 7000000003,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -242,17 +343,52 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000003",
-          "image_id": null
+          "image_id": 9000003
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000003,
+          "product_id": 7000000003,
+          "position": 1,
+          "src": "/products/aurora-24-7-planted-tank-led-20in.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Aurora 24/7 Planted Tank LED - 20in",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000003,
+        "product_id": 7000000003,
+        "position": 1,
+        "src": "/products/aurora-24-7-planted-tank-led-20in.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Aurora 24/7 Planted Tank LED - 20in",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Length", "20-24 in (extendable)"],
-        ["Spectrum", "Full RGB + 6500K white"],
-        ["Power", "16 W"],
-        ["Modes", "24/7 auto, DIY custom, manual"],
-        ["Rating", "IP68 waterproof"]
+        [
+          "Length",
+          "20-24 in (extendable)"
+        ],
+        [
+          "Spectrum",
+          "Full RGB + 6500K white"
+        ],
+        [
+          "Power",
+          "16 W"
+        ],
+        [
+          "Modes",
+          "24/7 auto, DIY custom, manual"
+        ],
+        [
+          "Rating",
+          "IP68 waterproof"
+        ]
       ],
       "_cat": "lighting"
     },
@@ -277,7 +413,9 @@
           "product_id": 7000000004,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -307,17 +445,52 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000004",
-          "image_id": null
+          "image_id": 9000004
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000004,
+          "product_id": 7000000004,
+          "position": 1,
+          "src": "/products/clip-on-nano-grow-light.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Clip-On Nano Grow Light",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000004,
+        "product_id": 7000000004,
+        "position": 1,
+        "src": "/products/clip-on-nano-grow-light.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Clip-On Nano Grow Light",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Fits", "Rimless or rimmed, up to 16 in"],
-        ["Spectrum", "6500K full spectrum"],
-        ["Power", "10 W"],
-        ["Timer", "3 / 9 / 12 hr auto"],
-        ["Arm", "Flexible gooseneck"]
+        [
+          "Fits",
+          "Rimless or rimmed, up to 16 in"
+        ],
+        [
+          "Spectrum",
+          "6500K full spectrum"
+        ],
+        [
+          "Power",
+          "10 W"
+        ],
+        [
+          "Timer",
+          "3 / 9 / 12 hr auto"
+        ],
+        [
+          "Arm",
+          "Flexible gooseneck"
+        ]
       ],
       "_cat": "lighting"
     },
@@ -342,7 +515,9 @@
           "product_id": 7000000005,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -372,17 +547,52 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000005",
-          "image_id": null
+          "image_id": 9000005
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000005,
+          "product_id": 7000000005,
+          "position": 1,
+          "src": "/products/aurora-pro-42w-36-48in.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Aurora Pro 42W - 36-48in",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000005,
+        "product_id": 7000000005,
+        "position": 1,
+        "src": "/products/aurora-pro-42w-36-48in.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Aurora Pro 42W - 36-48in",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Length", "36-48 in (extendable)"],
-        ["Spectrum", "Full RGB + 6500K white"],
-        ["Power", "42 W"],
-        ["Modes", "24/7 auto, DIY custom"],
-        ["Rating", "IP68 waterproof"]
+        [
+          "Length",
+          "36-48 in (extendable)"
+        ],
+        [
+          "Spectrum",
+          "Full RGB + 6500K white"
+        ],
+        [
+          "Power",
+          "42 W"
+        ],
+        [
+          "Modes",
+          "24/7 auto, DIY custom"
+        ],
+        [
+          "Rating",
+          "IP68 waterproof"
+        ]
       ],
       "_cat": "lighting"
     },
@@ -407,7 +617,9 @@
           "product_id": 7000000006,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -437,16 +649,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000006",
-          "image_id": null
+          "image_id": 9000006
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000006,
+          "product_id": 7000000006,
+          "position": 1,
+          "src": "/products/sunrise-timer-controller.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Sunrise Timer Controller",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000006,
+        "product_id": 7000000006,
+        "position": 1,
+        "src": "/products/sunrise-timer-controller.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Sunrise Timer Controller",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Compatible", "All Aurora LED bars"],
-        ["Channels", "4 independent"],
-        ["Ramp", "1-60 min sunrise/sunset"],
-        ["Memory", "Retains settings after power cut"]
+        [
+          "Compatible",
+          "All Aurora LED bars"
+        ],
+        [
+          "Channels",
+          "4 independent"
+        ],
+        [
+          "Ramp",
+          "1-60 min sunrise/sunset"
+        ],
+        [
+          "Memory",
+          "Retains settings after power cut"
+        ]
       ],
       "_cat": "lighting"
     },
@@ -471,7 +715,9 @@
           "product_id": 7000000007,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -501,17 +747,52 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000007",
-          "image_id": null
+          "image_id": 9000007
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000007,
+          "product_id": 7000000007,
+          "position": 1,
+          "src": "/products/aquascaping-tool-set-5-piece.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Aquascaping Tool Set - 5 Piece",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000007,
+        "product_id": 7000000007,
+        "position": 1,
+        "src": "/products/aquascaping-tool-set-5-piece.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Aquascaping Tool Set - 5 Piece",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Pieces", "5"],
-        ["Material", "304 stainless steel"],
-        ["Length", "10 in (25 cm)"],
-        ["Finish", "Matte satin, rust resistant"],
-        ["Includes", "Roll-up storage case"]
+        [
+          "Pieces",
+          "5"
+        ],
+        [
+          "Material",
+          "304 stainless steel"
+        ],
+        [
+          "Length",
+          "10 in (25 cm)"
+        ],
+        [
+          "Finish",
+          "Matte satin, rust resistant"
+        ],
+        [
+          "Includes",
+          "Roll-up storage case"
+        ]
       ],
       "_cat": "tools"
     },
@@ -536,7 +817,9 @@
           "product_id": 7000000008,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -566,16 +849,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000008",
-          "image_id": null
+          "image_id": 9000008
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000008,
+          "product_id": 7000000008,
+          "position": 1,
+          "src": "/products/long-reach-tweezers-15in.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Long-Reach Tweezers - 15in",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000008,
+        "product_id": 7000000008,
+        "position": 1,
+        "src": "/products/long-reach-tweezers-15in.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Long-Reach Tweezers - 15in",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Length", "15 in (38 cm)"],
-        ["Material", "304 stainless steel"],
-        ["Tip", "Serrated, fine point"],
-        ["Best for", "Tanks over 18 in deep"]
+        [
+          "Length",
+          "15 in (38 cm)"
+        ],
+        [
+          "Material",
+          "304 stainless steel"
+        ],
+        [
+          "Tip",
+          "Serrated, fine point"
+        ],
+        [
+          "Best for",
+          "Tanks over 18 in deep"
+        ]
       ],
       "_cat": "tools"
     },
@@ -600,7 +915,9 @@
           "product_id": 7000000009,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -630,16 +947,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000009",
-          "image_id": null
+          "image_id": 9000009
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000009,
+          "product_id": 7000000009,
+          "position": 1,
+          "src": "/products/curved-spring-scissors.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Curved Spring Scissors",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000009,
+        "product_id": 7000000009,
+        "position": 1,
+        "src": "/products/curved-spring-scissors.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Curved Spring Scissors",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Length", "10 in (25 cm)"],
-        ["Blade", "Curved, spring return"],
-        ["Material", "304 stainless steel"],
-        ["Best for", "Carpet and stem trimming"]
+        [
+          "Length",
+          "10 in (25 cm)"
+        ],
+        [
+          "Blade",
+          "Curved, spring return"
+        ],
+        [
+          "Material",
+          "304 stainless steel"
+        ],
+        [
+          "Best for",
+          "Carpet and stem trimming"
+        ]
       ],
       "_cat": "tools"
     },
@@ -664,7 +1013,9 @@
           "product_id": 7000000010,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -694,16 +1045,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000010",
-          "image_id": null
+          "image_id": 9000010
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000010,
+          "product_id": 7000000010,
+          "position": 1,
+          "src": "/products/magnetic-glass-cleaner-float.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Magnetic Glass Cleaner - Float",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000010,
+        "product_id": 7000000010,
+        "position": 1,
+        "src": "/products/magnetic-glass-cleaner-float.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Magnetic Glass Cleaner - Float",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Glass thickness", "Up to 12 mm"],
-        ["Floats", "Yes, self-surfacing"],
-        ["Blade", "Detachable scraper"],
-        ["Grip", "Non-scratch felt pad"]
+        [
+          "Glass thickness",
+          "Up to 12 mm"
+        ],
+        [
+          "Floats",
+          "Yes, self-surfacing"
+        ],
+        [
+          "Blade",
+          "Detachable scraper"
+        ],
+        [
+          "Grip",
+          "Non-scratch felt pad"
+        ]
       ],
       "_cat": "tools"
     },
@@ -728,7 +1111,9 @@
           "product_id": 7000000011,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -758,16 +1143,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000011",
-          "image_id": null
+          "image_id": 9000011
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000011,
+          "product_id": 7000000011,
+          "position": 1,
+          "src": "/products/6-in-1-tank-maintenance-kit.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "6-in-1 Tank Maintenance Kit",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000011,
+        "product_id": 7000000011,
+        "position": 1,
+        "src": "/products/6-in-1-tank-maintenance-kit.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "6-in-1 Tank Maintenance Kit",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Handle", "Telescoping, 15-31 in"],
-        ["Heads", "6 interchangeable"],
-        ["Material", "Stainless + ABS"],
-        ["Storage", "Hanging loop"]
+        [
+          "Handle",
+          "Telescoping, 15-31 in"
+        ],
+        [
+          "Heads",
+          "6 interchangeable"
+        ],
+        [
+          "Material",
+          "Stainless + ABS"
+        ],
+        [
+          "Storage",
+          "Hanging loop"
+        ]
       ],
       "_cat": "tools"
     },
@@ -792,7 +1209,9 @@
           "product_id": 7000000012,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -822,16 +1241,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000012",
-          "image_id": null
+          "image_id": 9000012
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000012,
+          "product_id": 7000000012,
+          "position": 1,
+          "src": "/products/desktop-co2-system-complete.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Desktop CO2 System - Complete",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000012,
+        "product_id": 7000000012,
+        "position": 1,
+        "src": "/products/desktop-co2-system-complete.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Desktop CO2 System - Complete",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Regulator", "Dual-gauge, integrated solenoid"],
-        ["Fitting", "CGA320 + paintball adapter"],
-        ["Includes", "Bubble counter, check valve, diffuser, 3 m tubing"],
-        ["Note", "Cylinder not included, source locally"]
+        [
+          "Regulator",
+          "Dual-gauge, integrated solenoid"
+        ],
+        [
+          "Fitting",
+          "CGA320 + paintball adapter"
+        ],
+        [
+          "Includes",
+          "Bubble counter, check valve, diffuser, 3 m tubing"
+        ],
+        [
+          "Note",
+          "Cylinder not included, source locally"
+        ]
       ],
       "_cat": "co2"
     },
@@ -856,7 +1307,9 @@
           "product_id": 7000000013,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -886,16 +1339,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000013",
-          "image_id": null
+          "image_id": 9000013
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000013,
+          "product_id": 7000000013,
+          "position": 1,
+          "src": "/products/dual-gauge-regulator-solenoid.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Dual-Gauge Regulator + Solenoid",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000013,
+        "product_id": 7000000013,
+        "position": 1,
+        "src": "/products/dual-gauge-regulator-solenoid.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Dual-Gauge Regulator + Solenoid",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Gauges", "Working + cylinder pressure"],
-        ["Solenoid", "110-240 V, timer-ready"],
-        ["Fitting", "CGA320"],
-        ["Adjustment", "Fine needle valve"]
+        [
+          "Gauges",
+          "Working + cylinder pressure"
+        ],
+        [
+          "Solenoid",
+          "110-240 V, timer-ready"
+        ],
+        [
+          "Fitting",
+          "CGA320"
+        ],
+        [
+          "Adjustment",
+          "Fine needle valve"
+        ]
       ],
       "_cat": "co2"
     },
@@ -920,7 +1405,9 @@
           "product_id": 7000000014,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -950,16 +1437,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000014",
-          "image_id": null
+          "image_id": 9000014
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000014,
+          "product_id": 7000000014,
+          "position": 1,
+          "src": "/products/inline-atomiser-diffuser-16-22mm.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Inline Atomiser Diffuser - 16/22mm",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000014,
+        "product_id": 7000000014,
+        "position": 1,
+        "src": "/products/inline-atomiser-diffuser-16-22mm.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Inline Atomiser Diffuser - 16/22mm",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Fits", "16/22 mm tubing"],
-        ["Body", "Acrylic + ceramic core"],
-        ["Position", "Inline, filter return"],
-        ["Working pressure", "30+ psi"]
+        [
+          "Fits",
+          "16/22 mm tubing"
+        ],
+        [
+          "Body",
+          "Acrylic + ceramic core"
+        ],
+        [
+          "Position",
+          "Inline, filter return"
+        ],
+        [
+          "Working pressure",
+          "30+ psi"
+        ]
       ],
       "_cat": "co2"
     },
@@ -984,7 +1503,9 @@
           "product_id": 7000000015,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -1014,16 +1535,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-          "image_id": null
+          "image_id": 9000015
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000015,
+          "product_id": 7000000015,
+          "position": 1,
+          "src": "/products/glass-drop-checker-4dkh-solution.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Glass Drop Checker + 4dKH Solution",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000015,
+        "product_id": 7000000015,
+        "position": 1,
+        "src": "/products/glass-drop-checker-4dkh-solution.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Glass Drop Checker + 4dKH Solution",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Reads", "Green = ~30 ppm CO2"],
-        ["Includes", "4dKH solution + indicator"],
-        ["Mount", "Suction cup, in-tank"],
-        ["Response", "Colour shifts in 1-2 hr"]
+        [
+          "Reads",
+          "Green = ~30 ppm CO2"
+        ],
+        [
+          "Includes",
+          "4dKH solution + indicator"
+        ],
+        [
+          "Mount",
+          "Suction cup, in-tank"
+        ],
+        [
+          "Response",
+          "Colour shifts in 1-2 hr"
+        ]
       ],
       "_cat": "co2"
     },
@@ -1048,7 +1601,9 @@
           "product_id": 7000000016,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -1078,16 +1633,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000016",
-          "image_id": null
+          "image_id": 9000016
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000016,
+          "product_id": 7000000016,
+          "position": 1,
+          "src": "/products/bubble-counter-check-valve-set.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Bubble Counter + Check Valve Set",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000016,
+        "product_id": 7000000016,
+        "position": 1,
+        "src": "/products/bubble-counter-check-valve-set.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Bubble Counter + Check Valve Set",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Body", "Borosilicate glass"],
-        ["Valve", "Integrated non-return"],
-        ["Fits", "4/6 mm CO2 tubing"],
-        ["Mount", "Suction cup or inline"]
+        [
+          "Body",
+          "Borosilicate glass"
+        ],
+        [
+          "Valve",
+          "Integrated non-return"
+        ],
+        [
+          "Fits",
+          "4/6 mm CO2 tubing"
+        ],
+        [
+          "Mount",
+          "Suction cup or inline"
+        ]
       ],
       "_cat": "co2"
     },
@@ -1112,7 +1699,9 @@
           "product_id": 7000000017,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -1142,16 +1731,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000017",
-          "image_id": null
+          "image_id": 9000017
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000017,
+          "product_id": 7000000017,
+          "position": 1,
+          "src": "/products/aqua-soil-planted-substrate-9l.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Aqua Soil - Planted Substrate 9L",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000017,
+        "product_id": 7000000017,
+        "position": 1,
+        "src": "/products/aqua-soil-planted-substrate-9l.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Aqua Soil - Planted Substrate 9L",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Volume", "9 L (approx 20 lb)"],
-        ["Grain", "2-4 mm"],
-        ["Buffers", "pH toward 6.5"],
-        ["Best for", "Rooted stems, carpets, shrimp"]
+        [
+          "Volume",
+          "9 L (approx 20 lb)"
+        ],
+        [
+          "Grain",
+          "2-4 mm"
+        ],
+        [
+          "Buffers",
+          "pH toward 6.5"
+        ],
+        [
+          "Best for",
+          "Rooted stems, carpets, shrimp"
+        ]
       ],
       "_cat": "hardscape"
     },
@@ -1176,7 +1797,9 @@
           "product_id": 7000000018,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -1206,16 +1829,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000018",
-          "image_id": null
+          "image_id": 9000018
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000018,
+          "product_id": 7000000018,
+          "position": 1,
+          "src": "/products/seiryu-stone-11lb-hardscape-box.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Seiryu Stone - 11lb Hardscape Box",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000018,
+        "product_id": 7000000018,
+        "position": 1,
+        "src": "/products/seiryu-stone-11lb-hardscape-box.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Seiryu Stone - 11lb Hardscape Box",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Weight", "11 lb (5 kg) mixed sizes"],
-        ["Pieces", "5-8 per box"],
-        ["Note", "Raises hardness slightly"],
-        ["Best for", "Iwagumi, mountain scapes"]
+        [
+          "Weight",
+          "11 lb (5 kg) mixed sizes"
+        ],
+        [
+          "Pieces",
+          "5-8 per box"
+        ],
+        [
+          "Note",
+          "Raises hardness slightly"
+        ],
+        [
+          "Best for",
+          "Iwagumi, mountain scapes"
+        ]
       ],
       "_cat": "hardscape"
     },
@@ -1240,7 +1895,9 @@
           "product_id": 7000000019,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -1270,16 +1927,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000019",
-          "image_id": null
+          "image_id": 9000019
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000019,
+          "product_id": 7000000019,
+          "position": 1,
+          "src": "/products/spider-wood-centrepiece-set.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Spider Wood - Centrepiece Set",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000019,
+        "product_id": 7000000019,
+        "position": 1,
+        "src": "/products/spider-wood-centrepiece-set.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Spider Wood - Centrepiece Set",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Pieces", "3 branching pieces"],
-        ["Size", "8-14 in each"],
-        ["Prep", "Pre-soaked, low tannin"],
-        ["Best for", "Moss, Anubias, Bucephalandra"]
+        [
+          "Pieces",
+          "3 branching pieces"
+        ],
+        [
+          "Size",
+          "8-14 in each"
+        ],
+        [
+          "Prep",
+          "Pre-soaked, low tannin"
+        ],
+        [
+          "Best for",
+          "Moss, Anubias, Bucephalandra"
+        ]
       ],
       "_cat": "hardscape"
     },
@@ -1304,7 +1993,9 @@
           "product_id": 7000000020,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -1334,16 +2025,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000020",
-          "image_id": null
+          "image_id": 9000020
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000020,
+          "product_id": 7000000020,
+          "position": 1,
+          "src": "/products/fine-white-sand-20lb.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Fine White Sand - 20lb",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000020,
+        "product_id": 7000000020,
+        "position": 1,
+        "src": "/products/fine-white-sand-20lb.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Fine White Sand - 20lb",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Weight", "20 lb (9 kg)"],
-        ["Grain", "0.5-1 mm"],
-        ["Chemistry", "Inert, pH neutral"],
-        ["Best for", "Foreground, corydoras, contrast"]
+        [
+          "Weight",
+          "20 lb (9 kg)"
+        ],
+        [
+          "Grain",
+          "0.5-1 mm"
+        ],
+        [
+          "Chemistry",
+          "Inert, pH neutral"
+        ],
+        [
+          "Best for",
+          "Foreground, corydoras, contrast"
+        ]
       ],
       "_cat": "hardscape"
     },
@@ -1368,7 +2091,9 @@
           "product_id": 7000000021,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -1398,16 +2123,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000021",
-          "image_id": null
+          "image_id": 9000021
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000021,
+          "product_id": 7000000021,
+          "position": 1,
+          "src": "/products/master-water-test-kit-5-in-1.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Master Water Test Kit - 5 in 1",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000021,
+        "product_id": 7000000021,
+        "position": 1,
+        "src": "/products/master-water-test-kit-5-in-1.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Master Water Test Kit - 5 in 1",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Tests", "pH, NH3, NO2, NO3, GH/KH"],
-        ["Type", "Liquid reagent"],
-        ["Count", "~500 tests"],
-        ["Includes", "Glass vials + colour card"]
+        [
+          "Tests",
+          "pH, NH3, NO2, NO3, GH/KH"
+        ],
+        [
+          "Type",
+          "Liquid reagent"
+        ],
+        [
+          "Count",
+          "~500 tests"
+        ],
+        [
+          "Includes",
+          "Glass vials + colour card"
+        ]
       ],
       "_cat": "testing"
     },
@@ -1432,7 +2189,9 @@
           "product_id": 7000000022,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -1462,16 +2221,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000022",
-          "image_id": null
+          "image_id": 9000022
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000022,
+          "product_id": 7000000022,
+          "position": 1,
+          "src": "/products/digital-ph-tds-meter.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Digital pH & TDS Meter",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000022,
+        "product_id": 7000000022,
+        "position": 1,
+        "src": "/products/digital-ph-tds-meter.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Digital pH & TDS Meter",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Reads", "pH 0-14, TDS 0-9990 ppm"],
-        ["Accuracy", "+/- 0.1 pH"],
-        ["Calibration", "Auto, solutions included"],
-        ["Power", "2x LR44, included"]
+        [
+          "Reads",
+          "pH 0-14, TDS 0-9990 ppm"
+        ],
+        [
+          "Accuracy",
+          "+/- 0.1 pH"
+        ],
+        [
+          "Calibration",
+          "Auto, solutions included"
+        ],
+        [
+          "Power",
+          "2x LR44, included"
+        ]
       ],
       "_cat": "testing"
     },
@@ -1496,7 +2287,9 @@
           "product_id": 7000000023,
           "name": "Title",
           "position": 1,
-          "values": ["Default Title"]
+          "values": [
+            "Default Title"
+          ]
         }
       ],
       "variants": [
@@ -1526,16 +2319,48 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000023",
-          "image_id": null
+          "image_id": 9000023
         }
       ],
-      "images": [],
-      "image": null,
+      "images": [
+        {
+          "id": 9000023,
+          "product_id": 7000000023,
+          "position": 1,
+          "src": "/products/test-strips-11-in-1-100-count.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Test Strips - 11 in 1, 100 Count",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 9000023,
+        "product_id": 7000000023,
+        "position": 1,
+        "src": "/products/test-strips-11-in-1-100-count.jpg",
+        "width": 1200,
+        "height": 900,
+        "alt": "Test Strips - 11 in 1, 100 Count",
+        "variant_ids": []
+      },
       "_specs": [
-        ["Parameters", "11"],
-        ["Count", "100 strips"],
-        ["Read time", "60 seconds"],
-        ["Best for", "Weekly monitoring"]
+        [
+          "Parameters",
+          "11"
+        ],
+        [
+          "Count",
+          "100 strips"
+        ],
+        [
+          "Read time",
+          "60 seconds"
+        ],
+        [
+          "Best for",
+          "Weekly monitoring"
+        ]
       ],
       "_cat": "testing"
     }

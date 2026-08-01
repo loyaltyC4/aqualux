@@ -79,7 +79,7 @@ export default async function OrderSuccessPage(props: {
           </h1>
           <p className="mt-3 text-neutral-400">
             {paid
-              ? `We're on it. A confirmation${email ? ` is on its way to ${email}` : ""}. Your ${SITE_NAME} gear ships within 1-2 business days / free sticker sheet in every box.`
+              ? `We're on it. A confirmation${email ? ` is on its way to ${email}` : ""}. Your ${SITE_NAME} order ships within 1-2 business days with tracking.`
               : "If your payment went through, you'll receive an email confirmation shortly."}
           </p>
 

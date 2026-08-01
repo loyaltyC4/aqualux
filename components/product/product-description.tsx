@@ -51,7 +51,7 @@ export function ProductDescription({ product }: { product: Product }) {
       <ul className="mt-6 grid grid-cols-1 gap-2 text-sm text-neutral-400 sm:grid-cols-2">
         {[
           "Hand-picked and quality-checked",
-          "Free sticker sheet in every box",
+          "Free shipping over $79",
           "Encrypted checkout with Stripe",
           "30-day easy returns",
         ].map((t) => (

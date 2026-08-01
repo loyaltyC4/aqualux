@@ -23,7 +23,11 @@ export async function generateMetadata(props: {
   if (!collection) return notFound();
 
   return {
-    title: `${collection.title} for Planted Aquariums`,
+    // Collection titles already say "Planted Tank ..." in several cases, so
+    // only add the qualifier when it is not already implied.
+    title: /planted|aquarium|aquascap/i.test(collection.title)
+      ? collection.title
+      : `${collection.title} for Planted Aquariums`,
     description:
       collection.seo?.description ||
       collection.description ||

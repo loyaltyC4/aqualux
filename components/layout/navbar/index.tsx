@@ -7,7 +7,7 @@ import MobileMenu from "./mobile-menu";
 import Search, { SearchSkeleton } from "./search";
 
 const ANNOUNCEMENTS = [
-  "Free sticker sheet in every box",
+  "Free shipping over $79",
   "Curated, not mass-listed",
   "Worldwide shipping",
   "30-day returns",
@@ -19,7 +19,6 @@ export async function Navbar() {
     ...collections
       .filter((c) => c.handle)
       .map((c) => ({ title: c.title, path: c.path })),
-    { title: "Guides", path: "/guides" },
   ];
 
   return (
