@@ -42,25 +42,14 @@ export async function generateMetadata(props: {
   };
 }
 
-const GUIDE_FOR_COLLECTION: Record<string, { label: string; href: string }> = {
-  "starter-kits": {
-    label: "New to it? Read the beginner buying guide",
-    href: "/guides/best-beginner-fingerboard-setup",
-  },
-  decks: {
-    label: "Not sure on width? Read the sizing guide",
-    href: "/guides/fingerboard-sizing-guide",
-  },
-  "concave-molds": {
-    label: "Learn how to press a deck with a mold",
-    href: "/guides/how-to-press-a-fingerboard-deck",
-  },
-  accessories: {
-    label: "How to choose the right trucks",
-    href: "/guides/how-to-choose-fingerboard-trucks",
-  },
-  "ramps-parks": { label: "Explore all build guides", href: "/guides" },
-};
+/**
+ * Contextual guide links per collection. Intentionally empty until the
+ * corresponding articles actually ship. Pointing at unwritten /guides/*
+ * URLs would emit internal links to 404s, which wastes crawl budget and
+ * looks broken to a real customer.
+ */
+const GUIDE_FOR_COLLECTION: Record<string, { label: string; href: string }> =
+  {};
 
 export default async function ProductPage(props: {
   params: Promise<{ handle: string }>;

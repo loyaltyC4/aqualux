@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Shipping & Returns",
   description:
-    "Aqualux shipping times, worldwide delivery, and our 30-day returns policy.",
+    "Aqualux shipping times, tracked delivery, and our 30-day returns policy for planted aquarium gear.",
   alternates: { canonical: "/shipping-returns" },
 };
 
@@ -13,7 +13,7 @@ export default function ShippingReturnsPage() {
     <PageShell
       eyebrow="Policies"
       title="Shipping & returns."
-      intro="Fast dispatch, worldwide delivery, and a no-drama 30-day return window."
+      intro="Fast dispatch, tracked delivery, and a no-drama 30-day return window on unused items."
     >
       <Section heading="Dispatch & delivery">
         <p>
@@ -22,29 +22,29 @@ export default function ShippingReturnsPage() {
           transit time depends on your destination and is shown at checkout.
         </p>
         <p>
-          We ship worldwide. Any import duties or taxes for international orders
-          are the responsibility of the recipient and are not collected at
-          checkout.
+          Shipping is free on orders over $79. We cannot ship pressurised CO2
+          gas cylinders as they are classified as dangerous goods. All other
+          items in our range, including CO2 regulators, diffusers, drop
+          checkers, and tubing, ship without restriction.
         </p>
       </Section>
       <Section heading="Tracking">
         <p>
           You&apos;ll receive an order confirmation by email at checkout, and a
-          tracking link once your order ships. A free sticker sheet is included
-          in every box.
+          tracking link once your order ships. Every order is tracked from
+          dispatch to delivery.
         </p>
       </Section>
       <Section heading="30-day returns">
         <p>
-          Not feeling your setup? Return unused items in their original
-          condition within 30 days of delivery for a refund or exchange. Start a
-          return by emailing us with your order number and we&apos;ll send
-          instructions.
+          Return unused items in their original packaging within 30 days of
+          delivery for a refund or exchange. Start a return by emailing us with
+          your order number and we&apos;ll send instructions.
         </p>
         <p>
-          Custom-pressed decks and clearance items are final sale unless they
-          arrive faulty. If anything arrives damaged or defective, contact us
-          within 14 days and we&apos;ll make it right.
+          Clearance items are final sale unless they arrive faulty. If anything
+          arrives damaged or defective, contact us within 14 days and we&apos;ll
+          make it right.
         </p>
       </Section>
     </PageShell>

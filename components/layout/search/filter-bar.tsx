@@ -3,16 +3,16 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import clsx from "clsx";
 import {
-  HardwareType,
+  GearType,
   PRICE_LABELS,
   PriceBucket,
-  WIDTH_LABELS,
-  WidthBucket,
+  SIZE_LABELS,
+  SizeBucket,
 } from "lib/filters";
 
 type Facets = {
-  widths: WidthBucket[];
-  types: HardwareType[];
+  sizes: SizeBucket[];
+  types: GearType[];
   prices: PriceBucket[];
 };
 
@@ -22,22 +22,22 @@ function toggle<T extends string>(list: T[], value: T): T[] {
     : [...list, value];
 }
 
-const WIDTH_ORDER: WidthBucket[] = ["32", "34", "36", "multi"];
-const PRICE_ORDER: PriceBucket[] = ["under30", "30to60", "60to100", "over100"];
+const SIZE_ORDER: SizeBucket[] = ["nano", "20to30", "36plus"];
+const PRICE_ORDER: PriceBucket[] = ["under30", "30to50", "50to100", "over100"];
 
 export function FilterBar({ facets }: { facets: Facets }) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  const activeWidths = (searchParams.get("width")?.split(",").filter(Boolean) ??
-    []) as WidthBucket[];
+  const activeSizes = (searchParams.get("size")?.split(",").filter(Boolean) ??
+    []) as SizeBucket[];
   const activeTypes = (searchParams.get("type")?.split(",").filter(Boolean) ??
-    []) as HardwareType[];
+    []) as GearType[];
   const activePrices = (searchParams.get("price")?.split(",").filter(Boolean) ??
     []) as PriceBucket[];
 
   const hasActive =
-    activeWidths.length > 0 ||
+    activeSizes.length > 0 ||
     activeTypes.length > 0 ||
     activePrices.length > 0;
 
@@ -50,29 +50,29 @@ export function FilterBar({ facets }: { facets: Facets }) {
 
   function clearAll() {
     const params = new URLSearchParams(searchParams.toString());
-    params.delete("width");
+    params.delete("size");
     params.delete("type");
     params.delete("price");
     router.replace(`?${params.toString()}`, { scroll: false });
   }
 
-  const showWidths = facets.widths.length > 0;
+  const showSizes = facets.sizes.length > 1;
   const showTypes = facets.types.length > 1;
   const showPrices = facets.prices.length > 1;
 
-  if (!showWidths && !showTypes && !showPrices) return null;
+  if (!showSizes && !showTypes && !showPrices) return null;
 
   return (
     <div className="mb-6 flex flex-wrap items-center gap-x-6 gap-y-3 border-b border-white/10 pb-5">
-      {showWidths && (
-        <FilterGroup label="Width">
-          {WIDTH_ORDER.filter((w) => facets.widths.includes(w)).map((w) => (
+      {showSizes && (
+        <FilterGroup label="Tank size">
+          {SIZE_ORDER.filter((s) => facets.sizes.includes(s)).map((s) => (
             <Chip
-              key={w}
-              active={activeWidths.includes(w)}
-              onClick={() => setParam("width", toggle(activeWidths, w))}
+              key={s}
+              active={activeSizes.includes(s)}
+              onClick={() => setParam("size", toggle(activeSizes, s))}
             >
-              {WIDTH_LABELS[w]}
+              {SIZE_LABELS[s]}
             </Chip>
           ))}
         </FilterGroup>

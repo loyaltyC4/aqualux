@@ -110,7 +110,7 @@ export default function Search() {
           onChange={(e) => handleChange(e.target.value)}
           onFocus={() => results.length > 0 && setOpen(true)}
           onKeyDown={handleKeyDown}
-          placeholder="Search decks, trucks, molds…"
+          placeholder="Search lights, CO2, tools…"
           autoComplete="off"
           role="combobox"
           aria-expanded={open}
@@ -172,7 +172,7 @@ export function SearchSkeleton() {
   return (
     <form className="relative w-full">
       <input
-        placeholder="Search decks, trucks, molds…"
+        placeholder="Search lights, CO2, tools…"
         className="w-full rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-[#eceae4] placeholder:text-neutral-500"
       />
       <div className="absolute right-0 top-0 mr-3 flex h-full items-center text-neutral-500">

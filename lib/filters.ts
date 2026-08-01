@@ -1,70 +1,103 @@
 import type { Product } from "lib/shopify/types";
 
-export type WidthBucket = "32" | "34" | "36" | "multi";
+/* ------------------------------------------------------------------ *
+ * Facets are derived from real title text, never hand-tagged, so they
+ * cannot drift out of sync with the catalog. Only facet values that
+ * actually occur in a product set are ever rendered (see availableFacets).
+ * ------------------------------------------------------------------ */
 
-export const WIDTH_LABELS: Record<WidthBucket, string> = {
-  "32": "32mm",
-  "34": "34mm",
-  "36": "36mm",
-  multi: "Multi-width",
+export type SizeBucket = "nano" | "20to30" | "36plus";
+
+export const SIZE_LABELS: Record<SizeBucket, string> = {
+  nano: "Nano tanks",
+  "20to30": "Fits 20in to 30in",
+  "36plus": "Fits 36in and up",
 };
 
-/** Deck/truck width buckets a product's title matches, derived from real title text. */
-export function widthBucketsFor(title: string): WidthBucket[] {
+/**
+ * Tank-length fit, parsed from inch measurements in the title
+ * (for example "20in", "36-48in"). Products with no length in the
+ * title are size-agnostic and match no size bucket.
+ */
+export function sizeBucketsFor(title: string): SizeBucket[] {
   const t = title.toLowerCase();
-  const nums = Array.from(t.matchAll(/(\d{2})(?:\.\d)?\s*mm/g)).map((m) =>
+  const buckets = new Set<SizeBucket>();
+
+  if (/\bnano\b/.test(t)) buckets.add("nano");
+
+  const nums = Array.from(t.matchAll(/(\d{2})\s*(?:in\b|inch|")/g)).map((m) =>
     parseInt(m[1]!, 10),
   );
-  const buckets = new Set<WidthBucket>();
-  const isMulti = /multi[- ]?width/.test(t) || nums.length > 1;
   for (const n of nums) {
-    if (n === 32) buckets.add("32");
-    else if (n === 34) buckets.add("34");
-    else if (n === 36) buckets.add("36");
+    if (n < 20) buckets.add("nano");
+    else if (n <= 30) buckets.add("20to30");
+    else buckets.add("36plus");
   }
-  if (isMulti && buckets.size > 0) buckets.add("multi");
-  if (buckets.size === 0 && isMulti) buckets.add("multi");
   return [...buckets];
 }
 
-export type HardwareType =
-  | "Trucks"
-  | "Wheels"
-  | "Bearings"
-  | "Bushings"
-  | "Grip Tape"
-  | "Tools & Parts";
+export type GearType =
+  | "LED Lighting"
+  | "Controllers"
+  | "CO2 Regulators"
+  | "CO2 Diffusers"
+  | "Scissors & Tweezers"
+  | "Cleaning"
+  | "Substrate"
+  | "Stone & Wood"
+  | "Test Kits & Meters"
+  | "Bundles"
+  | "Accessories";
 
-/** Sub-type within the Hardware & Tools collection, derived from real title text. */
-export function hardwareTypeFor(title: string): HardwareType {
+/** Sub-type within a collection, derived from real title text. */
+export function gearTypeFor(title: string): GearType {
   const t = title.toLowerCase();
-  if (t.includes("bearing")) return "Bearings";
-  if (t.includes("bushing")) return "Bushings";
-  if (t.includes("tape")) return "Grip Tape";
-  if (t.includes("wheel")) return "Wheels";
-  if (t.includes("truck")) return "Trucks";
-  return "Tools & Parts";
+
+  if (t.includes("bundle") || t.includes("complete")) return "Bundles";
+  if (t.includes("timer") || t.includes("controller")) return "Controllers";
+  if (t.includes("led") || t.includes("grow light") || t.includes("light"))
+    return "LED Lighting";
+  if (t.includes("regulator") || t.includes("solenoid")) return "CO2 Regulators";
+  if (t.includes("diffuser") || t.includes("atomiser") || t.includes("atomizer"))
+    return "CO2 Diffusers";
+  if (t.includes("scissor") || t.includes("tweezer")) return "Scissors & Tweezers";
+  if (t.includes("cleaner") || t.includes("scraper") || t.includes("maintenance"))
+    return "Cleaning";
+  if (t.includes("soil") || t.includes("sand") || t.includes("substrate"))
+    return "Substrate";
+  if (t.includes("stone") || t.includes("wood") || t.includes("rock"))
+    return "Stone & Wood";
+  if (
+    t.includes("test") ||
+    t.includes("meter") ||
+    t.includes("checker") ||
+    t.includes("ph")
+  )
+    return "Test Kits & Meters";
+  if (t.includes("tool set") || t.includes("kit")) return "Bundles";
+  return "Accessories";
 }
 
-export type PriceBucket = "under30" | "30to60" | "60to100" | "over100";
+/* Buckets tuned to the real catalog spread ($24 to $169, median $39). */
+export type PriceBucket = "under30" | "30to50" | "50to100" | "over100";
 
 export const PRICE_LABELS: Record<PriceBucket, string> = {
   under30: "Under $30",
-  "30to60": "$30 - $60",
-  "60to100": "$60 - $100",
+  "30to50": "$30 to $50",
+  "50to100": "$50 to $100",
   over100: "$100+",
 };
 
 export function priceBucketFor(amount: number): PriceBucket {
   if (amount < 30) return "under30";
-  if (amount < 60) return "30to60";
-  if (amount < 100) return "60to100";
+  if (amount < 50) return "30to50";
+  if (amount < 100) return "50to100";
   return "over100";
 }
 
 export type ProductFilters = {
-  widths?: WidthBucket[];
-  types?: HardwareType[];
+  sizes?: SizeBucket[];
+  types?: GearType[];
   prices?: PriceBucket[];
 };
 
@@ -74,8 +107,8 @@ export function parseFiltersFromSearchParams(sp: {
   const toArr = (v: string | string[] | undefined) =>
     !v ? [] : Array.isArray(v) ? v : v.split(",").filter(Boolean);
   return {
-    widths: toArr(sp.width) as WidthBucket[],
-    types: toArr(sp.type) as HardwareType[],
+    sizes: toArr(sp.size) as SizeBucket[],
+    types: toArr(sp.type) as GearType[],
     prices: toArr(sp.price) as PriceBucket[],
   };
 }
@@ -85,13 +118,13 @@ export function applyFilters(
   filters: ProductFilters,
 ): Product[] {
   let out = products;
-  if (filters.widths?.length) {
+  if (filters.sizes?.length) {
     out = out.filter((p) =>
-      widthBucketsFor(p.title).some((w) => filters.widths!.includes(w)),
+      sizeBucketsFor(p.title).some((s) => filters.sizes!.includes(s)),
     );
   }
   if (filters.types?.length) {
-    out = out.filter((p) => filters.types!.includes(hardwareTypeFor(p.title)));
+    out = out.filter((p) => filters.types!.includes(gearTypeFor(p.title)));
   }
   if (filters.prices?.length) {
     out = out.filter((p) =>
@@ -105,13 +138,13 @@ export function applyFilters(
 
 /** Which facet values actually occur in this product set (so we never show empty filters). */
 export function availableFacets(products: Product[]) {
-  const widths = new Set<WidthBucket>();
-  const types = new Set<HardwareType>();
+  const sizes = new Set<SizeBucket>();
+  const types = new Set<GearType>();
   const prices = new Set<PriceBucket>();
   for (const p of products) {
-    widthBucketsFor(p.title).forEach((w) => widths.add(w));
-    types.add(hardwareTypeFor(p.title));
+    sizeBucketsFor(p.title).forEach((s) => sizes.add(s));
+    types.add(gearTypeFor(p.title));
     prices.add(priceBucketFor(parseFloat(p.priceRange.minVariantPrice.amount)));
   }
-  return { widths: [...widths], types: [...types], prices: [...prices] };
+  return { sizes: [...sizes], types: [...types], prices: [...prices] };
 }

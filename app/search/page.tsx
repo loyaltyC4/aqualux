@@ -15,9 +15,9 @@ export async function generateMetadata(props: {
   const searchParams = await props.searchParams;
   const q = typeof searchParams?.q === "string" ? searchParams.q : undefined;
   return {
-    title: q ? `"${q}" / Search results` : "Search all fingerboard gear",
+    title: q ? `"${q}" search results` : "Search all planted tank gear",
     description:
-      "Search Aqualux / completes, decks, molds, trucks, wheels, bushings, tools, and ramps.",
+      "Search Aqualux for planted tank LED lighting, CO2 systems, aquascaping tools, substrate, hardscape and water testing.",
     // Every sort/filter/query combination collapses to one canonical URL -
     // otherwise each parameter combo is a thin near-duplicate page competing
     // with itself in the index.
@@ -63,7 +63,7 @@ export default async function SearchPage(props: {
           </p>
         ) : (
           <p className="mt-2 text-neutral-400">
-            Every deck, truck, wheel, mold, and ramp in the Lab.
+            Every light, CO2 part, tool, substrate and test kit we stock.
           </p>
         )}
       </div>

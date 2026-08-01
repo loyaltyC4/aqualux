@@ -281,7 +281,7 @@ export async function getCart(): Promise<Cart | undefined> {
   cacheTag(TAGS.cart);
   cacheLife("seconds");
 
-  // Fingerboard Lab uses a client-side cart (localStorage) + Stripe checkout,
+  // Aqualux uses a client-side cart (localStorage) + Stripe checkout,
   // so there is no server-side Shopify cart to hydrate.
   if (!endpoint) {
     return undefined;

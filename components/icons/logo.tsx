@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 /**
- * Aqualux mark / a fingerboard deck side-profile (kicked nose + tail)
+ * Aqualux mark: a lit water surface over a planted tank silhouette
  * with a precision registration tick. Uses currentColor so it can render in
  * volt-green, cream, or black depending on context.
  */
@@ -15,7 +15,7 @@ export default function LogoIcon(props: React.ComponentProps<"svg">) {
       {...props}
       className={clsx("text-current", props.className)}
     >
-      {/* deck side profile */}
+      {/* tank silhouette */}
       <path
         d="M10 20 C 22 20 24 32 36 32 L 92 32 C 104 32 106 20 118 20"
         stroke="currentColor"

@@ -31,15 +31,16 @@ export default function TermsPage() {
       <Section heading="Returns">
         <p>
           Returns are governed by our Shipping &amp; Returns policy. Please read
-          it before purchasing custom or clearance items, which may be final
-          sale.
+          it before purchasing clearance items, which may be final sale.
         </p>
       </Section>
       <Section heading="Product use">
         <p>
-          Fingerboards and accessories are hobby products intended for finger
-          skating on suitable surfaces. Small parts are not suitable for young
-          children. Use common sense and skate responsibly.
+          Aqualux products are hobby and aquascaping items intended for use in
+          freshwater planted aquariums. Follow manufacturer guidance for
+          electrical equipment and CO2 systems. We do not supply pressurised CO2
+          gas cylinders. Small parts and liquid reagents should be kept away from
+          young children.
         </p>
       </Section>
     </PageShell>

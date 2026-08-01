@@ -23,7 +23,7 @@ export async function generateMetadata(props: {
   if (!collection) return notFound();
 
   return {
-    title: `${collection.title} / Fingerboards & Parts`,
+    title: `${collection.title} for Planted Aquariums`,
     description:
       collection.seo?.description ||
       collection.description ||

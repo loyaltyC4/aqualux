@@ -1,43 +1,31 @@
-# Fingerboard Lab
+# Aqualux
 
-> Fingerboard Lab is a specialist online shop for precision-engineered fingerboard (mini finger-skateboard) hardware built for real skating. We sell complete fingerboard setups, hand-pressed maple decks, CNC concave molds, trucks, wheels, bearings, bushings, grip tape, tools, and wooden ramps. Everything is machined to ±0.1mm tolerances. Free sticker sheet in every box, worldwide shipping, and 30-day returns.
+> Aqualux is a specialist online shop for planted freshwater aquariums. We curate full-spectrum LED lighting, CO2 injection equipment, aquascaping tools, substrate and hardscape, and water testing kits. Products are selected on published specifications such as PAR, spectrum and physical dimensions rather than on marketing claims. Free shipping over $79, worldwide tracked delivery, and 30-day returns on unused items.
 
 ## Key facts
-- Product categories: Completes & Setups, Decks, Fingerboard Molds, Hardware & Tools, Ramps & Parks.
-- Most popular deck width: 34mm (versatile for most riders); 32mm is more technical/nimble; 36mm is wider and more stable.
-- Checkout is card payment via Stripe. Currency: USD.
-- A "complete" is a ready-to-ride assembled fingerboard (deck + trucks + wheels + grip tape).
-- Standard fingerboard decks are 5-ply maple veneer pressed on a concave mold; concave is the curve across the deck's width, camber is the curve along its length.
-- Truck width should roughly match deck width; bushing durometer (Shore A) and kingpin nut tightness together control turning looseness vs. stability.
 
-## Shop
-- [All products](https://fingerboardlab.com/search): The full catalog of fingerboard gear.
-- [Completes & Setups](https://fingerboardlab.com/search/starter-kits): Ready-to-ride assembled fingerboards.
-- [Decks](https://fingerboardlab.com/search/decks): Bare maple and graphic fingerboard decks, 32–36mm.
-- [Fingerboard Molds](https://fingerboardlab.com/search/concave-molds): CNC concave molds for pressing your own decks.
-- [Hardware & Tools](https://fingerboardlab.com/search/accessories): Trucks, wheels, bearings, bushings, tape, and tools.
-- [Ramps & Parks](https://fingerboardlab.com/search/ramps-parks): Wooden ramps, rails, ledges, and park sets.
+- Product categories: Lighting, CO2 Systems, Aquascaping Tools, Substrate & Hardscape, Water Testing.
+- Lighting is the core category. Light intensity, not fertiliser, is usually the variable that decides whether a planted tank succeeds.
+- Rough PAR guidance at substrate level: 20-30 PAR suits low-light plants such as Anubias, Java fern and Cryptocoryne. 50+ PAR suits carpeting plants and demanding stems, and at that level CO2 injection is effectively required.
+- Running high light without matching CO2 and fertiliser is the most common cause of algae in a planted tank.
+- CO2 is optional. Low-tech planted tanks work well without it. CO2 becomes worthwhile for fast growth, dense carpets, and red pigmentation in stem plants.
+- We do not ship pressurised CO2 gas cylinders. They are classified as dangerous goods. We sell every other part of a CO2 system: regulator, solenoid, diffuser, bubble counter, drop checker, tubing and check valves. Cylinders are inexpensive to buy or refill locally at a welding supplier, homebrew shop or paintball store.
+- A drop checker measures dissolved CO2 indirectly using a 4dKH reference solution. Blue indicates low CO2, green roughly 30 ppm, yellow too high. It lags real conditions by an hour or two, so it reads as a trend rather than a live value.
+- Light bars are matched to tank length, not water volume. Where a tank falls between two sizes, size up.
+- Substrate choice: active aqua soil holds nutrients and buffers pH downward, suiting rooted stem plants and shrimp. Inert sand or gravel leaves tap water parameters unchanged and suits epiphytes such as Anubias and moss attached to hardscape.
 
-## Guides (buying + how-to)
-- [Fingerboard Sizing Guide: 32mm vs 34mm vs 36mm](https://fingerboardlab.com/guides/fingerboard-sizing-guide): How to choose deck width.
-- [How to Press a Fingerboard Deck With a Mold](https://fingerboardlab.com/guides/how-to-press-a-fingerboard-deck): Step-by-step pressing guide.
-- [Fingerboard Concave Explained](https://fingerboardlab.com/guides/fingerboard-concave-explained): Low vs medium vs high concave.
-- [How to Choose Fingerboard Trucks](https://fingerboardlab.com/guides/how-to-choose-fingerboard-trucks): Width, bushings, and sizing.
-- [Fingerboard Bushings Guide](https://fingerboardlab.com/guides/fingerboard-bushings-guide): Durometer, shape, and tuning.
-- [Fingerboard vs Tech Deck](https://fingerboardlab.com/guides/fingerboard-vs-tech-deck): What is actually different.
-- [Best Beginner Fingerboard Setup](https://fingerboardlab.com/guides/best-beginner-fingerboard-setup): Complete buying guide for beginners.
-- [Truck-to-Deck Width Compatibility Chart](https://fingerboardlab.com/guides/truck-to-deck-width-chart): Reference table.
-- [Fingerboard Deck Materials Explained](https://fingerboardlab.com/guides/fingerboard-deck-materials-explained): Maple plies, veneer grade, and press molds.
-- [How to Clean Fingerboard Bearings and Wheels](https://fingerboardlab.com/guides/how-to-clean-fingerboard-bearings-and-wheels): Maintenance guide.
-- [Wooden Fingerboard Ramps: DIY & Buying Guide](https://fingerboardlab.com/guides/wooden-fingerboard-ramps-diy-park-guide): Obstacles and desk-setup guide.
-- [Fingerboard Grip Tape Guide](https://fingerboardlab.com/guides/fingerboard-grip-tape-guide): Foam vs sandpaper-style tape.
-- [How to Tune Fingerboard Trucks](https://fingerboardlab.com/guides/how-to-tune-fingerboard-trucks): Speed vs stability tuning.
+## Catalog
 
-## Reference
-- [Fingerboard Glossary](https://fingerboardlab.com/glossary): Plain-English definitions of every core term — baseplate, bushing, concave, durometer, kingpin, pivot cup, wheelbase, and more.
+- [All products](https://aqualux.store/search): The full planted aquarium catalog.
+- [Lighting](https://aqualux.store/search/lighting): Full-spectrum LED bars, nano clip lights, and timer controllers.
+- [CO2 Systems](https://aqualux.store/search/co2): Regulators, solenoids, inline atomiser diffusers, bubble counters, and drop checkers.
+- [Aquascaping Tools](https://aqualux.store/search/tools): Curved scissors, long-reach tweezers, algae scrapers, and maintenance kits.
+- [Substrate & Hardscape](https://aqualux.store/search/hardscape): Aqua soil, fine sand, seiryu stone, and spider wood.
+- [Water Testing](https://aqualux.store/search/testing): Liquid master test kits, test strips, and digital pH and TDS meters.
 
-## About
-- [About Fingerboard Lab](https://fingerboardlab.com/about): Who we are and how we build.
-- [Shipping & Returns](https://fingerboardlab.com/shipping-returns): Delivery times and 30-day returns.
-- [FAQ](https://fingerboardlab.com/faq): Common questions answered.
-- [Contact](https://fingerboardlab.com/contact): Get in touch.
+## Company
+
+- [About Aqualux](https://aqualux.store/about): What we stock and how we choose it.
+- [Shipping & Returns](https://aqualux.store/shipping-returns): Delivery times, free shipping threshold, and 30-day returns.
+- [FAQ](https://aqualux.store/faq): Lighting, CO2, substrate and policy questions.
+- [Contact](https://aqualux.store/contact): Get in touch.

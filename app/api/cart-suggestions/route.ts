@@ -3,13 +3,14 @@ import { getProduct } from "lib/shopify";
 
 export const dynamic = "force-dynamic";
 
-// Real, small-ticket "build essentials" that pair with almost any order —
-// hand-picked from the actual catalog, not guessed at runtime.
+// Real, small-ticket essentials that pair with almost any planted tank
+// order. Hand-picked from the actual catalog, not guessed at runtime, and
+// verified to exist by a build-time test so the rail can never go silent.
 const ESSENTIAL_HANDLES = [
-  "fingerboard-foam-grip-tape-110-38mm-uncut-deck-griptape-stickers",
-  "metal-fingerboard-tool-professional-made-for-finger-skateboard-screws-and-nuts",
-  "gold-silver-black-self-lock-anti-loose-fingerboard-locknuts-with-nylon-inside",
-  "fingerboard-truck-pivot-cup",
+  "glass-drop-checker-4dkh-solution",
+  "test-strips-11-in-1-100-count",
+  "long-reach-tweezers-15in",
+  "magnetic-glass-cleaner-float",
 ];
 
 export async function GET(req: NextRequest) {

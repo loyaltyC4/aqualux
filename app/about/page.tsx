@@ -5,44 +5,50 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Aqualux",
   description:
-    "Aqualux is a curated fingerboard shop / park kits, ramps, obstacles and gear, hand-picked and honestly priced, with free build guides.",
+    "Aqualux is a curated shop for planted freshwater aquariums, stocking lighting, CO2 systems, aquascaping tools, substrate, hardscape, and water testing gear.",
   alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {
   return (
     <PageShell
-      eyebrow="The Lab"
-      title="Built for real fingerboarding."
-      intro="Aqualux exists for one reason: fingerboards that actually skate. Not the toy-aisle kind / real wood, real concave, real hardware, engineered to tolerances you can feel under two fingers."
+      eyebrow="About"
+      title="Gear for planted aquariums."
+      intro="Aqualux exists for one reason: a well-curated range of planted-tank gear chosen on real specifications, not marketing copy. Every product is here because it works in a living aquascape."
     >
       <Section heading="Curated, not manufactured">
         <p>
-          We don&apos;t manufacture / we curate. Every product here is chosen,
-          ordered and checked by us before it goes in the catalogue, and we tell
+          We don&apos;t manufacture. We curate. Every product here is chosen,
+          ordered, and checked by us before it goes in the catalogue. We tell
           you plainly what something is and what it isn&apos;t. No invented
-          engineering claims, no fake spec sheets.
+          engineering claims, no inflated spec sheets.
+        </p>
+        <p>
+          Selection is based on measurable criteria: PAR output and spectrum for
+          lighting, build quality and consistency for CO2 equipment, material
+          and balance for aquascaping tools.
         </p>
       </Section>
-      <Section heading="For builders and skaters">
+      <Section heading="For hobbyists and aquascapers">
         <p>
-          Some riders want a complete that&apos;s dialed out of the box. Others
-          want to press their own decks, tune their own bushings, and build a
-          setup that&apos;s unmistakably theirs. We stock for both / completes,
-          bare decks, molds, hardware, and the tools to put it all together.
+          Some planted-tank keepers want a straightforward setup they can rely
+          on from day one. Others want to dial in every variable, from substrate
+          composition to CO2 drop-checker colour, and build an aquascape that is
+          unmistakably theirs. We stock for both.
         </p>
         <p>
-          And because most fingerboarding happens on a desk, a table, or the
-          edge of a bench, we build our ramps and obstacles to work anywhere you
-          set them down.
+          The five categories cover what a planted tank actually needs: full-spectrum
+          LED lighting, CO2 systems, aquascaping tools, substrate and hardscape,
+          and water testing. One place, no padding.
         </p>
       </Section>
       <Section heading="What every order includes">
         <p>
-          Fast dispatch (1-2 business days), worldwide shipping, a free sticker
-          sheet in every box, and a 30-day return window if it&apos;s not right.
-          Questions before you buy? Our guides walk through sizing, concave,
-          trucks, and tuning in plain language.
+          Fast dispatch in 1-2 business days, tracked shipping, and a 30-day
+          return window on unused items in original packaging if something is not
+          right. Note that we cannot ship pressurised CO2 gas cylinders as they
+          are classified as dangerous goods. We carry everything else in the CO2
+          chain: regulators, diffusers, drop checkers, and tubing.
         </p>
         <p>
           <Link href="/guides" className="text-[#f2a93b] hover:underline">

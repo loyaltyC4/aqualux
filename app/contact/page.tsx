@@ -13,7 +13,7 @@ export default function ContactPage() {
   return (
     <PageShell
       eyebrow="Say hello"
-      title="Contact the Lab."
+      title="Get in touch."
       intro="Questions about a setup, an order, or a bulk build? We're happy to help / most emails get a reply within one business day."
     >
       <Section heading="Email">

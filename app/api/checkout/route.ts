@@ -104,7 +104,7 @@ export async function POST(req: NextRequest) {
     const name =
       product.title +
       (variant.title && variant.title !== "Default Title"
-        ? ` — ${variant.title}`
+        ? `, ${variant.title}`
         : "");
     const images = product.featuredImage?.url
       ? [product.featuredImage.url]
@@ -188,7 +188,7 @@ export async function POST(req: NextRequest) {
       allow_promotion_codes: true,
       success_url: `${origin}/order/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/search`,
-      metadata: { source: "fingerboardlab" },
+      metadata: { source: "aqualux" },
     });
 
     return NextResponse.json({ url: session.url });
