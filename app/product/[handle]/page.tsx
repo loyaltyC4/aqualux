@@ -73,6 +73,11 @@ export default async function ProductPage(props: {
   const product = await getProduct(params.handle);
   if (!product) return notFound();
 
+  // Internal tags stay internal. src1688:<offerId> records which supplier a
+  // SKU is sourced from, which is useful inside the catalog and must never
+  // reach the storefront: publishing it hands competitors the exact supplier.
+  const publicTags = product.tags.filter((t) => !t.startsWith("src1688:"));
+
   const collectionHandle = await getProductCollection(product.handle);
   const collectionMeta = COLLECTIONS.find((c) => c.handle === collectionHandle);
   const related = await getRelatedProducts(product.handle);
@@ -171,7 +176,7 @@ export default async function ProductPage(props: {
 
         <div className="flex flex-col gap-8 rounded-3xl border border-white/10 bg-[#0d1618] p-6 md:p-10 lg:flex-row lg:gap-12">
           <div className="h-full w-full basis-full lg:basis-3/5">
-            <div className="rounded-2xl bg-white p-4">
+            <div className="rounded-2xl border border-white/10 bg-[#0a1214] p-4">
               <Suspense
                 fallback={
                   <div className="relative aspect-square h-full max-h-[550px] w-full overflow-hidden" />
@@ -203,7 +208,7 @@ export default async function ProductPage(props: {
         </div>
 
         {/* DETAILS + SPECS */}
-        {(product.descriptionHtml || product.tags.length > 0) && (
+        {(product.descriptionHtml || publicTags.length > 0) && (
           <div className="mt-10 grid gap-10 rounded-3xl border border-white/10 bg-[#0d1618] p-6 md:p-10 lg:grid-cols-[1.5fr_1fr]">
             <div>
               <h2 className="mb-4 text-xl font-semibold">Details</h2>
@@ -218,13 +223,13 @@ export default async function ProductPage(props: {
                 </p>
               )}
             </div>
-            {product.tags.length > 0 && (
+            {publicTags.length > 0 && (
               <div>
                 <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.16em] text-neutral-400">
                   Specs &amp; tags
                 </h3>
                 <div className="flex flex-wrap gap-2">
-                  {product.tags.slice(0, 12).map((t) => (
+                  {publicTags.slice(0, 12).map((t) => (
                     <span
                       key={t}
                       className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-neutral-300"

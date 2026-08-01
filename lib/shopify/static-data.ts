@@ -52,6 +52,18 @@ function truncateForMeta(text: string, maxLength = 155): string {
 
 // ── Transformers ─────────────────────────────────────────────────────────────
 
+/** Tags that exist for internal bookkeeping and must never reach the client. */
+const INTERNAL_TAG = /^src1688:/;
+
+/** Supplier offer id behind a SKU. Server-side only, never serialised. */
+export function supplierRefFor(handle: string): string | undefined {
+  const p = productsRaw.products.find((x) => x.handle === handle);
+  if (!p) return undefined;
+  const raw = typeof p.tags === "string" ? p.tags.split(",") : [];
+  const hit = raw.map((t: string) => t.trim()).find((t: string) => INTERNAL_TAG.test(t));
+  return hit ? hit.split(":")[1] : undefined;
+}
+
 function restProductToProduct(p: any): Product {
   const prices = (p.variants ?? [])
     .map((v: any) => parseFloat(v.price ?? "0"))
@@ -92,7 +104,7 @@ function restProductToProduct(p: any): Product {
     };
   });
 
-  const tags =
+  const rawTags =
     typeof p.tags === "string"
       ? p.tags
           .split(",")
@@ -101,6 +113,14 @@ function restProductToProduct(p: any): Product {
       : Array.isArray(p.tags)
         ? (p.tags as string[])
         : [];
+
+  // Supplier references are stripped here, at the boundary where raw catalog
+  // data becomes a Product. Filtering them only at render time is not enough:
+  // the whole Product object is serialised into the RSC payload, so a tag the
+  // page never displays still ships to the browser in plain text. Keeping the
+  // strip in the data layer means no route, schema block or payload can leak
+  // it. Use supplierRefFor() for internal lookups.
+  const tags = rawTags.filter((t: string) => !INTERNAL_TAG.test(t));
 
   return {
     id: `gid://shopify/Product/${p.id as string}`,
