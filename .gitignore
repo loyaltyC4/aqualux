@@ -38,3 +38,7 @@ yarn-error.log*
 next-env.d.ts
 .env*.local
 .env.local
+
+# real supplier reference photos, kept locally for future regeneration
+# but never committed to the public repo
+reference-photos/
