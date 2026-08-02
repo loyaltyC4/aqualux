@@ -50,11 +50,7 @@ export default function AboutPage() {
           are classified as dangerous goods. We carry everything else in the CO2
           chain: regulators, diffusers, drop checkers, and tubing.
         </p>
-        <p>
-          <Link href="/guides" className="text-[#f2a93b] hover:underline">
-            Read the build guides →
-          </Link>
-        </p>
+        <p></p>
       </Section>
     </PageShell>
   );

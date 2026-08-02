@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How Aqualux collects, uses, and protects your data.",
+  description: "How Aqualux collects, uses and protects customer data. Cookies, order fulfilment, marketing and your rights over the information we hold.",
   alternates: { canonical: "/privacy" },
   robots: { index: true, follow: true },
 };

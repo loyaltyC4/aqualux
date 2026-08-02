@@ -97,7 +97,7 @@
     {
       "id": 7000000001,
       "handle": "co2-starter-bundle-regulator-diffuser-checker",
-      "title": "CO2 Starter Bundle - Regulator + Diffuser + Checker",
+      "title": "CO2 Starter Kit - Regulator, Diffuser & Checker",
       "body_html": "<p>A complete CO2 front end: dual-gauge regulator with solenoid, inline atomiser, and glass drop checker with reference solution.</p><ul><li><strong>Includes:</strong> Regulator + solenoid, inline atomiser, drop checker</li><li><strong>Saves:</strong> $40 vs buying separately</li><li><strong>Note:</strong> Cylinder not included</li></ul>",
       "vendor": "Aqualux",
       "product_type": "co2",
@@ -158,7 +158,7 @@
           "src": "/products/co2-starter-bundle-regulator-diffuser-checker.jpg",
           "width": 1200,
           "height": 900,
-          "alt": "CO2 Starter Bundle - Regulator + Diffuser + Checker",
+          "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker",
           "variant_ids": []
         }
       ],
@@ -169,7 +169,7 @@
         "src": "/products/co2-starter-bundle-regulator-diffuser-checker.jpg",
         "width": 1200,
         "height": 900,
-        "alt": "CO2 Starter Bundle - Regulator + Diffuser + Checker",
+        "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker",
         "variant_ids": []
       },
       "_specs": [
@@ -803,7 +803,7 @@
       "id": 7000000006,
       "handle": "sunrise-timer-controller",
       "title": "Sunrise Timer Controller",
-      "body_html": "<p>Programmable timer with countdown, cycle and daily modes. Pairs with any grow light or CO2 solenoid.</p>",
+      "body_html": "<p>Programmable digital timer with countdown, cycle and daily modes. Pairs with any grow light, CO2 solenoid or air pump.</p><ul><li><strong>Best for:</strong> automating photoperiod on planted tanks and pausing CO2 overnight</li><li><strong>Modes:</strong> daily, weekly, countdown, cycle</li><li><strong>Rating:</strong> 220V, up to 10A</li><li><strong>Programs:</strong> 20 separate on/off events per day</li></ul><p>A planted tank runs on rhythm. Lights on for 6-8 hours in the early phase, CO2 solenoid opening one hour before lights and closing one hour before lights out, air pump running overnight. This timer holds all three schedules on one unit, retains programs across power cuts, and displays the current cycle at a glance.</p>",
       "vendor": "Aqualux",
       "product_type": "lighting",
       "status": "active",
@@ -1188,7 +1188,7 @@
       "id": 7000000009,
       "handle": "curved-spring-scissors",
       "title": "Curved Spring Scissors",
-      "body_html": "<p>Curved-blade stainless steel aquascaping scissors. Neat trims on carpeting plants and stems.</p>",
+      "body_html": "<p>Curved-blade stainless steel aquascaping scissors with a spring-loaded return. Neat trims on carpeting plants and stem tops without gouging substrate.</p><ul><li><strong>Length:</strong> 21cm or 25cm</li><li><strong>Blade:</strong> curved, 4mm thick 304 stainless</li><li><strong>Return:</strong> spring-loaded for one-handed trimming</li><li><strong>Best for:</strong> Monte Carlo, dwarf hairgrass, glosso, stem tops</li></ul><p>The curved blade sits parallel to the substrate when the handle is held level, so carpet trims come out flush without divots. The spring return opens the blades between cuts so a long trimming session doesn't cramp your hand. 4mm-thick 304 stainless resists corrosion in freshwater and holds an edge for years on soft plant tissue.</p>",
       "vendor": "Aqualux",
       "product_type": "tools",
       "status": "active",

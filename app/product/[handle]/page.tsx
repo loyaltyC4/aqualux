@@ -192,6 +192,11 @@ export default async function ProductPage(props: {
             </div>
           </div>
           <div className="basis-full lg:basis-2/5">
+            {/* H1 must be in the initial static shell so crawlers see it
+               without waiting for the Suspense boundary to stream. */}
+            <h1 className="text-3xl font-semibold leading-tight md:text-4xl">
+              {product.title}
+            </h1>
             <Suspense fallback={null}>
               <ProductDescription product={product} />
             </Suspense>

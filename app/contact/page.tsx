@@ -60,6 +60,33 @@ export default function ContactPage() {
           </a>
         </p>
       </Section>
+      <Section heading="Wholesale and trade">
+        <p>
+          Local fish shops, aquascaping studios, plant retailers and hobbyist
+          clubs can order at trade pricing on the lighting, tools and hardscape
+          range. Email the address above with your business name, trading
+          location and rough monthly volume, and we&apos;ll send the trade
+          price list. Minimum first order is $500 net.
+        </p>
+      </Section>
+      <Section heading="Product advice">
+        <p>
+          Sizing a light bar for a specific tank, working out which CO2
+          regulator matches your cylinder fitting, choosing between aqua soil
+          and inert substrate, or picking test kits for a shrimp build — send
+          the tank dimensions, what you plan to keep and the parameters you
+          have from tap water, and we&apos;ll come back with a shortlist drawn
+          from what we stock rather than a generic upsell.
+        </p>
+      </Section>
+      <Section heading="Response times">
+        <p>
+          Emails answered within one business day, Monday to Friday, Sydney
+          time. Order and shipping enquiries get priority. For anything
+          time-sensitive on an existing order, include the order number in the
+          subject line so it routes straight to fulfilment.
+        </p>
+      </Section>
     </PageShell>
   );
 }

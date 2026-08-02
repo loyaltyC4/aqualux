@@ -10,10 +10,6 @@ export function ProductDescription({ product }: { product: Product }) {
 
   return (
     <div className="flex flex-col">
-      <h1 className="text-3xl font-semibold leading-tight md:text-4xl">
-        {product.title}
-      </h1>
-
       <div className="mt-4 flex items-center gap-3">
         <span className="rounded-full bg-[#f2a93b] px-4 py-1.5 text-lg font-semibold text-black">
           <Price

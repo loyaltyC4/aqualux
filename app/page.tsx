@@ -9,9 +9,9 @@ import type { Product } from "lib/shopify/types";
 import { COLLECTIONS, COLLECTION_IMAGE } from "lib/brand";
 
 export const metadata = {
-  title: "Aqualux: Lighting, CO2 & Tools for Planted Aquariums",
+  title: "Planted Aquarium Lighting, CO2 & Aquascaping Tools | Aqualux",
   description:
-    "A curated shop for planted freshwater tanks: full-spectrum LED lighting, CO2 systems, aquascaping tools, substrate and hardscape, and water testing. Specs you can actually compare.",
+    "Planted aquarium lighting, CO2 systems, aquascaping tools, aqua soil and water test kits. Curated on real specs. Free worldwide shipping over $79.",
   alternates: { canonical: "/" },
 };
 

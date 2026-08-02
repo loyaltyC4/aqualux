@@ -8,6 +8,7 @@ import ProductGridItems from "components/layout/product-grid-items";
 import { FilterBar } from "components/layout/search/filter-bar";
 import { defaultSort, sorting } from "lib/constants";
 import { COLLECTION_IMAGE, COLLECTIONS, SITE_NAME } from "lib/brand";
+import { COLLECTION_COPY } from "lib/collection-copy";
 import { baseUrl } from "lib/utils";
 import {
   applyFilters,
@@ -60,6 +61,7 @@ export default async function CategoryPage(props: {
   const facets = availableFacets(unfiltered);
   const filters = parseFiltersFromSearchParams(searchParams || {});
   const products = applyFilters(unfiltered, filters);
+  const copy = COLLECTION_COPY[params.collection];
 
   const banner = COLLECTION_IMAGE[params.collection];
 
@@ -147,6 +149,26 @@ export default async function CategoryPage(props: {
           <ProductGridItems products={products} />
         </Grid>
       )}
+
+      {copy ? (
+        <div className="mx-auto mt-16 max-w-3xl px-2 md:mt-24">
+          <p className="text-base leading-relaxed text-neutral-300">
+            {copy.intro}
+          </p>
+          <div className="mt-10 space-y-8">
+            {copy.sections.map((sec) => (
+              <div key={sec.heading}>
+                <h2 className="text-lg font-semibold text-[#eceae4]">
+                  {sec.heading}
+                </h2>
+                <p className="mt-2 text-[15px] leading-relaxed text-neutral-400">
+                  {sec.body}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : null}
     </section>
   );
 }

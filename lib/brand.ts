@@ -34,11 +34,11 @@ export const PANEL = "#0d1618"; // raised panel
 export const BONE = "#eceae4"; // primary text
 
 export const COLLECTIONS = [
-  { handle: "lighting", title: "Lighting", short: "Lighting" },
-  { handle: "co2", title: "CO2 Systems", short: "CO2" },
+  { handle: "lighting", title: "Planted Aquarium Lighting", short: "Lighting" },
+  { handle: "co2", title: "Aquarium CO2 Systems", short: "CO2" },
   { handle: "tools", title: "Aquascaping Tools", short: "Tools" },
   { handle: "hardscape", title: "Substrate & Hardscape", short: "Hardscape" },
-  { handle: "testing", title: "Water Testing", short: "Testing" },
+  { handle: "testing", title: "Aquarium Water Test Kits", short: "Testing" },
 ] as const;
 
 export const COLLECTION_IMAGE: Record<string, string> = {

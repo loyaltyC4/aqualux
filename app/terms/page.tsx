@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "The terms that apply when you shop with Aqualux.",
+  description: "The terms and conditions that apply when you order from Aqualux, covering pricing, orders, delivery, dangerous goods restrictions and returns.",
   alternates: { canonical: "/terms" },
 };
 
