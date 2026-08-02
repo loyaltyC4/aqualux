@@ -70,9 +70,12 @@ export default async function SearchPage(props: {
       <FilterBar facets={facets} />
 
       {products.length > 0 ? (
-        <Grid className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          <ProductGridItems products={products} />
-        </Grid>
+        <>
+          <h2 className="sr-only">All products</h2>
+          <Grid className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            <ProductGridItems products={products} />
+          </Grid>
+        </>
       ) : (
         <p className="py-3 text-lg text-neutral-400">
           No products match these filters. Try clearing one.

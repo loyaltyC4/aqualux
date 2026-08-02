@@ -25,6 +25,7 @@ export function FaqList({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       ) : null}
+      <h2 className="sr-only">Frequently asked questions</h2>
       <div className="divide-y divide-[var(--aq-line)] border-y border-[var(--aq-line)]">
         {items.map((f, i) => (
           <details key={i} className="group py-5">

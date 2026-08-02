@@ -145,9 +145,12 @@ export default async function CategoryPage(props: {
             : "No products match these filters. Try clearing one."}
         </p>
       ) : (
-        <Grid className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          <ProductGridItems products={products} />
-        </Grid>
+        <>
+          <h2 className="sr-only">Products in this collection</h2>
+          <Grid className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            <ProductGridItems products={products} />
+          </Grid>
+        </>
       )}
 
       {copy ? (
