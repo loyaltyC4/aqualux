@@ -24,6 +24,34 @@ export default {
         destination: "/product/aurora-pro-rgb-bluetooth",
         permanent: true,
       },
+      {
+        source: "/product/digital-ph-tds-meter",
+        destination: "/product/digital-ph-pen-meter",
+        permanent: true,
+      },
+      {
+        source: "/product/sunrise-timer-controller",
+        destination: "/product/aquarium-light-timer-socket",
+        permanent: true,
+      },
+      {
+        source: "/product/desktop-co2-system-complete",
+        destination: "/product/diy-co2-generator-kit-2l",
+        permanent: true,
+      },
+      {
+        source: "/product/long-reach-tweezers-15in",
+        destination: "/product/long-reach-tweezers-30cm",
+        permanent: true,
+      },
+      {
+        // Withdrawn, not renamed: the supplier product raises pH and was
+        // listed as inert planted-tank sand. Send buyers to the hardscape
+        // collection rather than a dead end or a substitute we can't stand behind.
+        source: "/product/fine-white-sand-20lb",
+        destination: "/search/hardscape",
+        permanent: true,
+      },
     ];
   },
   images: {

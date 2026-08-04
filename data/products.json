@@ -3,8 +3,8 @@
     {
       "id": 7000000000,
       "handle": "planted-starter-bundle-light-tools-test-kit",
-      "title": "Planted Starter Bundle - Light + Tools + Test Kit",
-      "body_html": "<p>The three things every new planted tank needs, in one order: the 20in Aurora LED, the 5-piece scaping set, and the master liquid test kit.</p><ul><li><strong>Includes:</strong> Aurora 20in LED, 5-pc tool set, master test kit</li><li><strong>Saves:</strong> $42 vs buying separately</li><li><strong>Best for:</strong> First planted tank</li></ul>",
+      "title": "Planted Starter Bundle — Light, Tools, Test Kit",
+      "body_html": "<p>The three things a new planted tank actually needs, in one order: the Aurora 48 LED bar, the 5-piece scaping set, and the liquid test kit that covers a cycle.</p><ul><li><strong>Includes:</strong> Aurora 48 LED (48&nbsp;cm), 5-piece tool set, pH/ammonia/nitrite test kit</li><li><strong>Best for:</strong> a first planted tank between 48 and 58&nbsp;cm wide</li></ul>",
       "vendor": "Aqualux",
       "product_type": "lighting",
       "status": "active",
@@ -78,13 +78,23 @@
         "alt": "Planted Starter Bundle - Light + Tools + Test Kit",
         "variant_ids": []
       },
-      "_cat": "lighting"
+      "_cat": "lighting",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 3-parameter test kit"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 58 cm"
+        }
+      ]
     },
     {
       "id": 7000000001,
       "handle": "co2-starter-bundle-regulator-diffuser-checker",
       "title": "CO2 Starter Kit - Regulator, Diffuser & Checker",
-      "body_html": "<p>A complete CO2 front end: dual-gauge regulator with solenoid, inline atomiser, and glass drop checker with reference solution.</p><ul><li><strong>Includes:</strong> Regulator + solenoid, inline atomiser, drop checker</li><li><strong>Saves:</strong> $40 vs buying separately</li><li><strong>Note:</strong> Cylinder not included</li></ul>",
+      "body_html": "<p>A CO2 front end for a planted tank: dual-gauge regulator with solenoid, 304 stainless inline atomiser, and a glass drop checker with reference solution.</p><ul><li><strong>Includes:</strong> regulator + solenoid, inline atomiser, drop checker + 4dKH solution</li><li><strong>Not included:</strong> the CO2 cylinder itself &mdash; source that locally, it is cheaper than shipping one</li><li><strong>Solenoid means timer control</strong>, so CO2 shuts off overnight when plants cannot use it</li></ul>",
       "vendor": "Aqualux",
       "product_type": "co2",
       "status": "active",
@@ -158,7 +168,18 @@
         "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker",
         "variant_ids": []
       },
-      "_cat": "co2"
+      "_cat": "co2",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Dual-gauge regulator with solenoid, inline atomiser, glass drop checker with 4dKH solution"
+        },
+        {
+          "label": "Cylinder",
+          "value": "Not included",
+          "note": "Requires a refillable CO2 cylinder"
+        }
+      ]
     },
     {
       "id": 7000000002,
@@ -763,7 +784,21 @@
         "alt": "Clip-On Nano Grow Light",
         "variant_ids": []
       },
-      "_cat": "lighting"
+      "_cat": "lighting",
+      "specs": [
+        {
+          "label": "Mount",
+          "value": "Clip-on, adjustable arm"
+        },
+        {
+          "label": "Body",
+          "value": "Aluminium and ABS"
+        },
+        {
+          "label": "Use",
+          "value": "Nano tanks and emersed setups"
+        }
+      ]
     },
     {
       "id": 7000000005,
@@ -946,9 +981,9 @@
     },
     {
       "id": 7000000006,
-      "handle": "sunrise-timer-controller",
-      "title": "Sunrise Timer Controller",
-      "body_html": "<p>Programmable digital timer with countdown, cycle and daily modes. Pairs with any grow light, CO2 solenoid or air pump.</p><ul><li><strong>Best for:</strong> automating photoperiod on planted tanks and pausing CO2 overnight</li><li><strong>Modes:</strong> daily, weekly, countdown, cycle</li><li><strong>Rating:</strong> 220V, up to 10A</li><li><strong>Programs:</strong> 20 separate on/off events per day</li></ul><p>A planted tank runs on rhythm. Lights on for 6-8 hours in the early phase, CO2 solenoid opening one hour before lights and closing one hour before lights out, air pump running overnight. This timer holds all three schedules on one unit, retains programs across power cuts, and displays the current cycle at a glance.</p>",
+      "handle": "aquarium-light-timer-socket",
+      "title": "Light Timer Socket",
+      "body_html": "<p>A plug-in mains timer for aquarium lights. One outlet, mechanical dial, rated to 2500&nbsp;W at 250&nbsp;V. Set the on and off times once and it repeats every day.</p>\n<ul>\n<li><strong>A consistent photoperiod is the cheapest algae control there is.</strong> Lights that go on and off at whatever hour you remember are one of the most common causes of an algae bloom in a new tank.</li>\n<li><strong>One outlet, one circuit.</strong> Plug the light in, set the dial, leave it.</li>\n<li><strong>Mechanical dial.</strong> No app, no menu, nothing to reconfigure after a power cut &mdash; but also no dimming and no sunrise ramp. See below.</li>\n</ul>",
       "vendor": "Aqualux",
       "product_type": "lighting",
       "status": "active",
@@ -975,8 +1010,8 @@
           "id": 7200000006,
           "product_id": 7000000006,
           "title": "Default Title",
-          "price": "26.00",
-          "compare_at_price": null,
+          "price": "18.00",
+          "compare_at_price": "26.00",
           "sku": "AQL-LT1",
           "position": 1,
           "option1": "Default Title",
@@ -1022,7 +1057,40 @@
         "alt": "Sunrise Timer Controller",
         "variant_ids": []
       },
-      "_cat": "lighting"
+      "_cat": "lighting",
+      "specs": [
+        {
+          "label": "Outlets",
+          "value": "1"
+        },
+        {
+          "label": "Type",
+          "value": "Mechanical dial timer"
+        },
+        {
+          "label": "Max load",
+          "value": "2500 W"
+        },
+        {
+          "label": "Voltage",
+          "value": "250 V"
+        },
+        {
+          "label": "Dimming",
+          "value": "None",
+          "note": "On/off switching only"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Does this do a sunrise and sunset fade?",
+          "a": "No. This listing previously claimed four channels and a 1–60 minute sunrise ramp. That was wrong. What our supplier ships is a single-outlet mechanical timer that switches a light fully on and fully off. We have corrected the listing and dropped the price accordingly."
+        },
+        {
+          "q": "Will it hold its settings in a power cut?",
+          "a": "A mechanical dial keeps its programme, but the clock loses time while the power is out and will need resetting. We make no battery-backup claim because the manufacturer makes none."
+        }
+      ]
     },
     {
       "id": 7000000007,
@@ -1160,12 +1228,32 @@
         "alt": "Aquascaping Tool Set - 5 Piece",
         "variant_ids": []
       },
-      "_cat": "tools"
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Pieces",
+          "value": "5"
+        },
+        {
+          "label": "Material",
+          "value": "Stainless steel",
+          "note": "Grade not specified by manufacturer"
+        },
+        {
+          "label": "Weight",
+          "value": "291 g"
+        },
+        {
+          "label": "Storage",
+          "value": "Bag included",
+          "note": "Type varies by batch"
+        }
+      ]
     },
     {
       "id": 7000000008,
-      "handle": "long-reach-tweezers-15in",
-      "title": "Long-Reach Tweezers - 15in",
+      "handle": "long-reach-tweezers-30cm",
+      "title": "Long-Reach Tweezers — 30 cm",
       "body_html": "<p>27cm stainless steel tweezers with fine machined tips. Precise placement for stem plants and moss.</p>",
       "vendor": "Aqualux",
       "product_type": "tools",
@@ -1269,12 +1357,33 @@
         "alt": "Long-Reach Tweezers - 15in",
         "variant_ids": []
       },
-      "_cat": "tools"
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Length",
+          "value": "30 cm (11.8 in)"
+        },
+        {
+          "label": "Material",
+          "value": "Stainless steel",
+          "note": "Grade not specified by manufacturer"
+        },
+        {
+          "label": "Tip",
+          "value": "Straight"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why did the length change?",
+          "a": "This was listed as 15 in / 38 cm. Our supplier's longest tweezer in this range is 300 mm, so 38 cm was never a size we could ship. The listing now states the real length."
+        }
+      ]
     },
     {
       "id": 7000000009,
       "handle": "curved-spring-scissors",
-      "title": "Curved Spring Scissors",
+      "title": "Curved Spring Scissors — 25 cm",
       "body_html": "<p>Curved-blade stainless steel aquascaping scissors with a spring-loaded return. Neat trims on carpeting plants and stem tops without gouging substrate.</p><ul><li><strong>Length:</strong> 21cm or 25cm</li><li><strong>Blade:</strong> curved, 4mm thick 304 stainless</li><li><strong>Return:</strong> spring-loaded for one-handed trimming</li><li><strong>Best for:</strong> Monte Carlo, dwarf hairgrass, glosso, stem tops</li></ul><p>The curved blade sits parallel to the substrate when the handle is held level, so carpet trims come out flush without divots. The spring return opens the blades between cuts so a long trimming session doesn't cramp your hand. 4mm-thick 304 stainless resists corrosion in freshwater and holds an edge for years on soft plant tissue.</p>",
       "vendor": "Aqualux",
       "product_type": "tools",
@@ -1407,7 +1516,22 @@
         "alt": "Curved Spring Scissors",
         "variant_ids": []
       },
-      "_cat": "tools"
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Length",
+          "value": "25 cm"
+        },
+        {
+          "label": "Action",
+          "value": "Spring-loaded"
+        },
+        {
+          "label": "Material",
+          "value": "Stainless steel",
+          "note": "Grade not specified by manufacturer"
+        }
+      ]
     },
     {
       "id": 7000000010,
@@ -1574,7 +1698,22 @@
         "alt": "Magnetic Glass Cleaner - Float",
         "variant_ids": []
       },
-      "_cat": "tools"
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Floating magnetic cleaner"
+        },
+        {
+          "label": "Glass thickness",
+          "value": "Sized by thickness",
+          "note": "Choose the option matching your tank"
+        },
+        {
+          "label": "Float",
+          "value": "Returns to surface if separated"
+        }
+      ]
     },
     {
       "id": 7000000011,
@@ -1712,13 +1851,23 @@
         "alt": "5-in-1 Tank Cleaning Set",
         "variant_ids": []
       },
-      "_cat": "tools"
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Heads",
+          "value": "5 interchangeable"
+        },
+        {
+          "label": "Handle",
+          "value": "Extending"
+        }
+      ]
     },
     {
       "id": 7000000012,
-      "handle": "desktop-co2-system-complete",
-      "title": "Desktop CO2 System - Complete",
-      "body_html": "<p>Compact desktop CO2 system with 2L or 4L stainless bottle, integrated regulator head and gauge, tubing and glass diffuser. Manual or solenoid regulator.</p><ul><li><strong>Material:</strong> stainless steel</li><li><strong>Weight:</strong> 1.5-3kg</li></ul>",
+      "handle": "diy-co2-generator-kit-2l",
+      "title": "DIY CO2 Generator Kit — 2 L Stainless",
+      "body_html": "<p>A refill-free CO2 kit for planted tanks. Citric acid and bicarbonate react inside a 2&nbsp;L stainless bottle to produce CO2 &mdash; no gas cylinder, no trips to a refill shop.</p>\n<ul>\n<li><strong>No cylinder to refill.</strong> You top it up with two cheap dry chemicals instead of hauling a bottle to a gas supplier. That is the whole point of this design.</li>\n<li><strong>Constant-pressure valve body</strong> tested above 50&nbsp;kg/cm&sup2; with a 3&nbsp;kg regulated output and an automatic release above 30&nbsp;kg.</li>\n<li><strong>Kit includes</strong> the 2&nbsp;L stainless bottle, pressure gauge and valve, diffuser, 2&nbsp;m of CO2 tubing, four suction cups, a 300&nbsp;ml measuring cup, a funnel and two sets of reagent.</li>\n</ul>\n<p><strong>What this is not:</strong> a pressurised cylinder system. It is a chemical generator. Output tapers as the reaction exhausts and needs recharging every few weeks depending on your bubble rate. If you want set-and-forget pressurised CO2, buy a regulator and a refillable cylinder instead &mdash; this is the cheaper, more hands-on route.</p>",
       "vendor": "Aqualux",
       "product_type": "co2",
       "status": "active",
@@ -1748,8 +1897,8 @@
           "id": 7500000026,
           "product_id": 7000000012,
           "title": "2L manual regulator",
-          "price": "129.00",
-          "compare_at_price": "163.63",
+          "price": "79.00",
+          "compare_at_price": "109.00",
           "sku": "AQL-C01-1",
           "position": 1,
           "option1": "2L manual regulator",
@@ -1776,8 +1925,8 @@
           "id": 7500000027,
           "product_id": 7000000012,
           "title": "2L solenoid regulator",
-          "price": "149.00",
-          "compare_at_price": "189.00",
+          "price": "79.00",
+          "compare_at_price": "109.00",
           "sku": "AQL-C01-2",
           "position": 2,
           "option1": "2L solenoid regulator",
@@ -1804,8 +1953,8 @@
           "id": 7500000028,
           "product_id": 7000000012,
           "title": "4L manual regulator",
-          "price": "165.00",
-          "compare_at_price": "209.30",
+          "price": "79.00",
+          "compare_at_price": "109.00",
           "sku": "AQL-C01-3",
           "position": 3,
           "option1": "4L manual regulator",
@@ -1832,8 +1981,8 @@
           "id": 7500000029,
           "product_id": 7000000012,
           "title": "4L solenoid regulator",
-          "price": "189.00",
-          "compare_at_price": "239.74",
+          "price": "79.00",
+          "compare_at_price": "109.00",
           "sku": "AQL-C01-4",
           "position": 4,
           "option1": "4L solenoid regulator",
@@ -1879,7 +2028,45 @@
         "alt": "Desktop CO2 System - Complete",
         "variant_ids": []
       },
-      "_cat": "co2"
+      "_cat": "co2",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "DIY chemical CO2 generator",
+          "note": "Not a pressurised cylinder system"
+        },
+        {
+          "label": "Bottle",
+          "value": "2 L stainless steel"
+        },
+        {
+          "label": "Valve body",
+          "value": "Tested >50 kg/cm²"
+        },
+        {
+          "label": "Regulated output",
+          "value": "3 kg"
+        },
+        {
+          "label": "Safety release",
+          "value": "Automatic above 30 kg"
+        },
+        {
+          "label": "Kit weight",
+          "value": "1.5 – 3 kg",
+          "note": "Varies by configuration"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is this a pressurised CO2 system?",
+          "a": "No, and this is the most important thing to understand before buying. It is a chemical generator: citric acid and bicarbonate react to make CO2. There is no cylinder to refill at a gas supplier, but output falls as the reaction exhausts and you recharge it every few weeks. This listing previously described it as a complete CO2 system at $129, which oversold it. We have corrected the description and the price."
+        },
+        {
+          "q": "How often does it need recharging?",
+          "a": "Depends entirely on bubble rate and tank size — commonly two to four weeks on a small tank at a modest rate. The kit ships with two sets of reagent to start."
+        }
+      ]
     },
     {
       "id": 7000000013,
@@ -2017,7 +2204,26 @@
         "alt": "Dual-Gauge Regulator + Solenoid",
         "variant_ids": []
       },
-      "_cat": "co2"
+      "_cat": "co2",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Dual-gauge CO2 regulator with solenoid"
+        },
+        {
+          "label": "Gauges",
+          "value": "Working pressure and cylinder pressure"
+        },
+        {
+          "label": "Solenoid",
+          "value": "Yes",
+          "note": "Allows timer control"
+        },
+        {
+          "label": "Body",
+          "value": "Metal"
+        }
+      ]
     },
     {
       "id": 7000000014,
@@ -2097,7 +2303,29 @@
         "alt": "Inline Atomiser Diffuser - 16/22mm",
         "variant_ids": []
       },
-      "_cat": "co2"
+      "_cat": "co2",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "304 stainless steel"
+        },
+        {
+          "label": "Model",
+          "value": "W05-01"
+        },
+        {
+          "label": "Diffuser disc",
+          "value": "Replaceable ceramic"
+        },
+        {
+          "label": "Pre-soak",
+          "value": "Not required"
+        },
+        {
+          "label": "Also suits",
+          "value": "Air pumps"
+        }
+      ]
     },
     {
       "id": 7000000015,
@@ -2264,7 +2492,21 @@
         "alt": "Glass Drop Checker + 4dKH Solution",
         "variant_ids": []
       },
-      "_cat": "co2"
+      "_cat": "co2",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Glass drop checker"
+        },
+        {
+          "label": "Included",
+          "value": "4dKH reference solution"
+        },
+        {
+          "label": "Mount",
+          "value": "In-tank, suction fitted"
+        }
+      ]
     },
     {
       "id": 7000000016,
@@ -2373,13 +2615,27 @@
         "alt": "Bubble Counter + Check Valve Set",
         "variant_ids": []
       },
-      "_cat": "co2"
+      "_cat": "co2",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Glass bubble counter with check valve"
+        },
+        {
+          "label": "Function",
+          "value": "Counts bubble rate, prevents backflow"
+        },
+        {
+          "label": "Body",
+          "value": "Glass"
+        }
+      ]
     },
     {
       "id": 7000000017,
       "handle": "aqua-soil-planted-substrate-9l",
-      "title": "Aqua Soil - Planted Substrate 9L",
-      "body_html": "<p>Active aqua soil for planted tanks. Buffers pH downward, holds nutrients and supports rooted stem plants and shrimp.</p>",
+      "title": "Aqua Soil — Planted Substrate, 9 L",
+      "body_html": "<p>A baked aquasoil for planted tanks, sold by volume in a 9&nbsp;L bag. Holds nutrients for root feeders and buffers water on the soft, acidic side that most aquarium plants prefer.</p>\n<ul>\n<li><strong>9 L covers roughly a 60&nbsp;cm tank</strong> at a usable planting depth of 5&ndash;6&nbsp;cm, deeper at the back if you are terracing.</li>\n<li><strong>Feeds through the roots.</strong> Heavy root feeders &mdash; swords, crypts, most stems &mdash; do noticeably better in soil than in inert gravel.</li>\n<li><strong>Ships in the manufacturer's packaging.</strong> This is a third-party soil we resell rather than our own blend, and we are not going to pretend otherwise.</li>\n</ul>\n<p><strong>A note on weight:</strong> an earlier version of this listing said 20&nbsp;lb. It is sold by volume, and 9&nbsp;L of aquasoil weighs roughly 6&nbsp;kg, not 9&nbsp;kg.</p>",
       "vendor": "Aqualux",
       "product_type": "hardscape",
       "status": "active",
@@ -2453,13 +2709,47 @@
         "alt": "Aqua Soil - Planted Substrate 9L",
         "variant_ids": []
       },
-      "_cat": "hardscape"
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Volume",
+          "value": "9 L",
+          "note": "Sold by volume, not weight"
+        },
+        {
+          "label": "Approx weight",
+          "value": "~6 kg",
+          "note": "Varies with moisture"
+        },
+        {
+          "label": "Type",
+          "value": "Baked aquasoil"
+        },
+        {
+          "label": "Feeding",
+          "value": "Root-feeding substrate"
+        },
+        {
+          "label": "Packaging",
+          "value": "Manufacturer's bag"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much do I need?",
+          "a": "About 9 L for a 60 cm tank at 5–6 cm depth. Deeper if you are terracing toward the back."
+        },
+        {
+          "q": "Does it lower pH?",
+          "a": "Aquasoils of this type generally buffer downward, but the manufacturer publishes no figure and we are not going to invent one. If you keep species with a narrow pH requirement, test as the tank settles."
+        }
+      ]
     },
     {
       "id": 7000000018,
       "handle": "seiryu-stone-11lb-hardscape-box",
-      "title": "Seiryu Stone - 11lb Hardscape Box",
-      "body_html": "<p>11lb box of hand-picked seiryu aquascaping stones. Sharp angular ridges and deep white mineral veining.</p>",
+      "title": "Seiryu Stone — 5 kg Hardscape Pack",
+      "body_html": "<p>Grey-blue seiryu with sharp fissures and white veining &mdash; the classic iwagumi stone. Sold as a 5&nbsp;kg pack made up of small pieces.</p>\n<ul>\n<li><strong>5 kg is enough for a single focal arrangement</strong> in a 45&ndash;60&nbsp;cm tank, or a supporting group in something larger.</li>\n<li><strong>Every piece is different.</strong> Stone is graded by weight, not shape, so the exact set you receive will vary.</li>\n<li><strong>Seiryu raises hardness.</strong> It is a carbonate rock and it will lift GH and KH over time. Fine for most community plants and shrimp that like harder water; check first if you keep soft-water species.</li>\n</ul>",
       "vendor": "Aqualux",
       "product_type": "hardscape",
       "status": "active",
@@ -2562,7 +2852,29 @@
         "alt": "Seiryu Stone - 11lb Hardscape Box",
         "variant_ids": []
       },
-      "_cat": "hardscape"
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Weight",
+          "value": "5 kg (11 lb)",
+          "note": "Supplied as multiple small pieces"
+        },
+        {
+          "label": "Type",
+          "value": "Seiryu / blue dragon stone"
+        },
+        {
+          "label": "Effect on water",
+          "value": "Raises GH and KH",
+          "note": "Carbonate rock"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How many pieces will I get?",
+          "a": "It is sold by weight rather than count, so we cannot promise a number. Expect several small pieces rather than one large feature stone."
+        }
+      ]
     },
     {
       "id": 7000000019,
@@ -2729,180 +3041,34 @@
         "alt": "Spider Wood - Centrepiece Set",
         "variant_ids": []
       },
-      "_cat": "hardscape"
-    },
-    {
-      "id": 7000000020,
-      "handle": "fine-white-sand-20lb",
-      "title": "Fine White Sand - 20lb",
-      "body_html": "<p>20lb bag of fine white aquarium sand. Bright, inert, safe for shrimp and rooted plants.</p>",
-      "vendor": "Aqualux",
-      "product_type": "hardscape",
-      "status": "active",
-      "tags": "hardscape, planted tank, aquascaping, src1688:821460920221",
-      "created_at": "2026-08-01T00:00:00+00:00",
-      "updated_at": "2026-08-01T00:00:00+00:00",
-      "published_at": "2026-08-01T00:00:00+00:00",
-      "template_suffix": null,
-      "published_scope": "web",
-      "admin_graphql_api_id": "gid://shopify/Product/7000000020",
-      "options": [
+      "_cat": "hardscape",
+      "specs": [
         {
-          "id": 7000000120,
-          "product_id": 7000000020,
-          "name": "Grain",
-          "position": 1,
-          "values": [
-            "0.5-1mm fine",
-            "0.8-1.5mm medium",
-            "1.5-2.2mm coarse",
-            "2-3mm gravel"
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "id": 7500000045,
-          "product_id": 7000000020,
-          "title": "0.5-1mm fine",
-          "price": "34.00",
-          "compare_at_price": null,
-          "sku": "AQL-S20-1",
-          "position": 1,
-          "option1": "0.5-1mm fine",
-          "option2": null,
-          "option3": null,
-          "taxable": true,
-          "requires_shipping": true,
-          "inventory_quantity": 100,
-          "inventory_management": null,
-          "inventory_policy": "deny",
-          "fulfillment_service": "manual",
-          "grams": 800,
-          "weight": 0.8,
-          "weight_unit": "kg",
-          "barcode": null,
-          "inventory_item_id": 7300000020,
-          "old_inventory_quantity": 100,
-          "created_at": "2026-08-01T00:00:00+00:00",
-          "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000020",
-          "image_id": 9000020
+          "label": "Type",
+          "value": "Natural spider wood"
         },
         {
-          "id": 7500000046,
-          "product_id": 7000000020,
-          "title": "0.8-1.5mm medium",
-          "price": "34.00",
-          "compare_at_price": null,
-          "sku": "AQL-S20-2",
-          "position": 2,
-          "option1": "0.8-1.5mm medium",
-          "option2": null,
-          "option3": null,
-          "taxable": true,
-          "requires_shipping": true,
-          "inventory_quantity": 100,
-          "inventory_management": null,
-          "inventory_policy": "deny",
-          "fulfillment_service": "manual",
-          "grams": 800,
-          "weight": 0.8,
-          "weight_unit": "kg",
-          "barcode": null,
-          "inventory_item_id": 7300000020,
-          "old_inventory_quantity": 100,
-          "created_at": "2026-08-01T00:00:00+00:00",
-          "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000020",
-          "image_id": 9000020
+          "label": "Weight",
+          "value": "Under 1 kg"
         },
         {
-          "id": 7500000047,
-          "product_id": 7000000020,
-          "title": "1.5-2.2mm coarse",
-          "price": "34.00",
-          "compare_at_price": null,
-          "sku": "AQL-S20-3",
-          "position": 3,
-          "option1": "1.5-2.2mm coarse",
-          "option2": null,
-          "option3": null,
-          "taxable": true,
-          "requires_shipping": true,
-          "inventory_quantity": 100,
-          "inventory_management": null,
-          "inventory_policy": "deny",
-          "fulfillment_service": "manual",
-          "grams": 800,
-          "weight": 0.8,
-          "weight_unit": "kg",
-          "barcode": null,
-          "inventory_item_id": 7300000020,
-          "old_inventory_quantity": 100,
-          "created_at": "2026-08-01T00:00:00+00:00",
-          "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000020",
-          "image_id": 9000020
-        },
-        {
-          "id": 7500000048,
-          "product_id": 7000000020,
-          "title": "2-3mm gravel",
-          "price": "36.00",
-          "compare_at_price": null,
-          "sku": "AQL-S20-4",
-          "position": 4,
-          "option1": "2-3mm gravel",
-          "option2": null,
-          "option3": null,
-          "taxable": true,
-          "requires_shipping": true,
-          "inventory_quantity": 100,
-          "inventory_management": null,
-          "inventory_policy": "deny",
-          "fulfillment_service": "manual",
-          "grams": 800,
-          "weight": 0.8,
-          "weight_unit": "kg",
-          "barcode": null,
-          "inventory_item_id": 7300000020,
-          "old_inventory_quantity": 100,
-          "created_at": "2026-08-01T00:00:00+00:00",
-          "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000020",
-          "image_id": 9000020
+          "label": "Form",
+          "value": "Branching, sizes vary",
+          "note": "Each piece is unique"
         }
       ],
-      "images": [
+      "faqs": [
         {
-          "id": 9000020,
-          "product_id": 7000000020,
-          "position": 1,
-          "src": "/products/fine-white-sand-20lb.jpg",
-          "width": 1200,
-          "height": 900,
-          "alt": "Fine White Sand - 20lb",
-          "variant_ids": []
+          "q": "Will it need soaking?",
+          "a": "Almost certainly. Most spider wood floats until waterlogged and leaches tannins that tint the water for a few weeks. The manufacturer makes no pre-soaking claim, so assume it is untreated — boil or soak it before scaping."
         }
-      ],
-      "image": {
-        "id": 9000020,
-        "product_id": 7000000020,
-        "position": 1,
-        "src": "/products/fine-white-sand-20lb.jpg",
-        "width": 1200,
-        "height": 900,
-        "alt": "Fine White Sand - 20lb",
-        "variant_ids": []
-      },
-      "_cat": "hardscape"
+      ]
     },
     {
       "id": 7000000021,
       "handle": "master-water-test-kit-3-in-1",
-      "title": "Master Water Test Kit - 3 in 1",
-      "body_html": "<p>Liquid reagent test kit covering the three parameters that actually kill fish: pH, ammonia and nitrite. Around 100 tests per parameter.</p>",
+      "title": "Master Water Test Kit — pH, Ammonia, Nitrite",
+      "body_html": "<p>A liquid reagent kit covering the three parameters that actually matter while a tank is cycling: pH, ammonia and nitrite. Roughly 100 tests of each.</p>\n<ul>\n<li><strong>Liquid reagents, not strips.</strong> Slower to use and considerably more accurate, which is what you want when you are deciding whether it is safe to add fish.</li>\n<li><strong>Three parameters, ~100 tests each.</strong> About 300 tests in total.</li>\n<li><strong>Covers the cycle.</strong> Ammonia and nitrite are the two that spike and then fall as a filter matures; pH tells you whether anything has destabilised.</li>\n</ul>\n<p><strong>Not included:</strong> nitrate, GH or KH. An earlier version of this listing said the kit covered those. It does not — they are separate kits.</p>",
       "vendor": "Aqualux",
       "product_type": "testing",
       "status": "active",
@@ -3034,13 +3200,39 @@
         "alt": "Master Water Test Kit - 3 in 1",
         "variant_ids": []
       },
-      "_cat": "testing"
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Tests",
+          "value": "pH, ammonia (NH3), nitrite (NO2)"
+        },
+        {
+          "label": "Test count",
+          "value": "~100 of each",
+          "note": "~300 total"
+        },
+        {
+          "label": "Type",
+          "value": "Liquid reagent"
+        },
+        {
+          "label": "Not included",
+          "value": "Nitrate, GH, KH",
+          "note": "Sold as separate kits"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Does it test nitrate, GH or KH?",
+          "a": "No. This listing previously claimed it covered nitrate and GH/KH. It does not — the kit our supplier ships is the three-parameter version. Those are separate kits and we would rather correct the listing than have you discover it after a water change."
+        }
+      ]
     },
     {
       "id": 7000000022,
-      "handle": "digital-ph-tds-meter",
-      "title": "Digital pH & TDS Meter",
-      "body_html": "<p>Handheld pen meter for pH and TDS. Auto-calibrating on the pH range, backlit LCD.</p>",
+      "handle": "digital-ph-pen-meter",
+      "title": "Digital pH Pen Meter",
+      "body_html": "<p>A pocket pH pen for freshwater tanks. Reads 0.00&ndash;14.00 pH to 0.1 resolution, runs on two 1.5&nbsp;V cells, and calibrates against standard buffer powders.</p>\n<ul>\n<li><strong>pH only.</strong> This pen does not measure TDS. An earlier version of this listing said it did; it does not, and we have corrected it.</li>\n<li><strong>0.1 pH resolution</strong> across the full 0&ndash;14 range &mdash; enough to track a CO2 swing or a KH change day to day.</li>\n<li><strong>Two-point calibration</strong> against standard buffer sachets, which is what keeps a cheap pen honest over time.</li>\n</ul>",
       "vendor": "Aqualux",
       "product_type": "testing",
       "status": "active",
@@ -3069,8 +3261,8 @@
           "id": 7500000052,
           "product_id": 7000000022,
           "title": "Blue",
-          "price": "36.00",
-          "compare_at_price": "45.00",
+          "price": "24.00",
+          "compare_at_price": "32.00",
           "sku": "AQL-W02-1",
           "position": 1,
           "option1": "Blue",
@@ -3097,8 +3289,8 @@
           "id": 7500000053,
           "product_id": 7000000022,
           "title": "Yellow",
-          "price": "36.00",
-          "compare_at_price": "45.00",
+          "price": "24.00",
+          "compare_at_price": "32.00",
           "sku": "AQL-W02-2",
           "position": 2,
           "option1": "Yellow",
@@ -3125,8 +3317,8 @@
           "id": 7500000054,
           "product_id": 7000000022,
           "title": "Orange",
-          "price": "36.00",
-          "compare_at_price": "45.00",
+          "price": "24.00",
+          "compare_at_price": "32.00",
           "sku": "AQL-W02-3",
           "position": 3,
           "option1": "Orange",
@@ -3172,12 +3364,45 @@
         "alt": "Digital pH & TDS Meter",
         "variant_ids": []
       },
-      "_cat": "testing"
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Measures",
+          "value": "pH only",
+          "note": "No TDS function"
+        },
+        {
+          "label": "Range",
+          "value": "0.00 – 14.00 pH"
+        },
+        {
+          "label": "Resolution",
+          "value": "0.1 pH"
+        },
+        {
+          "label": "Power",
+          "value": "2 × 1.5 V cells"
+        },
+        {
+          "label": "Calibration",
+          "value": "Two-point, buffer powder"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Does this measure TDS?",
+          "a": "No. This listing previously said it did — that was wrong and we have corrected it. The unit our supplier ships is a pH-only pen. If you need TDS you need a separate meter, and we would rather lose the sale than send you the wrong tool."
+        },
+        {
+          "q": "How often does it need calibrating?",
+          "a": "Monthly for most tanks, or any time a reading looks implausible. Calibration sachets are cheap and the pen drifts without them."
+        }
+      ]
     },
     {
       "id": 7000000023,
       "handle": "test-strips-9-in-1-100-count",
-      "title": "Test Strips - 9 in 1, 100 Count",
+      "title": "Test Strips — 9 in 1, 100 Count",
       "body_html": "<p>Nine-parameter dip strips including pH, free chlorine, nitrite, nitrate, total alkalinity and hardness. 100-strip pack.</p><ul><li><strong>Weight:</strong> 0.1kg</li></ul>",
       "vendor": "Aqualux",
       "product_type": "testing",
@@ -3339,7 +3564,27 @@
         "alt": "Test Strips - 9 in 1, 100 Count",
         "variant_ids": []
       },
-      "_cat": "testing"
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Parameters",
+          "value": "9"
+        },
+        {
+          "label": "Count",
+          "value": "100 strips"
+        },
+        {
+          "label": "Type",
+          "value": "Dip-and-read strip"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How do these compare to a liquid kit?",
+          "a": "Faster and less precise. Strips are good for a quick weekly check; use a liquid reagent kit when you are cycling a tank or chasing a specific problem."
+        }
+      ]
     }
   ]
 }
