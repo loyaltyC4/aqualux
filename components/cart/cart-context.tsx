@@ -1,5 +1,6 @@
 "use client";
 
+import { CURRENCY } from "lib/brand";
 import type {
   Cart,
   CartItem,
