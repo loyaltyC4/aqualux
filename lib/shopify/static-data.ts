@@ -147,6 +147,12 @@ function restProductToProduct(p: any): Product {
     },
     tags,
     updatedAt: (p.updated_at as string) ?? new Date().toISOString(),
+    ...(Array.isArray(p.specs) && p.specs.length
+      ? { specs: p.specs as { label: string; value: string; note?: string }[] }
+      : {}),
+    ...(Array.isArray(p.faqs) && p.faqs.length
+      ? { faqs: p.faqs as { q: string; a: string }[] }
+      : {}),
   };
 }
 

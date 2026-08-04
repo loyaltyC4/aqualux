@@ -135,7 +135,17 @@ export type ShopifyProduct = {
   seo: SEO;
   tags: string[];
   updatedAt: string;
+  /**
+   * Optional structured extras, populated from the static catalog only.
+   * Both come from verified supplier data (see data/products.json) and are
+   * absent on any SKU that has not been through spec verification yet, so
+   * every consumer must treat them as optional rather than assume the shape.
+   */
+  specs?: ProductSpec[];
+  faqs?: ProductFaq[];
 };
+export type ProductSpec = { label: string; value: string; note?: string };
+export type ProductFaq = { q: string; a: string };
 
 export type ShopifyCartOperation = {
   data: {

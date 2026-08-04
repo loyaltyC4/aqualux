@@ -292,13 +292,13 @@
     },
     {
       "id": 7000000003,
-      "handle": "aurora-24-7-planted-tank-led-20in",
-      "title": "Aurora 24/7 Planted Tank LED - 20in",
-      "body_html": "<p>Slim four-row LED bar for planted tanks. Blue-white, full-white and tri-colour modes for algae blooms and daily viewing.</p><ul><li><strong>Function:</strong> timer-capable, tri-colour adjustable</li><li><strong>Power:</strong> 24W</li><li><strong>Material:</strong> PVC</li><li><strong>Weight:</strong> 0.2kg</li><li><strong>Plug:</strong> EU plug, US plug</li></ul>",
+      "handle": "aurora-48-planted-tank-led",
+      "title": "Aurora 48 Planted Tank LED Bar",
+      "body_html": "<p>A 20W full-spectrum LED bar for planted freshwater tanks between 48 and 58 cm wide (19&ndash;23 in). Forty LEDs &mdash; thirty daylight white and ten actinic blue &mdash; on a retractable bracket, running 90&ndash;260V so the same unit works on Australian and US mains.</p>\n<ul>\n<li><strong>It fits the tank you already own.</strong> The bracket slides 10 cm, so one bar covers 48&ndash;58 cm of rim. Measure the outside width of the rim, not the water line, and check it against the range before ordering.</li>\n<li><strong>One unit, either country.</strong> 90&ndash;260V universal input. No transformer and no voltage-specific variant to get wrong &mdash; only the plug head differs.</li>\n<li><strong>Three modes on an inline switch.</strong> All-white for viewing and plant growth, blue-and-white together, or blue alone for a night tank.</li>\n<li><strong>A timer that repeats.</strong> Set the on/off time once and it repeats daily, so light stays consistent while you are away &mdash; the main defence against algae from an erratic photoperiod.</li>\n<li><strong>Slim enough to disappear.</strong> A low-profile bar that sits above the rim rather than dominating the tank, in white with translucent blue end caps.</li>\n</ul>\n<p><strong>Choosing between lengths.</strong> The series runs 18 cm to 58 cm and scales 8W to 24W. Pick by rim width rather than tank volume &mdash; a 48 cm bar on a 60 cm tank leaves the ends of the scape visibly dim.</p>",
       "vendor": "Aqualux",
       "product_type": "lighting",
       "status": "active",
-      "tags": "lighting, planted tank, aquascaping, src1688:602704953418",
+      "tags": "src1688:602704953418, planted aquarium lighting, led aquarium light, 20w, 48cm, fits 19-23in, timer, full spectrum",
       "created_at": "2026-08-01T00:00:00+00:00",
       "updated_at": "2026-08-01T00:00:00+00:00",
       "published_at": "2026-08-01T00:00:00+00:00",
@@ -345,7 +345,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000003",
-          "image_id": 9000003
+          "image_id": 9100000
         },
         {
           "id": 7500000002,
@@ -373,7 +373,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000003",
-          "image_id": 9000003
+          "image_id": 9100000
         },
         {
           "id": 7500000003,
@@ -401,54 +401,148 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000003",
-          "image_id": 9000003
+          "image_id": 9100000
         }
       ],
       "images": [
         {
-          "id": 9000003,
+          "id": 9100000,
           "product_id": 7000000003,
           "position": 1,
-          "src": "/products/aurora-24-7-planted-tank-led-20in.jpg",
+          "src": "/products/aurora-48/01-hero.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Aurora 24/7 Planted Tank LED - 20in",
+          "height": 1200,
+          "alt": "Aurora 48 planted tank LED bar, white body with blue end caps and rim brackets",
+          "variant_ids": []
+        },
+        {
+          "id": 9100001,
+          "product_id": 7000000003,
+          "position": 2,
+          "src": "/products/aurora-48/02-in-tank.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "The LED bar mounted on the rim of a planted aquarium",
+          "variant_ids": []
+        },
+        {
+          "id": 9100002,
+          "product_id": 7000000003,
+          "position": 3,
+          "src": "/products/aurora-48/03-lifestyle.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Planted aquarium lit by the Aurora 48 on a console in a living room",
+          "variant_ids": []
+        },
+        {
+          "id": 9100003,
+          "product_id": 7000000003,
+          "position": 4,
+          "src": "/products/aurora-48/04-fit.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Fit diagram: 48 cm bar with 10 cm bracket travel, fits tanks 48 to 58 cm",
+          "variant_ids": []
+        },
+        {
+          "id": 9100004,
+          "product_id": 7000000003,
+          "position": 5,
+          "src": "/products/aurora-48/05-model-range.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Model range table from 18 cm 8W to 58 cm 24W, with the 48 cm 20W model highlighted",
+          "variant_ids": []
+        },
+        {
+          "id": 9100005,
+          "product_id": 7000000003,
+          "position": 6,
+          "src": "/products/aurora-48/06-modes.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "The three light modes: white, blue and white together, and blue alone",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000003,
+        "id": 9100000,
         "product_id": 7000000003,
         "position": 1,
-        "src": "/products/aurora-24-7-planted-tank-led-20in.jpg",
+        "src": "/products/aurora-48/01-hero.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Aurora 24/7 Planted Tank LED - 20in",
+        "height": 1200,
+        "alt": "Aurora 48 planted tank LED bar, white body with blue end caps and rim brackets",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Length",
-          "20-24 in (extendable)"
-        ],
-        [
-          "Spectrum",
-          "Full RGB + 6500K white"
-        ],
-        [
-          "Power",
-          "16 W"
-        ],
-        [
-          "Modes",
-          "24/7 auto, DIY custom, manual"
-        ],
-        [
-          "Rating",
-          "IP68 waterproof"
-        ]
+      "_cat": "lighting",
+      "specs": [
+        {
+          "label": "Model",
+          "value": "SZD-B50DW"
+        },
+        {
+          "label": "Power",
+          "value": "20 W"
+        },
+        {
+          "label": "LEDs",
+          "value": "40 total — 30 white, 10 blue"
+        },
+        {
+          "label": "Bar length",
+          "value": "48 cm (18.9 in)"
+        },
+        {
+          "label": "Fits tank width",
+          "value": "48–58 cm (19–23 in)",
+          "note": "Bar length plus 10 cm of bracket travel"
+        },
+        {
+          "label": "Input voltage",
+          "value": "90–260 V universal",
+          "note": "Safe on both 110 V and 240 V mains"
+        },
+        {
+          "label": "Light modes",
+          "value": "White / blue + white / blue"
+        },
+        {
+          "label": "Timer",
+          "value": "Yes, repeating daily"
+        },
+        {
+          "label": "Mounting",
+          "value": "Retractable wire bracket, sits on the rim"
+        }
       ],
-      "_cat": "lighting"
+      "faqs": [
+        {
+          "q": "Will this fit my tank?",
+          "a": "It fits rims from 48 cm to 58 cm (19–23 in). The bar itself is 48 cm and the bracket adds up to 10 cm of travel. Measure the outside width of the rim, not the water line. If your tank is wider than 58 cm, choose the 58 cm model instead."
+        },
+        {
+          "q": "Will it work on Australian power?",
+          "a": "Electrically yes — the driver accepts 90–260 V, so 240 V Australian mains is well within range. Check the plug type on your selected option before ordering; contact us if you need a specific plug and we will confirm what we can supply."
+        },
+        {
+          "q": "Is it bright enough to grow carpeting plants?",
+          "a": "We do not publish a PAR figure for this light because the manufacturer does not provide one, and we will not invent one. What we can state is 20 W across 40 LEDs on a 48 cm bar. If you are growing demanding carpet species, treat this as a low-to-medium light and ask us before ordering."
+        },
+        {
+          "q": "Does it do a sunrise and sunset fade?",
+          "a": "No. It has a repeating on/off timer and three switchable modes, not a gradual ramp. If you specifically want dawn-to-dusk fading, this is not the right fixture."
+        },
+        {
+          "q": "Can I leave the blue light on overnight?",
+          "a": "Yes, the blue-only mode is intended for that. Bear in mind that continuous light of any colour contributes to algae, so most keepers run blue for a few evening hours rather than all night."
+        },
+        {
+          "q": "What is in the box?",
+          "a": "The light bar with both brackets fitted, and the inline switch and power lead attached. No timer plug or wall adapter is included."
+        }
+      ]
     },
     {
       "id": 7000000004,
