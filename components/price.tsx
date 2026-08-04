@@ -1,9 +1,10 @@
 import clsx from "clsx";
+import { CURRENCY } from "lib/brand";
 
 const Price = ({
   amount,
   className,
-  currencyCode = "USD",
+  currencyCode = CURRENCY,
   currencyCodeClassName,
 }: {
   amount: string;

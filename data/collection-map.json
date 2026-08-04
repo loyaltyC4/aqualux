@@ -1,6 +1,7 @@
 {
   "lighting": [
     "planted-starter-bundle-light-tools-test-kit",
+    "rgbw-55-full-spectrum-led",
     "aurora-smart-78-rgb-led",
     "aurora-48-planted-tank-led",
     "clip-on-nano-grow-light",
@@ -23,8 +24,6 @@
     "5-in-1-tank-cleaning-set"
   ],
   "hardscape": [
-    "aqua-soil-planted-substrate-9l",
-    "seiryu-stone-11lb-hardscape-box",
     "spider-wood-centrepiece-set"
   ],
   "testing": [

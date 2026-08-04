@@ -23,7 +23,17 @@ export const SOCIALS = {
 };
 
 // Revenue mechanics
-export const FREE_SHIPPING_THRESHOLD = 79;
+/**
+ * Store currency. The catalog is priced for the Australian market, where the
+ * same generic planted-tank gear retails 2-3x the Amazon US price (verified:
+ * an "Ultra-Thin LED Full Spectrum Planted Light" sells for A$180 locally
+ * against A$56 on Amazon US). Selling in AUD is what makes the store read as
+ * the cheap local option rather than a foreign site with a conversion step.
+ */
+export const CURRENCY = "AUD";
+
+/** In CURRENCY. Set above the median order so it actually lifts basket size. */
+export const FREE_SHIPPING_THRESHOLD = 99;
 export const WELCOME_DISCOUNT_CODE = "SCAPE10";
 export const WELCOME_DISCOUNT_LABEL = "10% off your first order";
 

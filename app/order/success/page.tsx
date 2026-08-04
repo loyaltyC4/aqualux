@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export const dynamic = "force-dynamic";
 
-function money(amount: number | null, currency = "USD") {
+function money(amount: number | null, currency = "AUD") {
   if (amount == null) return "";
   return new Intl.NumberFormat("en-US", {
     style: "currency",

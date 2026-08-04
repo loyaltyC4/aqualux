@@ -7,7 +7,7 @@ import MobileMenu from "./mobile-menu";
 import Search, { SearchSkeleton } from "./search";
 
 const ANNOUNCEMENTS = [
-  "Free shipping over $79",
+  "Free shipping over $99",
   "Curated, not mass-listed",
   "Worldwide shipping",
   "30-day returns",

@@ -20,6 +20,7 @@ const collectionMap: Record<
   string[]
 > = require("../../data/collection-map.json");
 
+import { CURRENCY } from "lib/brand";
 import type { Collection, Product } from "./types";
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -145,7 +146,7 @@ function restProductToProduct(p: any): Product {
       title: v.title as string,
       availableForSale: v.available !== false,
       selectedOptions,
-      price: { amount: (v.price as string) ?? "0.00", currencyCode: "USD" },
+      price: { amount: (v.price as string) ?? "0.00", currencyCode: CURRENCY },
       sku: (v.sku as string) ?? "",
       compareAtPrice: (v.compare_at_price as string) ?? null,
     };
@@ -182,8 +183,8 @@ function restProductToProduct(p: any): Product {
       values: (o.values as string[]) ?? [],
     })),
     priceRange: {
-      minVariantPrice: { amount: minPrice.toFixed(2), currencyCode: "USD" },
-      maxVariantPrice: { amount: maxPrice.toFixed(2), currencyCode: "USD" },
+      minVariantPrice: { amount: minPrice.toFixed(2), currencyCode: CURRENCY },
+      maxVariantPrice: { amount: maxPrice.toFixed(2), currencyCode: CURRENCY },
     },
     variants,
     featuredImage: images[0] ?? { url: "", altText: "", width: 0, height: 0 },

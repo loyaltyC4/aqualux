@@ -112,7 +112,7 @@ export async function POST(req: NextRequest) {
     line_items.push({
       quantity: Math.max(1, Math.min(99, Number(l.quantity) || 1)),
       price_data: {
-        currency: "usd",
+        currency: "aud",
         unit_amount,
         product_data: {
           name: name.slice(0, 250),
@@ -143,7 +143,7 @@ export async function POST(req: NextRequest) {
     ? {
         shipping_rate_data: {
           type: "fixed_amount" as const,
-          fixed_amount: { amount: 0, currency: "usd" },
+          fixed_amount: { amount: 0, currency: "aud" },
           display_name: "Free shipping",
           delivery_estimate: {
             minimum: { unit: "business_day" as const, value: 3 },
@@ -154,7 +154,7 @@ export async function POST(req: NextRequest) {
     : {
         shipping_rate_data: {
           type: "fixed_amount" as const,
-          fixed_amount: { amount: 495, currency: "usd" },
+          fixed_amount: { amount: 995, currency: "aud" },
           display_name: "Standard shipping",
           delivery_estimate: {
             minimum: { unit: "business_day" as const, value: 3 },
@@ -176,7 +176,7 @@ export async function POST(req: NextRequest) {
         {
           shipping_rate_data: {
             type: "fixed_amount",
-            fixed_amount: { amount: 1295, currency: "usd" },
+            fixed_amount: { amount: 1995, currency: "aud" },
             display_name: "Express shipping",
             delivery_estimate: {
               minimum: { unit: "business_day", value: 1 },

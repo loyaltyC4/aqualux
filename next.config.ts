@@ -59,6 +59,19 @@ export default {
         destination: "/search/hardscape",
         permanent: true,
       },
+      {
+        // Withdrawn: 5kg/6kg goods where CN->AU freight ($58.80/$69.50) exceeds
+        // the entire AU market price. Heavy substrate and stone cannot be
+        // dropshipped from China at any price.
+        source: "/product/seiryu-stone-11lb-hardscape-box",
+        destination: "/search/hardscape",
+        permanent: true,
+      },
+      {
+        source: "/product/aqua-soil-planted-substrate-9l",
+        destination: "/search/hardscape",
+        permanent: true,
+      },
     ];
   },
   images: {
