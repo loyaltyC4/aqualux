@@ -53,29 +53,29 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-          "image_id": 9000000
+          "image_id": 9600000
         }
       ],
       "images": [
         {
-          "id": 9000000,
+          "id": 9600000,
           "product_id": 7000000000,
           "position": 1,
           "src": "/products/planted-starter-bundle-light-tools-test-kit/01.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Planted Starter Bundle — Light, Tools, Test Kit — shown: the included aurora 48 planted tank led",
+          "alt": "Planted Starter Bundle — Light, Tools, Test Kit",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000000,
+        "id": 9600000,
         "product_id": 7000000000,
         "position": 1,
         "src": "/products/planted-starter-bundle-light-tools-test-kit/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Planted Starter Bundle — Light, Tools, Test Kit — shown: the included aurora 48 planted tank led",
+        "alt": "Planted Starter Bundle — Light, Tools, Test Kit",
         "variant_ids": []
       },
       "_cat": "lighting",
@@ -143,29 +143,29 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000001",
-          "image_id": 9000001
+          "image_id": 9600020
         }
       ],
       "images": [
         {
-          "id": 9000001,
+          "id": 9600020,
           "product_id": 7000000001,
           "position": 1,
           "src": "/products/co2-starter-bundle-regulator-diffuser-checker/01.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker — shown: the included dual gauge regulator solenoid",
+          "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000001,
+        "id": 9600020,
         "product_id": 7000000001,
         "position": 1,
         "src": "/products/co2-starter-bundle-regulator-diffuser-checker/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker — shown: the included dual gauge regulator solenoid",
+        "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker",
         "variant_ids": []
       },
       "_cat": "co2",
@@ -234,12 +234,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000002",
-          "image_id": 9200000
+          "image_id": 9600040
         }
       ],
       "images": [
         {
-          "id": 9200000,
+          "id": 9600040,
           "product_id": 7000000002,
           "position": 1,
           "src": "/products/aurora-smart-78-rgb-led/01.jpg",
@@ -249,38 +249,38 @@
           "variant_ids": []
         },
         {
-          "id": 9200000,
+          "id": 9600041,
           "product_id": 7000000002,
           "position": 2,
-          "src": "/products/aurora-78/01-hero.jpg",
+          "src": "/products/aurora-smart-78-rgb-led/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Aurora Smart 78 RGB LED bar in black aluminium with rim brackets",
+          "alt": "Aurora Smart 78 — RGB App-Controlled LED — view 2",
           "variant_ids": []
         },
         {
-          "id": 9200001,
+          "id": 9600042,
           "product_id": 7000000002,
           "position": 3,
-          "src": "/products/aurora-78/02-model-range.jpg",
+          "src": "/products/aurora-smart-78-rgb-led/03.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Output for every length from 18 cm 9.1 W to 98 cm 37 W",
+          "alt": "Aurora Smart 78 — RGB App-Controlled LED — view 3",
           "variant_ids": []
         },
         {
-          "id": 9200002,
+          "id": 9600043,
           "product_id": 7000000002,
           "position": 4,
-          "src": "/products/aurora-78/03-fit.jpg",
+          "src": "/products/aurora-smart-78-rgb-led/04.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Low bracket suits tanks 70 to 80 cm, high bracket 80 to 95 cm",
+          "alt": "Aurora Smart 78 — RGB App-Controlled LED — view 4",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9200000,
+        "id": 9600040,
         "product_id": 7000000002,
         "position": 1,
         "src": "/products/aurora-smart-78-rgb-led/01.jpg",
@@ -412,7 +412,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000003",
-          "image_id": 9100000
+          "image_id": 9600060
         },
         {
           "id": 7500000002,
@@ -440,7 +440,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000003",
-          "image_id": 9100000
+          "image_id": 9600060
         },
         {
           "id": 7500000003,
@@ -468,12 +468,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000003",
-          "image_id": 9100000
+          "image_id": 9600060
         }
       ],
       "images": [
         {
-          "id": 9100000,
+          "id": 9600060,
           "product_id": 7000000003,
           "position": 1,
           "src": "/products/aurora-48-planted-tank-led/01.jpg",
@@ -483,68 +483,38 @@
           "variant_ids": []
         },
         {
-          "id": 9100000,
+          "id": 9600061,
           "product_id": 7000000003,
           "position": 2,
-          "src": "/products/aurora-48/01-hero.jpg",
+          "src": "/products/aurora-48-planted-tank-led/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Aurora 48 LED bar, white body with blue end caps, switch and lead",
+          "alt": "Aurora 48 Planted Tank LED Bar — view 2",
           "variant_ids": []
         },
         {
-          "id": 9100001,
+          "id": 9600062,
           "product_id": 7000000003,
           "position": 3,
-          "src": "/products/aurora-48/02-in-tank.jpg",
+          "src": "/products/aurora-48-planted-tank-led/03.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "The bar mounted on the rim of a planted aquarium",
+          "alt": "Aurora 48 Planted Tank LED Bar — view 3",
           "variant_ids": []
         },
         {
-          "id": 9100002,
+          "id": 9600063,
           "product_id": 7000000003,
           "position": 4,
-          "src": "/products/aurora-48/03-this-variant.jpg",
+          "src": "/products/aurora-48-planted-tank-led/04.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "The 48 cm model: 20 W, blue and white, 48+13 cm span",
-          "variant_ids": []
-        },
-        {
-          "id": 9100003,
-          "product_id": 7000000003,
-          "position": 5,
-          "src": "/products/aurora-48/04-size-range.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "All five lengths with the manufacturer's model and power table",
-          "variant_ids": []
-        },
-        {
-          "id": 9100004,
-          "product_id": 7000000003,
-          "position": 6,
-          "src": "/products/aurora-48/05-modes.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "Manufacturer spec panel with light modes",
-          "variant_ids": []
-        },
-        {
-          "id": 9100005,
-          "product_id": 7000000003,
-          "position": 7,
-          "src": "/products/aurora-48/06-bracket.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "The retractable bracket that gives the extra span",
+          "alt": "Aurora 48 Planted Tank LED Bar — view 4",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9100000,
+        "id": 9600060,
         "product_id": 7000000003,
         "position": 1,
         "src": "/products/aurora-48-planted-tank-led/01.jpg",
@@ -677,7 +647,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000004",
-          "image_id": 9300700
+          "image_id": 9600080
         },
         {
           "id": 7500000005,
@@ -705,7 +675,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000004",
-          "image_id": 9300700
+          "image_id": 9600080
         },
         {
           "id": 7500000006,
@@ -733,7 +703,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000004",
-          "image_id": 9300700
+          "image_id": 9600080
         },
         {
           "id": 7500000007,
@@ -761,12 +731,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000004",
-          "image_id": 9300700
+          "image_id": 9600080
         }
       ],
       "images": [
         {
-          "id": 9300700,
+          "id": 9600080,
           "product_id": 7000000004,
           "position": 1,
           "src": "/products/clip-on-nano-grow-light/01.jpg",
@@ -776,18 +746,48 @@
           "variant_ids": []
         },
         {
-          "id": 9300700,
+          "id": 9600081,
           "product_id": 7000000004,
           "position": 2,
-          "src": "/products/clip-light/01.jpg",
+          "src": "/products/clip-on-nano-grow-light/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Clip-on nano LED light",
+          "alt": "Clip-On Nano Grow Light — view 2",
+          "variant_ids": []
+        },
+        {
+          "id": 9600082,
+          "product_id": 7000000004,
+          "position": 3,
+          "src": "/products/clip-on-nano-grow-light/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Clip-On Nano Grow Light — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600083,
+          "product_id": 7000000004,
+          "position": 4,
+          "src": "/products/clip-on-nano-grow-light/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Clip-On Nano Grow Light — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600084,
+          "product_id": 7000000004,
+          "position": 5,
+          "src": "/products/clip-on-nano-grow-light/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Clip-On Nano Grow Light — view 5",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9300700,
+        "id": 9600080,
         "product_id": 7000000004,
         "position": 1,
         "src": "/products/clip-on-nano-grow-light/01.jpg",
@@ -867,7 +867,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000005",
-          "image_id": 9000005
+          "image_id": 9600100
         },
         {
           "id": 7500000009,
@@ -895,7 +895,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000005",
-          "image_id": 9000005
+          "image_id": 9600100
         },
         {
           "id": 7500000010,
@@ -923,12 +923,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000005",
-          "image_id": 9000005
+          "image_id": 9600100
         }
       ],
       "images": [
         {
-          "id": 9000005,
+          "id": 9600100,
           "product_id": 7000000005,
           "position": 1,
           "src": "/products/aurora-pro-rgb-bluetooth/01.jpg",
@@ -936,10 +936,40 @@
           "height": 1200,
           "alt": "Aurora Pro RGB — Bluetooth, IP68",
           "variant_ids": []
+        },
+        {
+          "id": 9600101,
+          "product_id": 7000000005,
+          "position": 2,
+          "src": "/products/aurora-pro-rgb-bluetooth/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Aurora Pro RGB — Bluetooth, IP68 — view 2",
+          "variant_ids": []
+        },
+        {
+          "id": 9600102,
+          "product_id": 7000000005,
+          "position": 3,
+          "src": "/products/aurora-pro-rgb-bluetooth/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Aurora Pro RGB — Bluetooth, IP68 — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600103,
+          "product_id": 7000000005,
+          "position": 4,
+          "src": "/products/aurora-pro-rgb-bluetooth/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Aurora Pro RGB — Bluetooth, IP68 — view 4",
+          "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000005,
+        "id": 9600100,
         "product_id": 7000000005,
         "position": 1,
         "src": "/products/aurora-pro-rgb-bluetooth/01.jpg",
@@ -1044,12 +1074,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000006",
-          "image_id": 9000006
+          "image_id": 9600120
         }
       ],
       "images": [
         {
-          "id": 9000006,
+          "id": 9600120,
           "product_id": 7000000006,
           "position": 1,
           "src": "/products/aquarium-light-timer-socket/01.jpg",
@@ -1057,10 +1087,50 @@
           "height": 1200,
           "alt": "Light Timer Socket",
           "variant_ids": []
+        },
+        {
+          "id": 9600121,
+          "product_id": 7000000006,
+          "position": 2,
+          "src": "/products/aquarium-light-timer-socket/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Light Timer Socket — view 2",
+          "variant_ids": []
+        },
+        {
+          "id": 9600122,
+          "product_id": 7000000006,
+          "position": 3,
+          "src": "/products/aquarium-light-timer-socket/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Light Timer Socket — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600123,
+          "product_id": 7000000006,
+          "position": 4,
+          "src": "/products/aquarium-light-timer-socket/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Light Timer Socket — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600124,
+          "product_id": 7000000006,
+          "position": 5,
+          "src": "/products/aquarium-light-timer-socket/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Light Timer Socket — view 5",
+          "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000006,
+        "id": 9600120,
         "product_id": 7000000006,
         "position": 1,
         "src": "/products/aquarium-light-timer-socket/01.jpg",
@@ -1159,7 +1229,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000007",
-          "image_id": 9300200
+          "image_id": 9600140
         },
         {
           "id": 7500000012,
@@ -1187,7 +1257,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000007",
-          "image_id": 9300200
+          "image_id": 9600140
         },
         {
           "id": 7500000013,
@@ -1215,12 +1285,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000007",
-          "image_id": 9300200
+          "image_id": 9600140
         }
       ],
       "images": [
         {
-          "id": 9300200,
+          "id": 9600140,
           "product_id": 7000000007,
           "position": 1,
           "src": "/products/aquascaping-tool-set-5-piece/01.jpg",
@@ -1230,48 +1300,48 @@
           "variant_ids": []
         },
         {
-          "id": 9300200,
+          "id": 9600141,
           "product_id": 7000000007,
           "position": 2,
-          "src": "/products/tool-set/01.jpg",
+          "src": "/products/aquascaping-tool-set-5-piece/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "The five-piece stainless set",
+          "alt": "Aquascaping Tool Set - 5 Piece — view 2",
           "variant_ids": []
         },
         {
-          "id": 9300201,
+          "id": 9600142,
           "product_id": 7000000007,
           "position": 3,
-          "src": "/products/tool-set/02.jpg",
+          "src": "/products/aquascaping-tool-set-5-piece/03.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Tools laid out",
+          "alt": "Aquascaping Tool Set - 5 Piece — view 3",
           "variant_ids": []
         },
         {
-          "id": 9300202,
+          "id": 9600143,
           "product_id": 7000000007,
           "position": 4,
-          "src": "/products/tool-set/03.jpg",
+          "src": "/products/aquascaping-tool-set-5-piece/04.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Scissors, spatula and tweezers",
+          "alt": "Aquascaping Tool Set - 5 Piece — view 4",
           "variant_ids": []
         },
         {
-          "id": 9300203,
+          "id": 9600144,
           "product_id": 7000000007,
           "position": 5,
-          "src": "/products/tool-set/04.jpg",
+          "src": "/products/aquascaping-tool-set-5-piece/05.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Long tweezers detail",
+          "alt": "Aquascaping Tool Set - 5 Piece — view 5",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9300200,
+        "id": 9600140,
         "product_id": 7000000007,
         "position": 1,
         "src": "/products/aquascaping-tool-set-5-piece/01.jpg",
@@ -1356,7 +1426,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000008",
-          "image_id": 9000008
+          "image_id": 9600160
         },
         {
           "id": 7500000015,
@@ -1384,12 +1454,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000008",
-          "image_id": 9000008
+          "image_id": 9600160
         }
       ],
       "images": [
         {
-          "id": 9000008,
+          "id": 9600160,
           "product_id": 7000000008,
           "position": 1,
           "src": "/products/long-reach-tweezers-30cm/01.jpg",
@@ -1397,10 +1467,50 @@
           "height": 1200,
           "alt": "Long-Reach Tweezers — 30 cm",
           "variant_ids": []
+        },
+        {
+          "id": 9600161,
+          "product_id": 7000000008,
+          "position": 2,
+          "src": "/products/long-reach-tweezers-30cm/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Long-Reach Tweezers — 30 cm — view 2",
+          "variant_ids": []
+        },
+        {
+          "id": 9600162,
+          "product_id": 7000000008,
+          "position": 3,
+          "src": "/products/long-reach-tweezers-30cm/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Long-Reach Tweezers — 30 cm — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600163,
+          "product_id": 7000000008,
+          "position": 4,
+          "src": "/products/long-reach-tweezers-30cm/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Long-Reach Tweezers — 30 cm — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600164,
+          "product_id": 7000000008,
+          "position": 5,
+          "src": "/products/long-reach-tweezers-30cm/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Long-Reach Tweezers — 30 cm — view 5",
+          "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000008,
+        "id": 9600160,
         "product_id": 7000000008,
         "position": 1,
         "src": "/products/long-reach-tweezers-30cm/01.jpg",
@@ -1487,7 +1597,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000009",
-          "image_id": 9300300
+          "image_id": 9600180
         },
         {
           "id": 7500000017,
@@ -1515,7 +1625,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000009",
-          "image_id": 9300300
+          "image_id": 9600180
         },
         {
           "id": 7500000018,
@@ -1543,12 +1653,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000009",
-          "image_id": 9300300
+          "image_id": 9600180
         }
       ],
       "images": [
         {
-          "id": 9300300,
+          "id": 9600180,
           "product_id": 7000000009,
           "position": 1,
           "src": "/products/curved-spring-scissors/01.jpg",
@@ -1558,48 +1668,48 @@
           "variant_ids": []
         },
         {
-          "id": 9300300,
+          "id": 9600181,
           "product_id": 7000000009,
           "position": 2,
-          "src": "/products/scissors/01.jpg",
+          "src": "/products/curved-spring-scissors/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Curved aquascaping scissors",
+          "alt": "Curved Spring Scissors — 25 cm — view 2",
           "variant_ids": []
         },
         {
-          "id": 9300301,
+          "id": 9600182,
           "product_id": 7000000009,
           "position": 3,
-          "src": "/products/scissors/02.jpg",
+          "src": "/products/curved-spring-scissors/03.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "The scissor range",
+          "alt": "Curved Spring Scissors — 25 cm — view 3",
           "variant_ids": []
         },
         {
-          "id": 9300302,
+          "id": 9600183,
           "product_id": 7000000009,
           "position": 4,
-          "src": "/products/scissors/03.jpg",
+          "src": "/products/curved-spring-scissors/04.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Single curved scissor",
+          "alt": "Curved Spring Scissors — 25 cm — view 4",
           "variant_ids": []
         },
         {
-          "id": 9300303,
+          "id": 9600184,
           "product_id": 7000000009,
           "position": 5,
-          "src": "/products/scissors/04.jpg",
+          "src": "/products/curved-spring-scissors/05.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Blade detail",
+          "alt": "Curved Spring Scissors — 25 cm — view 5",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9300300,
+        "id": 9600180,
         "product_id": 7000000009,
         "position": 1,
         "src": "/products/curved-spring-scissors/01.jpg",
@@ -1681,7 +1791,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000010",
-          "image_id": 9300800
+          "image_id": 9600200
         },
         {
           "id": 7500000020,
@@ -1709,7 +1819,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000010",
-          "image_id": 9300800
+          "image_id": 9600200
         },
         {
           "id": 7500000021,
@@ -1737,7 +1847,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000010",
-          "image_id": 9300800
+          "image_id": 9600200
         },
         {
           "id": 7500000022,
@@ -1765,12 +1875,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000010",
-          "image_id": 9300800
+          "image_id": 9600200
         }
       ],
       "images": [
         {
-          "id": 9300800,
+          "id": 9600200,
           "product_id": 7000000010,
           "position": 1,
           "src": "/products/magnetic-glass-cleaner-float/01.jpg",
@@ -1780,18 +1890,48 @@
           "variant_ids": []
         },
         {
-          "id": 9300800,
+          "id": 9600201,
           "product_id": 7000000010,
           "position": 2,
-          "src": "/products/mag-cleaner/01.jpg",
+          "src": "/products/magnetic-glass-cleaner-float/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Floating magnetic glass cleaner, size range",
+          "alt": "Magnetic Glass Cleaner - Float — view 2",
+          "variant_ids": []
+        },
+        {
+          "id": 9600202,
+          "product_id": 7000000010,
+          "position": 3,
+          "src": "/products/magnetic-glass-cleaner-float/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Magnetic Glass Cleaner - Float — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600203,
+          "product_id": 7000000010,
+          "position": 4,
+          "src": "/products/magnetic-glass-cleaner-float/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Magnetic Glass Cleaner - Float — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600204,
+          "product_id": 7000000010,
+          "position": 5,
+          "src": "/products/magnetic-glass-cleaner-float/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Magnetic Glass Cleaner - Float — view 5",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9300800,
+        "id": 9600200,
         "product_id": 7000000010,
         "position": 1,
         "src": "/products/magnetic-glass-cleaner-float/01.jpg",
@@ -1872,7 +2012,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000011",
-          "image_id": 9000011
+          "image_id": 9600220
         },
         {
           "id": 7500000024,
@@ -1900,7 +2040,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000011",
-          "image_id": 9000011
+          "image_id": 9600220
         },
         {
           "id": 7500000025,
@@ -1928,12 +2068,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000011",
-          "image_id": 9000011
+          "image_id": 9600220
         }
       ],
       "images": [
         {
-          "id": 9000011,
+          "id": 9600220,
           "product_id": 7000000011,
           "position": 1,
           "src": "/products/5-in-1-tank-cleaning-set/01.jpg",
@@ -1941,10 +2081,50 @@
           "height": 1200,
           "alt": "5-in-1 Tank Cleaning Set",
           "variant_ids": []
+        },
+        {
+          "id": 9600221,
+          "product_id": 7000000011,
+          "position": 2,
+          "src": "/products/5-in-1-tank-cleaning-set/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "5-in-1 Tank Cleaning Set — view 2",
+          "variant_ids": []
+        },
+        {
+          "id": 9600222,
+          "product_id": 7000000011,
+          "position": 3,
+          "src": "/products/5-in-1-tank-cleaning-set/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "5-in-1 Tank Cleaning Set — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600223,
+          "product_id": 7000000011,
+          "position": 4,
+          "src": "/products/5-in-1-tank-cleaning-set/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "5-in-1 Tank Cleaning Set — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600224,
+          "product_id": 7000000011,
+          "position": 5,
+          "src": "/products/5-in-1-tank-cleaning-set/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "5-in-1 Tank Cleaning Set — view 5",
+          "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000011,
+        "id": 9600220,
         "product_id": 7000000011,
         "position": 1,
         "src": "/products/5-in-1-tank-cleaning-set/01.jpg",
@@ -2021,7 +2201,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000012",
-          "image_id": 9000012
+          "image_id": 9600240
         },
         {
           "id": 7500000027,
@@ -2049,7 +2229,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000012",
-          "image_id": 9000012
+          "image_id": 9600240
         },
         {
           "id": 7500000028,
@@ -2077,7 +2257,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000012",
-          "image_id": 9000012
+          "image_id": 9600240
         },
         {
           "id": 7500000029,
@@ -2105,12 +2285,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000012",
-          "image_id": 9000012
+          "image_id": 9600240
         }
       ],
       "images": [
         {
-          "id": 9000012,
+          "id": 9600240,
           "product_id": 7000000012,
           "position": 1,
           "src": "/products/diy-co2-generator-kit-2l/01.jpg",
@@ -2118,10 +2298,50 @@
           "height": 1200,
           "alt": "DIY CO2 Generator Kit — 2 L Stainless",
           "variant_ids": []
+        },
+        {
+          "id": 9600241,
+          "product_id": 7000000012,
+          "position": 2,
+          "src": "/products/diy-co2-generator-kit-2l/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "DIY CO2 Generator Kit — 2 L Stainless — view 2",
+          "variant_ids": []
+        },
+        {
+          "id": 9600242,
+          "product_id": 7000000012,
+          "position": 3,
+          "src": "/products/diy-co2-generator-kit-2l/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "DIY CO2 Generator Kit — 2 L Stainless — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600243,
+          "product_id": 7000000012,
+          "position": 4,
+          "src": "/products/diy-co2-generator-kit-2l/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "DIY CO2 Generator Kit — 2 L Stainless — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600244,
+          "product_id": 7000000012,
+          "position": 5,
+          "src": "/products/diy-co2-generator-kit-2l/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "DIY CO2 Generator Kit — 2 L Stainless — view 5",
+          "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000012,
+        "id": 9600240,
         "product_id": 7000000012,
         "position": 1,
         "src": "/products/diy-co2-generator-kit-2l/01.jpg",
@@ -2225,7 +2445,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000013",
-          "image_id": 9000013
+          "image_id": 9600260
         },
         {
           "id": 7500000031,
@@ -2253,7 +2473,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000013",
-          "image_id": 9000013
+          "image_id": 9600260
         },
         {
           "id": 7500000032,
@@ -2281,12 +2501,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000013",
-          "image_id": 9000013
+          "image_id": 9600260
         }
       ],
       "images": [
         {
-          "id": 9000013,
+          "id": 9600260,
           "product_id": 7000000013,
           "position": 1,
           "src": "/products/dual-gauge-regulator-solenoid/01.jpg",
@@ -2294,10 +2514,50 @@
           "height": 1200,
           "alt": "Dual-Gauge Regulator + Solenoid",
           "variant_ids": []
+        },
+        {
+          "id": 9600261,
+          "product_id": 7000000013,
+          "position": 2,
+          "src": "/products/dual-gauge-regulator-solenoid/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Dual-Gauge Regulator + Solenoid — view 2",
+          "variant_ids": []
+        },
+        {
+          "id": 9600262,
+          "product_id": 7000000013,
+          "position": 3,
+          "src": "/products/dual-gauge-regulator-solenoid/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Dual-Gauge Regulator + Solenoid — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600263,
+          "product_id": 7000000013,
+          "position": 4,
+          "src": "/products/dual-gauge-regulator-solenoid/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Dual-Gauge Regulator + Solenoid — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600264,
+          "product_id": 7000000013,
+          "position": 5,
+          "src": "/products/dual-gauge-regulator-solenoid/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Dual-Gauge Regulator + Solenoid — view 5",
+          "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000013,
+        "id": 9600260,
         "product_id": 7000000013,
         "position": 1,
         "src": "/products/dual-gauge-regulator-solenoid/01.jpg",
@@ -2380,12 +2640,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000014",
-          "image_id": 9300600
+          "image_id": 9600280
         }
       ],
       "images": [
         {
-          "id": 9300600,
+          "id": 9600280,
           "product_id": 7000000014,
           "position": 1,
           "src": "/products/inline-atomiser-diffuser-16-22mm/01.jpg",
@@ -2395,28 +2655,48 @@
           "variant_ids": []
         },
         {
-          "id": 9300600,
+          "id": 9600281,
           "product_id": 7000000014,
           "position": 2,
-          "src": "/products/atomiser/01.jpg",
+          "src": "/products/inline-atomiser-diffuser-16-22mm/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Stainless CO2 atomiser range",
+          "alt": "Inline Atomiser Diffuser - 16/22mm — view 2",
           "variant_ids": []
         },
         {
-          "id": 9300601,
+          "id": 9600282,
           "product_id": 7000000014,
           "position": 3,
-          "src": "/products/atomiser/02.jpg",
+          "src": "/products/inline-atomiser-diffuser-16-22mm/03.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Atomiser with suction mount",
+          "alt": "Inline Atomiser Diffuser - 16/22mm — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600283,
+          "product_id": 7000000014,
+          "position": 4,
+          "src": "/products/inline-atomiser-diffuser-16-22mm/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Inline Atomiser Diffuser - 16/22mm — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600284,
+          "product_id": 7000000014,
+          "position": 5,
+          "src": "/products/inline-atomiser-diffuser-16-22mm/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Inline Atomiser Diffuser - 16/22mm — view 5",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9300600,
+        "id": 9600280,
         "product_id": 7000000014,
         "position": 1,
         "src": "/products/inline-atomiser-diffuser-16-22mm/01.jpg",
@@ -2505,7 +2785,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-          "image_id": 9300400
+          "image_id": 9600300
         },
         {
           "id": 7500000034,
@@ -2533,7 +2813,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-          "image_id": 9300400
+          "image_id": 9600300
         },
         {
           "id": 7500000035,
@@ -2561,7 +2841,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-          "image_id": 9300400
+          "image_id": 9600300
         },
         {
           "id": 7500000036,
@@ -2589,12 +2869,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-          "image_id": 9300400
+          "image_id": 9600300
         }
       ],
       "images": [
         {
-          "id": 9300400,
+          "id": 9600300,
           "product_id": 7000000015,
           "position": 1,
           "src": "/products/glass-drop-checker-4dkh-solution/01.jpg",
@@ -2604,28 +2884,48 @@
           "variant_ids": []
         },
         {
-          "id": 9300400,
+          "id": 9600301,
           "product_id": 7000000015,
           "position": 2,
-          "src": "/products/drop-checker/01.jpg",
+          "src": "/products/glass-drop-checker-4dkh-solution/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Glass drop checker",
+          "alt": "Glass Drop Checker + 4dKH Solution — view 2",
           "variant_ids": []
         },
         {
-          "id": 9300401,
+          "id": 9600302,
           "product_id": 7000000015,
           "position": 3,
-          "src": "/products/drop-checker/02.jpg",
+          "src": "/products/glass-drop-checker-4dkh-solution/03.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Drop checker dimensions, 40 by 25 mm",
+          "alt": "Glass Drop Checker + 4dKH Solution — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600303,
+          "product_id": 7000000015,
+          "position": 4,
+          "src": "/products/glass-drop-checker-4dkh-solution/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Glass Drop Checker + 4dKH Solution — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600304,
+          "product_id": 7000000015,
+          "position": 5,
+          "src": "/products/glass-drop-checker-4dkh-solution/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Glass Drop Checker + 4dKH Solution — view 5",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9300400,
+        "id": 9600300,
         "product_id": 7000000015,
         "position": 1,
         "src": "/products/glass-drop-checker-4dkh-solution/01.jpg",
@@ -2704,7 +3004,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000016",
-          "image_id": 9300500
+          "image_id": 9600320
         },
         {
           "id": 7500000038,
@@ -2732,12 +3032,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000016",
-          "image_id": 9300500
+          "image_id": 9600320
         }
       ],
       "images": [
         {
-          "id": 9300500,
+          "id": 9600320,
           "product_id": 7000000016,
           "position": 1,
           "src": "/products/bubble-counter-check-valve-set/01.jpg",
@@ -2745,50 +3045,10 @@
           "height": 1200,
           "alt": "Bubble Counter + Check Valve Set",
           "variant_ids": []
-        },
-        {
-          "id": 9300500,
-          "product_id": 7000000016,
-          "position": 2,
-          "src": "/products/bubble-counter/01.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "Glass bubble counter",
-          "variant_ids": []
-        },
-        {
-          "id": 9300501,
-          "product_id": 7000000016,
-          "position": 3,
-          "src": "/products/bubble-counter/02.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "Bubble counter body",
-          "variant_ids": []
-        },
-        {
-          "id": 9300502,
-          "product_id": 7000000016,
-          "position": 4,
-          "src": "/products/bubble-counter/03.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "Check valve detail",
-          "variant_ids": []
-        },
-        {
-          "id": 9300503,
-          "product_id": 7000000016,
-          "position": 5,
-          "src": "/products/bubble-counter/04.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "The assembled set",
-          "variant_ids": []
         }
       ],
       "image": {
-        "id": 9300500,
+        "id": 9600320,
         "product_id": 7000000016,
         "position": 1,
         "src": "/products/bubble-counter-check-valve-set/01.jpg",
@@ -2869,7 +3129,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000019",
-          "image_id": 9300100
+          "image_id": 9600340
         },
         {
           "id": 7500000042,
@@ -2897,7 +3157,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000019",
-          "image_id": 9300100
+          "image_id": 9600340
         },
         {
           "id": 7500000043,
@@ -2925,7 +3185,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000019",
-          "image_id": 9300100
+          "image_id": 9600340
         },
         {
           "id": 7500000044,
@@ -2953,12 +3213,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000019",
-          "image_id": 9300100
+          "image_id": 9600340
         }
       ],
       "images": [
         {
-          "id": 9300100,
+          "id": 9600340,
           "product_id": 7000000019,
           "position": 1,
           "src": "/products/spider-wood-centrepiece-set/01.jpg",
@@ -2968,48 +3228,38 @@
           "variant_ids": []
         },
         {
-          "id": 9300100,
+          "id": 9600341,
           "product_id": 7000000019,
           "position": 2,
-          "src": "/products/spider-wood/01.jpg",
+          "src": "/products/spider-wood-centrepiece-set/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Spider wood arranged in a planted scape",
+          "alt": "Spider Wood - Centrepiece Set — view 2",
           "variant_ids": []
         },
         {
-          "id": 9300101,
+          "id": 9600342,
           "product_id": 7000000019,
           "position": 3,
-          "src": "/products/spider-wood/02.jpg",
+          "src": "/products/spider-wood-centrepiece-set/03.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "A set of spider wood pieces",
+          "alt": "Spider Wood - Centrepiece Set — view 3",
           "variant_ids": []
         },
         {
-          "id": 9300102,
+          "id": 9600343,
           "product_id": 7000000019,
           "position": 4,
-          "src": "/products/spider-wood/03.jpg",
+          "src": "/products/spider-wood-centrepiece-set/04.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Single branching piece",
-          "variant_ids": []
-        },
-        {
-          "id": 9300103,
-          "product_id": 7000000019,
-          "position": 5,
-          "src": "/products/spider-wood/04.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "Detail of the branching form",
+          "alt": "Spider Wood - Centrepiece Set — view 4",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9300100,
+        "id": 9600340,
         "product_id": 7000000019,
         "position": 1,
         "src": "/products/spider-wood-centrepiece-set/01.jpg",
@@ -3096,7 +3346,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000022",
-          "image_id": 9000022
+          "image_id": 9600360
         },
         {
           "id": 7500000053,
@@ -3124,7 +3374,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000022",
-          "image_id": 9000022
+          "image_id": 9600360
         },
         {
           "id": 7500000054,
@@ -3152,12 +3402,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000022",
-          "image_id": 9000022
+          "image_id": 9600360
         }
       ],
       "images": [
         {
-          "id": 9000022,
+          "id": 9600360,
           "product_id": 7000000022,
           "position": 1,
           "src": "/products/digital-ph-pen-meter/01.jpg",
@@ -3165,10 +3415,50 @@
           "height": 1200,
           "alt": "Digital pH Pen Meter",
           "variant_ids": []
+        },
+        {
+          "id": 9600361,
+          "product_id": 7000000022,
+          "position": 2,
+          "src": "/products/digital-ph-pen-meter/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Digital pH Pen Meter — view 2",
+          "variant_ids": []
+        },
+        {
+          "id": 9600362,
+          "product_id": 7000000022,
+          "position": 3,
+          "src": "/products/digital-ph-pen-meter/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Digital pH Pen Meter — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600363,
+          "product_id": 7000000022,
+          "position": 4,
+          "src": "/products/digital-ph-pen-meter/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Digital pH Pen Meter — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600364,
+          "product_id": 7000000022,
+          "position": 5,
+          "src": "/products/digital-ph-pen-meter/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Digital pH Pen Meter — view 5",
+          "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000022,
+        "id": 9600360,
         "product_id": 7000000022,
         "position": 1,
         "src": "/products/digital-ph-pen-meter/01.jpg",
@@ -3268,7 +3558,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000023",
-          "image_id": 9000023
+          "image_id": 9600380
         },
         {
           "id": 7500000056,
@@ -3296,7 +3586,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000023",
-          "image_id": 9000023
+          "image_id": 9600380
         },
         {
           "id": 7500000057,
@@ -3324,7 +3614,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000023",
-          "image_id": 9000023
+          "image_id": 9600380
         },
         {
           "id": 7500000058,
@@ -3352,12 +3642,12 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000023",
-          "image_id": 9000023
+          "image_id": 9600380
         }
       ],
       "images": [
         {
-          "id": 9000023,
+          "id": 9600380,
           "product_id": 7000000023,
           "position": 1,
           "src": "/products/test-strips-9-in-1-100-count/01.jpg",
@@ -3365,10 +3655,50 @@
           "height": 1200,
           "alt": "Test Strips — 9 in 1, 100 Count",
           "variant_ids": []
+        },
+        {
+          "id": 9600381,
+          "product_id": 7000000023,
+          "position": 2,
+          "src": "/products/test-strips-9-in-1-100-count/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Test Strips — 9 in 1, 100 Count — view 2",
+          "variant_ids": []
+        },
+        {
+          "id": 9600382,
+          "product_id": 7000000023,
+          "position": 3,
+          "src": "/products/test-strips-9-in-1-100-count/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Test Strips — 9 in 1, 100 Count — view 3",
+          "variant_ids": []
+        },
+        {
+          "id": 9600383,
+          "product_id": 7000000023,
+          "position": 4,
+          "src": "/products/test-strips-9-in-1-100-count/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Test Strips — 9 in 1, 100 Count — view 4",
+          "variant_ids": []
+        },
+        {
+          "id": 9600384,
+          "product_id": 7000000023,
+          "position": 5,
+          "src": "/products/test-strips-9-in-1-100-count/05.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Test Strips — 9 in 1, 100 Count — view 5",
+          "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000023,
+        "id": 9600380,
         "product_id": 7000000023,
         "position": 1,
         "src": "/products/test-strips-9-in-1-100-count/01.jpg",
@@ -3495,12 +3825,12 @@
           "grams": 650,
           "weight": 0.65,
           "weight_unit": "kg",
-          "image_id": 9400000
+          "image_id": 9600400
         }
       ],
       "images": [
         {
-          "id": 9400000,
+          "id": 9600400,
           "product_id": 7000000099,
           "position": 1,
           "src": "/products/rgbw-55-full-spectrum-led/01.jpg",
@@ -3510,58 +3840,28 @@
           "variant_ids": []
         },
         {
-          "id": 9400000,
+          "id": 9600401,
           "product_id": 7000000099,
           "position": 2,
-          "src": "/products/rgbw-55/01.jpg",
+          "src": "/products/rgbw-55-full-spectrum-led/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "What is in the box: light bar, brackets, 28-key remote and 12V adapter",
+          "alt": "RGBW 55 Full Spectrum LED — ships from Australia — view 2",
           "variant_ids": []
         },
         {
-          "id": 9400001,
+          "id": 9600402,
           "product_id": 7000000099,
           "position": 3,
-          "src": "/products/rgbw-55/02.jpg",
+          "src": "/products/rgbw-55-full-spectrum-led/03.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Dimensions: 40 cm bar extending to 55 cm with brackets",
-          "variant_ids": []
-        },
-        {
-          "id": 9400002,
-          "product_id": 7000000099,
-          "position": 4,
-          "src": "/products/rgbw-55/03.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "66 RGBW LEDs, full spectrum, 24 hour timer",
-          "variant_ids": []
-        },
-        {
-          "id": 9400003,
-          "product_id": 7000000099,
-          "position": 5,
-          "src": "/products/rgbw-55/04.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "The 28-key remote and what each control does",
-          "variant_ids": []
-        },
-        {
-          "id": 9400004,
-          "product_id": 7000000099,
-          "position": 6,
-          "src": "/products/rgbw-55/05.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "Adjustable extendable brackets",
+          "alt": "RGBW 55 Full Spectrum LED — ships from Australia — view 3",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9400000,
+        "id": 9600400,
         "product_id": 7000000099,
         "position": 1,
         "src": "/products/rgbw-55-full-spectrum-led/01.jpg",
