@@ -1,4 +1,5 @@
 import Footer from "components/layout/footer";
+import { FaqList } from "components/faq-list";
 import { Gallery } from "components/product/gallery";
 import { ProductDescription } from "components/product/product-description";
 import Prose from "components/prose";
@@ -77,6 +78,8 @@ export default async function ProductPage(props: {
   // SKU is sourced from, which is useful inside the catalog and must never
   // reach the storefront: publishing it hands competitors the exact supplier.
   const publicTags = product.tags.filter((t) => !t.startsWith("src1688:"));
+  const specs = product.specs ?? [];
+  const faqs = product.faqs ?? [];
 
   const collectionHandle = await getProductCollection(product.handle);
   const collectionMeta = COLLECTIONS.find((c) => c.handle === collectionHandle);
@@ -228,21 +231,46 @@ export default async function ProductPage(props: {
                 </p>
               )}
             </div>
-            {publicTags.length > 0 && (
+            {(specs.length > 0 || publicTags.length > 0) && (
               <div>
                 <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.16em] text-neutral-400">
-                  Specs &amp; tags
+                  Specifications
                 </h3>
-                <div className="flex flex-wrap gap-2">
-                  {publicTags.slice(0, 12).map((t) => (
-                    <span
-                      key={t}
-                      className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-neutral-300"
-                    >
-                      {t}
-                    </span>
-                  ))}
-                </div>
+                {specs.length > 0 ? (
+                  <dl className="text-sm">
+                    {specs.map((s) => (
+                      <div
+                        key={s.label}
+                        className="border-b border-white/10 py-2.5"
+                      >
+                        <div className="flex justify-between gap-4">
+                          <dt className="shrink-0 text-neutral-500">
+                            {s.label}
+                          </dt>
+                          <dd className="text-right font-medium text-neutral-100 tabular-nums">
+                            {s.value}
+                          </dd>
+                        </div>
+                        {s.note ? (
+                          <p className="mt-1 text-right text-xs text-neutral-500">
+                            {s.note}
+                          </p>
+                        ) : null}
+                      </div>
+                    ))}
+                  </dl>
+                ) : (
+                  <div className="flex flex-wrap gap-2">
+                    {publicTags.slice(0, 12).map((t) => (
+                      <span
+                        key={t}
+                        className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-neutral-300"
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                )}
                 <dl className="mt-6 space-y-2 text-sm">
                   {collectionMeta ? (
                     <div className="flex justify-between border-b border-white/10 py-2">
@@ -252,9 +280,21 @@ export default async function ProductPage(props: {
                       </dd>
                     </div>
                   ) : null}
+                  {/* Deliberately no dispatch estimate here. The previous
+                     hardcoded "1-2 business days" was not achievable on the
+                     current fulfilment route and the same string rendered on
+                     every product. Shipping timings live on one page so they
+                     can be corrected in one place. */}
                   <div className="flex justify-between border-b border-white/10 py-2">
-                    <dt className="text-neutral-500">Dispatch</dt>
-                    <dd className="text-neutral-200">1-2 business days</dd>
+                    <dt className="text-neutral-500">Shipping</dt>
+                    <dd>
+                      <Link
+                        href="/shipping-returns"
+                        className="text-neutral-200 underline decoration-white/30 underline-offset-2 hover:text-[#f2a93b]"
+                      >
+                        See delivery times
+                      </Link>
+                    </dd>
                   </div>
                   <div className="flex justify-between border-b border-white/10 py-2">
                     <dt className="text-neutral-500">Returns</dt>
@@ -263,6 +303,15 @@ export default async function ProductPage(props: {
                 </dl>
               </div>
             )}
+          </div>
+        )}
+
+        {faqs.length > 0 && (
+          <div className="mt-10 rounded-3xl border border-white/10 bg-[#0d1618] p-6 md:p-10">
+            <h2 className="mb-6 text-xl font-semibold">
+              Questions about this light
+            </h2>
+            <FaqList items={faqs} />
           </div>
         )}
 
