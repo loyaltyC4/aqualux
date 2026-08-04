@@ -14,6 +14,16 @@ export default {
         destination: "/product/aurora-48-planted-tank-led",
         permanent: true,
       },
+      {
+        source: "/product/aurora-24-7-planted-tank-led-30in",
+        destination: "/product/aurora-smart-58-rgb-led",
+        permanent: true,
+      },
+      {
+        source: "/product/aurora-pro-42w-36-48in",
+        destination: "/product/aurora-pro-rgb-bluetooth",
+        permanent: true,
+      },
     ];
   },
   images: {

@@ -78,20 +78,6 @@
         "alt": "Planted Starter Bundle - Light + Tools + Test Kit",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Includes",
-          "Aurora 20in LED, 5-pc tool set, master test kit"
-        ],
-        [
-          "Saves",
-          "$42 vs buying separately"
-        ],
-        [
-          "Best for",
-          "First planted tank"
-        ]
-      ],
       "_cat": "lighting"
     },
     {
@@ -172,31 +158,17 @@
         "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Includes",
-          "Regulator + solenoid, inline atomiser, drop checker"
-        ],
-        [
-          "Saves",
-          "$40 vs buying separately"
-        ],
-        [
-          "Note",
-          "Cylinder not included"
-        ]
-      ],
       "_cat": "co2"
     },
     {
       "id": 7000000002,
-      "handle": "aurora-24-7-planted-tank-led-30in",
-      "title": "Aurora 24/7 Planted Tank LED - 30in",
-      "body_html": "<p>Full-spectrum RGB LED bar for planted tanks. App-controlled 24/7 sunrise-to-sunset cycle and adjustable spectrum for red pigmentation and dense growth.</p><ul><li><strong>Function:</strong> waterproof, energy efficient, aquascape, app-controlled, grow lighting, full-spectrum</li><li><strong>Power:</strong> 9.6W</li><li><strong>Material:</strong> aluminium alloy</li><li><strong>Weight:</strong> 0.5-1.5kg</li></ul>",
+      "handle": "aurora-smart-58-rgb-led",
+      "title": "Aurora Smart 58 — RGB App-Controlled LED",
+      "body_html": "<p>A 24W RGB LED bar for planted freshwater tanks, controlled from your phone. 3150 lumens at CRI 90, across a 58&nbsp;cm span, with two bracket heights in the box so one light covers tanks from 50&nbsp;cm to 70&nbsp;cm tall.</p>\n<ul>\n<li><strong>Full colour, set from your phone.</strong> RGB mixing across the whole spectrum, adjusted in an app rather than by cycling a button on the cord.</li>\n<li><strong>Colour you can actually judge plants by.</strong> CRI 90Ra means greens read as greens. Cheap aquarium LEDs typically sit in the 70s and make a planted tank look flat and grey.</li>\n<li><strong>3150 lumens over 58&nbsp;cm.</strong> Enough for medium-light stems and most carpets at this span. The full output figure for every length in the series is in the gallery.</li>\n<li><strong>Two bracket heights included.</strong> Short legs for tanks 50&ndash;60&nbsp;cm tall, tall legs for 60&ndash;70&nbsp;cm. No second purchase, no shimming.</li>\n<li><strong>Aluminium body, IP44 splash rated.</strong> Rated for the splashes and condensation of an open-top tank &mdash; not for submersion.</li>\n</ul>\n<p><strong>Choosing a length.</strong> The series runs 18&nbsp;cm to 58&nbsp;cm and 9.1W to 24W. Match the bar to the width of your tank and the bracket to its height &mdash; both tables are in the gallery.</p>",
       "vendor": "Aqualux",
       "product_type": "lighting",
       "status": "active",
-      "tags": "lighting, planted tank, aquascaping, src1688:773685434480",
+      "tags": "src1688:773685434480, planted aquarium lighting, rgb aquarium light, app controlled, 24w, 58cm, cri 90",
       "created_at": "2026-08-01T00:00:00+00:00",
       "updated_at": "2026-08-01T00:00:00+00:00",
       "published_at": "2026-08-01T00:00:00+00:00",
@@ -241,54 +213,136 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000002",
-          "image_id": 9000002
+          "image_id": 9200000
         }
       ],
       "images": [
         {
-          "id": 9000002,
+          "id": 9200000,
           "product_id": 7000000002,
           "position": 1,
-          "src": "/products/aurora-24-7-planted-tank-led-30in.jpg",
+          "src": "/products/aurora-58/01-hero.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Aurora 24/7 Planted Tank LED - 30in",
+          "height": 1200,
+          "alt": "Aurora Smart 58 RGB LED bar in black aluminium with rim brackets",
+          "variant_ids": []
+        },
+        {
+          "id": 9200001,
+          "product_id": 7000000002,
+          "position": 2,
+          "src": "/products/aurora-58/02-lifestyle.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "The Aurora Smart 58 lighting a planted aquarium, colour set from a phone",
+          "variant_ids": []
+        },
+        {
+          "id": 9200002,
+          "product_id": 7000000002,
+          "position": 3,
+          "src": "/products/aurora-58/03-model-range.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Output and tank fit for every length from 18 cm 9.1 W to 58 cm 24 W",
+          "variant_ids": []
+        },
+        {
+          "id": 9200003,
+          "product_id": 7000000002,
+          "position": 4,
+          "src": "/products/aurora-58/04-brackets.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Low bracket fits tanks 50 to 60 cm tall, high bracket 60 to 70 cm",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000002,
+        "id": 9200000,
         "product_id": 7000000002,
         "position": 1,
-        "src": "/products/aurora-24-7-planted-tank-led-30in.jpg",
+        "src": "/products/aurora-58/01-hero.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Aurora 24/7 Planted Tank LED - 30in",
+        "height": 1200,
+        "alt": "Aurora Smart 58 RGB LED bar in black aluminium with rim brackets",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Length",
-          "30-36 in (extendable)"
-        ],
-        [
-          "Spectrum",
-          "Full RGB + 6500K white"
-        ],
-        [
-          "Power",
-          "24 W"
-        ],
-        [
-          "Modes",
-          "24/7 auto, DIY custom, manual"
-        ],
-        [
-          "Rating",
-          "IP68 waterproof"
-        ]
+      "_cat": "lighting",
+      "specs": [
+        {
+          "label": "Model",
+          "value": "RX-AD"
+        },
+        {
+          "label": "Power",
+          "value": "24 W"
+        },
+        {
+          "label": "Output",
+          "value": "3150 lm"
+        },
+        {
+          "label": "Colour rendering",
+          "value": "CRI 90Ra"
+        },
+        {
+          "label": "Bar length",
+          "value": "58 cm (22.8 in)"
+        },
+        {
+          "label": "Fits tank height",
+          "value": "50–70 cm (20–28 in)",
+          "note": "50–60 cm on the low bracket, 60–70 cm on the high bracket"
+        },
+        {
+          "label": "Control",
+          "value": "RGB, phone app"
+        },
+        {
+          "label": "Water rating",
+          "value": "IP44 splash resistant",
+          "note": "Not submersible"
+        },
+        {
+          "label": "Diodes",
+          "value": "5054 + 5730"
+        },
+        {
+          "label": "Body",
+          "value": "Aluminium alloy"
+        },
+        {
+          "label": "Lead length",
+          "value": "2 m"
+        }
       ],
-      "_cat": "lighting"
+      "faqs": [
+        {
+          "q": "What size tank does this suit?",
+          "a": "The bar is 58 cm long, so it suits tanks around 58–70 cm wide. Height matters too: the low bracket fits tanks 50–60 cm tall and the high bracket 60–70 cm. Both brackets are included."
+        },
+        {
+          "q": "Is 3150 lumens enough for carpeting plants?",
+          "a": "For most carpets at this span, yes — 3150 lm at CRI 90 over 58 cm is a solid medium light. We do not publish a PAR figure because the manufacturer does not measure one, and we will not estimate it. If you are growing something genuinely demanding, ask us first."
+        },
+        {
+          "q": "How is the colour controlled?",
+          "a": "Through a phone app over the light's own wireless link. You set the RGB mix and save it; the fixture keeps that setting."
+        },
+        {
+          "q": "Can it get wet?",
+          "a": "It is IP44 rated, which covers splashing and the condensation of an open-top tank. It is not submersible and should not be dunked or sprayed directly."
+        },
+        {
+          "q": "Does it do a sunrise and sunset ramp?",
+          "a": "The manufacturer does not document a scheduled ramp for this model, so we do not claim one. What is confirmed is app-based colour and brightness control."
+        },
+        {
+          "q": "What is in the box?",
+          "a": "The light bar, both sets of brackets (short and tall), and a 2 m power lead."
+        }
+      ]
     },
     {
       "id": 7000000003,
@@ -709,34 +763,12 @@
         "alt": "Clip-On Nano Grow Light",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Fits",
-          "Rimless or rimmed, up to 16 in"
-        ],
-        [
-          "Spectrum",
-          "6500K full spectrum"
-        ],
-        [
-          "Power",
-          "10 W"
-        ],
-        [
-          "Timer",
-          "3 / 9 / 12 hr auto"
-        ],
-        [
-          "Arm",
-          "Flexible gooseneck"
-        ]
-      ],
       "_cat": "lighting"
     },
     {
       "id": 7000000005,
-      "handle": "aurora-pro-42w-36-48in",
-      "title": "Aurora Pro 42W - 36-48in",
+      "handle": "aurora-pro-rgb-bluetooth",
+      "title": "Aurora Pro RGB — Bluetooth, IP68",
       "body_html": "<p>Higher-output RGB LED bar for larger planted tanks and paludariums. Extendable brackets fit 90-120cm rims.</p><ul><li><strong>Function:</strong> full-spectrum</li><li><strong>Power:</strong> 50W</li><li><strong>Material:</strong> aluminium alloy</li><li><strong>Weight:</strong> 0.28-1.65kg</li><li><strong>Plug:</strong> US plug, EU plug, AU plug, UK plug</li></ul>",
       "vendor": "Aqualux",
       "product_type": "lighting",
@@ -855,7 +887,7 @@
           "src": "/products/aurora-pro-42w-36-48in.jpg",
           "width": 1200,
           "height": 900,
-          "alt": "Aurora Pro 42W - 36-48in",
+          "alt": "Aurora Pro RGB aquarium LED bar, Bluetooth app controlled, IP68",
           "variant_ids": []
         }
       ],
@@ -866,32 +898,51 @@
         "src": "/products/aurora-pro-42w-36-48in.jpg",
         "width": 1200,
         "height": 900,
-        "alt": "Aurora Pro 42W - 36-48in",
+        "alt": "Aurora Pro RGB aquarium LED bar, Bluetooth app controlled, IP68",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Length",
-          "36-48 in (extendable)"
-        ],
-        [
-          "Spectrum",
-          "Full RGB + 6500K white"
-        ],
-        [
-          "Power",
-          "42 W"
-        ],
-        [
-          "Modes",
-          "24/7 auto, DIY custom"
-        ],
-        [
-          "Rating",
-          "IP68 waterproof"
-        ]
+      "_cat": "lighting",
+      "specs": [
+        {
+          "label": "Brand",
+          "value": "Bright Leopard"
+        },
+        {
+          "label": "Control",
+          "value": "Bluetooth app, RGB"
+        },
+        {
+          "label": "Spectrum",
+          "value": "Full spectrum"
+        },
+        {
+          "label": "Colour rendering",
+          "value": "CRI 90.6"
+        },
+        {
+          "label": "Water rating",
+          "value": "IP68, silicone sealed"
+        },
+        {
+          "label": "Body",
+          "value": "Aluminium alloy"
+        },
+        {
+          "label": "Plug options",
+          "value": "AU, US, UK, EU"
+        },
+        {
+          "label": "Power",
+          "value": "Not published per length",
+          "note": "Supplier lists 50 W for the series but gives no per-length figure — see FAQ"
+        }
       ],
-      "_cat": "lighting"
+      "faqs": [
+        {
+          "q": "What is the wattage?",
+          "a": "We are not stating one, because the manufacturer does not publish wattage per length for this series — only a single 50 W figure covering the whole range, which cannot be true of both the shortest and longest bar. This listing previously said 42 W; we could not substantiate that and removed it rather than swap in another unverified number. We have asked the supplier for the per-length breakdown and will publish it when we have it."
+        }
+      ]
     },
     {
       "id": 7000000006,
@@ -971,24 +1022,6 @@
         "alt": "Sunrise Timer Controller",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Compatible",
-          "All Aurora LED bars"
-        ],
-        [
-          "Channels",
-          "4 independent"
-        ],
-        [
-          "Ramp",
-          "1-60 min sunrise/sunset"
-        ],
-        [
-          "Memory",
-          "Retains settings after power cut"
-        ]
-      ],
       "_cat": "lighting"
     },
     {
@@ -1127,28 +1160,6 @@
         "alt": "Aquascaping Tool Set - 5 Piece",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Pieces",
-          "5"
-        ],
-        [
-          "Material",
-          "304 stainless steel"
-        ],
-        [
-          "Length",
-          "10 in (25 cm)"
-        ],
-        [
-          "Finish",
-          "Matte satin, rust resistant"
-        ],
-        [
-          "Includes",
-          "Roll-up storage case"
-        ]
-      ],
       "_cat": "tools"
     },
     {
@@ -1258,24 +1269,6 @@
         "alt": "Long-Reach Tweezers - 15in",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Length",
-          "15 in (38 cm)"
-        ],
-        [
-          "Material",
-          "304 stainless steel"
-        ],
-        [
-          "Tip",
-          "Serrated, fine point"
-        ],
-        [
-          "Best for",
-          "Tanks over 18 in deep"
-        ]
-      ],
       "_cat": "tools"
     },
     {
@@ -1414,24 +1407,6 @@
         "alt": "Curved Spring Scissors",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Length",
-          "10 in (25 cm)"
-        ],
-        [
-          "Blade",
-          "Curved, spring return"
-        ],
-        [
-          "Material",
-          "304 stainless steel"
-        ],
-        [
-          "Best for",
-          "Carpet and stem trimming"
-        ]
-      ],
       "_cat": "tools"
     },
     {
@@ -1599,24 +1574,6 @@
         "alt": "Magnetic Glass Cleaner - Float",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Glass thickness",
-          "Up to 12 mm"
-        ],
-        [
-          "Floats",
-          "Yes, self-surfacing"
-        ],
-        [
-          "Blade",
-          "Detachable scraper"
-        ],
-        [
-          "Grip",
-          "Non-scratch felt pad"
-        ]
-      ],
       "_cat": "tools"
     },
     {
@@ -1755,24 +1712,6 @@
         "alt": "5-in-1 Tank Cleaning Set",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Handle",
-          "Telescoping, 15-31 in"
-        ],
-        [
-          "Heads",
-          "6 interchangeable"
-        ],
-        [
-          "Material",
-          "Stainless + ABS"
-        ],
-        [
-          "Storage",
-          "Hanging loop"
-        ]
-      ],
       "_cat": "tools"
     },
     {
@@ -1940,24 +1879,6 @@
         "alt": "Desktop CO2 System - Complete",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Regulator",
-          "Dual-gauge, integrated solenoid"
-        ],
-        [
-          "Fitting",
-          "CGA320 + paintball adapter"
-        ],
-        [
-          "Includes",
-          "Bubble counter, check valve, diffuser, 3 m tubing"
-        ],
-        [
-          "Note",
-          "Cylinder not included, source locally"
-        ]
-      ],
       "_cat": "co2"
     },
     {
@@ -2096,24 +2017,6 @@
         "alt": "Dual-Gauge Regulator + Solenoid",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Gauges",
-          "Working + cylinder pressure"
-        ],
-        [
-          "Solenoid",
-          "110-240 V, timer-ready"
-        ],
-        [
-          "Fitting",
-          "CGA320"
-        ],
-        [
-          "Adjustment",
-          "Fine needle valve"
-        ]
-      ],
       "_cat": "co2"
     },
     {
@@ -2194,24 +2097,6 @@
         "alt": "Inline Atomiser Diffuser - 16/22mm",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Fits",
-          "16/22 mm tubing"
-        ],
-        [
-          "Body",
-          "Acrylic + ceramic core"
-        ],
-        [
-          "Position",
-          "Inline, filter return"
-        ],
-        [
-          "Working pressure",
-          "30+ psi"
-        ]
-      ],
       "_cat": "co2"
     },
     {
@@ -2379,24 +2264,6 @@
         "alt": "Glass Drop Checker + 4dKH Solution",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Reads",
-          "Green = ~30 ppm CO2"
-        ],
-        [
-          "Includes",
-          "4dKH solution + indicator"
-        ],
-        [
-          "Mount",
-          "Suction cup, in-tank"
-        ],
-        [
-          "Response",
-          "Colour shifts in 1-2 hr"
-        ]
-      ],
       "_cat": "co2"
     },
     {
@@ -2506,24 +2373,6 @@
         "alt": "Bubble Counter + Check Valve Set",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Body",
-          "Borosilicate glass"
-        ],
-        [
-          "Valve",
-          "Integrated non-return"
-        ],
-        [
-          "Fits",
-          "4/6 mm CO2 tubing"
-        ],
-        [
-          "Mount",
-          "Suction cup or inline"
-        ]
-      ],
       "_cat": "co2"
     },
     {
@@ -2604,24 +2453,6 @@
         "alt": "Aqua Soil - Planted Substrate 9L",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Volume",
-          "9 L (approx 20 lb)"
-        ],
-        [
-          "Grain",
-          "2-4 mm"
-        ],
-        [
-          "Buffers",
-          "pH toward 6.5"
-        ],
-        [
-          "Best for",
-          "Rooted stems, carpets, shrimp"
-        ]
-      ],
       "_cat": "hardscape"
     },
     {
@@ -2731,24 +2562,6 @@
         "alt": "Seiryu Stone - 11lb Hardscape Box",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Weight",
-          "11 lb (5 kg) mixed sizes"
-        ],
-        [
-          "Pieces",
-          "5-8 per box"
-        ],
-        [
-          "Note",
-          "Raises hardness slightly"
-        ],
-        [
-          "Best for",
-          "Iwagumi, mountain scapes"
-        ]
-      ],
       "_cat": "hardscape"
     },
     {
@@ -2916,24 +2729,6 @@
         "alt": "Spider Wood - Centrepiece Set",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Pieces",
-          "3 branching pieces"
-        ],
-        [
-          "Size",
-          "8-14 in each"
-        ],
-        [
-          "Prep",
-          "Pre-soaked, low tannin"
-        ],
-        [
-          "Best for",
-          "Moss, Anubias, Bucephalandra"
-        ]
-      ],
       "_cat": "hardscape"
     },
     {
@@ -3101,24 +2896,6 @@
         "alt": "Fine White Sand - 20lb",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Weight",
-          "20 lb (9 kg)"
-        ],
-        [
-          "Grain",
-          "0.5-1 mm"
-        ],
-        [
-          "Chemistry",
-          "Inert, pH neutral"
-        ],
-        [
-          "Best for",
-          "Foreground, corydoras, contrast"
-        ]
-      ],
       "_cat": "hardscape"
     },
     {
@@ -3257,24 +3034,6 @@
         "alt": "Master Water Test Kit - 3 in 1",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Tests",
-          "pH, NH3, NO2, NO3, GH/KH"
-        ],
-        [
-          "Type",
-          "Liquid reagent"
-        ],
-        [
-          "Count",
-          "~500 tests"
-        ],
-        [
-          "Includes",
-          "Glass vials + colour card"
-        ]
-      ],
       "_cat": "testing"
     },
     {
@@ -3413,24 +3172,6 @@
         "alt": "Digital pH & TDS Meter",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Reads",
-          "pH 0-14, TDS 0-9990 ppm"
-        ],
-        [
-          "Accuracy",
-          "+/- 0.1 pH"
-        ],
-        [
-          "Calibration",
-          "Auto, solutions included"
-        ],
-        [
-          "Power",
-          "2x LR44, included"
-        ]
-      ],
       "_cat": "testing"
     },
     {
@@ -3598,24 +3339,6 @@
         "alt": "Test Strips - 9 in 1, 100 Count",
         "variant_ids": []
       },
-      "_specs": [
-        [
-          "Parameters",
-          "11"
-        ],
-        [
-          "Count",
-          "100 strips"
-        ],
-        [
-          "Read time",
-          "60 seconds"
-        ],
-        [
-          "Best for",
-          "Weekly monitoring"
-        ]
-      ],
       "_cat": "testing"
     }
   ]
