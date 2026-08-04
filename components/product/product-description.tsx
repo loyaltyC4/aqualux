@@ -18,9 +18,11 @@ export function ProductDescription({ product }: { product: Product }) {
           />
         </span>
         {product.availableForSale ? (
-          <span className="text-sm text-neutral-400">
-            In stock · ships 1-2 days
-          </span>
+          /* Stock state only. This previously read "ships 1-2 days", which was
+             not achievable on the current fulfilment route and sat next to the
+             price where it reads as a delivery promise. Delivery timings live
+             on /shipping-returns so there is one place to keep them true. */
+          <span className="text-sm text-neutral-400">In stock</span>
         ) : (
           <span className="text-sm text-red-400">Currently out of stock</span>
         )}

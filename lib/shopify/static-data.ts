@@ -24,9 +24,56 @@ import type { Collection, Product } from "./types";
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
+/**
+ * Named entities worth handling. body_html is hand-authored, so entities turn
+ * up in it routinely. The list is deliberately short - these are the ones that
+ * actually occur in product copy.
+ */
+const NAMED_ENTITIES: Record<string, string> = {
+  lt: "<",
+  gt: ">",
+  quot: '"',
+  apos: "'",
+  nbsp: " ",
+  ndash: "–",
+  mdash: "—",
+  hellip: "…",
+  lsquo: "‘",
+  rsquo: "’",
+  ldquo: "“",
+  rdquo: "”",
+  times: "×",
+  deg: "°",
+  trade: "™",
+  reg: "®",
+  copy: "©",
+};
+
+/**
+ * Decodes entities so plain-text contexts never render markup source.
+ * Without this, body_html containing "19&ndash;23 in" reached the buy-box
+ * summary and the meta description as the literal text "19&ndash;23 in",
+ * because stripHtml only removed tags. Ampersand is resolved last so a
+ * double-escaped "&amp;ndash;" ends up as "&ndash;" and not an en dash.
+ */
+function decodeEntities(text: string): string {
+  return text
+    .replace(/&#x([0-9a-fA-F]+);/g, (_m, hex: string) =>
+      String.fromCodePoint(parseInt(hex, 16)),
+    )
+    .replace(/&#(\d+);/g, (_m, dec: string) =>
+      String.fromCodePoint(parseInt(dec, 10)),
+    )
+    .replace(/&([a-zA-Z][a-zA-Z0-9]*);/g, (match: string, name: string) => {
+      const key = name.toLowerCase();
+      if (key === "amp") return match; // resolved in the final pass
+      return NAMED_ENTITIES[key] ?? match;
+    })
+    .replace(/&amp;/g, "&");
+}
+
 function stripHtml(html: string): string {
-  return html
-    .replace(/<[^>]*>/g, " ")
+  return decodeEntities(html.replace(/<[^>]*>/g, " "))
     .replace(/\s+/g, " ")
     .trim();
 }
