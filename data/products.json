@@ -4,7 +4,7 @@
       "id": 7000000000,
       "handle": "planted-starter-bundle-light-tools-test-kit",
       "title": "Planted Starter Bundle — Light, Tools, Test Kit",
-      "body_html": "<p>The three things a new planted tank actually needs, in one order: the Aurora 48 LED bar, the 5-piece scaping set, and the liquid test kit that covers a cycle.</p><ul><li><strong>Includes:</strong> Aurora 48 LED (48&nbsp;cm), 5-piece tool set, pH/ammonia/nitrite test kit</li><li><strong>Best for:</strong> a first planted tank between 48 and 58&nbsp;cm wide</li></ul>",
+      "body_html": "<p>The three things a new planted tank actually needs, in one order: the Aurora 48 LED bar, the 5-piece scaping set, and the 9-in-1 test strips.</p><ul><li><strong>Includes:</strong> Aurora 48 LED (48&nbsp;cm), 5-piece tool set, 9-in-1 test strips</li><li><strong>Best for:</strong> a first planted tank between 48 and 58&nbsp;cm wide</li></ul>",
       "vendor": "Aqualux",
       "product_type": "lighting",
       "status": "active",
@@ -61,10 +61,10 @@
           "id": 9000000,
           "product_id": 7000000000,
           "position": 1,
-          "src": "/products/planted-starter-bundle-light-tools-test-kit.jpg",
+          "src": "/products/planted-starter-bundle-light-tools-test-kit/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Planted Starter Bundle - Light + Tools + Test Kit",
+          "height": 1200,
+          "alt": "Planted Starter Bundle — Light, Tools, Test Kit",
           "variant_ids": []
         }
       ],
@@ -72,21 +72,21 @@
         "id": 9000000,
         "product_id": 7000000000,
         "position": 1,
-        "src": "/products/planted-starter-bundle-light-tools-test-kit.jpg",
+        "src": "/products/planted-starter-bundle-light-tools-test-kit/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Planted Starter Bundle - Light + Tools + Test Kit",
+        "height": 1200,
+        "alt": "Planted Starter Bundle — Light, Tools, Test Kit",
         "variant_ids": []
       },
       "_cat": "lighting",
       "specs": [
         {
           "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 3-parameter test kit"
+          "value": "Aurora 48 LED, 5-piece tool set, 9-in-1 test strips"
         },
         {
           "label": "Suits tank width",
-          "value": "48 – 58 cm"
+          "value": "48 – 61 cm"
         }
       ]
     },
@@ -151,9 +151,9 @@
           "id": 9000001,
           "product_id": 7000000001,
           "position": 1,
-          "src": "/products/co2-starter-bundle-regulator-diffuser-checker.jpg",
+          "src": "/products/co2-starter-bundle-regulator-diffuser-checker/01.jpg",
           "width": 1200,
-          "height": 900,
+          "height": 1200,
           "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker",
           "variant_ids": []
         }
@@ -162,9 +162,9 @@
         "id": 9000001,
         "product_id": 7000000001,
         "position": 1,
-        "src": "/products/co2-starter-bundle-regulator-diffuser-checker.jpg",
+        "src": "/products/co2-starter-bundle-regulator-diffuser-checker/01.jpg",
         "width": 1200,
-        "height": 900,
+        "height": 1200,
         "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker",
         "variant_ids": []
       },
@@ -242,6 +242,16 @@
           "id": 9200000,
           "product_id": 7000000002,
           "position": 1,
+          "src": "/products/aurora-smart-78-rgb-led/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Aurora Smart 78 — RGB App-Controlled LED",
+          "variant_ids": []
+        },
+        {
+          "id": 9200000,
+          "product_id": 7000000002,
+          "position": 2,
           "src": "/products/aurora-78/01-hero.jpg",
           "width": 1200,
           "height": 1200,
@@ -251,7 +261,7 @@
         {
           "id": 9200001,
           "product_id": 7000000002,
-          "position": 2,
+          "position": 3,
           "src": "/products/aurora-78/02-model-range.jpg",
           "width": 1200,
           "height": 1200,
@@ -261,7 +271,7 @@
         {
           "id": 9200002,
           "product_id": 7000000002,
-          "position": 3,
+          "position": 4,
           "src": "/products/aurora-78/03-fit.jpg",
           "width": 1200,
           "height": 1200,
@@ -273,10 +283,10 @@
         "id": 9200000,
         "product_id": 7000000002,
         "position": 1,
-        "src": "/products/aurora-78/01-hero.jpg",
+        "src": "/products/aurora-smart-78-rgb-led/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Aurora Smart 78 RGB LED bar in black aluminium with rim brackets",
+        "alt": "Aurora Smart 78 — RGB App-Controlled LED",
         "variant_ids": []
       },
       "_cat": "lighting",
@@ -466,6 +476,16 @@
           "id": 9100000,
           "product_id": 7000000003,
           "position": 1,
+          "src": "/products/aurora-48-planted-tank-led/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Aurora 48 Planted Tank LED Bar",
+          "variant_ids": []
+        },
+        {
+          "id": 9100000,
+          "product_id": 7000000003,
+          "position": 2,
           "src": "/products/aurora-48/01-hero.jpg",
           "width": 1200,
           "height": 1200,
@@ -475,7 +495,7 @@
         {
           "id": 9100001,
           "product_id": 7000000003,
-          "position": 2,
+          "position": 3,
           "src": "/products/aurora-48/02-in-tank.jpg",
           "width": 1200,
           "height": 1200,
@@ -485,7 +505,7 @@
         {
           "id": 9100002,
           "product_id": 7000000003,
-          "position": 3,
+          "position": 4,
           "src": "/products/aurora-48/03-this-variant.jpg",
           "width": 1200,
           "height": 1200,
@@ -495,7 +515,7 @@
         {
           "id": 9100003,
           "product_id": 7000000003,
-          "position": 4,
+          "position": 5,
           "src": "/products/aurora-48/04-size-range.jpg",
           "width": 1200,
           "height": 1200,
@@ -505,7 +525,7 @@
         {
           "id": 9100004,
           "product_id": 7000000003,
-          "position": 5,
+          "position": 6,
           "src": "/products/aurora-48/05-modes.jpg",
           "width": 1200,
           "height": 1200,
@@ -515,7 +535,7 @@
         {
           "id": 9100005,
           "product_id": 7000000003,
-          "position": 6,
+          "position": 7,
           "src": "/products/aurora-48/06-bracket.jpg",
           "width": 1200,
           "height": 1200,
@@ -527,10 +547,10 @@
         "id": 9100000,
         "product_id": 7000000003,
         "position": 1,
-        "src": "/products/aurora-48/01-hero.jpg",
+        "src": "/products/aurora-48-planted-tank-led/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Aurora 48 LED bar, white body with blue end caps, switch and lead",
+        "alt": "Aurora 48 Planted Tank LED Bar",
         "variant_ids": []
       },
       "_cat": "lighting",
@@ -749,6 +769,16 @@
           "id": 9300700,
           "product_id": 7000000004,
           "position": 1,
+          "src": "/products/clip-on-nano-grow-light/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Clip-On Nano Grow Light",
+          "variant_ids": []
+        },
+        {
+          "id": 9300700,
+          "product_id": 7000000004,
+          "position": 2,
           "src": "/products/clip-light/01.jpg",
           "width": 1200,
           "height": 1200,
@@ -760,10 +790,10 @@
         "id": 9300700,
         "product_id": 7000000004,
         "position": 1,
-        "src": "/products/clip-light/01.jpg",
+        "src": "/products/clip-on-nano-grow-light/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Clip-on nano LED light",
+        "alt": "Clip-On Nano Grow Light",
         "variant_ids": []
       },
       "_cat": "lighting",
@@ -901,10 +931,10 @@
           "id": 9000005,
           "product_id": 7000000005,
           "position": 1,
-          "src": "/products/aurora-pro-42w-36-48in.jpg",
+          "src": "/products/aurora-pro-rgb-bluetooth/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Aurora Pro RGB aquarium LED bar, Bluetooth app controlled, IP68",
+          "height": 1200,
+          "alt": "Aurora Pro RGB — Bluetooth, IP68",
           "variant_ids": []
         }
       ],
@@ -912,10 +942,10 @@
         "id": 9000005,
         "product_id": 7000000005,
         "position": 1,
-        "src": "/products/aurora-pro-42w-36-48in.jpg",
+        "src": "/products/aurora-pro-rgb-bluetooth/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Aurora Pro RGB aquarium LED bar, Bluetooth app controlled, IP68",
+        "height": 1200,
+        "alt": "Aurora Pro RGB — Bluetooth, IP68",
         "variant_ids": []
       },
       "_cat": "lighting",
@@ -1022,9 +1052,9 @@
           "id": 9000006,
           "product_id": 7000000006,
           "position": 1,
-          "src": "/products/sunrise-timer-controller.jpg",
+          "src": "/products/aquarium-light-timer-socket/01.jpg",
           "width": 1200,
-          "height": 900,
+          "height": 1200,
           "alt": "Light Timer Socket",
           "variant_ids": []
         }
@@ -1033,9 +1063,9 @@
         "id": 9000006,
         "product_id": 7000000006,
         "position": 1,
-        "src": "/products/sunrise-timer-controller.jpg",
+        "src": "/products/aquarium-light-timer-socket/01.jpg",
         "width": 1200,
-        "height": 900,
+        "height": 1200,
         "alt": "Light Timer Socket",
         "variant_ids": []
       },
@@ -1193,6 +1223,16 @@
           "id": 9300200,
           "product_id": 7000000007,
           "position": 1,
+          "src": "/products/aquascaping-tool-set-5-piece/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Aquascaping Tool Set - 5 Piece",
+          "variant_ids": []
+        },
+        {
+          "id": 9300200,
+          "product_id": 7000000007,
+          "position": 2,
           "src": "/products/tool-set/01.jpg",
           "width": 1200,
           "height": 1200,
@@ -1202,7 +1242,7 @@
         {
           "id": 9300201,
           "product_id": 7000000007,
-          "position": 2,
+          "position": 3,
           "src": "/products/tool-set/02.jpg",
           "width": 1200,
           "height": 1200,
@@ -1212,7 +1252,7 @@
         {
           "id": 9300202,
           "product_id": 7000000007,
-          "position": 3,
+          "position": 4,
           "src": "/products/tool-set/03.jpg",
           "width": 1200,
           "height": 1200,
@@ -1222,7 +1262,7 @@
         {
           "id": 9300203,
           "product_id": 7000000007,
-          "position": 4,
+          "position": 5,
           "src": "/products/tool-set/04.jpg",
           "width": 1200,
           "height": 1200,
@@ -1234,10 +1274,10 @@
         "id": 9300200,
         "product_id": 7000000007,
         "position": 1,
-        "src": "/products/tool-set/01.jpg",
+        "src": "/products/aquascaping-tool-set-5-piece/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "The five-piece stainless set",
+        "alt": "Aquascaping Tool Set - 5 Piece",
         "variant_ids": []
       },
       "_cat": "tools",
@@ -1352,9 +1392,9 @@
           "id": 9000008,
           "product_id": 7000000008,
           "position": 1,
-          "src": "/products/long-reach-tweezers-15in.jpg",
+          "src": "/products/long-reach-tweezers-30cm/01.jpg",
           "width": 1200,
-          "height": 900,
+          "height": 1200,
           "alt": "Long-Reach Tweezers — 30 cm",
           "variant_ids": []
         }
@@ -1363,9 +1403,9 @@
         "id": 9000008,
         "product_id": 7000000008,
         "position": 1,
-        "src": "/products/long-reach-tweezers-15in.jpg",
+        "src": "/products/long-reach-tweezers-30cm/01.jpg",
         "width": 1200,
-        "height": 900,
+        "height": 1200,
         "alt": "Long-Reach Tweezers — 30 cm",
         "variant_ids": []
       },
@@ -1511,6 +1551,16 @@
           "id": 9300300,
           "product_id": 7000000009,
           "position": 1,
+          "src": "/products/curved-spring-scissors/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Curved Spring Scissors — 25 cm",
+          "variant_ids": []
+        },
+        {
+          "id": 9300300,
+          "product_id": 7000000009,
+          "position": 2,
           "src": "/products/scissors/01.jpg",
           "width": 1200,
           "height": 1200,
@@ -1520,7 +1570,7 @@
         {
           "id": 9300301,
           "product_id": 7000000009,
-          "position": 2,
+          "position": 3,
           "src": "/products/scissors/02.jpg",
           "width": 1200,
           "height": 1200,
@@ -1530,7 +1580,7 @@
         {
           "id": 9300302,
           "product_id": 7000000009,
-          "position": 3,
+          "position": 4,
           "src": "/products/scissors/03.jpg",
           "width": 1200,
           "height": 1200,
@@ -1540,7 +1590,7 @@
         {
           "id": 9300303,
           "product_id": 7000000009,
-          "position": 4,
+          "position": 5,
           "src": "/products/scissors/04.jpg",
           "width": 1200,
           "height": 1200,
@@ -1552,10 +1602,10 @@
         "id": 9300300,
         "product_id": 7000000009,
         "position": 1,
-        "src": "/products/scissors/01.jpg",
+        "src": "/products/curved-spring-scissors/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Curved aquascaping scissors",
+        "alt": "Curved Spring Scissors — 25 cm",
         "variant_ids": []
       },
       "_cat": "tools",
@@ -1723,6 +1773,16 @@
           "id": 9300800,
           "product_id": 7000000010,
           "position": 1,
+          "src": "/products/magnetic-glass-cleaner-float/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Magnetic Glass Cleaner - Float",
+          "variant_ids": []
+        },
+        {
+          "id": 9300800,
+          "product_id": 7000000010,
+          "position": 2,
           "src": "/products/mag-cleaner/01.jpg",
           "width": 1200,
           "height": 1200,
@@ -1734,10 +1794,10 @@
         "id": 9300800,
         "product_id": 7000000010,
         "position": 1,
-        "src": "/products/mag-cleaner/01.jpg",
+        "src": "/products/magnetic-glass-cleaner-float/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Floating magnetic glass cleaner, size range",
+        "alt": "Magnetic Glass Cleaner - Float",
         "variant_ids": []
       },
       "_cat": "tools",
@@ -1876,9 +1936,9 @@
           "id": 9000011,
           "product_id": 7000000011,
           "position": 1,
-          "src": "/products/5-in-1-tank-cleaning-set.jpg",
+          "src": "/products/5-in-1-tank-cleaning-set/01.jpg",
           "width": 1200,
-          "height": 900,
+          "height": 1200,
           "alt": "5-in-1 Tank Cleaning Set",
           "variant_ids": []
         }
@@ -1887,9 +1947,9 @@
         "id": 9000011,
         "product_id": 7000000011,
         "position": 1,
-        "src": "/products/5-in-1-tank-cleaning-set.jpg",
+        "src": "/products/5-in-1-tank-cleaning-set/01.jpg",
         "width": 1200,
-        "height": 900,
+        "height": 1200,
         "alt": "5-in-1 Tank Cleaning Set",
         "variant_ids": []
       },
@@ -2053,9 +2113,9 @@
           "id": 9000012,
           "product_id": 7000000012,
           "position": 1,
-          "src": "/products/desktop-co2-system-complete.jpg",
+          "src": "/products/diy-co2-generator-kit-2l/01.jpg",
           "width": 1200,
-          "height": 900,
+          "height": 1200,
           "alt": "DIY CO2 Generator Kit — 2 L Stainless",
           "variant_ids": []
         }
@@ -2064,9 +2124,9 @@
         "id": 9000012,
         "product_id": 7000000012,
         "position": 1,
-        "src": "/products/desktop-co2-system-complete.jpg",
+        "src": "/products/diy-co2-generator-kit-2l/01.jpg",
         "width": 1200,
-        "height": 900,
+        "height": 1200,
         "alt": "DIY CO2 Generator Kit — 2 L Stainless",
         "variant_ids": []
       },
@@ -2229,9 +2289,9 @@
           "id": 9000013,
           "product_id": 7000000013,
           "position": 1,
-          "src": "/products/dual-gauge-regulator-solenoid.jpg",
+          "src": "/products/dual-gauge-regulator-solenoid/01.jpg",
           "width": 1200,
-          "height": 900,
+          "height": 1200,
           "alt": "Dual-Gauge Regulator + Solenoid",
           "variant_ids": []
         }
@@ -2240,9 +2300,9 @@
         "id": 9000013,
         "product_id": 7000000013,
         "position": 1,
-        "src": "/products/dual-gauge-regulator-solenoid.jpg",
+        "src": "/products/dual-gauge-regulator-solenoid/01.jpg",
         "width": 1200,
-        "height": 900,
+        "height": 1200,
         "alt": "Dual-Gauge Regulator + Solenoid",
         "variant_ids": []
       },
@@ -2328,6 +2388,16 @@
           "id": 9300600,
           "product_id": 7000000014,
           "position": 1,
+          "src": "/products/inline-atomiser-diffuser-16-22mm/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Inline Atomiser Diffuser - 16/22mm",
+          "variant_ids": []
+        },
+        {
+          "id": 9300600,
+          "product_id": 7000000014,
+          "position": 2,
           "src": "/products/atomiser/01.jpg",
           "width": 1200,
           "height": 1200,
@@ -2337,7 +2407,7 @@
         {
           "id": 9300601,
           "product_id": 7000000014,
-          "position": 2,
+          "position": 3,
           "src": "/products/atomiser/02.jpg",
           "width": 1200,
           "height": 1200,
@@ -2349,10 +2419,10 @@
         "id": 9300600,
         "product_id": 7000000014,
         "position": 1,
-        "src": "/products/atomiser/01.jpg",
+        "src": "/products/inline-atomiser-diffuser-16-22mm/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Stainless CO2 atomiser range",
+        "alt": "Inline Atomiser Diffuser - 16/22mm",
         "variant_ids": []
       },
       "_cat": "co2",
@@ -2527,6 +2597,16 @@
           "id": 9300400,
           "product_id": 7000000015,
           "position": 1,
+          "src": "/products/glass-drop-checker-4dkh-solution/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Glass Drop Checker + 4dKH Solution",
+          "variant_ids": []
+        },
+        {
+          "id": 9300400,
+          "product_id": 7000000015,
+          "position": 2,
           "src": "/products/drop-checker/01.jpg",
           "width": 1200,
           "height": 1200,
@@ -2536,7 +2616,7 @@
         {
           "id": 9300401,
           "product_id": 7000000015,
-          "position": 2,
+          "position": 3,
           "src": "/products/drop-checker/02.jpg",
           "width": 1200,
           "height": 1200,
@@ -2548,10 +2628,10 @@
         "id": 9300400,
         "product_id": 7000000015,
         "position": 1,
-        "src": "/products/drop-checker/01.jpg",
+        "src": "/products/glass-drop-checker-4dkh-solution/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Glass drop checker",
+        "alt": "Glass Drop Checker + 4dKH Solution",
         "variant_ids": []
       },
       "_cat": "co2",
@@ -2660,6 +2740,16 @@
           "id": 9300500,
           "product_id": 7000000016,
           "position": 1,
+          "src": "/products/bubble-counter-check-valve-set/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Bubble Counter + Check Valve Set",
+          "variant_ids": []
+        },
+        {
+          "id": 9300500,
+          "product_id": 7000000016,
+          "position": 2,
           "src": "/products/bubble-counter/01.jpg",
           "width": 1200,
           "height": 1200,
@@ -2669,7 +2759,7 @@
         {
           "id": 9300501,
           "product_id": 7000000016,
-          "position": 2,
+          "position": 3,
           "src": "/products/bubble-counter/02.jpg",
           "width": 1200,
           "height": 1200,
@@ -2679,7 +2769,7 @@
         {
           "id": 9300502,
           "product_id": 7000000016,
-          "position": 3,
+          "position": 4,
           "src": "/products/bubble-counter/03.jpg",
           "width": 1200,
           "height": 1200,
@@ -2689,7 +2779,7 @@
         {
           "id": 9300503,
           "product_id": 7000000016,
-          "position": 4,
+          "position": 5,
           "src": "/products/bubble-counter/04.jpg",
           "width": 1200,
           "height": 1200,
@@ -2701,10 +2791,10 @@
         "id": 9300500,
         "product_id": 7000000016,
         "position": 1,
-        "src": "/products/bubble-counter/01.jpg",
+        "src": "/products/bubble-counter-check-valve-set/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Glass bubble counter",
+        "alt": "Bubble Counter + Check Valve Set",
         "variant_ids": []
       },
       "_cat": "co2",
@@ -2871,6 +2961,16 @@
           "id": 9300100,
           "product_id": 7000000019,
           "position": 1,
+          "src": "/products/spider-wood-centrepiece-set/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Spider Wood - Centrepiece Set",
+          "variant_ids": []
+        },
+        {
+          "id": 9300100,
+          "product_id": 7000000019,
+          "position": 2,
           "src": "/products/spider-wood/01.jpg",
           "width": 1200,
           "height": 1200,
@@ -2880,7 +2980,7 @@
         {
           "id": 9300101,
           "product_id": 7000000019,
-          "position": 2,
+          "position": 3,
           "src": "/products/spider-wood/02.jpg",
           "width": 1200,
           "height": 1200,
@@ -2890,7 +2990,7 @@
         {
           "id": 9300102,
           "product_id": 7000000019,
-          "position": 3,
+          "position": 4,
           "src": "/products/spider-wood/03.jpg",
           "width": 1200,
           "height": 1200,
@@ -2900,7 +3000,7 @@
         {
           "id": 9300103,
           "product_id": 7000000019,
-          "position": 4,
+          "position": 5,
           "src": "/products/spider-wood/04.jpg",
           "width": 1200,
           "height": 1200,
@@ -2912,10 +3012,10 @@
         "id": 9300100,
         "product_id": 7000000019,
         "position": 1,
-        "src": "/products/spider-wood/01.jpg",
+        "src": "/products/spider-wood-centrepiece-set/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Spider wood arranged in a planted scape",
+        "alt": "Spider Wood - Centrepiece Set",
         "variant_ids": []
       },
       "_cat": "hardscape",
@@ -2938,170 +3038,6 @@
         {
           "q": "Will it need soaking?",
           "a": "Almost certainly. Most spider wood floats until waterlogged and leaches tannins that tint the water for a few weeks. The manufacturer makes no pre-soaking claim, so assume it is untreated — boil or soak it before scaping."
-        }
-      ]
-    },
-    {
-      "id": 7000000021,
-      "handle": "master-water-test-kit-3-in-1",
-      "title": "Master Water Test Kit — pH, Ammonia, Nitrite",
-      "body_html": "<p>A liquid reagent kit covering the three parameters that actually matter while a tank is cycling: pH, ammonia and nitrite. Roughly 100 tests of each.</p>\n<ul>\n<li><strong>Liquid reagents, not strips.</strong> Slower to use and considerably more accurate, which is what you want when you are deciding whether it is safe to add fish.</li>\n<li><strong>Three parameters, ~100 tests each.</strong> About 300 tests in total.</li>\n<li><strong>Covers the cycle.</strong> Ammonia and nitrite are the two that spike and then fall as a filter matures; pH tells you whether anything has destabilised.</li>\n</ul>\n<p><strong>Not included:</strong> nitrate, GH or KH. An earlier version of this listing said the kit covered those. It does not — they are separate kits.</p>",
-      "vendor": "Aqualux",
-      "product_type": "testing",
-      "status": "active",
-      "tags": "testing, planted tank, aquascaping, src1688:654003161997",
-      "created_at": "2026-08-01T00:00:00+00:00",
-      "updated_at": "2026-08-01T00:00:00+00:00",
-      "published_at": "2026-08-01T00:00:00+00:00",
-      "template_suffix": null,
-      "published_scope": "web",
-      "admin_graphql_api_id": "gid://shopify/Product/7000000021",
-      "options": [
-        {
-          "id": 7000000121,
-          "product_id": 7000000021,
-          "name": "Parameters",
-          "position": 1,
-          "values": [
-            "pH, ammonia, nitrite. 100 tests each",
-            "Dissolved oxygen, 50 tests",
-            "Nitrite only, 100 tests"
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "id": 7500000049,
-          "product_id": 7000000021,
-          "title": "pH, ammonia, nitrite. 100 tests each",
-          "price": "39.95",
-          "compare_at_price": "45.00",
-          "sku": "AQL-W05-1",
-          "position": 1,
-          "option1": "pH, ammonia, nitrite. 100 tests each",
-          "option2": null,
-          "option3": null,
-          "taxable": true,
-          "requires_shipping": true,
-          "inventory_quantity": 100,
-          "inventory_management": null,
-          "inventory_policy": "deny",
-          "fulfillment_service": "manual",
-          "grams": 800,
-          "weight": 0.8,
-          "weight_unit": "kg",
-          "barcode": null,
-          "inventory_item_id": 7300000021,
-          "old_inventory_quantity": 100,
-          "created_at": "2026-08-01T00:00:00+00:00",
-          "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000021",
-          "image_id": 9000021
-        },
-        {
-          "id": 7500000050,
-          "product_id": 7000000021,
-          "title": "Dissolved oxygen, 50 tests",
-          "price": "39.95",
-          "compare_at_price": "45.00",
-          "sku": "AQL-W05-2",
-          "position": 2,
-          "option1": "Dissolved oxygen, 50 tests",
-          "option2": null,
-          "option3": null,
-          "taxable": true,
-          "requires_shipping": true,
-          "inventory_quantity": 100,
-          "inventory_management": null,
-          "inventory_policy": "deny",
-          "fulfillment_service": "manual",
-          "grams": 800,
-          "weight": 0.8,
-          "weight_unit": "kg",
-          "barcode": null,
-          "inventory_item_id": 7300000021,
-          "old_inventory_quantity": 100,
-          "created_at": "2026-08-01T00:00:00+00:00",
-          "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000021",
-          "image_id": 9000021
-        },
-        {
-          "id": 7500000051,
-          "product_id": 7000000021,
-          "title": "Nitrite only, 100 tests",
-          "price": "39.95",
-          "compare_at_price": "45.00",
-          "sku": "AQL-W05-3",
-          "position": 3,
-          "option1": "Nitrite only, 100 tests",
-          "option2": null,
-          "option3": null,
-          "taxable": true,
-          "requires_shipping": true,
-          "inventory_quantity": 100,
-          "inventory_management": null,
-          "inventory_policy": "deny",
-          "fulfillment_service": "manual",
-          "grams": 800,
-          "weight": 0.8,
-          "weight_unit": "kg",
-          "barcode": null,
-          "inventory_item_id": 7300000021,
-          "old_inventory_quantity": 100,
-          "created_at": "2026-08-01T00:00:00+00:00",
-          "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000021",
-          "image_id": 9000021
-        }
-      ],
-      "images": [
-        {
-          "id": 9000021,
-          "product_id": 7000000021,
-          "position": 1,
-          "src": "/products/master-water-test-kit-3-in-1.jpg",
-          "width": 1200,
-          "height": 900,
-          "alt": "Master Water Test Kit - 3 in 1",
-          "variant_ids": []
-        }
-      ],
-      "image": {
-        "id": 9000021,
-        "product_id": 7000000021,
-        "position": 1,
-        "src": "/products/master-water-test-kit-3-in-1.jpg",
-        "width": 1200,
-        "height": 900,
-        "alt": "Master Water Test Kit - 3 in 1",
-        "variant_ids": []
-      },
-      "_cat": "testing",
-      "specs": [
-        {
-          "label": "Tests",
-          "value": "pH, ammonia (NH3), nitrite (NO2)"
-        },
-        {
-          "label": "Test count",
-          "value": "~100 of each",
-          "note": "~300 total"
-        },
-        {
-          "label": "Type",
-          "value": "Liquid reagent"
-        },
-        {
-          "label": "Not included",
-          "value": "Nitrate, GH, KH",
-          "note": "Sold as separate kits"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Does it test nitrate, GH or KH?",
-          "a": "No. This listing previously claimed it covered nitrate and GH/KH. It does not — the kit our supplier ships is the three-parameter version. Those are separate kits and we would rather correct the listing than have you discover it after a water change."
         }
       ]
     },
@@ -3224,9 +3160,9 @@
           "id": 9000022,
           "product_id": 7000000022,
           "position": 1,
-          "src": "/products/digital-ph-tds-meter.jpg",
+          "src": "/products/digital-ph-pen-meter/01.jpg",
           "width": 1200,
-          "height": 900,
+          "height": 1200,
           "alt": "Digital pH Pen Meter",
           "variant_ids": []
         }
@@ -3235,9 +3171,9 @@
         "id": 9000022,
         "product_id": 7000000022,
         "position": 1,
-        "src": "/products/digital-ph-tds-meter.jpg",
+        "src": "/products/digital-ph-pen-meter/01.jpg",
         "width": 1200,
-        "height": 900,
+        "height": 1200,
         "alt": "Digital pH Pen Meter",
         "variant_ids": []
       },
@@ -3424,10 +3360,10 @@
           "id": 9000023,
           "product_id": 7000000023,
           "position": 1,
-          "src": "/products/test-strips-9-in-1-100-count.jpg",
+          "src": "/products/test-strips-9-in-1-100-count/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Test Strips - 9 in 1, 100 Count",
+          "height": 1200,
+          "alt": "Test Strips — 9 in 1, 100 Count",
           "variant_ids": []
         }
       ],
@@ -3435,10 +3371,10 @@
         "id": 9000023,
         "product_id": 7000000023,
         "position": 1,
-        "src": "/products/test-strips-9-in-1-100-count.jpg",
+        "src": "/products/test-strips-9-in-1-100-count/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Test Strips - 9 in 1, 100 Count",
+        "height": 1200,
+        "alt": "Test Strips — 9 in 1, 100 Count",
         "variant_ids": []
       },
       "_cat": "testing",
@@ -3567,6 +3503,16 @@
           "id": 9400000,
           "product_id": 7000000099,
           "position": 1,
+          "src": "/products/rgbw-55-full-spectrum-led/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "RGBW 55 Full Spectrum LED — ships from Australia",
+          "variant_ids": []
+        },
+        {
+          "id": 9400000,
+          "product_id": 7000000099,
+          "position": 2,
           "src": "/products/rgbw-55/01.jpg",
           "width": 1200,
           "height": 1200,
@@ -3576,7 +3522,7 @@
         {
           "id": 9400001,
           "product_id": 7000000099,
-          "position": 2,
+          "position": 3,
           "src": "/products/rgbw-55/02.jpg",
           "width": 1200,
           "height": 1200,
@@ -3586,7 +3532,7 @@
         {
           "id": 9400002,
           "product_id": 7000000099,
-          "position": 3,
+          "position": 4,
           "src": "/products/rgbw-55/03.jpg",
           "width": 1200,
           "height": 1200,
@@ -3596,7 +3542,7 @@
         {
           "id": 9400003,
           "product_id": 7000000099,
-          "position": 4,
+          "position": 5,
           "src": "/products/rgbw-55/04.jpg",
           "width": 1200,
           "height": 1200,
@@ -3606,7 +3552,7 @@
         {
           "id": 9400004,
           "product_id": 7000000099,
-          "position": 5,
+          "position": 6,
           "src": "/products/rgbw-55/05.jpg",
           "width": 1200,
           "height": 1200,
@@ -3618,10 +3564,10 @@
         "id": 9400000,
         "product_id": 7000000099,
         "position": 1,
-        "src": "/products/rgbw-55/01.jpg",
+        "src": "/products/rgbw-55-full-spectrum-led/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "What is in the box: light bar, brackets, 28-key remote and 12V adapter",
+        "alt": "RGBW 55 Full Spectrum LED — ships from Australia",
         "variant_ids": []
       },
       "created_at": "2026-08-04T00:00:00+00:00",

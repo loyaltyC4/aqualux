@@ -72,6 +72,16 @@ export default {
         destination: "/search/hardscape",
         permanent: true,
       },
+      {
+        // Withdrawn: no correct product photo obtainable. The 1688 offer
+        // carries no images and three Taobao searches returned either the
+        // wrong product (filter wool, clarifier tablets) or a nitrite-only
+        // kit, which would misrepresent a 3-parameter product. Testing stays
+        // covered by the pH pen and the 9-in-1 strips.
+        source: "/product/master-water-test-kit-3-in-1",
+        destination: "/search/testing",
+        permanent: true,
+      },
     ];
   },
   images: {
