@@ -183,9 +183,9 @@
     },
     {
       "id": 7000000002,
-      "handle": "aurora-smart-58-rgb-led",
-      "title": "Aurora Smart 58 — RGB App-Controlled LED",
-      "body_html": "<p>A 24W RGB LED bar for planted freshwater tanks, controlled from your phone. 3150 lumens at CRI 90, across a 58&nbsp;cm span, with two bracket heights in the box so one light covers tanks from 50&nbsp;cm to 70&nbsp;cm tall.</p>\n<ul>\n<li><strong>Full colour, set from your phone.</strong> RGB mixing across the whole spectrum, adjusted in an app rather than by cycling a button on the cord.</li>\n<li><strong>Colour you can actually judge plants by.</strong> CRI 90Ra means greens read as greens. Cheap aquarium LEDs typically sit in the 70s and make a planted tank look flat and grey.</li>\n<li><strong>3150 lumens over 58&nbsp;cm.</strong> Enough for medium-light stems and most carpets at this span. The full output figure for every length in the series is in the gallery.</li>\n<li><strong>Two bracket heights included.</strong> Short legs for tanks 50&ndash;60&nbsp;cm tall, tall legs for 60&ndash;70&nbsp;cm. No second purchase, no shimming.</li>\n<li><strong>Aluminium body, IP44 splash rated.</strong> Rated for the splashes and condensation of an open-top tank &mdash; not for submersion.</li>\n</ul>\n<p><strong>Choosing a length.</strong> The series runs 18&nbsp;cm to 58&nbsp;cm and 9.1W to 24W. Match the bar to the width of your tank and the bracket to its height &mdash; both tables are in the gallery.</p>",
+      "handle": "aurora-smart-78-rgb-led",
+      "title": "Aurora Smart 78 — RGB App-Controlled LED",
+      "body_html": "<p>A 34W RGB LED bar for planted freshwater tanks, set from your phone. 4200 lumens at CRI 90Ra across a 78&nbsp;cm span, with two bracket heights in the box covering tanks from 70&nbsp;cm to 95&nbsp;cm long.</p>\n<ul>\n<li><strong>Full colour, set from your phone.</strong> RGB mixing across the spectrum, adjusted in an app rather than by cycling a button on the cord.</li>\n<li><strong>Colour you can judge plants by.</strong> CRI 90Ra means greens read as greens. Cheap aquarium LEDs sit in the 70s and make a planted tank look flat.</li>\n<li><strong>4200 lumens over 78&nbsp;cm</strong> &mdash; the second-brightest in the series. Output for every length is in the gallery.</li>\n<li><strong>Two bracket heights included.</strong> Short legs for tanks 70&ndash;80&nbsp;cm, tall legs for 80&ndash;95&nbsp;cm.</li>\n<li><strong>Aluminium body, IP44 splash rated.</strong> Built for the splashes and condensation of an open-top tank, not for submersion.</li>\n</ul>",
       "vendor": "Aqualux",
       "product_type": "lighting",
       "status": "active",
@@ -242,40 +242,30 @@
           "id": 9200000,
           "product_id": 7000000002,
           "position": 1,
-          "src": "/products/aurora-58/01-hero.jpg",
+          "src": "/products/aurora-78/01-hero.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Aurora Smart 58 RGB LED bar in black aluminium with rim brackets",
+          "alt": "Aurora Smart 78 RGB LED bar in black aluminium with rim brackets",
           "variant_ids": []
         },
         {
           "id": 9200001,
           "product_id": 7000000002,
           "position": 2,
-          "src": "/products/aurora-58/02-lifestyle.jpg",
+          "src": "/products/aurora-78/02-model-range.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "The Aurora Smart 58 lighting a planted aquarium, colour set from a phone",
+          "alt": "Output for every length from 18 cm 9.1 W to 98 cm 37 W",
           "variant_ids": []
         },
         {
           "id": 9200002,
           "product_id": 7000000002,
           "position": 3,
-          "src": "/products/aurora-58/03-model-range.jpg",
+          "src": "/products/aurora-78/03-fit.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Output and tank fit for every length from 18 cm 9.1 W to 58 cm 24 W",
-          "variant_ids": []
-        },
-        {
-          "id": 9200003,
-          "product_id": 7000000002,
-          "position": 4,
-          "src": "/products/aurora-58/04-brackets.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "Low bracket fits tanks 50 to 60 cm tall, high bracket 60 to 70 cm",
+          "alt": "Low bracket suits tanks 70 to 80 cm, high bracket 80 to 95 cm",
           "variant_ids": []
         }
       ],
@@ -283,25 +273,21 @@
         "id": 9200000,
         "product_id": 7000000002,
         "position": 1,
-        "src": "/products/aurora-58/01-hero.jpg",
+        "src": "/products/aurora-78/01-hero.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Aurora Smart 58 RGB LED bar in black aluminium with rim brackets",
+        "alt": "Aurora Smart 78 RGB LED bar in black aluminium with rim brackets",
         "variant_ids": []
       },
       "_cat": "lighting",
       "specs": [
         {
-          "label": "Model",
-          "value": "RX-AD"
-        },
-        {
           "label": "Power",
-          "value": "24 W"
+          "value": "34 W"
         },
         {
           "label": "Output",
-          "value": "3150 lm"
+          "value": "4200 lm"
         },
         {
           "label": "Colour rendering",
@@ -309,12 +295,12 @@
         },
         {
           "label": "Bar length",
-          "value": "58 cm (22.8 in)"
+          "value": "78 cm (30.7 in)"
         },
         {
-          "label": "Fits tank height",
-          "value": "50–70 cm (20–28 in)",
-          "note": "50–60 cm on the low bracket, 60–70 cm on the high bracket"
+          "label": "Fits tank length",
+          "value": "70–95 cm (28–37 in)",
+          "note": "70–80 cm on the low bracket, 80–95 cm on the high bracket"
         },
         {
           "label": "Control",
@@ -341,27 +327,23 @@
       "faqs": [
         {
           "q": "What size tank does this suit?",
-          "a": "The bar is 58 cm long, so it suits tanks around 58–70 cm wide. Height matters too: the low bracket fits tanks 50–60 cm tall and the high bracket 60–70 cm. Both brackets are included."
+          "a": "The bar is 78 cm long. With the low bracket it suits tanks 70–80 cm long, and with the high bracket 80–95 cm. Both brackets are in the box. On a 95 cm tank the ends of the scape will be noticeably dimmer."
         },
         {
-          "q": "Is 3150 lumens enough for carpeting plants?",
-          "a": "For most carpets at this span, yes — 3150 lm at CRI 90 over 58 cm is a solid medium light. We do not publish a PAR figure because the manufacturer does not measure one, and we will not estimate it. If you are growing something genuinely demanding, ask us first."
+          "q": "Is 4200 lumens enough for carpeting plants?",
+          "a": "For most carpets at this span, yes. We do not publish a PAR figure because the manufacturer does not measure one, and we will not estimate it. If you are growing something genuinely demanding, ask us first."
         },
         {
           "q": "How is the colour controlled?",
-          "a": "Through a phone app over the light's own wireless link. You set the RGB mix and save it; the fixture keeps that setting."
+          "a": "Through a phone app over the light's own wireless link. Set the RGB mix once and the fixture keeps it."
         },
         {
           "q": "Can it get wet?",
-          "a": "It is IP44 rated, which covers splashing and the condensation of an open-top tank. It is not submersible and should not be dunked or sprayed directly."
+          "a": "It is IP44, which covers splashing and condensation on an open-top tank. It is not submersible. An earlier version of this listing claimed IP68 — that was wrong and we have corrected it."
         },
         {
           "q": "Does it do a sunrise and sunset ramp?",
-          "a": "The manufacturer does not document a scheduled ramp for this model, so we do not claim one. What is confirmed is app-based colour and brightness control."
-        },
-        {
-          "q": "What is in the box?",
-          "a": "The light bar, both sets of brackets (short and tall), and a 2 m power lead."
+          "a": "The manufacturer documents no scheduled ramp for this model, so we do not claim one. What is confirmed is app-based colour and brightness control."
         }
       ]
     },
@@ -487,7 +469,7 @@
           "src": "/products/aurora-48/01-hero.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Aurora 48 planted tank LED bar, white body with blue end caps and rim brackets",
+          "alt": "Aurora 48 LED bar, white body with blue end caps, switch and lead",
           "variant_ids": []
         },
         {
@@ -497,47 +479,47 @@
           "src": "/products/aurora-48/02-in-tank.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "The LED bar mounted on the rim of a planted aquarium",
+          "alt": "The bar mounted on the rim of a planted aquarium",
           "variant_ids": []
         },
         {
           "id": 9100002,
           "product_id": 7000000003,
           "position": 3,
-          "src": "/products/aurora-48/03-lifestyle.jpg",
+          "src": "/products/aurora-48/03-this-variant.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Planted aquarium lit by the Aurora 48 on a console in a living room",
+          "alt": "The 48 cm model: 20 W, blue and white, 48+13 cm span",
           "variant_ids": []
         },
         {
           "id": 9100003,
           "product_id": 7000000003,
           "position": 4,
-          "src": "/products/aurora-48/04-fit.jpg",
+          "src": "/products/aurora-48/04-size-range.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Fit diagram: 48 cm bar with 10 cm bracket travel, fits tanks 48 to 58 cm",
+          "alt": "All five lengths with the manufacturer's model and power table",
           "variant_ids": []
         },
         {
           "id": 9100004,
           "product_id": 7000000003,
           "position": 5,
-          "src": "/products/aurora-48/05-model-range.jpg",
+          "src": "/products/aurora-48/05-modes.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Model range table from 18 cm 8W to 58 cm 24W, with the 48 cm 20W model highlighted",
+          "alt": "Manufacturer spec panel with light modes",
           "variant_ids": []
         },
         {
           "id": 9100005,
           "product_id": 7000000003,
           "position": 6,
-          "src": "/products/aurora-48/06-modes.jpg",
+          "src": "/products/aurora-48/06-bracket.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "The three light modes: white, blue and white together, and blue alone",
+          "alt": "The retractable bracket that gives the extra span",
           "variant_ids": []
         }
       ],
@@ -548,7 +530,7 @@
         "src": "/products/aurora-48/01-hero.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Aurora 48 planted tank LED bar, white body with blue end caps and rim brackets",
+        "alt": "Aurora 48 LED bar, white body with blue end caps, switch and lead",
         "variant_ids": []
       },
       "_cat": "lighting",
@@ -571,8 +553,8 @@
         },
         {
           "label": "Fits tank width",
-          "value": "48–58 cm (19–23 in)",
-          "note": "Bar length plus 10 cm of bracket travel"
+          "value": "48–61 cm (19–24 in)",
+          "note": "Bar length plus 13 cm of bracket travel"
         },
         {
           "label": "Input voltage",
@@ -595,7 +577,7 @@
       "faqs": [
         {
           "q": "Will this fit my tank?",
-          "a": "It fits rims from 48 cm to 58 cm (19–23 in). The bar itself is 48 cm and the bracket adds up to 10 cm of travel. Measure the outside width of the rim, not the water line. If your tank is wider than 58 cm, choose the 58 cm model instead."
+          "a": "It fits rims from 48 cm to 61 cm (19–24 in). The bar itself is 48 cm and the bracket adds up to 13 cm of travel. Measure the outside width of the rim, not the water line. If your tank is wider than 61 cm, choose the 58 cm model instead."
         },
         {
           "q": "Will it work on Australian power?",

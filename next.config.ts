@@ -16,7 +16,14 @@ export default {
       },
       {
         source: "/product/aurora-24-7-planted-tank-led-30in",
-        destination: "/product/aurora-smart-58-rgb-led",
+        destination: "/product/aurora-smart-78-rgb-led",
+        permanent: true,
+      },
+      {
+        // Briefly published as -58 while only half the supplier's spec panels
+        // were cached; the product is the 78cm model.
+        source: "/product/aurora-smart-58-rgb-led",
+        destination: "/product/aurora-smart-78-rgb-led",
         permanent: true,
       },
       {
