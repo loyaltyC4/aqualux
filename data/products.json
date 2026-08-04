@@ -657,7 +657,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000004",
-          "image_id": 9000004
+          "image_id": 9300700
         },
         {
           "id": 7500000005,
@@ -685,7 +685,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000004",
-          "image_id": 9000004
+          "image_id": 9300700
         },
         {
           "id": 7500000006,
@@ -713,7 +713,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000004",
-          "image_id": 9000004
+          "image_id": 9300700
         },
         {
           "id": 7500000007,
@@ -741,29 +741,29 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000004",
-          "image_id": 9000004
+          "image_id": 9300700
         }
       ],
       "images": [
         {
-          "id": 9000004,
+          "id": 9300700,
           "product_id": 7000000004,
           "position": 1,
-          "src": "/products/clip-on-nano-grow-light.jpg",
+          "src": "/products/clip-light/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Clip-On Nano Grow Light",
+          "height": 1200,
+          "alt": "Clip-on nano LED light",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000004,
+        "id": 9300700,
         "product_id": 7000000004,
         "position": 1,
-        "src": "/products/clip-on-nano-grow-light.jpg",
+        "src": "/products/clip-light/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Clip-On Nano Grow Light",
+        "height": 1200,
+        "alt": "Clip-on nano LED light",
         "variant_ids": []
       },
       "_cat": "lighting",
@@ -1129,7 +1129,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000007",
-          "image_id": 9000007
+          "image_id": 9300200
         },
         {
           "id": 7500000012,
@@ -1157,7 +1157,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000007",
-          "image_id": 9000007
+          "image_id": 9300200
         },
         {
           "id": 7500000013,
@@ -1185,29 +1185,59 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000007",
-          "image_id": 9000007
+          "image_id": 9300200
         }
       ],
       "images": [
         {
-          "id": 9000007,
+          "id": 9300200,
           "product_id": 7000000007,
           "position": 1,
-          "src": "/products/aquascaping-tool-set-5-piece.jpg",
+          "src": "/products/tool-set/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Aquascaping Tool Set - 5 Piece",
+          "height": 1200,
+          "alt": "The five-piece stainless set",
+          "variant_ids": []
+        },
+        {
+          "id": 9300201,
+          "product_id": 7000000007,
+          "position": 2,
+          "src": "/products/tool-set/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Tools laid out",
+          "variant_ids": []
+        },
+        {
+          "id": 9300202,
+          "product_id": 7000000007,
+          "position": 3,
+          "src": "/products/tool-set/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Scissors, spatula and tweezers",
+          "variant_ids": []
+        },
+        {
+          "id": 9300203,
+          "product_id": 7000000007,
+          "position": 4,
+          "src": "/products/tool-set/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Long tweezers detail",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000007,
+        "id": 9300200,
         "product_id": 7000000007,
         "position": 1,
-        "src": "/products/aquascaping-tool-set-5-piece.jpg",
+        "src": "/products/tool-set/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Aquascaping Tool Set - 5 Piece",
+        "height": 1200,
+        "alt": "The five-piece stainless set",
         "variant_ids": []
       },
       "_cat": "tools",
@@ -1417,7 +1447,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000009",
-          "image_id": 9000009
+          "image_id": 9300300
         },
         {
           "id": 7500000017,
@@ -1445,7 +1475,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000009",
-          "image_id": 9000009
+          "image_id": 9300300
         },
         {
           "id": 7500000018,
@@ -1473,29 +1503,59 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000009",
-          "image_id": 9000009
+          "image_id": 9300300
         }
       ],
       "images": [
         {
-          "id": 9000009,
+          "id": 9300300,
           "product_id": 7000000009,
           "position": 1,
-          "src": "/products/curved-spring-scissors.jpg",
+          "src": "/products/scissors/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Curved Spring Scissors",
+          "height": 1200,
+          "alt": "Curved aquascaping scissors",
+          "variant_ids": []
+        },
+        {
+          "id": 9300301,
+          "product_id": 7000000009,
+          "position": 2,
+          "src": "/products/scissors/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "The scissor range",
+          "variant_ids": []
+        },
+        {
+          "id": 9300302,
+          "product_id": 7000000009,
+          "position": 3,
+          "src": "/products/scissors/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Single curved scissor",
+          "variant_ids": []
+        },
+        {
+          "id": 9300303,
+          "product_id": 7000000009,
+          "position": 4,
+          "src": "/products/scissors/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Blade detail",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000009,
+        "id": 9300300,
         "product_id": 7000000009,
         "position": 1,
-        "src": "/products/curved-spring-scissors.jpg",
+        "src": "/products/scissors/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Curved Spring Scissors",
+        "height": 1200,
+        "alt": "Curved aquascaping scissors",
         "variant_ids": []
       },
       "_cat": "tools",
@@ -1571,7 +1631,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000010",
-          "image_id": 9000010
+          "image_id": 9300800
         },
         {
           "id": 7500000020,
@@ -1599,7 +1659,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000010",
-          "image_id": 9000010
+          "image_id": 9300800
         },
         {
           "id": 7500000021,
@@ -1627,7 +1687,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000010",
-          "image_id": 9000010
+          "image_id": 9300800
         },
         {
           "id": 7500000022,
@@ -1655,29 +1715,29 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000010",
-          "image_id": 9000010
+          "image_id": 9300800
         }
       ],
       "images": [
         {
-          "id": 9000010,
+          "id": 9300800,
           "product_id": 7000000010,
           "position": 1,
-          "src": "/products/magnetic-glass-cleaner-float.jpg",
+          "src": "/products/mag-cleaner/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Magnetic Glass Cleaner - Float",
+          "height": 1200,
+          "alt": "Floating magnetic glass cleaner, size range",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000010,
+        "id": 9300800,
         "product_id": 7000000010,
         "position": 1,
-        "src": "/products/magnetic-glass-cleaner-float.jpg",
+        "src": "/products/mag-cleaner/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Magnetic Glass Cleaner - Float",
+        "height": 1200,
+        "alt": "Floating magnetic glass cleaner, size range",
         "variant_ids": []
       },
       "_cat": "tools",
@@ -2260,29 +2320,39 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000014",
-          "image_id": 9000014
+          "image_id": 9300600
         }
       ],
       "images": [
         {
-          "id": 9000014,
+          "id": 9300600,
           "product_id": 7000000014,
           "position": 1,
-          "src": "/products/inline-atomiser-diffuser-16-22mm.jpg",
+          "src": "/products/atomiser/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Inline Atomiser Diffuser - 16/22mm",
+          "height": 1200,
+          "alt": "Stainless CO2 atomiser range",
+          "variant_ids": []
+        },
+        {
+          "id": 9300601,
+          "product_id": 7000000014,
+          "position": 2,
+          "src": "/products/atomiser/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Atomiser with suction mount",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000014,
+        "id": 9300600,
         "product_id": 7000000014,
         "position": 1,
-        "src": "/products/inline-atomiser-diffuser-16-22mm.jpg",
+        "src": "/products/atomiser/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Inline Atomiser Diffuser - 16/22mm",
+        "height": 1200,
+        "alt": "Stainless CO2 atomiser range",
         "variant_ids": []
       },
       "_cat": "co2",
@@ -2365,7 +2435,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-          "image_id": 9000015
+          "image_id": 9300400
         },
         {
           "id": 7500000034,
@@ -2393,7 +2463,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-          "image_id": 9000015
+          "image_id": 9300400
         },
         {
           "id": 7500000035,
@@ -2421,7 +2491,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-          "image_id": 9000015
+          "image_id": 9300400
         },
         {
           "id": 7500000036,
@@ -2449,29 +2519,39 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-          "image_id": 9000015
+          "image_id": 9300400
         }
       ],
       "images": [
         {
-          "id": 9000015,
+          "id": 9300400,
           "product_id": 7000000015,
           "position": 1,
-          "src": "/products/glass-drop-checker-4dkh-solution.jpg",
+          "src": "/products/drop-checker/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Glass Drop Checker + 4dKH Solution",
+          "height": 1200,
+          "alt": "Glass drop checker",
+          "variant_ids": []
+        },
+        {
+          "id": 9300401,
+          "product_id": 7000000015,
+          "position": 2,
+          "src": "/products/drop-checker/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Drop checker dimensions, 40 by 25 mm",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000015,
+        "id": 9300400,
         "product_id": 7000000015,
         "position": 1,
-        "src": "/products/glass-drop-checker-4dkh-solution.jpg",
+        "src": "/products/drop-checker/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Glass Drop Checker + 4dKH Solution",
+        "height": 1200,
+        "alt": "Glass drop checker",
         "variant_ids": []
       },
       "_cat": "co2",
@@ -2544,7 +2624,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000016",
-          "image_id": 9000016
+          "image_id": 9300500
         },
         {
           "id": 7500000038,
@@ -2572,29 +2652,59 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000016",
-          "image_id": 9000016
+          "image_id": 9300500
         }
       ],
       "images": [
         {
-          "id": 9000016,
+          "id": 9300500,
           "product_id": 7000000016,
           "position": 1,
-          "src": "/products/bubble-counter-check-valve-set.jpg",
+          "src": "/products/bubble-counter/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Bubble Counter + Check Valve Set",
+          "height": 1200,
+          "alt": "Glass bubble counter",
+          "variant_ids": []
+        },
+        {
+          "id": 9300501,
+          "product_id": 7000000016,
+          "position": 2,
+          "src": "/products/bubble-counter/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Bubble counter body",
+          "variant_ids": []
+        },
+        {
+          "id": 9300502,
+          "product_id": 7000000016,
+          "position": 3,
+          "src": "/products/bubble-counter/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Check valve detail",
+          "variant_ids": []
+        },
+        {
+          "id": 9300503,
+          "product_id": 7000000016,
+          "position": 4,
+          "src": "/products/bubble-counter/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "The assembled set",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000016,
+        "id": 9300500,
         "product_id": 7000000016,
         "position": 1,
-        "src": "/products/bubble-counter-check-valve-set.jpg",
+        "src": "/products/bubble-counter/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Bubble Counter + Check Valve Set",
+        "height": 1200,
+        "alt": "Glass bubble counter",
         "variant_ids": []
       },
       "_cat": "co2",
@@ -2781,7 +2891,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000018",
-          "image_id": 9000018
+          "image_id": 9300000
         },
         {
           "id": 7500000040,
@@ -2809,29 +2919,49 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000018",
-          "image_id": 9000018
+          "image_id": 9300000
         }
       ],
       "images": [
         {
-          "id": 9000018,
+          "id": 9300000,
           "product_id": 7000000018,
           "position": 1,
-          "src": "/products/seiryu-stone-11lb-hardscape-box.jpg",
+          "src": "/products/seiryu/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Seiryu Stone — 5 kg Hardscape Pack",
+          "height": 1200,
+          "alt": "Seiryu stone pieces",
+          "variant_ids": []
+        },
+        {
+          "id": 9300001,
+          "product_id": 7000000018,
+          "position": 2,
+          "src": "/products/seiryu/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Mixed hardscape stone",
+          "variant_ids": []
+        },
+        {
+          "id": 9300002,
+          "product_id": 7000000018,
+          "position": 3,
+          "src": "/products/seiryu/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Piece size against a tape measure",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000018,
+        "id": 9300000,
         "product_id": 7000000018,
         "position": 1,
-        "src": "/products/seiryu-stone-11lb-hardscape-box.jpg",
+        "src": "/products/seiryu/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Seiryu Stone — 5 kg Hardscape Pack",
+        "height": 1200,
+        "alt": "Seiryu stone pieces",
         "variant_ids": []
       },
       "_cat": "hardscape",
@@ -2914,7 +3044,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000019",
-          "image_id": 9000019
+          "image_id": 9300100
         },
         {
           "id": 7500000042,
@@ -2942,7 +3072,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000019",
-          "image_id": 9000019
+          "image_id": 9300100
         },
         {
           "id": 7500000043,
@@ -2970,7 +3100,7 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000019",
-          "image_id": 9000019
+          "image_id": 9300100
         },
         {
           "id": 7500000044,
@@ -2998,29 +3128,59 @@
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
           "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000019",
-          "image_id": 9000019
+          "image_id": 9300100
         }
       ],
       "images": [
         {
-          "id": 9000019,
+          "id": 9300100,
           "product_id": 7000000019,
           "position": 1,
-          "src": "/products/spider-wood-centrepiece-set.jpg",
+          "src": "/products/spider-wood/01.jpg",
           "width": 1200,
-          "height": 900,
-          "alt": "Spider Wood - Centrepiece Set",
+          "height": 1200,
+          "alt": "Spider wood arranged in a planted scape",
+          "variant_ids": []
+        },
+        {
+          "id": 9300101,
+          "product_id": 7000000019,
+          "position": 2,
+          "src": "/products/spider-wood/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "A set of spider wood pieces",
+          "variant_ids": []
+        },
+        {
+          "id": 9300102,
+          "product_id": 7000000019,
+          "position": 3,
+          "src": "/products/spider-wood/03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Single branching piece",
+          "variant_ids": []
+        },
+        {
+          "id": 9300103,
+          "product_id": 7000000019,
+          "position": 4,
+          "src": "/products/spider-wood/04.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Detail of the branching form",
           "variant_ids": []
         }
       ],
       "image": {
-        "id": 9000019,
+        "id": 9300100,
         "product_id": 7000000019,
         "position": 1,
-        "src": "/products/spider-wood-centrepiece-set.jpg",
+        "src": "/products/spider-wood/01.jpg",
         "width": 1200,
-        "height": 900,
-        "alt": "Spider Wood - Centrepiece Set",
+        "height": 1200,
+        "alt": "Spider wood arranged in a planted scape",
         "variant_ids": []
       },
       "_cat": "hardscape",
