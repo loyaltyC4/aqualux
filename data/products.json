@@ -902,119 +902,6 @@
       ]
     },
     {
-      "id": 7000000006,
-      "handle": "aquarium-light-timer-socket",
-      "title": "Light Timer Socket",
-      "body_html": "<p>A plug-in mains timer for aquarium lights. One outlet, mechanical dial, rated to 2500&nbsp;W at 250&nbsp;V. Set the on and off times once and it repeats every day.</p>\n<ul>\n<li><strong>A consistent photoperiod is the cheapest algae control there is.</strong> Lights that go on and off at whatever hour you remember are one of the most common causes of an algae bloom in a new tank.</li>\n<li><strong>One outlet, one circuit.</strong> Plug the light in, set the dial, leave it.</li>\n<li><strong>Mechanical dial.</strong> No app, no menu, nothing to reconfigure after a power cut &mdash; but also no dimming and no sunrise ramp. See below.</li>\n</ul>",
-      "vendor": "Aqualux",
-      "product_type": "lighting",
-      "status": "active",
-      "tags": "lighting, planted tank, aquascaping, src1688:1045977699848",
-      "created_at": "2026-08-01T00:00:00+00:00",
-      "updated_at": "2026-08-01T00:00:00+00:00",
-      "published_at": "2026-08-01T00:00:00+00:00",
-      "template_suffix": null,
-      "published_scope": "web",
-      "admin_graphql_api_id": "gid://shopify/Product/7000000006",
-      "options": [
-        {
-          "id": 7100000006,
-          "product_id": 7000000006,
-          "name": "Title",
-          "position": 1,
-          "values": [
-            "Default Title"
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "id": 7200000006,
-          "product_id": 7000000006,
-          "title": "Default Title",
-          "price": "20.95",
-          "compare_at_price": "25.00",
-          "sku": "AQL-LT1",
-          "position": 1,
-          "option1": "Default Title",
-          "option2": null,
-          "option3": null,
-          "taxable": true,
-          "requires_shipping": true,
-          "inventory_quantity": 100,
-          "inventory_management": null,
-          "inventory_policy": "deny",
-          "fulfillment_service": "manual",
-          "grams": 800,
-          "weight": 0.8,
-          "weight_unit": "kg",
-          "barcode": null,
-          "inventory_item_id": 7300000006,
-          "old_inventory_quantity": 100,
-          "created_at": "2026-08-01T00:00:00+00:00",
-          "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000006",
-          "image_id": 9768190
-        }
-      ],
-      "images": [
-        {
-          "id": 9768190,
-          "product_id": 7000000006,
-          "position": 1,
-          "src": "/products/aquarium-light-timer-socket/01.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "Light Timer Socket",
-          "variant_ids": []
-        }
-      ],
-      "image": {
-        "id": 9768190,
-        "product_id": 7000000006,
-        "position": 1,
-        "src": "/products/aquarium-light-timer-socket/01.jpg",
-        "width": 1200,
-        "height": 1200,
-        "alt": "Light Timer Socket",
-        "variant_ids": []
-      },
-      "_cat": "lighting",
-      "specs": [
-        {
-          "label": "Outlets",
-          "value": "1"
-        },
-        {
-          "label": "Type",
-          "value": "Mechanical dial timer"
-        },
-        {
-          "label": "Max load",
-          "value": "2500 W"
-        },
-        {
-          "label": "Voltage",
-          "value": "250 V"
-        },
-        {
-          "label": "Dimming",
-          "value": "None",
-          "note": "On/off switching only"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Does this do a sunrise and sunset fade?",
-          "a": "No. This listing previously claimed four channels and a 1–60 minute sunrise ramp. That was wrong. What our supplier ships is a single-outlet mechanical timer that switches a light fully on and fully off. We have corrected the listing and dropped the price accordingly."
-        },
-        {
-          "q": "Will it hold its settings in a power cut?",
-          "a": "A mechanical dial keeps its programme, but the clock loses time while the power is out and will need resetting. We make no battery-backup claim because the manufacturer makes none."
-        }
-      ]
-    },
-    {
       "id": 7000000007,
       "handle": "aquascaping-tool-set-5-piece",
       "title": "Aquascaping Tool Set - 5 Piece",
@@ -2995,16 +2882,6 @@
           "height": 1200,
           "alt": "Digital pH Pen Meter",
           "variant_ids": []
-        },
-        {
-          "id": 9720016,
-          "product_id": 7000000022,
-          "position": 2,
-          "src": "/products/digital-ph-pen-meter/02.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "Digital pH Pen Meter — view 2",
-          "variant_ids": []
         }
       ],
       "image": {
@@ -3365,6 +3242,95 @@
       "published_at": "2026-08-04T00:00:00+00:00",
       "published_scope": "web",
       "admin_graphql_api_id": "gid://shopify/Product/7000000099"
+    },
+    {
+      "id": 7000000120,
+      "handle": "co2-solenoid-valve-12v",
+      "title": "CO2 Solenoid Valve — 12V",
+      "body_html": "<p>A 12V solenoid that shuts CO2 off with your light timer, so gas is not dosed overnight when plants cannot use it.</p><ul><li><strong>Stops overnight CO2.</strong> Plants only use CO2 under light; dosing in the dark wastes gas and drops pH for nothing.</li><li><strong>Runs off a standard timer.</strong> Wire it inline and let the same schedule that runs your light run your CO2.</li><li><strong>Low-voltage 12V coil</strong>, so no mains voltage near the tank.</li></ul>",
+      "vendor": "Silthouse",
+      "product_type": "co2",
+      "status": "active",
+      "tags": "co2, solenoid, planted tank, timer",
+      "created_at": "2026-08-05T00:00:00+00:00",
+      "updated_at": "2026-08-05T00:00:00+00:00",
+      "published_at": "2026-08-05T00:00:00+00:00",
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000120",
+      "options": [
+        {
+          "id": 7000000121,
+          "product_id": 7000000120,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000122,
+          "product_id": 7000000120,
+          "title": "Default Title",
+          "price": "49.95",
+          "compare_at_price": "69.00",
+          "sku": "SIL-CO2SOL",
+          "position": 1,
+          "option1": "Default Title",
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 400,
+          "weight": 0.4,
+          "weight_unit": "kg",
+          "image_id": 7000000123
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000123,
+          "product_id": 7000000120,
+          "position": 1,
+          "src": "/products/co2-solenoid-valve-12v/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "CO2 Solenoid Valve — 12V",
+          "variant_ids": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Voltage",
+          "value": "12 V DC"
+        },
+        {
+          "label": "Function",
+          "value": "Shuts CO2 off on a timer"
+        },
+        {
+          "label": "Fitting",
+          "value": "Inline, between regulator and diffuser"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do I need this if my regulator already has a solenoid?",
+          "a": "No. This is for regulators without one, or as a spare. Our dual-gauge regulator already includes a solenoid."
+        }
+      ],
+      "image": {
+        "id": 7000000123,
+        "product_id": 7000000120,
+        "position": 1,
+        "src": "/products/co2-solenoid-valve-12v/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "CO2 Solenoid Valve — 12V",
+        "variant_ids": []
+      }
     }
   ]
 }

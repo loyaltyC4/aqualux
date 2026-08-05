@@ -5,8 +5,7 @@
     "aurora-smart-78-rgb-led",
     "aurora-48-planted-tank-led",
     "clip-on-nano-grow-light",
-    "aurora-pro-rgb-bluetooth",
-    "aquarium-light-timer-socket"
+    "aurora-pro-rgb-bluetooth"
   ],
   "co2": [
     "co2-starter-bundle-regulator-diffuser-checker",
@@ -14,7 +13,8 @@
     "dual-gauge-regulator-solenoid",
     "inline-atomiser-diffuser-16-22mm",
     "glass-drop-checker-4dkh-solution",
-    "bubble-counter-check-valve-set"
+    "bubble-counter-check-valve-set",
+    "co2-solenoid-valve-12v"
   ],
   "tools": [
     "aquascaping-tool-set-5-piece",
