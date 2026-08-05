@@ -37,8 +37,17 @@ export default {
         permanent: true,
       },
       {
+        // Both timer handles now land on the lighting collection. The product
+        // was withdrawn: Chinese button labels, Chinese display and a Chinese
+        // GB outlet, so it is not sellable into AU or US. Pointing the old
+        // sunrise handle at the retired socket handle would chain into a 404.
         source: "/product/sunrise-timer-controller",
-        destination: "/product/aquarium-light-timer-socket",
+        destination: "/search/lighting",
+        permanent: true,
+      },
+      {
+        source: "/product/aquarium-light-timer-socket",
+        destination: "/search/lighting",
         permanent: true,
       },
       {
