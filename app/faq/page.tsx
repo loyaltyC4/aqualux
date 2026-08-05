@@ -37,7 +37,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "How long does shipping take?",
-    a: "Orders are packed within 1-2 business days. Delivery is typically 3-8 business days domestically and longer internationally, with tracking on every order. Shipping is free over $79.",
+    a: "We ship within Australia only. Orders are packed within 1-2 business days, and most of our range ships direct from our supplier, so allow 8-15 business days for delivery. Every order is tracked from dispatch. Shipping is free over $99, and because freight is charged by weight, one combined order costs materially less than several small ones.",
   },
   {
     q: "What is your returns policy?",

@@ -8,51 +8,11 @@ export const dynamic = "force-dynamic";
 
 type IncomingLine = { merchandiseId?: string; quantity?: number };
 
-// Reasonable worldwide shipping set (ISO 3166-1 alpha-2).
-const ALLOWED_COUNTRIES = [
-  "US",
-  "CA",
-  "GB",
-  "IE",
-  "AU",
-  "NZ",
-  "DE",
-  "FR",
-  "ES",
-  "IT",
-  "NL",
-  "BE",
-  "AT",
-  "CH",
-  "SE",
-  "NO",
-  "DK",
-  "FI",
-  "PT",
-  "PL",
-  "CZ",
-  "SK",
-  "HU",
-  "RO",
-  "GR",
-  "LU",
-  "IS",
-  "JP",
-  "KR",
-  "SG",
-  "HK",
-  "MY",
-  "PH",
-  "TH",
-  "ZA",
-  "AE",
-  "SA",
-  "IL",
-  "MX",
-  "BR",
-  "CL",
-  "AR",
-] as const;
+// Australia only. The store prices in AUD and quotes an Australian transit
+// time, and stock ships from a single origin — offering 40 countries at one
+// flat rate meant promising a delivery window we could not hold. Add a country
+// back only once its freight and transit time are actually quoted.
+const ALLOWED_COUNTRIES = ["AU"] as const;
 
 export async function POST(req: NextRequest) {
   const stripe = getStripe();

@@ -31,8 +31,8 @@
           "id": 7200000000,
           "product_id": 7000000000,
           "title": "Default Title",
-          "price": "189.95",
-          "compare_at_price": "249.00",
+          "price": "145.95",
+          "compare_at_price": "165.85",
           "sku": "AQL-BUN1",
           "position": 1,
           "option1": "Default Title",
@@ -121,8 +121,8 @@
           "id": 7200000001,
           "product_id": 7000000001,
           "title": "Default Title",
-          "price": "219.95",
-          "compare_at_price": "289.00",
+          "price": "165.95",
+          "compare_at_price": "187.85",
           "sku": "AQL-BUN2",
           "position": 1,
           "option1": "Default Title",
@@ -212,8 +212,8 @@
           "id": 7200000002,
           "product_id": 7000000002,
           "title": "Default Title",
-          "price": "129.95",
-          "compare_at_price": "179.95",
+          "price": "119.95",
+          "compare_at_price": "159.00",
           "sku": "AQL-L30",
           "position": 1,
           "option1": "Default Title",
@@ -360,8 +360,8 @@
           "id": 7500000001,
           "product_id": 7000000003,
           "title": "Blue + white",
-          "price": "129.95",
-          "compare_at_price": "179.95",
+          "price": "109.95",
+          "compare_at_price": "149.00",
           "sku": "AQL-L20-1",
           "position": 1,
           "option1": "Blue + white",
@@ -388,8 +388,8 @@
           "id": 7500000002,
           "product_id": 7000000003,
           "title": "Full white",
-          "price": "129.95",
-          "compare_at_price": "179.95",
+          "price": "109.95",
+          "compare_at_price": "149.00",
           "sku": "AQL-L20-2",
           "position": 2,
           "option1": "Full white",
@@ -416,8 +416,8 @@
           "id": 7500000003,
           "product_id": 7000000003,
           "title": "Tri-colour adjustable",
-          "price": "129.95",
-          "compare_at_price": "179.95",
+          "price": "109.95",
+          "compare_at_price": "149.00",
           "sku": "AQL-L20-3",
           "position": 3,
           "option1": "Tri-colour adjustable",
@@ -755,8 +755,8 @@
           "id": 7500000008,
           "product_id": 7000000005,
           "title": "92cm / 36in",
-          "price": "144.95",
-          "compare_at_price": "199.00",
+          "price": "124.95",
+          "compare_at_price": "169.00",
           "sku": "AQL-L48-1",
           "position": 1,
           "option1": "92cm / 36in",
@@ -783,8 +783,8 @@
           "id": 7500000009,
           "product_id": 7000000005,
           "title": "112cm / 44in",
-          "price": "144.95",
-          "compare_at_price": "199.00",
+          "price": "124.95",
+          "compare_at_price": "169.00",
           "sku": "AQL-L48-2",
           "position": 2,
           "option1": "112cm / 44in",
@@ -811,8 +811,8 @@
           "id": 7500000010,
           "product_id": 7000000005,
           "title": "132cm / 52in",
-          "price": "144.95",
-          "compare_at_price": "199.00",
+          "price": "124.95",
+          "compare_at_price": "169.00",
           "sku": "AQL-L48-3",
           "position": 3,
           "option1": "132cm / 52in",
@@ -2000,8 +2000,8 @@
           "id": 7500000030,
           "product_id": 7000000013,
           "title": "G5/8 with solenoid",
-          "price": "134.95",
-          "compare_at_price": "189.00",
+          "price": "99.95",
+          "compare_at_price": "139.00",
           "sku": "AQL-C02-1",
           "position": 1,
           "option1": "G5/8 with solenoid",
@@ -2028,8 +2028,8 @@
           "id": 7500000031,
           "product_id": 7000000013,
           "title": "W21.8 with solenoid",
-          "price": "134.95",
-          "compare_at_price": "189.00",
+          "price": "99.95",
+          "compare_at_price": "139.00",
           "sku": "AQL-C02-2",
           "position": 2,
           "option1": "W21.8 with solenoid",
@@ -2056,8 +2056,8 @@
           "id": 7500000032,
           "product_id": 7000000013,
           "title": "G5/8 manual, no solenoid",
-          "price": "134.95",
-          "compare_at_price": "189.00",
+          "price": "99.95",
+          "compare_at_price": "139.00",
           "sku": "AQL-C02-3",
           "position": 3,
           "option1": "G5/8 manual, no solenoid",
@@ -2175,8 +2175,8 @@
           "id": 7200000014,
           "product_id": 7000000014,
           "title": "Default Title",
-          "price": "41.95",
-          "compare_at_price": "49.00",
+          "price": "59.95",
+          "compare_at_price": "79.00",
           "sku": "AQL-C03",
           "position": 1,
           "option1": "Default Title",
@@ -2290,8 +2290,8 @@
           "id": 7500000033,
           "product_id": 7000000015,
           "title": "Music note + solution",
-          "price": "20.95",
-          "compare_at_price": "25.00",
+          "price": "27.95",
+          "compare_at_price": "36.00",
           "sku": "AQL-C04-1",
           "position": 1,
           "option1": "Music note + solution",
@@ -2318,8 +2318,8 @@
           "id": 7500000034,
           "product_id": 7000000015,
           "title": "Teardrop + solution",
-          "price": "20.95",
-          "compare_at_price": "25.00",
+          "price": "27.95",
+          "compare_at_price": "36.00",
           "sku": "AQL-C04-2",
           "position": 2,
           "option1": "Teardrop + solution",
@@ -2346,8 +2346,8 @@
           "id": 7500000035,
           "product_id": 7000000015,
           "title": "Hook mount + solution",
-          "price": "20.95",
-          "compare_at_price": "25.00",
+          "price": "27.95",
+          "compare_at_price": "36.00",
           "sku": "AQL-C04-3",
           "position": 3,
           "option1": "Hook mount + solution",
@@ -2374,8 +2374,8 @@
           "id": 7500000036,
           "product_id": 7000000015,
           "title": "Crystal ball + solution",
-          "price": "20.95",
-          "compare_at_price": "25.00",
+          "price": "27.95",
+          "compare_at_price": "36.00",
           "sku": "AQL-C04-4",
           "position": 4,
           "option1": "Crystal ball + solution",
@@ -2479,8 +2479,8 @@
           "id": 7500000037,
           "product_id": 7000000016,
           "title": "Straight tube",
-          "price": "24.95",
-          "compare_at_price": "29.00",
+          "price": "32.95",
+          "compare_at_price": "42.00",
           "sku": "AQL-C05-1",
           "position": 1,
           "option1": "Straight tube",
@@ -2507,8 +2507,8 @@
           "id": 7500000038,
           "product_id": 7000000016,
           "title": "Spiral",
-          "price": "24.95",
-          "compare_at_price": "29.00",
+          "price": "32.95",
+          "compare_at_price": "42.00",
           "sku": "AQL-C05-2",
           "position": 2,
           "option1": "Spiral",
@@ -2604,8 +2604,8 @@
           "id": 7500000041,
           "product_id": 7000000019,
           "title": "10-15cm, 3 pieces",
-          "price": "29.95",
-          "compare_at_price": "35.00",
+          "price": "49.95",
+          "compare_at_price": "65.00",
           "sku": "AQL-H12-1",
           "position": 1,
           "option1": "10-15cm, 3 pieces",
@@ -2632,8 +2632,8 @@
           "id": 7500000042,
           "product_id": 7000000019,
           "title": "15-20cm, 3 pieces",
-          "price": "29.95",
-          "compare_at_price": "35.00",
+          "price": "49.95",
+          "compare_at_price": "65.00",
           "sku": "AQL-H12-2",
           "position": 2,
           "option1": "15-20cm, 3 pieces",
@@ -2660,8 +2660,8 @@
           "id": 7500000043,
           "product_id": 7000000019,
           "title": "20-30cm, 2 pieces",
-          "price": "29.95",
-          "compare_at_price": "35.00",
+          "price": "49.95",
+          "compare_at_price": "65.00",
           "sku": "AQL-H12-3",
           "position": 3,
           "option1": "20-30cm, 2 pieces",
@@ -2688,8 +2688,8 @@
           "id": 7500000044,
           "product_id": 7000000019,
           "title": "30cm+, single centrepiece",
-          "price": "29.95",
-          "compare_at_price": "35.00",
+          "price": "49.95",
+          "compare_at_price": "65.00",
           "sku": "AQL-H12-4",
           "position": 4,
           "option1": "30cm+, single centrepiece",
@@ -2791,7 +2791,7 @@
           "id": 7500000052,
           "product_id": 7000000022,
           "title": "Blue",
-          "price": "32.95",
+          "price": "29.95",
           "compare_at_price": "39.00",
           "sku": "AQL-W02-1",
           "position": 1,
@@ -2819,7 +2819,7 @@
           "id": 7500000053,
           "product_id": 7000000022,
           "title": "Yellow",
-          "price": "32.95",
+          "price": "29.95",
           "compare_at_price": "39.00",
           "sku": "AQL-W02-2",
           "position": 2,
@@ -2847,7 +2847,7 @@
           "id": 7500000054,
           "product_id": 7000000022,
           "title": "Orange",
-          "price": "32.95",
+          "price": "29.95",
           "compare_at_price": "39.00",
           "sku": "AQL-W02-3",
           "position": 3,
@@ -2963,8 +2963,8 @@
           "id": 7500000055,
           "product_id": 7000000023,
           "title": "7-in-1, 100 strips",
-          "price": "24.95",
-          "compare_at_price": "29.00",
+          "price": "21.95",
+          "compare_at_price": "28.00",
           "sku": "AQL-W11-1",
           "position": 1,
           "option1": "7-in-1, 100 strips",
@@ -2991,8 +2991,8 @@
           "id": 7500000056,
           "product_id": 7000000023,
           "title": "8-in-1, 100 strips",
-          "price": "24.95",
-          "compare_at_price": "29.00",
+          "price": "21.95",
+          "compare_at_price": "28.00",
           "sku": "AQL-W11-2",
           "position": 2,
           "option1": "8-in-1, 100 strips",
@@ -3019,8 +3019,8 @@
           "id": 7500000057,
           "product_id": 7000000023,
           "title": "9-in-1, 100 strips",
-          "price": "24.95",
-          "compare_at_price": "29.00",
+          "price": "21.95",
+          "compare_at_price": "28.00",
           "sku": "AQL-W11-3",
           "position": 3,
           "option1": "9-in-1, 100 strips",
@@ -3047,8 +3047,8 @@
           "id": 7500000058,
           "product_id": 7000000023,
           "title": "9-in-1, 200 strips",
-          "price": "24.95",
-          "compare_at_price": "29.00",
+          "price": "21.95",
+          "compare_at_price": "28.00",
           "sku": "AQL-W11-4",
           "position": 4,
           "option1": "9-in-1, 200 strips",
@@ -3120,7 +3120,7 @@
       "id": 7000000099,
       "handle": "rgbw-55-full-spectrum-led",
       "title": "RGBW 55 Full Spectrum LED — ships from Australia",
-      "body_html": "<p>A 15W RGBW full-spectrum bar for tanks up to 55&nbsp;cm, held in an Australian warehouse and delivered in 3&ndash;5 business days. 66 LEDs, a 28-key remote, and a 24-hour timer.</p>\n<ul>\n<li><strong>It is already in the country.</strong> Most aquarium gear at this price ships from China and takes weeks. This one is on a shelf in Australia and moves by AusPost, Toll or Fastway.</li>\n<li><strong>66 RGBW LEDs, full spectrum.</strong> Thirteen static colours plus dynamic modes, brightness and colour set from the remote rather than a button on the cord.</li>\n<li><strong>24-hour timer with auto on/off.</strong> Set the photoperiod once and it repeats &mdash; the cheapest algae control there is.</li>\n<li><strong>Extendable brackets.</strong> The bar is 40&nbsp;cm and the brackets reach to 55&nbsp;cm, so one unit covers a range of tank widths.</li>\n<li><strong>12V DC, waterproof rated.</strong> Low-voltage supply with an external adapter, so no mains voltage over the water.</li>\n</ul>",
+      "body_html": "<p>A 15W RGBW full-spectrum bar for tanks up to 55&nbsp;cm. 66 LEDs, a 28-key remote, and a 24-hour timer.</p>\n<ul>\n<li><strong>66 RGBW LEDs, full spectrum.</strong> Thirteen static colours plus dynamic modes, with brightness and colour set from the remote rather than a button on the cord.</li>\n<li><strong>24-hour timer with auto on/off.</strong> Set the photoperiod once and it repeats &mdash; the cheapest algae control there is.</li>\n<li><strong>Extendable brackets.</strong> The bar is 40&nbsp;cm and the brackets reach to 55&nbsp;cm, so one unit covers a range of tank widths.</li>\n<li><strong>12V DC via external adapter.</strong> Low-voltage supply, so there is no mains voltage over the water.</li>\n</ul>",
       "vendor": "Silthouse",
       "product_type": "lighting",
       "status": "active",
@@ -3158,7 +3158,7 @@
         {
           "label": "Ships from",
           "value": "Australia",
-          "note": "3–5 business days"
+          "note": "8–15 business days"
         },
         {
           "label": "Weight",
@@ -3167,8 +3167,8 @@
       ],
       "faqs": [
         {
-          "q": "How fast does it actually arrive?",
-          "a": "3–5 business days via AusPost, Toll or Fastway. It ships from an Australian warehouse rather than from China, which is why it is quicker than most gear at this price."
+          "q": "How long does delivery take?",
+          "a": "Allow 8–15 business days within Australia. It ships direct from our supplier, tracked from dispatch. We would rather quote that honestly than promise a courier window we do not control."
         },
         {
           "q": "What size tank does it suit?",
@@ -3331,6 +3331,230 @@
         "alt": "CO2 Solenoid Valve — 12V",
         "variant_ids": []
       }
+    },
+    {
+      "id": 7000000121,
+      "handle": "auto-feeder-programmable",
+      "title": "Programmable Auto Feeder",
+      "body_html": "<p>A rim-mounted feeder with a sealed hopper that drops a measured portion on a schedule you set once. Runs on USB-C or batteries, so a power cut does not mean a missed feed.</p>\n<ul>\n<li><strong>Two feeds a day, or one.</strong> The 12 and 24 hour buttons set the interval; the manual button gives an extra portion without changing the schedule.</li>\n<li><strong>The hopper stays dry.</strong> A sealed drum and a rotating outlet keep humidity off the food, which is what turns cheap feeders into a clogged mess after a fortnight.</li>\n<li><strong>Portion control.</strong> A sliding gate sets how much leaves the drum per turn, so you can tune it to the tank rather than overfeeding and fighting the algae afterwards.</li>\n<li><strong>Fits rims to 15&nbsp;mm.</strong> The clamp takes both open-top and braced rims, and the arm angles so the outlet clears the glass.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "tools",
+      "status": "active",
+      "tags": "tools, equipment, feeding, planted tank",
+      "created_at": "2026-08-05T00:00:00+00:00",
+      "updated_at": "2026-08-05T00:00:00+00:00",
+      "published_at": "2026-08-05T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000121",
+      "options": [
+        {
+          "id": 7000000221,
+          "product_id": 7000000121,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000321,
+          "product_id": 7000000121,
+          "title": "Default Title",
+          "price": "44.95",
+          "compare_at_price": "59.00",
+          "sku": "AQL-AUTO-F",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 25,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-05T00:00:00+00:00",
+          "updated_at": "2026-08-05T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000321"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000421,
+          "product_id": 7000000121,
+          "position": 1,
+          "src": "/products/auto-feeder-programmable/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Programmable Auto Feeder",
+          "variant_ids": []
+        },
+        {
+          "id": 7000000422,
+          "product_id": 7000000121,
+          "position": 2,
+          "src": "/products/auto-feeder-programmable/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Programmable Auto Feeder rim clamp",
+          "variant_ids": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Feed intervals",
+          "value": "Manual, 12 h, 24 h"
+        },
+        {
+          "label": "Hopper",
+          "value": "Sealed 100 ml drum"
+        },
+        {
+          "label": "Power",
+          "value": "USB-C rechargeable or 2×AAA"
+        },
+        {
+          "label": "Mounts",
+          "value": "Rim clamp up to 15 mm"
+        },
+        {
+          "label": "Suits",
+          "value": "Flake, micro pellet, granule"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will it work with flake food?",
+          "a": "Yes. Flake needs the gate opened wider than pellets because it bridges more easily. Set the gate, watch one cycle, then adjust."
+        },
+        {
+          "q": "What happens in a blackout?",
+          "a": "It keeps its schedule on the internal cell or the AAAs. That is the reason to pick a battery-backed feeder over a mains one."
+        },
+        {
+          "q": "Is it safe to leave for a week away?",
+          "a": "For a week, yes, provided you run it for a few days first and confirm the portion size. Do not set a feeder for the first time the day you leave."
+        }
+      ]
+    },
+    {
+      "id": 7000000122,
+      "handle": "digital-thermometer-lcd",
+      "title": "Digital Thermometer with Probe",
+      "body_html": "<p>A stick-on LCD with a sealed probe on a one-metre lead. It reads to 0.1&nbsp;°C and remembers the high and low since you last cleared it, which is how you catch a heater that is drifting at night.</p>\n<ul>\n<li><strong>Max and min memory.</strong> A spot reading tells you nothing about the overnight swing. This holds both extremes until you reset it.</li>\n<li><strong>Probe in the water, display outside.</strong> No hunting for an angle to read a glass thermometer through a planted foreground.</li>\n<li><strong>0.1&nbsp;°C resolution, &deg;C or &deg;F.</strong> Fine enough to see the difference between a stable tank and a heater cycling too wide.</li>\n<li><strong>Suction cup and adhesive pad.</strong> Mount the display on the cabinet or the glass, and route the probe behind the hardscape.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "testing",
+      "status": "active",
+      "tags": "testing, equipment, planted tank",
+      "created_at": "2026-08-05T00:00:00+00:00",
+      "updated_at": "2026-08-05T00:00:00+00:00",
+      "published_at": "2026-08-05T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000122",
+      "options": [
+        {
+          "id": 7000000222,
+          "product_id": 7000000122,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000322,
+          "product_id": 7000000122,
+          "title": "Default Title",
+          "price": "22.95",
+          "compare_at_price": "29.00",
+          "sku": "AQL-DIGITA",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 25,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-05T00:00:00+00:00",
+          "updated_at": "2026-08-05T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000322"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000422,
+          "product_id": 7000000122,
+          "position": 1,
+          "src": "/products/digital-thermometer-lcd/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Digital Thermometer with Probe",
+          "variant_ids": []
+        },
+        {
+          "id": 7000000423,
+          "product_id": 7000000122,
+          "position": 2,
+          "src": "/products/digital-thermometer-lcd/02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Digital Thermometer with Probe and suction cup",
+          "variant_ids": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "−50 to 70 °C"
+        },
+        {
+          "label": "Resolution",
+          "value": "0.1 °C"
+        },
+        {
+          "label": "Accuracy",
+          "value": "±1 °C"
+        },
+        {
+          "label": "Memory",
+          "value": "Max / min, resettable"
+        },
+        {
+          "label": "Lead",
+          "value": "1 m sealed probe"
+        },
+        {
+          "label": "Power",
+          "value": "1×LR44 (included)"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is the probe fully submersible?",
+          "a": "The probe and its lead are sealed for permanent submersion. The display housing is not — keep it outside the tank."
+        },
+        {
+          "q": "Why does it read differently to my glass thermometer?",
+          "a": "Usually because they are in different places. Water stratifies, especially in a tank with low flow. Put both in the same spot for a fair comparison."
+        },
+        {
+          "q": "Can I calibrate it?",
+          "a": "No, it is a fixed ±1 °C sensor. For stability tracking that is plenty; if you need certified accuracy you want a lab probe."
+        }
+      ]
     }
   ]
 }

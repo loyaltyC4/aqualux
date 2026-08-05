@@ -1,4 +1,5 @@
 import { PageShell, Section } from "components/page-shell";
+import { FREE_SHIPPING_THRESHOLD } from "lib/brand";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,17 +16,31 @@ export default function ShippingReturnsPage() {
       title="Shipping & returns."
       intro="Fast dispatch, tracked delivery, and a no-drama 30-day return window on unused items."
     >
+      <Section heading="Where we ship">
+        <p>
+          We ship within Australia only. Prices are in Australian dollars and
+          include GST.
+        </p>
+      </Section>
       <Section heading="Dispatch & delivery">
         <p>
-          Orders are packed and dispatched within 1-2 business days. Standard
-          shipping typically arrives in 3-8 business days; express in 1-3. Exact
-          transit time depends on your destination and is shown at checkout.
+          Orders are packed and dispatched within 1-2 business days. Most of our
+          range ships direct from our supplier, so allow{" "}
+          <strong>8-15 business days</strong> for delivery within Australia.
+          Every order is tracked from dispatch. We would rather quote a real
+          transit time than promise a fast one and miss it.
         </p>
         <p>
-          Shipping is free on orders over $79. We cannot ship pressurised CO2
-          gas cylinders as they are classified as dangerous goods. All other
-          items in our range, including CO2 regulators, diffusers, drop
-          checkers, and tubing, ship without restriction.
+          Shipping is free on orders over ${FREE_SHIPPING_THRESHOLD}. Below that
+          a flat rate is calculated at checkout. Because freight is charged by
+          weight, combining items into one order is materially cheaper than
+          ordering them separately.
+        </p>
+        <p>
+          We cannot ship pressurised CO2 gas cylinders as they are classified as
+          dangerous goods. All other items in our range, including CO2
+          regulators, diffusers, drop checkers, and tubing, ship without
+          restriction.
         </p>
       </Section>
       <Section heading="Tracking">

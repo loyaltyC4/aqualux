@@ -1,5 +1,6 @@
 import CartModal from "components/cart/modal";
 import { BrandLogo } from "components/brand-logo";
+import { FREE_SHIPPING_THRESHOLD } from "lib/brand";
 import { getCollections } from "lib/shopify";
 import Link from "next/link";
 import { Suspense } from "react";
@@ -7,9 +8,9 @@ import MobileMenu from "./mobile-menu";
 import Search, { SearchSkeleton } from "./search";
 
 const ANNOUNCEMENTS = [
-  "Free shipping over $99",
+  `Free shipping over $${FREE_SHIPPING_THRESHOLD}`,
   "Curated, not mass-listed",
-  "Worldwide shipping",
+  "Australia-wide, tracked",
   "30-day returns",
 ];
 

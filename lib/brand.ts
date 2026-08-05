@@ -46,7 +46,11 @@ export const BONE = "#eceae4"; // primary text
 export const COLLECTIONS = [
   { handle: "lighting", title: "Planted Aquarium Lighting", short: "Lighting" },
   { handle: "co2", title: "Aquarium CO2 Systems", short: "CO2" },
-  { handle: "tools", title: "Aquascaping Tools", short: "Tools" },
+  {
+    handle: "tools",
+    title: "Aquascaping Tools & Equipment",
+    short: "Tools",
+  },
   { handle: "hardscape", title: "Substrate & Hardscape", short: "Hardscape" },
   { handle: "testing", title: "Aquarium Water Test Kits", short: "Testing" },
 ] as const;
