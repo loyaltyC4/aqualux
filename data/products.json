@@ -3391,7 +3391,7 @@
           "src": "/products/auto-feeder-programmable/01.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Programmable Auto Feeder",
+          "alt": "Programmable Auto Feeder with rim clamp",
           "variant_ids": []
         },
         {
@@ -3401,7 +3401,7 @@
           "src": "/products/auto-feeder-programmable/02.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Programmable Auto Feeder rim clamp",
+          "alt": "Programmable Auto Feeder hopper loaded with pellets, dispensing",
           "variant_ids": []
         }
       ],
@@ -3501,17 +3501,7 @@
           "src": "/products/digital-thermometer-lcd/01.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Digital Thermometer with Probe",
-          "variant_ids": []
-        },
-        {
-          "id": 7000000423,
-          "product_id": 7000000122,
-          "position": 2,
-          "src": "/products/digital-thermometer-lcd/02.jpg",
-          "width": 1200,
-          "height": 1200,
-          "alt": "Digital Thermometer with Probe and suction cup",
+          "alt": "Digital Thermometer with probe and suction cup",
           "variant_ids": []
         }
       ],
