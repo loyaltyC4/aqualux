@@ -32,6 +32,14 @@ export default {
         permanent: true,
       },
       {
+        // Renamed: the handle itself claimed "9 in 1" while the supplier offer
+        // (1688 id 732890024780) is an 8-parameter strip. dynamicParams is
+        // false on the product route, so without this the old URL hard-404s.
+        source: "/product/test-strips-9-in-1-100-count",
+        destination: "/product/test-strips-8-in-1-100-count",
+        permanent: true,
+      },
+      {
         source: "/product/digital-ph-tds-meter",
         destination: "/product/digital-ph-pen-meter",
         permanent: true,

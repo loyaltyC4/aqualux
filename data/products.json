@@ -4,7 +4,7 @@
       "id": 7000000000,
       "handle": "planted-starter-bundle-light-tools-test-kit",
       "title": "Planted Starter Bundle — Light, Tools, Test Kit",
-      "body_html": "<p>The three things a new planted tank actually needs, in one order: the Aurora 48 LED bar, the 5-piece scaping set, and the 9-in-1 test strips.</p><ul><li><strong>Includes:</strong> Aurora 48 LED (48&nbsp;cm), 5-piece tool set, 9-in-1 test strips</li><li><strong>Best for:</strong> a first planted tank between 48 and 58&nbsp;cm wide</li></ul>",
+      "body_html": "<p>The three things a new planted tank actually needs, in one order: the Aurora 48 LED bar, the 5-piece scaping set, and the 8-in-1 test strips.</p><ul><li><strong>Includes:</strong> Aurora 48 LED (48&nbsp;cm), 5-piece tool set, 8-in-1 test strips</li><li><strong>Best for:</strong> a first planted tank between 48 and 58&nbsp;cm wide</li></ul>",
       "vendor": "Aqualux",
       "product_type": "lighting",
       "status": "active",
@@ -82,7 +82,7 @@
       "specs": [
         {
           "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 9-in-1 test strips"
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
         },
         {
           "label": "Suits tank width",
@@ -2931,9 +2931,9 @@
     },
     {
       "id": 7000000023,
-      "handle": "test-strips-9-in-1-100-count",
-      "title": "Test Strips — 9 in 1, 100 Count",
-      "body_html": "<p>Nine-parameter dip strips including pH, free chlorine, nitrite, nitrate, total alkalinity and hardness. 100-strip pack.</p><ul><li><strong>Weight:</strong> 0.1kg</li></ul>",
+      "handle": "test-strips-8-in-1-100-count",
+      "title": "Test Strips — 8 in 1, 100 Count",
+      "body_html": "<p>Eight-parameter dip strips: pH, hardness, ammonia nitrogen, nitrate, nitrite, total chlorine, carbonate and total alkalinity. 100-strip pack.</p>\n<ul>\n<li><strong>Ammonia and nitrite on the same strip.</strong> Those two decide whether a tank is safe to stock. A strip that skips them tells you the least useful things first.</li>\n<li><strong>Carbonate and total alkalinity separately.</strong> KH is what holds pH steady, and it is the number that actually moves when you inject CO2.</li>\n<li><strong>Dip and read in 30 seconds.</strong> Faster than a reagent kit for a weekly check, though a liquid kit is still more precise when you are chasing a problem.</li>\n<li><strong>100 strips.</strong> At a weekly test that is about two years for one tank.</li>\n</ul>",
       "vendor": "Aqualux",
       "product_type": "testing",
       "status": "active",
@@ -2951,50 +2951,20 @@
           "name": "Pack",
           "position": 1,
           "values": [
-            "7-in-1, 100 strips",
             "8-in-1, 100 strips",
-            "9-in-1, 100 strips",
-            "9-in-1, 200 strips"
+            "8-in-1, 200 strips"
           ]
         }
       ],
       "variants": [
         {
-          "id": 7500000055,
-          "product_id": 7000000023,
-          "title": "7-in-1, 100 strips",
-          "price": "21.95",
-          "compare_at_price": "28.00",
-          "sku": "AQL-W11-1",
-          "position": 1,
-          "option1": "7-in-1, 100 strips",
-          "option2": null,
-          "option3": null,
-          "taxable": true,
-          "requires_shipping": true,
-          "inventory_quantity": 100,
-          "inventory_management": null,
-          "inventory_policy": "deny",
-          "fulfillment_service": "manual",
-          "grams": 800,
-          "weight": 0.8,
-          "weight_unit": "kg",
-          "barcode": null,
-          "inventory_item_id": 7300000023,
-          "old_inventory_quantity": 100,
-          "created_at": "2026-08-01T00:00:00+00:00",
-          "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000023",
-          "image_id": 9790046
-        },
-        {
-          "id": 7500000056,
+          "id": 7200000230,
           "product_id": 7000000023,
           "title": "8-in-1, 100 strips",
           "price": "21.95",
           "compare_at_price": "28.00",
-          "sku": "AQL-W11-2",
-          "position": 2,
+          "sku": "AQL-W11-100",
+          "position": 1,
           "option1": "8-in-1, 100 strips",
           "option2": null,
           "option3": null,
@@ -3012,18 +2982,18 @@
           "old_inventory_quantity": 100,
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000023",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000230",
           "image_id": 9790046
         },
         {
-          "id": 7500000057,
+          "id": 7200000231,
           "product_id": 7000000023,
-          "title": "9-in-1, 100 strips",
-          "price": "21.95",
-          "compare_at_price": "28.00",
-          "sku": "AQL-W11-3",
-          "position": 3,
-          "option1": "9-in-1, 100 strips",
+          "title": "8-in-1, 200 strips",
+          "price": "34.95",
+          "compare_at_price": "44.00",
+          "sku": "AQL-W11-200",
+          "position": 2,
+          "option1": "8-in-1, 200 strips",
           "option2": null,
           "option3": null,
           "taxable": true,
@@ -3040,35 +3010,7 @@
           "old_inventory_quantity": 100,
           "created_at": "2026-08-01T00:00:00+00:00",
           "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000023",
-          "image_id": 9790046
-        },
-        {
-          "id": 7500000058,
-          "product_id": 7000000023,
-          "title": "9-in-1, 200 strips",
-          "price": "21.95",
-          "compare_at_price": "28.00",
-          "sku": "AQL-W11-4",
-          "position": 4,
-          "option1": "9-in-1, 200 strips",
-          "option2": null,
-          "option3": null,
-          "taxable": true,
-          "requires_shipping": true,
-          "inventory_quantity": 100,
-          "inventory_management": null,
-          "inventory_policy": "deny",
-          "fulfillment_service": "manual",
-          "grams": 800,
-          "weight": 0.8,
-          "weight_unit": "kg",
-          "barcode": null,
-          "inventory_item_id": 7300000023,
-          "old_inventory_quantity": 100,
-          "created_at": "2026-08-01T00:00:00+00:00",
-          "updated_at": "2026-08-01T00:00:00+00:00",
-          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000023",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000231",
           "image_id": 9790046
         }
       ],
@@ -3077,10 +3019,10 @@
           "id": 9790046,
           "product_id": 7000000023,
           "position": 1,
-          "src": "/products/test-strips-9-in-1-100-count/01.jpg",
+          "src": "/products/test-strips-8-in-1-100-count/01.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "Test Strips — 9 in 1, 100 Count",
+          "alt": "8 in 1 aquarium test strips, 100-count bottle with colour chart",
           "variant_ids": []
         }
       ],
@@ -3088,21 +3030,29 @@
         "id": 9790046,
         "product_id": 7000000023,
         "position": 1,
-        "src": "/products/test-strips-9-in-1-100-count/01.jpg",
+        "src": "/products/test-strips-8-in-1-100-count/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "Test Strips — 9 in 1, 100 Count",
+        "alt": "8 in 1 aquarium test strips, 100-count bottle with colour chart",
         "variant_ids": []
       },
       "_cat": "testing",
       "specs": [
         {
           "label": "Parameters",
-          "value": "9"
+          "value": "8"
+        },
+        {
+          "label": "Measures",
+          "value": "pH, GH, ammonia, NO3, NO2, chlorine, CO3, KH"
         },
         {
           "label": "Count",
           "value": "100 strips"
+        },
+        {
+          "label": "Read time",
+          "value": "30 seconds"
         },
         {
           "label": "Type",
@@ -3111,15 +3061,23 @@
       ],
       "faqs": [
         {
-          "q": "How do these compare to a liquid kit?",
-          "a": "Faster and less precise. Strips are good for a quick weekly check; use a liquid reagent kit when you are cycling a tank or chasing a specific problem."
+          "q": "Are strips as accurate as a liquid test kit?",
+          "a": "No. Strips are for spotting a trend quickly. When a reading looks wrong, confirm it with a reagent kit before you act on it."
+        },
+        {
+          "q": "Does it test CO2?",
+          "a": "Not directly, and nor does any strip. Use the KH reading together with pH, or read CO2 off a drop checker."
+        },
+        {
+          "q": "How should they be stored?",
+          "a": "Capped, dry, and away from the tank. Humidity is what ruins strips long before the expiry date does."
         }
       ]
     },
     {
       "id": 7000000099,
       "handle": "rgbw-55-full-spectrum-led",
-      "title": "RGBW 55 Full Spectrum LED — ships from Australia",
+      "title": "RGBW 55 Full Spectrum LED",
       "body_html": "<p>A 15W RGBW full-spectrum bar for tanks up to 55&nbsp;cm. 66 LEDs, a 28-key remote, and a 24-hour timer.</p>\n<ul>\n<li><strong>66 RGBW LEDs, full spectrum.</strong> Thirteen static colours plus dynamic modes, with brightness and colour set from the remote rather than a button on the cord.</li>\n<li><strong>24-hour timer with auto on/off.</strong> Set the photoperiod once and it repeats &mdash; the cheapest algae control there is.</li>\n<li><strong>Extendable brackets.</strong> The bar is 40&nbsp;cm and the brackets reach to 55&nbsp;cm, so one unit covers a range of tank widths.</li>\n<li><strong>12V DC via external adapter.</strong> Low-voltage supply, so there is no mains voltage over the water.</li>\n</ul>",
       "vendor": "Silthouse",
       "product_type": "lighting",
@@ -3223,7 +3181,7 @@
           "src": "/products/rgbw-55-full-spectrum-led/01.jpg",
           "width": 1200,
           "height": 1200,
-          "alt": "RGBW 55 Full Spectrum LED — ships from Australia",
+          "alt": "RGBW 55 Full Spectrum LED bar with extendable brackets",
           "variant_ids": []
         }
       ],
@@ -3234,7 +3192,7 @@
         "src": "/products/rgbw-55-full-spectrum-led/01.jpg",
         "width": 1200,
         "height": 1200,
-        "alt": "RGBW 55 Full Spectrum LED — ships from Australia",
+        "alt": "RGBW 55 Full Spectrum LED bar with extendable brackets",
         "variant_ids": []
       },
       "created_at": "2026-08-04T00:00:00+00:00",
@@ -3543,6 +3501,312 @@
         {
           "q": "Can I calibrate it?",
           "a": "No, it is a fixed ±1 °C sensor. For stability tracking that is plenty; if you need certified accuracy you want a lab probe."
+        }
+      ]
+    },
+    {
+      "id": 7000000123,
+      "handle": "fine-mesh-fish-net-braided",
+      "title": "Fine-Mesh Fish Net — Braided Handle",
+      "body_html": "<p>A soft fine-mesh net on a braided stainless handle. The mesh is fine enough for shrimp and fry, and soft enough not to tear a long fin.</p>\n<ul>\n<li><strong>Fine mesh, soft weave.</strong> Coarse nets catch shrimp legs and split betta fins. This one does not.</li>\n<li><strong>Square mouth.</strong> Corners are where fish escape a round net. A square profile works into the corner of the glass.</li>\n<li><strong>Braided handle, not stamped.</strong> Stamped handles bend and the join rusts. Braided stainless does not stain hardscape.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "tools",
+      "status": "active",
+      "tags": "tools, equipment, planted tank",
+      "created_at": "2026-08-05T00:00:00+00:00",
+      "updated_at": "2026-08-05T00:00:00+00:00",
+      "published_at": "2026-08-05T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000123",
+      "options": [
+        {
+          "id": 7000000223,
+          "product_id": 7000000123,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000323,
+          "product_id": 7000000123,
+          "title": "Default Title",
+          "price": "14.95",
+          "compare_at_price": "19.00",
+          "sku": "AQL-FINE-ME",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-05T00:00:00+00:00",
+          "updated_at": "2026-08-05T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000323"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000423,
+          "product_id": 7000000123,
+          "position": 1,
+          "src": "/products/fine-mesh-fish-net-braided/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Fine-mesh aquarium fish net with braided stainless handle",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000423,
+        "product_id": 7000000123,
+        "position": 1,
+        "src": "/products/fine-mesh-fish-net-braided/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Fine-mesh aquarium fish net with braided stainless handle",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Mesh",
+          "value": "Fine, soft weave"
+        },
+        {
+          "label": "Net width",
+          "value": "8 cm"
+        },
+        {
+          "label": "Handle",
+          "value": "Braided stainless"
+        },
+        {
+          "label": "Suits",
+          "value": "Shrimp, fry, small fish"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will it hold shrimp?",
+          "a": "Yes. The weave is fine enough that adult and juvenile shrimp do not pass through or get a leg caught."
+        },
+        {
+          "q": "Can it be left wet?",
+          "a": "Rinse in tank water and air-dry. Do not use soap on it — residue is far more dangerous to a tank than a damp net."
+        }
+      ]
+    },
+    {
+      "id": 7000000124,
+      "handle": "intake-pre-filter-sponge-9pack",
+      "title": "Intake Pre-Filter Sponge — 9 Pack",
+      "body_html": "<p>Nine slip-on foam sleeves for a filter intake. They stop fry, shrimp and plant trimmings being drawn into the impeller, and they carry a useful bacterial load once they are established.</p>\n<ul>\n<li><strong>Shrimp and fry safety.</strong> The usual reason a shrimp disappears is the intake. A sleeve solves it outright.</li>\n<li><strong>Extra biological media.</strong> An established sponge is colonised, so rinse it in tank water, never under the tap.</li>\n<li><strong>Nine of them.</strong> Rotate: run one while another dries, and you never strip the filter of bacteria in one go.</li>\n<li><strong>Fits intakes to about 25&nbsp;mm.</strong> Stretches over most internal filter and canister intakes.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "tools",
+      "status": "active",
+      "tags": "tools, equipment, filtration, planted tank",
+      "created_at": "2026-08-05T00:00:00+00:00",
+      "updated_at": "2026-08-05T00:00:00+00:00",
+      "published_at": "2026-08-05T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000124",
+      "options": [
+        {
+          "id": 7000000224,
+          "product_id": 7000000124,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000324,
+          "product_id": 7000000124,
+          "title": "Default Title",
+          "price": "21.95",
+          "compare_at_price": "28.00",
+          "sku": "AQL-INTAKE-",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-05T00:00:00+00:00",
+          "updated_at": "2026-08-05T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000324"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000424,
+          "product_id": 7000000124,
+          "position": 1,
+          "src": "/products/intake-pre-filter-sponge-9pack/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Nine-pack of foam pre-filter sponge sleeves for aquarium filter intakes",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000424,
+        "product_id": 7000000124,
+        "position": 1,
+        "src": "/products/intake-pre-filter-sponge-9pack/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Nine-pack of foam pre-filter sponge sleeves for aquarium filter intakes",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Quantity",
+          "value": "9 sleeves"
+        },
+        {
+          "label": "Fits intake",
+          "value": "Up to ~25 mm"
+        },
+        {
+          "label": "Material",
+          "value": "Reticulated foam"
+        },
+        {
+          "label": "Use",
+          "value": "Pre-filter and biological media"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How often should they be cleaned?",
+          "a": "When flow drops noticeably, usually every week or two in a planted tank. Squeeze it out in a jug of tank water."
+        },
+        {
+          "q": "Will it reduce my filter flow?",
+          "a": "Slightly, and more as it loads up. That is the trade for keeping shrimp out of the impeller."
+        }
+      ]
+    },
+    {
+      "id": 7000000125,
+      "handle": "acrylic-breeder-box-hang-on",
+      "title": "Acrylic Breeder Box — Hang-On",
+      "body_html": "<p>A clear acrylic box that hangs inside the tank on suction cups, with a divided lower chamber and a slotted floor so fry drop away from the adult.</p>\n<ul>\n<li><strong>Fry drop through, adults cannot follow.</strong> The slotted floor is the whole point of a breeder box — it separates them at birth without you watching.</li>\n<li><strong>Shares the tank's water.</strong> No separate heater, no separate cycle, and no shock when the fry are eventually released.</li>\n<li><strong>Divided chamber.</strong> Also serves as an isolation box for a fish being treated or a fin recovering.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "tools",
+      "status": "active",
+      "tags": "tools, equipment, breeding, planted tank",
+      "created_at": "2026-08-05T00:00:00+00:00",
+      "updated_at": "2026-08-05T00:00:00+00:00",
+      "published_at": "2026-08-05T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000125",
+      "options": [
+        {
+          "id": 7000000225,
+          "product_id": 7000000125,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000325,
+          "product_id": 7000000125,
+          "title": "Default Title",
+          "price": "24.95",
+          "compare_at_price": "32.00",
+          "sku": "AQL-ACRYLIC",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-05T00:00:00+00:00",
+          "updated_at": "2026-08-05T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000325"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000425,
+          "product_id": 7000000125,
+          "position": 1,
+          "src": "/products/acrylic-breeder-box-hang-on/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Clear acrylic hang-on aquarium breeder box with suction cups",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000425,
+        "product_id": 7000000125,
+        "position": 1,
+        "src": "/products/acrylic-breeder-box-hang-on/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Clear acrylic hang-on aquarium breeder box with suction cups",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Clear acrylic"
+        },
+        {
+          "label": "Mounting",
+          "value": "Suction cups, hangs inside tank"
+        },
+        {
+          "label": "Chambers",
+          "value": "Divided, slotted floor"
+        },
+        {
+          "label": "Use",
+          "value": "Breeding, fry rearing, isolation"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Does it need its own heater?",
+          "a": "No. It hangs in the tank and shares its water and temperature, which is the main advantage over a separate tank."
+        },
+        {
+          "q": "Will the fry get enough flow?",
+          "a": "Position it near, not directly in front of, the filter outlet. Fry need gentle exchange, not a current."
         }
       ]
     }

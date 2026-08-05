@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 // verified to exist by a build-time test so the rail can never go silent.
 const ESSENTIAL_HANDLES = [
   "glass-drop-checker-4dkh-solution",
-  "test-strips-9-in-1-100-count",
+  "test-strips-8-in-1-100-count",
   "long-reach-tweezers-15in",
   "magnetic-glass-cleaner-float",
 ];
