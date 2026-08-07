@@ -1,3 +1,4 @@
+import { FREE_SHIPPING_THRESHOLD } from "lib/brand";
 import { AddToCart } from "components/cart/add-to-cart";
 import Price from "components/price";
 import { Product } from "lib/shopify/types";
@@ -49,7 +50,7 @@ export function ProductDescription({ product }: { product: Product }) {
       <ul className="mt-6 grid grid-cols-1 gap-2 text-sm text-neutral-400 sm:grid-cols-2">
         {[
           "Hand-picked and quality-checked",
-          "Free shipping over $99",
+          `Free shipping over $${FREE_SHIPPING_THRESHOLD} to AU & NZ`,
           "Encrypted checkout with Stripe",
           "30-day easy returns",
         ].map((t) => (

@@ -15,7 +15,7 @@ import {
 export const metadata = {
   title: "Planted Aquarium Lighting, CO2 & Aquascaping Tools | Aqualux",
   description:
-    "Planted aquarium lighting, CO2 systems, aquascaping tools and water test kits, shipped Australia-wide. Curated on real specs. Free shipping over $99.",
+    "Planted aquarium lighting, CO2 systems, aquascaping tools and water test kits, shipped worldwide from a curated range chosen on real specs, with delivery windows quoted per destination.",
   alternates: { canonical: "/" },
 };
 
@@ -140,10 +140,10 @@ export default async function HomePage() {
       <div className="border-y border-[var(--aq-line)] bg-[var(--aq-panel)]">
         <div className="mx-auto grid max-w-[1400px] grid-cols-2 gap-px px-6 md:grid-cols-4 md:px-12">
           {[
-            ["Free shipping", `on orders over $${FREE_SHIPPING_THRESHOLD}`],
+            ["Free shipping", `over $${FREE_SHIPPING_THRESHOLD} to AU & NZ`],
             ["30-day returns", "unused, in packaging"],
             ["Real specs", "PAR, spectrum, dimensions"],
-            ["Australia-wide", "tracked, dispatched in 1-2 days"],
+            ["Ships worldwide", "tracked, dispatched in 1-2 days"],
           ].map(([t, d]) => (
             <div key={t} className="py-6 md:py-7">
               <p className="text-sm font-medium text-[var(--aq-bone)]">{t}</p>

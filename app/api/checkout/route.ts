@@ -2,17 +2,25 @@ import { NextRequest, NextResponse } from "next/server";
 import { getStripe } from "lib/stripe";
 import { staticGetVariant } from "lib/shopify/static-data";
 import { baseUrl } from "lib/utils";
-import { FREE_SHIPPING_THRESHOLD } from "lib/brand";
+import { CURRENCY } from "lib/brand";
+import {
+  ALLOWED_COUNTRIES,
+  DISPATCH_MAX_DAYS,
+  DISPATCH_MIN_DAYS,
+  zoneForCountry,
+} from "lib/shipping";
 
 export const dynamic = "force-dynamic";
 
 type IncomingLine = { merchandiseId?: string; quantity?: number };
+/** Destination country, so we quote the right zone rather than a global average. */
+type CheckoutBody = { lines?: IncomingLine[]; country?: string };
 
-// Australia only. The store prices in AUD and quotes an Australian transit
-// time, and stock ships from a single origin — offering 40 countries at one
-// flat rate meant promising a delivery window we could not hold. Add a country
-// back only once its freight and transit time are actually quoted.
-const ALLOWED_COUNTRIES = ["AU"] as const;
+// Zones, rates and delivery windows all come from lib/shipping so the rate a
+// buyer is CHARGED and the estimate they are SHOWN can never diverge. They
+// previously did: the policy page said 8-15 business days while this file
+// offered "Standard 3-8" and an "Express 1-3" that cannot be bought on a
+// China-origin lane at all.
 
 export async function POST(req: NextRequest) {
   const stripe = getStripe();
@@ -29,7 +37,7 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  let body: { lines?: IncomingLine[] };
+  let body: CheckoutBody;
   try {
     body = await req.json();
   } catch {
@@ -89,39 +97,47 @@ export async function POST(req: NextRequest) {
 
   const origin = req.headers.get("origin") || baseUrl;
 
-  // Free shipping is a real promise, computed from the actual subtotal —
-  // not just cosmetic in the cart UI. Keep FREE_SHIPPING_THRESHOLD in sync
-  // with lib/brand.ts.
+  // Free shipping is a real promise, computed from the actual subtotal — not
+  // just cosmetic in the cart UI. The threshold is now PER ZONE (lib/shipping),
+  // because freight to Europe costs meaningfully more than freight to Australia
+  // and a single global threshold would subsidise the far zones out of margin.
   const subtotalCents = line_items.reduce(
     (sum, li) => sum + li.price_data.unit_amount * li.quantity,
     0,
   );
-  const qualifiesForFreeShipping =
-    subtotalCents >= FREE_SHIPPING_THRESHOLD * 100;
 
-  const standardShippingOption = qualifiesForFreeShipping
-    ? {
-        shipping_rate_data: {
-          type: "fixed_amount" as const,
-          fixed_amount: { amount: 0, currency: "aud" },
-          display_name: "Free shipping",
-          delivery_estimate: {
-            minimum: { unit: "business_day" as const, value: 3 },
-            maximum: { unit: "business_day" as const, value: 8 },
+  // One option per zone the destination belongs to. Stripe fixes shipping
+  // options at session creation, before it knows the address, so we resolve the
+  // zone from the country the client sends and fall back to the primary market.
+  const zone = zoneForCountry(body.country);
+  const freeThisZone = subtotalCents >= zone.freeOver * 100;
+  const cur = CURRENCY.toLowerCase();
+
+  const shippingOptions = [
+    {
+      shipping_rate_data: {
+        type: "fixed_amount" as const,
+        fixed_amount: {
+          amount: freeThisZone ? 0 : Math.round(zone.rate * 100),
+          currency: cur,
+        },
+        display_name: freeThisZone
+          ? `Free shipping to ${zone.label}`
+          : `Tracked shipping to ${zone.label}`,
+        delivery_estimate: {
+          // Dispatch plus transit — the window the buyer actually experiences.
+          minimum: {
+            unit: "business_day" as const,
+            value: zone.minDays + DISPATCH_MIN_DAYS,
+          },
+          maximum: {
+            unit: "business_day" as const,
+            value: zone.maxDays + DISPATCH_MAX_DAYS,
           },
         },
-      }
-    : {
-        shipping_rate_data: {
-          type: "fixed_amount" as const,
-          fixed_amount: { amount: 995, currency: "aud" },
-          display_name: "Standard shipping",
-          delivery_estimate: {
-            minimum: { unit: "business_day" as const, value: 3 },
-            maximum: { unit: "business_day" as const, value: 8 },
-          },
-        },
-      };
+      },
+    },
+  ];
 
   try {
     const session = await stripe.checkout.sessions.create({
@@ -131,20 +147,7 @@ export async function POST(req: NextRequest) {
       shipping_address_collection: {
         allowed_countries: [...ALLOWED_COUNTRIES] as any,
       },
-      shipping_options: [
-        standardShippingOption,
-        {
-          shipping_rate_data: {
-            type: "fixed_amount",
-            fixed_amount: { amount: 1995, currency: "aud" },
-            display_name: "Express shipping",
-            delivery_estimate: {
-              minimum: { unit: "business_day", value: 1 },
-              maximum: { unit: "business_day", value: 3 },
-            },
-          },
-        },
-      ],
+      shipping_options: shippingOptions,
       allow_promotion_codes: true,
       success_url: `${origin}/order/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/search`,

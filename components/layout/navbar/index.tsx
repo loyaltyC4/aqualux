@@ -8,9 +8,9 @@ import MobileMenu from "./mobile-menu";
 import Search, { SearchSkeleton } from "./search";
 
 const ANNOUNCEMENTS = [
-  `Free shipping over $${FREE_SHIPPING_THRESHOLD}`,
+  `Free shipping over $${FREE_SHIPPING_THRESHOLD} to AU & NZ`,
   "Curated, not mass-listed",
-  "Australia-wide, tracked",
+  "Worldwide tracked delivery",
   "30-day returns",
 ];
 

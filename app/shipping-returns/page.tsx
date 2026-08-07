@@ -1,11 +1,11 @@
+import { DeliveryTable } from "components/delivery-table";
 import { PageShell, Section } from "components/page-shell";
-import { FREE_SHIPPING_THRESHOLD } from "lib/brand";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Shipping & Returns",
   description:
-    "Aqualux shipping times, tracked delivery, and our 30-day returns policy for planted aquarium gear.",
+    "Aqualux delivery windows by destination, tracked shipping rates, and our 30-day returns policy for planted aquarium gear.",
   alternates: { canonical: "/shipping-returns" },
 };
 
@@ -16,25 +16,17 @@ export default function ShippingReturnsPage() {
       title="Shipping & returns."
       intro="Fast dispatch, tracked delivery, and a no-drama 30-day return window on unused items."
     >
-      <Section heading="Where we ship">
-        <p>
-          We ship within Australia only. Prices are in Australian dollars and
-          include GST.
-        </p>
+      <Section heading="Where we ship & how long it takes">
+        <DeliveryTable />
       </Section>
-      <Section heading="Dispatch & delivery">
+      <Section heading="Why combining an order is cheaper">
         <p>
-          Orders are packed and dispatched within 1-2 business days. Most of our
-          range ships direct from our supplier, so allow{" "}
-          <strong>8-15 business days</strong> for delivery within Australia.
-          Every order is tracked from dispatch. We would rather quote a real
-          transit time than promise a fast one and miss it.
-        </p>
-        <p>
-          Shipping is free on orders over ${FREE_SHIPPING_THRESHOLD}. Below that
-          a flat rate is calculated at checkout. Because freight is charged by
-          weight, combining items into one order is materially cheaper than
-          ordering them separately.
+          Freight is charged by weight, not by line item, so one order of four
+          things costs far less to ship than four orders of one. On a single
+          small item, shipping can be nearly half the order value; across four it
+          falls to under a quarter. That is also why the free-shipping threshold
+          exists rather than a blanket free-shipping claim we would have to fund
+          out of margin.
         </p>
         <p>
           We cannot ship pressurised CO2 gas cylinders as they are classified as
