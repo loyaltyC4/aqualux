@@ -197,7 +197,8 @@ export default async function HomePage() {
                       {c.title}
                     </h3>
                     <p className="aq-spec mt-1 text-[13px] text-[#f2a93b]">
-                      {counts[c.handle]} products
+                      {counts[c.handle]}{" "}
+                      {counts[c.handle] === 1 ? "product" : "products"}
                     </p>
                   </div>
                 </Link>
