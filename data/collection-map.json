@@ -35,7 +35,8 @@
   "testing": [
     "digital-ph-pen-meter",
     "test-strips-8-in-1-100-count",
-    "digital-thermometer-lcd"
+    "digital-thermometer-lcd",
+    "pro-ph-meter-backlit"
   ],
   "starter-kits": [
     "planted-starter-bundle-light-tools-test-kit",
