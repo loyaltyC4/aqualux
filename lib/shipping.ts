@@ -60,7 +60,7 @@ export const ZONES: Zone[] = [
     maxDays: 14,
     rate: 9.95,
     freeOver: 99,
-    note: "Carrier quotes 6-10 business days on this lane. We publish 7-14 to absorb supplier handling and customs.",
+    note: "Carrier quotes 6-10 business days in transit. We widen it to 7-14 to absorb supplier handling and customs, then add dispatch for the figure shown.",
   },
   {
     id: "NA",
@@ -70,7 +70,7 @@ export const ZONES: Zone[] = [
     maxDays: 12,
     rate: 11.95,
     freeOver: 120,
-    note: "The fastest lane we buy: carrier quotes 4-7 business days. Published as 6-12.",
+    note: "The fastest lane we buy — carrier quotes 4-7 business days in transit. Widened to 6-12 before dispatch is added.",
   },
   {
     id: "UKEU",
