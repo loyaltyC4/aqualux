@@ -49,6 +49,16 @@
       "published_at": "2026-08-01T00:00:00+00:00",
       "sort_order": "manual",
       "published_scope": "web"
+    },
+    {
+      "id": 800005,
+      "handle": "filtration",
+      "title": "Filtration & Air",
+      "body_html": "<p>Sponge filters, filter media, air stones, airline and the fittings that hold it all together. Air-driven and passive gear for planted, shrimp and breeding tanks.</p>",
+      "updated_at": "2026-08-01T00:00:00+00:00",
+      "published_at": "2026-08-01T00:00:00+00:00",
+      "sort_order": "manual",
+      "published_scope": "web"
     }
   ]
 }

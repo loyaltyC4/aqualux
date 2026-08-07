@@ -22,27 +22,26 @@ export const metadata = {
 const price = (p: Product) => parseFloat(p.priceRange.minVariantPrice.amount);
 
 export default async function HomePage() {
-  const [lighting, co2, tools, hardscape, testing] = await Promise.all([
-    getCollectionProducts({ collection: "lighting" }),
-    getCollectionProducts({ collection: "co2" }),
-    getCollectionProducts({ collection: "tools" }),
-    getCollectionProducts({ collection: "hardscape" }),
-    getCollectionProducts({ collection: "testing" }),
-  ]);
+  // Derived from COLLECTIONS rather than listed by hand — the hardcoded
+  // five-collection version silently excluded Filtration from both the tile
+  // counts and the "All N products" figure the moment it was added.
+  const fetched = await Promise.all(
+    COLLECTIONS.map((c) => getCollectionProducts({ collection: c.handle })),
+  );
+  const byHandle: Record<string, Product[]> = {};
+  COLLECTIONS.forEach((c, i) => {
+    byHandle[c.handle] = fetched[i] ?? [];
+  });
 
-  const counts: Record<string, number> = {
-    lighting: lighting.length,
-    co2: co2.length,
-    tools: tools.length,
-    hardscape: hardscape.length,
-    testing: testing.length,
-  };
-  const total =
-    lighting.length +
-    co2.length +
-    tools.length +
-    hardscape.length +
-    testing.length;
+  const counts: Record<string, number> = Object.fromEntries(
+    COLLECTIONS.map((c) => [c.handle, byHandle[c.handle]!.length]),
+  );
+  // Distinct products: a handle can legitimately sit in more than one
+  // collection, so counting the fetches would double-count it.
+  const total = new Set(fetched.flat().map((p) => p.handle)).size;
+
+  const lighting = byHandle["lighting"] ?? [];
+  const co2 = byHandle["co2"] ?? [];
 
   const bundles = [...lighting, ...co2]
     .filter((p) => p.handle.includes("bundle"))
@@ -153,24 +152,29 @@ export default async function HomePage() {
         </div>
       </div>
 
-      {/* ── CATEGORY BENTO (5 items, 5 cells, asymmetric) ── */}
+      {/* ── CATEGORY BENTO — derives its shape from COLLECTIONS ── */}
       <section className="mx-auto max-w-[1400px] px-6 py-24 md:px-12 md:py-32">
         <Reveal>
           <h2 className="max-w-lg text-3xl font-semibold leading-tight md:text-5xl">
-            Five things a planted tank actually needs.
+            Everything a planted tank actually needs.
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid grid-cols-1 gap-4 md:grid-cols-6 md:grid-rows-2">
+        <div className="mt-14 grid grid-cols-1 gap-4 md:grid-cols-6">
           {COLLECTIONS.map((c, i) => {
-            // asymmetric bento: 2 large cells, 3 smaller
-            const span =
-              i === 0
-                ? "md:col-span-4 md:row-span-1"
-                : i === 1
-                  ? "md:col-span-2 md:row-span-1"
-                  : "md:col-span-2 md:row-span-1";
-            const tall = i === 0;
+            // The grid was hand-tuned for exactly five tiles and broke to a
+            // ragged third row when Filtration was added. Now it fills 6
+            // columns per row from the item count: the lead tile is wide, the
+            // last tile stretches to close the row if the count is odd.
+            const n = COLLECTIONS.length;
+            const lead = i === 0;
+            const closesRow = i === n - 1 && (n - 1) % 3 !== 0;
+            const span = lead
+              ? "md:col-span-4"
+              : closesRow
+                ? "md:col-span-4"
+                : "md:col-span-2";
+            const tall = lead;
             return (
               <Reveal key={c.handle} delay={i * 70} className={span}>
                 <Link

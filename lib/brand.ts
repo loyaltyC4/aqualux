@@ -63,6 +63,11 @@ export const COLLECTIONS = [
     title: "Aquascaping Tools & Equipment",
     short: "Tools",
   },
+  {
+    handle: "filtration",
+    title: "Filtration & Air",
+    short: "Filtration",
+  },
   { handle: "hardscape", title: "Substrate & Hardscape", short: "Hardscape" },
   { handle: "testing", title: "Aquarium Water Test Kits", short: "Testing" },
 ] as const;
@@ -71,6 +76,7 @@ export const COLLECTION_IMAGE: Record<string, string> = {
   lighting: "/brand/cat-lighting.jpg",
   co2: "/brand/cat-co2.jpg",
   tools: "/brand/cat-tools.jpg",
+  filtration: "/brand/cat-filtration.jpg",
   hardscape: "/brand/cat-hardscape.jpg",
   testing: "/brand/cat-testing.jpg",
 };

@@ -3612,7 +3612,7 @@
       "title": "Intake Pre-Filter Sponge — 9 Pack",
       "body_html": "<p>Nine slip-on foam sleeves for a filter intake. They stop fry, shrimp and plant trimmings being drawn into the impeller, and they carry a useful bacterial load once they are established.</p>\n<ul>\n<li><strong>Shrimp and fry safety.</strong> The usual reason a shrimp disappears is the intake. A sleeve solves it outright.</li>\n<li><strong>Extra biological media.</strong> An established sponge is colonised, so rinse it in tank water, never under the tap.</li>\n<li><strong>Nine of them.</strong> Rotate: run one while another dries, and you never strip the filter of bacteria in one go.</li>\n<li><strong>Fits intakes to about 25&nbsp;mm.</strong> Stretches over most internal filter and canister intakes.</li>\n</ul>",
       "vendor": "Aqualux",
-      "product_type": "tools",
+      "product_type": "filtration",
       "status": "active",
       "tags": "tools, equipment, filtration, planted tank",
       "created_at": "2026-08-05T00:00:00+00:00",
@@ -4193,6 +4193,896 @@
         {
           "q": "Can I use it for hydroponics as well?",
           "a": "Yes — same measurement, and the three-point calibration matters more in nutrient solution than in a tank."
+        }
+      ]
+    },
+    {
+      "id": 7000000129,
+      "handle": "bio-sponge-filter-4-pack",
+      "title": "Bio Sponge Filter — 4 Pack",
+      "body_html": "<p>Four air-driven sponge filters with uplift tubes. No impeller, so nothing can pull in fry or shrimp, and the sponge itself becomes the biological media once it colonises.</p>\n<ul>\n<li><strong>The standard filter for a breeding or shrimp tank.</strong> There is no intake to guard because there is no impeller — the reason experienced breeders use these and nothing else.</li>\n<li><strong>Biological, not just mechanical.</strong> An established sponge carries the bacterial colony. Rinse in tank water, never under the tap, or you restart the cycle.</li>\n<li><strong>Four of them.</strong> Seed a new tank instantly by moving a mature sponge across from an established one.</li>\n<li><strong>Needs an air pump.</strong> Driven by air, not mains — the pump is sold separately and is not included.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "filtration",
+      "status": "active",
+      "tags": "filtration, breeding, shrimp, planted tank",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000129",
+      "options": [
+        {
+          "id": 7000000130,
+          "product_id": 7000000129,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000131,
+          "product_id": 7000000129,
+          "title": "Default Title",
+          "price": "29.95",
+          "compare_at_price": "39.00",
+          "sku": "AQL-BIO-SPON",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000131"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000132,
+          "product_id": 7000000129,
+          "position": 1,
+          "src": "/products/bio-sponge-filter-4-pack/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Four air-driven bio sponge filters with uplift tubes",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000132,
+        "product_id": 7000000129,
+        "position": 1,
+        "src": "/products/bio-sponge-filter-4-pack/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Four air-driven bio sponge filters with uplift tubes",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Quantity",
+          "value": "4 filters"
+        },
+        {
+          "label": "Drive",
+          "value": "Air-driven, pump not included"
+        },
+        {
+          "label": "Suits",
+          "value": "Tanks to ~40 L each"
+        },
+        {
+          "label": "Best for",
+          "value": "Fry, shrimp, quarantine, seeding"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do I need an air pump?",
+          "a": "Yes. These run on air, not mains power. Any small aquarium air pump with airline will drive one or two."
+        },
+        {
+          "q": "How often do I clean them?",
+          "a": "When flow slows, usually every two to four weeks. Squeeze out in a jug of tank water — tap water kills the bacteria."
+        }
+      ]
+    },
+    {
+      "id": 7000000139,
+      "handle": "filter-media-foam-pads",
+      "title": "Filter Media Foam Pads — 4 Pack",
+      "body_html": "<p>Four cut-to-fit reticulated foam pads for canister trays and hang-on-back filters. Trim with scissors to whatever your filter takes.</p>\n<ul>\n<li><strong>Cut to fit anything.</strong> Filter-brand cartridges are priced as consumables precisely because they only fit one machine. These do not.</li>\n<li><strong>Mechanical first, biological after.</strong> New pads trap debris; established ones carry bacteria. Stagger replacement so you never swap the whole lot at once.</li>\n<li><strong>Reticulated open-cell foam.</strong> Rinses clean instead of clogging solid the way cheap bonded wool does.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "filtration",
+      "status": "active",
+      "tags": "filtration, media, planted tank",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000139",
+      "options": [
+        {
+          "id": 7000000140,
+          "product_id": 7000000139,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000141,
+          "product_id": 7000000139,
+          "title": "Default Title",
+          "price": "19.95",
+          "compare_at_price": "26.00",
+          "sku": "AQL-FILTER-M",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000141"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000142,
+          "product_id": 7000000139,
+          "position": 1,
+          "src": "/products/filter-media-foam-pads/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Four reticulated foam filter media pads",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000142,
+        "product_id": 7000000139,
+        "position": 1,
+        "src": "/products/filter-media-foam-pads/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Four reticulated foam filter media pads",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Quantity",
+          "value": "4 pads"
+        },
+        {
+          "label": "Material",
+          "value": "Reticulated open-cell foam"
+        },
+        {
+          "label": "Fitting",
+          "value": "Trim to size with scissors"
+        },
+        {
+          "label": "Suits",
+          "value": "Canister trays, HOB filters"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will these fit my filter?",
+          "a": "Almost certainly — they are oversized sheets meant to be cut. Measure the tray and trim about 2 mm over for a snug fit."
+        },
+        {
+          "q": "Replace or rinse?",
+          "a": "Rinse in tank water until the foam stops springing back, then replace. Never replace all pads in one go."
+        }
+      ]
+    },
+    {
+      "id": 7000000149,
+      "handle": "disc-air-stone-diffuser",
+      "title": "Disc Air Stone Diffuser",
+      "body_html": "<p>A wide ceramic disc that breaks air into a fine, even column instead of the coarse chugging you get from a cheap cylinder stone.</p>\n<ul>\n<li><strong>Finer bubbles, quieter tank.</strong> Small bubbles hold contact with the water longer, so gas exchange improves and the noise drops.</li>\n<li><strong>Wide flat base.</strong> Sits on the substrate without rolling, unlike a cylinder stone.</li>\n<li><strong>Drives a sponge filter.</strong> Also the right stone for a bubble column behind hardscape.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "filtration",
+      "status": "active",
+      "tags": "air, aeration, filtration, planted tank",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000149",
+      "options": [
+        {
+          "id": 7000000150,
+          "product_id": 7000000149,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000151,
+          "product_id": 7000000149,
+          "title": "Default Title",
+          "price": "14.95",
+          "compare_at_price": "19.00",
+          "sku": "AQL-DISC-AIR",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000151"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000152,
+          "product_id": 7000000149,
+          "position": 1,
+          "src": "/products/disc-air-stone-diffuser/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Ceramic disc air stone diffuser with airline barb",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000152,
+        "product_id": 7000000149,
+        "position": 1,
+        "src": "/products/disc-air-stone-diffuser/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Ceramic disc air stone diffuser with airline barb",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Ceramic disc"
+        },
+        {
+          "label": "Connection",
+          "value": "Standard 4 mm airline barb"
+        },
+        {
+          "label": "Use",
+          "value": "Aeration, sponge filter drive"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why does output drop over time?",
+          "a": "Mineral deposits block the pores. Soak in dilute vinegar, rinse thoroughly, and it comes back."
+        },
+        {
+          "q": "Does it need a strong pump?",
+          "a": "A fine stone has more back-pressure than a coarse one. A very small pump may struggle to push a full disc."
+        }
+      ]
+    },
+    {
+      "id": 7000000159,
+      "handle": "airline-tubing-25ft",
+      "title": "Airline Tubing — 25 ft",
+      "body_html": "<p>Twenty-five feet of clear 3/16\" airline. Standard bore, so it fits air pumps, sponge filters, check valves and CO2 fittings.</p>\n<ul>\n<li><strong>Stays flexible.</strong> Cheap tubing goes stiff and yellow within months, then kinks at every bend and cracks at the barb.</li>\n<li><strong>Standard 3/16\" bore.</strong> The size nearly all aquarium air fittings are built around.</li>\n<li><strong>25 ft.</strong> Enough to replumb several tanks rather than patching one run.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "filtration",
+      "status": "active",
+      "tags": "air, aeration, co2, planted tank",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000159",
+      "options": [
+        {
+          "id": 7000000160,
+          "product_id": 7000000159,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000161,
+          "product_id": 7000000159,
+          "title": "Default Title",
+          "price": "16.95",
+          "compare_at_price": "22.00",
+          "sku": "AQL-AIRTUB25F",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000161"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000162,
+          "product_id": 7000000159,
+          "position": 1,
+          "src": "/products/airline-tubing-25ft/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Coil of clear 3/16 inch aquarium airline tubing",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000162,
+        "product_id": 7000000159,
+        "position": 1,
+        "src": "/products/airline-tubing-25ft/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Coil of clear 3/16 inch aquarium airline tubing",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Length",
+          "value": "25 ft (7.6 m)"
+        },
+        {
+          "label": "Bore",
+          "value": "3/16\" standard"
+        },
+        {
+          "label": "Material",
+          "value": "Clear flexible PVC"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can I use this for CO2?",
+          "a": "For low-pressure runs from a diffuser, yes. For a pressurised regulator use dedicated CO2-resistant tubing — standard PVC is slightly permeable to CO2 over long runs."
+        },
+        {
+          "q": "How do I stop it kinking?",
+          "a": "Warm the end in hot water before pushing it onto a barb, and avoid tight radii. Suction clips hold the run in place."
+        }
+      ]
+    },
+    {
+      "id": 7000000169,
+      "handle": "airline-suction-clips-10pk",
+      "title": "Airline Suction Clips — 10 Pack",
+      "body_html": "<p>Ten suction cups with airline clips. They hold tubing, heater cables and CO2 lines flat against the glass instead of drifting through the scape.</p>\n<ul>\n<li><strong>Tidy is not cosmetic.</strong> Loose airline drifts into the flow path and across the front pane. This is the cheapest thing that makes a tank look considered.</li>\n<li><strong>Clip, not slot.</strong> The tube snaps in and stays; open slot holders release the moment the line is under tension.</li>\n<li><strong>Ten of them.</strong> Enough for a full run with spares — suction cups perish before anything else in a tank.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "filtration",
+      "status": "active",
+      "tags": "air, aeration, accessories, planted tank",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000169",
+      "options": [
+        {
+          "id": 7000000170,
+          "product_id": 7000000169,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000171,
+          "product_id": 7000000169,
+          "title": "Default Title",
+          "price": "12.95",
+          "compare_at_price": "17.00",
+          "sku": "AQL-AIRSUCCLI",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000171"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000172,
+          "product_id": 7000000169,
+          "position": 1,
+          "src": "/products/airline-suction-clips-10pk/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Ten aquarium airline suction cup clips",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000172,
+        "product_id": 7000000169,
+        "position": 1,
+        "src": "/products/airline-suction-clips-10pk/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Ten aquarium airline suction cup clips",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Quantity",
+          "value": "10 clips"
+        },
+        {
+          "label": "Fits",
+          "value": "4 mm airline and similar"
+        },
+        {
+          "label": "Mounting",
+          "value": "Suction cup, inside or outside glass"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why do suction cups stop sticking?",
+          "a": "They harden with age and algae film. Clean the glass and the cup, and warm the cup in hot water to soften it before pressing."
+        },
+        {
+          "q": "Will they hold a heater cable?",
+          "a": "Yes for the cable. Do not use them to suspend the heater body — use its own bracket."
+        }
+      ]
+    },
+    {
+      "id": 7000000179,
+      "handle": "telescopic-fish-net",
+      "title": "Telescopic Fish Net — Fine Mesh",
+      "body_html": "<p>A fine-mesh net on a telescopic stainless handle that extends to reach the bottom of a deep tank without putting your arm in it.</p>\n<ul>\n<li><strong>Reaches the substrate on a deep tank.</strong> The usual problem with a fixed net is that it is fine until you need the back corner of a 45 cm-deep scape.</li>\n<li><strong>Fine soft mesh.</strong> Holds shrimp and fry, and will not split a long fin.</li>\n<li><strong>Collapses for storage.</strong> Retracts to roughly a third of its extended length.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "tools",
+      "status": "active",
+      "tags": "equipment, breeding, shrimp, planted tank",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000179",
+      "options": [
+        {
+          "id": 7000000180,
+          "product_id": 7000000179,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000181,
+          "product_id": 7000000179,
+          "title": "Default Title",
+          "price": "18.95",
+          "compare_at_price": "24.00",
+          "sku": "AQL-TELESCOP",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000181"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000182,
+          "product_id": 7000000179,
+          "position": 1,
+          "src": "/products/telescopic-fish-net/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Telescopic stainless aquarium fish net with fine mesh",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000182,
+        "product_id": 7000000179,
+        "position": 1,
+        "src": "/products/telescopic-fish-net/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Telescopic stainless aquarium fish net with fine mesh",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Handle",
+          "value": "Telescopic stainless"
+        },
+        {
+          "label": "Mesh",
+          "value": "Fine, soft"
+        },
+        {
+          "label": "Suits",
+          "value": "Shrimp, fry, small fish"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Does the handle lock?",
+          "a": "It friction-locks. Twist to set the length; it will hold against the weight of a wet net and a fish."
+        },
+        {
+          "q": "Rinse or soap?",
+          "a": "Rinse in tank water and air-dry. Never soap — residue is far more dangerous to the tank than a damp net."
+        }
+      ]
+    },
+    {
+      "id": 7000000189,
+      "handle": "gravel-siphon-kit",
+      "title": "Gravel Siphon Kit — 5 Piece",
+      "body_html": "<p>A hand-pump siphon with gravel tube, plus an algae scraper, net and a stick-on thermometer strip. The water change kit in one box.</p>\n<ul>\n<li><strong>Primes with the pump, not your mouth.</strong> Squeeze the bulb and the siphon starts.</li>\n<li><strong>Gravel tube lifts detritus, not substrate.</strong> The wide tube slows flow enough that gravel drops back while waste leaves.</li>\n<li><strong>Five pieces.</strong> Siphon, gravel tube, scraper, net and thermometer strip.</li>\n<li><strong>Careful over aqua soil.</strong> Hover above it rather than digging in — soil granules will siphon straight out.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "tools",
+      "status": "active",
+      "tags": "cleaning, maintenance, planted tank",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000189",
+      "options": [
+        {
+          "id": 7000000190,
+          "product_id": 7000000189,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000191,
+          "product_id": 7000000189,
+          "title": "Default Title",
+          "price": "27.95",
+          "compare_at_price": "36.00",
+          "sku": "AQL-GRAVEL-S",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000191"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000192,
+          "product_id": 7000000189,
+          "position": 1,
+          "src": "/products/gravel-siphon-kit/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Five-piece aquarium gravel siphon and cleaning kit",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000192,
+        "product_id": 7000000189,
+        "position": 1,
+        "src": "/products/gravel-siphon-kit/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Five-piece aquarium gravel siphon and cleaning kit",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Pieces",
+          "value": "5"
+        },
+        {
+          "label": "Priming",
+          "value": "Hand pump bulb"
+        },
+        {
+          "label": "Includes",
+          "value": "Siphon, gravel tube, scraper, net, thermometer strip"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will it pull up my aqua soil?",
+          "a": "It can. Hold the tube above the surface and let the flow lift detritus rather than pushing into the soil."
+        },
+        {
+          "q": "How much water should I change?",
+          "a": "20-30% weekly suits most planted tanks. Larger changes are for fixing a problem, not routine."
+        }
+      ]
+    },
+    {
+      "id": 7000000199,
+      "handle": "floating-algae-magnet-3pk",
+      "title": "Floating Algae Magnet — 3 Pack",
+      "body_html": "<p>Three floating magnetic cleaners. If the halves separate mid-clean the inner one floats up instead of burying itself in the substrate.</p>\n<ul>\n<li><strong>Floating inner half.</strong> The single feature worth paying for — a sinking magnet drops into the scape and drags substrate grit across the glass when you retrieve it.</li>\n<li><strong>Three sizes of grip.</strong> Use the strongest that still moves easily; over-strong magnets trap grit and scratch.</li>\n<li><strong>Keep it off the substrate line.</strong> Most scratched panes come from a grain of sand caught under the pad, not the pad itself.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "tools",
+      "status": "active",
+      "tags": "cleaning, maintenance, planted tank",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000199",
+      "options": [
+        {
+          "id": 7000000200,
+          "product_id": 7000000199,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000201,
+          "product_id": 7000000199,
+          "title": "Default Title",
+          "price": "24.95",
+          "compare_at_price": "32.00",
+          "sku": "AQL-FLOATING",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000201"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000202,
+          "product_id": 7000000199,
+          "position": 1,
+          "src": "/products/floating-algae-magnet-3pk/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Three floating magnetic aquarium algae cleaners",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000202,
+        "product_id": 7000000199,
+        "position": 1,
+        "src": "/products/floating-algae-magnet-3pk/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Three floating magnetic aquarium algae cleaners",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Quantity",
+          "value": "3 cleaners"
+        },
+        {
+          "label": "Type",
+          "value": "Floating inner half"
+        },
+        {
+          "label": "Suits",
+          "value": "Glass to ~10 mm"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Safe on acrylic?",
+          "a": "Not recommended. Acrylic scratches far more easily than glass — use a dedicated acrylic-safe pad."
+        },
+        {
+          "q": "Why did it scratch my glass?",
+          "a": "Almost always a sand grain caught under the pad. Never run the magnet down to the substrate, and rinse the pad after each use."
+        }
+      ]
+    },
+    {
+      "id": 7000000209,
+      "handle": "plant-weights-10pk",
+      "title": "Plant Weights — 10 Pack",
+      "body_html": "<p>Ten soft strips that wrap around a stem bundle and hold it down until it roots. The answer to plants that float free the day after planting.</p>\n<ul>\n<li><strong>Holds stems until they root.</strong> Freshly trimmed stems have no anchor and pop out. This is the standard fix.</li>\n<li><strong>Wrap, do not crush.</strong> Firm enough to hold, soft enough not to sever the stem.</li>\n<li><strong>Reusable.</strong> Unwrap once rooted and use them on the next batch of trimmings.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "tools",
+      "status": "active",
+      "tags": "aquascaping, planting, planted tank",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000209",
+      "options": [
+        {
+          "id": 7000000210,
+          "product_id": 7000000209,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000211,
+          "product_id": 7000000209,
+          "title": "Default Title",
+          "price": "13.95",
+          "compare_at_price": "18.00",
+          "sku": "AQL-PLANT-WE",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 40,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000211"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000212,
+          "product_id": 7000000209,
+          "position": 1,
+          "src": "/products/plant-weights-10pk/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Ten aquarium plant weight strips for anchoring stems",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000212,
+        "product_id": 7000000209,
+        "position": 1,
+        "src": "/products/plant-weights-10pk/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Ten aquarium plant weight strips for anchoring stems",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Quantity",
+          "value": "10 strips"
+        },
+        {
+          "label": "Use",
+          "value": "Stem bundles, mosses, loose trimmings"
+        },
+        {
+          "label": "Reusable",
+          "value": "Yes"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do I leave them in permanently?",
+          "a": "No. Once the plant has rooted, unwrap and reuse. Left forever they eventually constrict a thickening stem."
+        },
+        {
+          "q": "Are they safe for shrimp?",
+          "a": "Yes, they are inert in fresh water. Bury the wrap under the substrate so it is out of sight."
         }
       ]
     }
