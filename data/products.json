@@ -3809,6 +3809,274 @@
           "a": "Position it near, not directly in front of, the filter outlet. Fry need gentle exchange, not a current."
         }
       ]
+    },
+    {
+      "id": 7000000126,
+      "handle": "glass-lily-pipe-set",
+      "title": "Glass Lily Pipe Set — Inflow & Outflow",
+      "body_html": "<p>A matched pair of borosilicate glass pipes that replace the black plastic intake and spraybar most filters ship with. The outflow returns water in a rolling surface curve; the slotted inflow draws evenly without pinning fish against it.</p>\n<ul>\n<li><strong>The reason aquascapers switch.</strong> Glass disappears against the background. Plastic intakes are the single most visible piece of hardware in an otherwise clean tank.</li>\n<li><strong>Surface agitation without a ripple tank.</strong> The outflow curve breaks the surface film and helps gas exchange, which matters more once you are injecting CO2.</li>\n<li><strong>Slotted intake.</strong> Wide slots pass debris to the filter instead of clogging, and keep shrimp and fry out of the impeller.</li>\n<li><strong>Borosilicate, not soda-lime.</strong> Thicker walls and better thermal tolerance. Still glass — see the FAQ on cleaning.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "tools",
+      "status": "active",
+      "tags": "tools, equipment, glassware, planted tank, aquascaping",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000126",
+      "options": [
+        {
+          "id": 7000000226,
+          "product_id": 7000000126,
+          "name": "Tubing",
+          "position": 1,
+          "values": [
+            "12/16 mm",
+            "16/22 mm"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000326,
+          "product_id": 7000000126,
+          "title": "12/16 mm",
+          "price": "80.95",
+          "compare_at_price": "105.00",
+          "sku": "AQL-GLASS--12",
+          "position": 1,
+          "option1": "12/16 mm",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 15,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000326"
+        },
+        {
+          "id": 7000000327,
+          "product_id": 7000000126,
+          "title": "16/22 mm",
+          "price": "88.95",
+          "compare_at_price": "115.00",
+          "sku": "AQL-GLASS--16",
+          "position": 2,
+          "option1": "16/22 mm",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 15,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000327"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000426,
+          "product_id": 7000000126,
+          "position": 1,
+          "src": "/products/glass-lily-pipe-set/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Glass lily pipe set, inflow with slotted intake and curved outflow",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000426,
+        "product_id": 7000000126,
+        "position": 1,
+        "src": "/products/glass-lily-pipe-set/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Glass lily pipe set, inflow with slotted intake and curved outflow",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Borosilicate glass"
+        },
+        {
+          "label": "Fits tubing",
+          "value": "12/16 mm or 16/22 mm"
+        },
+        {
+          "label": "Includes",
+          "value": "Inflow, outflow, suction fittings"
+        },
+        {
+          "label": "Suits",
+          "value": "Canister and hang-on-back filters"
+        },
+        {
+          "label": "Rim",
+          "value": "Rimless and rimmed tanks"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How do I clean the inside?",
+          "a": "A flexible pipe brush, or soak in a dilute bleach solution then rinse and dechlorinate thoroughly. Do not run wire down it — scratched glass is where the next crack starts."
+        },
+        {
+          "q": "Will it fit my filter?",
+          "a": "Match the tubing bore, not the filter brand. 12/16 mm suits most small canisters, 16/22 mm the larger ones. Measure your existing hose if unsure."
+        },
+        {
+          "q": "Is glass a risk?",
+          "a": "Honestly, yes — it is the trade for the look. The common failure is over-tightening a hose onto the pipe or knocking it against the rim during a water change, not spontaneous breakage."
+        }
+      ]
+    },
+    {
+      "id": 7000000127,
+      "handle": "steel-lily-pipe-set",
+      "title": "Stainless Lily Pipe Set — Inflow & Outflow",
+      "body_html": "<p>The same geometry as a glass lily pipe set in 304 stainless. It gives up the invisibility of glass and gets back the one thing glass cannot offer: you can knock it against the rim and nothing happens.</p>\n<ul>\n<li><strong>For tanks that get worked on.</strong> If you rescape often, or the tank is somewhere it gets bumped, this is the set that survives it.</li>\n<li><strong>304, not 201.</strong> The cheaper grade spots and bleeds rust into hardscape within months in fresh water. 304 does not.</li>\n<li><strong>Reads as intentional.</strong> Brushed steel against a rimless tank looks deliberate in a way black plastic never does.</li>\n<li><strong>Same slotted intake.</strong> Debris passes to the filter, shrimp and fry stay out of the impeller.</li>\n</ul>",
+      "vendor": "Aqualux",
+      "product_type": "tools",
+      "status": "active",
+      "tags": "tools, equipment, glassware, planted tank, aquascaping",
+      "created_at": "2026-08-07T00:00:00+00:00",
+      "updated_at": "2026-08-07T00:00:00+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000127",
+      "options": [
+        {
+          "id": 7000000227,
+          "product_id": 7000000127,
+          "name": "Tubing",
+          "position": 1,
+          "values": [
+            "12/16 mm",
+            "16/22 mm"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7000000327,
+          "product_id": 7000000127,
+          "title": "12/16 mm",
+          "price": "89.95",
+          "compare_at_price": "115.00",
+          "sku": "AQL-STEEL--12",
+          "position": 1,
+          "option1": "12/16 mm",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 15,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000327"
+        },
+        {
+          "id": 7000000328,
+          "product_id": 7000000127,
+          "title": "16/22 mm",
+          "price": "97.95",
+          "compare_at_price": "125.00",
+          "sku": "AQL-STEEL--16",
+          "position": 2,
+          "option1": "16/22 mm",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_management": null,
+          "inventory_policy": "continue",
+          "inventory_quantity": 15,
+          "available": true,
+          "weight": 0,
+          "weight_unit": "kg",
+          "created_at": "2026-08-07T00:00:00+00:00",
+          "updated_at": "2026-08-07T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000328"
+        }
+      ],
+      "images": [
+        {
+          "id": 7000000427,
+          "product_id": 7000000127,
+          "position": 1,
+          "src": "/products/steel-lily-pipe-set/01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Stainless steel lily pipe set, inflow and outflow with clamps",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 7000000427,
+        "product_id": 7000000127,
+        "position": 1,
+        "src": "/products/steel-lily-pipe-set/01.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Stainless steel lily pipe set, inflow and outflow with clamps",
+        "variant_ids": []
+      },
+      "specs": [
+        {
+          "label": "Material",
+          "value": "304 stainless steel"
+        },
+        {
+          "label": "Fits tubing",
+          "value": "12/16 mm or 16/22 mm"
+        },
+        {
+          "label": "Includes",
+          "value": "Inflow, outflow, clamps"
+        },
+        {
+          "label": "Finish",
+          "value": "Brushed"
+        },
+        {
+          "label": "Suits",
+          "value": "Canister and hang-on-back filters"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Glass or stainless?",
+          "a": "Glass if the tank is a display piece and stays undisturbed. Stainless if you rescape regularly or the tank lives somewhere it gets knocked."
+        },
+        {
+          "q": "Will stainless rust?",
+          "a": "304 will not in fresh water. Avoid steel wool on it — embedded iron particles are what usually causes 'stainless' to spot."
+        },
+        {
+          "q": "Is it as quiet as glass?",
+          "a": "Yes. Flow noise comes from the water level and the outflow angle, not the material. Sit the outflow just under the surface."
+        }
+      ]
     }
   ]
 }
