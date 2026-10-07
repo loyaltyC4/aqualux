@@ -21,13 +21,13 @@ Vercel is happy to partner and work with any commerce provider to help them get 
 - [Ecwid by Lightspeed](https://github.com/Ecwid/ecwid-nextjs-commerce/) ([Demo](https://ecwid-nextjs-commerce.vercel.app/))
 - [Geins](https://github.com/geins-io/vercel-nextjs-commerce) ([Demo](https://geins-nextjs-commerce-starter.vercel.app/))
 - [Medusa](https://github.com/medusajs/vercel-commerce) ([Demo](https://medusa-nextjs-commerce.vercel.app/))
-- [Prodigy Commerce](https://github.com/prodigycommerce/nextjs-commerce) ([Demo](https://prodigy-nextjs-commerce.vercel.app/))
+- [Prodigy Commerce](https://github.com/prodigycommerce/nextjs-commerce) ([Demo](https://prodigy-commerce.vercel.app/))
 - [Saleor](https://github.com/saleor/nextjs-commerce) ([Demo](https://saleor-commerce.vercel.app/))
-- [Shopware](https://github.com/shopwareLabs/vercel-commerce) ([Demo](https://shopware-vercel-commerce-react.vercel.app/))
+- [Shopware](https://github.com/shopware/shopware) ([Demo](https://shopware-vercel-commerce-react.vercel.app/))
 - [Swell](https://github.com/swellstores/verswell-commerce) ([Demo](https://verswell-commerce.vercel.app/))
 - [Umbraco](https://github.com/umbraco/Umbraco.VercelCommerce.Demo) ([Demo](https://vercel-commerce-demo.umbraco.com/))
 - [Wix](https://github.com/wix/headless-templates/tree/main/nextjs/commerce) ([Demo](https://wix-nextjs-commerce.vercel.app/))
-- [Fourthwall](https://github.com/FourthwallHQ/vercel-commerce) ([Demo](https://vercel-storefront.fourthwall.app/))
+- [Fourthwall](https://github.com/FourthwallHQ/vercel-commerce) ([Demo](https://fourthwall-storefront.fourthwall.app/))
 
 > Note: Providers, if you are looking to use similar products for your demo, you can [download these assets](https://drive.google.com/file/d/1q_bKerjrwZgHwCw0ovfUMW6He9VtepO_/view?usp=sharing).
 
@@ -40,12 +40,13 @@ Integrations enable upgraded or additional functionality for Next.js Commerce
   - Upgrades search to include typeahead with dynamic re-rendering, vector-based similarity search, and JS-based configuration.
   - Search runs entirely in the browser for smaller catalogs or on a CDN for larger.
 
-- [React Bricks](https://github.com/ReactBricks/nextjs-commerce-rb) ([Demo](https://nextjs-commerce.reactbricks.com/))
+- [React Bricks](https://github.com/ReactBricks/nextjs-commerce) ([Demo](https://vercel-commerce.reactbricks.com/))
+
   - Edit pages, product details, and footer content visually using [React Bricks](https://www.reactbricks.com) visual headless CMS.
 
 ## Running locally
 
-You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js Commerce. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/concepts/projects/environment-variables) for this, but a `.env` file is all that is necessary.
+You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js Commerce. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/concepts/environment-variables) for this, but a `.env` file is all that is necessary.
 
 > Note: You should not commit your `.env` file or it will expose secrets that will allow others to control your Shopify store.
 
@@ -73,3 +74,9 @@ Your app should now be running on [localhost:3000](http://localhost:3000/).
 ## Vercel, Next.js Commerce, and Shopify Integration Guide
 
 You can use this comprehensive [integration guide](https://vercel.com/docs/integrations/ecommerce/shopify) with step-by-step instructions on how to configure Shopify as a headless CMS using Next.js Commerce as your headless Shopify storefront on Vercel.
+
+---
+
+## More from this builder
+
+[Bidcheck](https://bidcheck.co.za) — South African government-tender intelligence for SMMEs: live tender search across all nine provinces, eligibility checks (CSD, B-BBEE, CIDB, PSIRA), buyer payment-risk signals and AI bid drafting. Search free at [bidcheck.co.za](https://bidcheck.co.za).
