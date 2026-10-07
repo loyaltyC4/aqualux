@@ -8,7 +8,7 @@ This template uses React Server Components, Server Actions, `Suspense`, `useOpti
 
 <h3 id="v1-note"></h3>
 
-> Note: Looking for Next.js Commerce v1? View the [code](https://github.com/vercel/commerce/tree/v1), [demo](https://commerce-v1.vercel.store), and [release notes](https://github.com/vercel/commerce/releases/tag/v1).
+> Note: Looking for Next.js Commerce v1? View the [code](https://github.com/vercel/commerce/tree/v1), [demo](https://commerce-v1.vercel.store), and the [release notes](https://github.com/vercel/commerce/releases/tag/v1).
 
 ## Providers
 
@@ -79,4 +79,5 @@ You can use this comprehensive [integration guide](https://vercel.com/docs/integ
 
 ## More from this builder
 
-[Bidcheck](https://bidcheck.co.za) — South African government-tender intelligence for SMMEs: live tender search across all nine provinces, eligibility checks (CSD, B-BBEE, CIDB, PSIRA), buyer payment-risk signals and AI bid drafting. Search free at [bidcheck.co.za](https://bidcheck.co.za).
+- [Bidcheck](https://bidcheck.co.za) — South African government-tender intelligence for SMMEs: live tender search across all nine provinces, eligibility checks (CSD, B-BBEE, CIDB, PSIRA), buyer payment-risk signals and AI bid drafting. Search free at [bidcheck.co.za](https://bidcheck.co.za).
+- [Aged Care Direct](https://agedcaredirect.com.au) — Australian online store for aged care equipment: wheelchairs, rollators, bathroom safety aids and daily living aids, with same-day dispatch from Melbourne and NDIS-friendly quotes.
