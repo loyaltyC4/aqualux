@@ -63,7 +63,7 @@ export function FilterBar({ facets }: { facets: Facets }) {
   if (!showSizes && !showTypes && !showPrices) return null;
 
   return (
-    <div className="mb-6 flex flex-wrap items-center gap-x-6 gap-y-3 border-b border-white/10 pb-5">
+    <div className="mb-6 flex flex-wrap items-center gap-x-6 gap-y-3 border-b border-black/10 pb-5">
       {showSizes && (
         <FilterGroup label="Tank size">
           {SIZE_ORDER.filter((s) => facets.sizes.includes(s)).map((s) => (
@@ -106,7 +106,7 @@ export function FilterBar({ facets }: { facets: Facets }) {
       {hasActive && (
         <button
           onClick={clearAll}
-          className="text-xs font-semibold text-neutral-400 underline-offset-2 hover:text-[#f2a93b] hover:underline"
+          className="text-xs font-semibold text-neutral-600 underline-offset-2 hover:text-[#0e7490] hover:underline"
         >
           Clear filters
         </button>
@@ -148,8 +148,8 @@ function Chip({
       className={clsx(
         "rounded-full border px-3 py-1 text-xs font-medium transition",
         active
-          ? "border-[#f2a93b] bg-[#f2a93b] text-black"
-          : "border-white/15 bg-white/[0.03] text-neutral-300 hover:border-[#f2a93b]/50 hover:text-[#f2a93b]",
+          ? "border-[#0e7490] bg-[#0e7490] text-white"
+          : "border-black/15 bg-white text-neutral-700 hover:border-[#0e7490]/50 hover:text-[#0e7490]",
       )}
     >
       {children}

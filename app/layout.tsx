@@ -93,8 +93,8 @@ export default async function RootLayout({
   };
 
   return (
-    <html lang="en" className={`dark ${GeistSans.variable}`}>
-      <body className="bg-[#060d0e] text-[#eceae4] antialiased selection:bg-[#f2a93b] selection:text-black">
+    <html lang="en" className={GeistSans.variable}>
+      <body className="bg-[#fafaf7] text-[#132a35] antialiased selection:bg-[#0e7490] selection:text-white">
         {/* Direction C display + body fonts (Fontshare); React hoists these to <head> */}
         <link rel="preconnect" href="https://api.fontshare.com" />
         <link
@@ -113,7 +113,7 @@ export default async function RootLayout({
           <Navbar />
           <main>
             {children}
-            <Toaster closeButton richColors theme="dark" />
+            <Toaster closeButton richColors theme="light" />
           </main>
         </CartProvider>
       </body>

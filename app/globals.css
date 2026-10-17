@@ -3,8 +3,6 @@
 @plugin "@tailwindcss/container-queries";
 @plugin "@tailwindcss/typography";
 
-@custom-variant dark (&:where(.dark, .dark *));
-
 @layer base {
   *,
   ::after,
@@ -26,23 +24,24 @@ input,
 button,
 select,
 textarea {
-  @apply focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#f2a93b]/70 focus-visible:ring-offset-2 focus-visible:ring-offset-[#060d0e];
+  @apply focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#0e7490]/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#fafaf7];
 }
 
-/* ===== Aqualux — deep water design system ===== */
+/* ===== Aqualux — clean light retail design system ===== */
 :root {
-  --aq-deep: #060d0e; /* canvas: deep water */
-  --aq-panel: #0d1618; /* raised surface */
-  --aq-panel2: #121e21; /* elevated surface */
-  --aq-line: rgba(236, 234, 228, 0.09);
-  --aq-amber: #f2a93b; /* single accent: grow light */
-  --aq-bone: #eceae4; /* primary text */
-  --aq-muted: #8a9a9c; /* secondary text */
+  --aq-canvas: #fafaf7; /* canvas: warm off-white */
+  --aq-surface: #ffffff; /* raised surface: white cards */
+  --aq-raised: #f1f6f7; /* tinted panel: pale aqua */
+  --aq-line: rgba(19, 42, 53, 0.12);
+  --aq-accent: #0e7490; /* single accent: deep ocean aqua */
+  --aq-accent-strong: #155e75; /* accent hover / pressed */
+  --aq-ink: #132a35; /* primary text: deep ocean ink */
+  --aq-muted: #55666e; /* secondary text */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 html {
-  color-scheme: dark;
+  color-scheme: light;
   scroll-behavior: smooth;
 }
 body {
@@ -61,18 +60,6 @@ h4 {
 .aq-spec {
   font-family: var(--font-geist-mono), ui-monospace, monospace;
   font-variant-numeric: tabular-nums;
-}
-
-/* Fixed grain overlay — pointer-events-none, never on a scrolling container */
-.aq-grain::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 40;
-  pointer-events: none;
-  opacity: 0.035;
-  mix-blend-mode: overlay;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 /* Scroll reveal — transform + opacity only */
@@ -100,26 +87,8 @@ h4 {
   will-change: transform;
 }
 
-/* Caustic light sweep behind the hero */
-@keyframes aq-caustic {
-  0%,
-  100% {
-    opacity: 0.3;
-    transform: translate3d(-2%, 0, 0) scale(1.04);
-  }
-  50% {
-    opacity: 0.55;
-    transform: translate3d(2%, 1%, 0) scale(1.1);
-  }
-}
-.aq-caustic {
-  animation: aq-caustic 14s ease-in-out infinite;
-  will-change: transform, opacity;
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .aq-marquee,
-  .aq-caustic {
+  .aq-marquee {
     animation: none;
   }
   .aq-reveal {

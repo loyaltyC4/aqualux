@@ -44,13 +44,13 @@ export function AdminLoginForm() {
         onChange={(e) => setPassword(e.target.value)}
         placeholder="Admin password"
         autoFocus
-        className="w-full rounded-lg border border-white/15 bg-white/[0.03] px-4 py-3 text-sm text-[#eceae4] placeholder:text-neutral-500 focus:border-[#f2a93b]/60"
+        className="w-full rounded-lg border border-black/15 bg-white px-4 py-3 text-sm text-[#132a35] placeholder:text-neutral-500 focus:border-[#0e7490]/60"
       />
       {error ? <p className="text-sm text-red-400">{error}</p> : null}
       <button
         type="submit"
         disabled={submitting}
-        className="w-full rounded-full bg-[#f2a93b] px-6 py-3 text-sm font-semibold text-black transition hover:brightness-110 disabled:opacity-60"
+        className="w-full rounded-full bg-[#0e7490] px-6 py-3 text-sm font-semibold text-white transition hover:brightness-110 disabled:opacity-60"
       >
         {submitting ? "Checking…" : "Enter"}
       </button>

@@ -34,7 +34,7 @@ export default function MobileMenu({ menu }: { menu: Menu[] }) {
       <button
         onClick={openMobileMenu}
         aria-label="Open mobile menu"
-        className="flex h-11 w-11 items-center justify-center rounded-md border border-white/15 text-white transition-colors md:hidden"
+        className="flex h-11 w-11 items-center justify-center rounded-md border border-black/15 text-[#132a35] transition-colors md:hidden"
       >
         <Bars3Icon className="h-5" />
       </button>
@@ -60,12 +60,12 @@ export default function MobileMenu({ menu }: { menu: Menu[] }) {
             leaveFrom="translate-x-0"
             leaveTo="translate-x-[-100%]"
           >
-            <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-full flex-col bg-[#060d0e] pb-6 text-[#eceae4]">
+            <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-full flex-col bg-[#fafaf7] pb-6 text-[#132a35]">
               <div className="p-4">
                 <div className="mb-5 flex items-center justify-between">
                   <BrandLogo />
                   <button
-                    className="flex h-11 w-11 items-center justify-center rounded-md border border-white/15 text-white transition-colors"
+                    className="flex h-11 w-11 items-center justify-center rounded-md border border-black/15 text-[#132a35] transition-colors"
                     onClick={closeMobileMenu}
                     aria-label="Close mobile menu"
                   >
@@ -79,10 +79,10 @@ export default function MobileMenu({ menu }: { menu: Menu[] }) {
                   </Suspense>
                 </div>
                 {menu.length ? (
-                  <ul className="flex w-full flex-col divide-y divide-white/10">
+                  <ul className="flex w-full flex-col divide-y divide-black/10">
                     {menu.map((item: Menu) => (
                       <li
-                        className="py-3 text-lg font-medium text-neutral-200 transition-colors hover:text-[#f2a93b]"
+                        className="py-3 text-lg font-medium text-neutral-800 transition-colors hover:text-[#0e7490]"
                         key={item.title}
                       >
                         <Link

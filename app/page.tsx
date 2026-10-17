@@ -4,6 +4,12 @@ import Footer from "components/layout/footer";
 import { ProductCard } from "components/product-card";
 import { Reveal } from "components/reveal";
 import { NewsletterForm } from "components/newsletter-form";
+import {
+  ArrowPathIcon,
+  ClipboardDocumentCheckIcon,
+  GlobeAltIcon,
+  TruckIcon,
+} from "@heroicons/react/24/outline";
 import { getCollectionProducts } from "lib/shopify";
 import type { Product } from "lib/shopify/types";
 import {
@@ -13,13 +19,24 @@ import {
 } from "lib/brand";
 
 export const metadata = {
-  title: "Planted Aquarium Lighting, CO2 & Aquascaping Tools | Aqualux",
+  title: "Planted Aquarium Lighting, CO2 & Aquascaping Tools",
   description:
     "Planted aquarium lighting, CO2 systems, aquascaping tools and water test kits, shipped worldwide from a curated range chosen on real specs, with delivery windows quoted per destination.",
   alternates: { canonical: "/" },
 };
 
 const price = (p: Product) => parseFloat(p.priceRange.minVariantPrice.amount);
+
+const USP: [typeof TruckIcon, string, string][] = [
+  [TruckIcon, "Free shipping", `over $${FREE_SHIPPING_THRESHOLD} to AU & NZ`],
+  [ArrowPathIcon, "30-day returns", "unused, in packaging"],
+  [
+    ClipboardDocumentCheckIcon,
+    "Real specs",
+    "PAR, spectrum, dimensions",
+  ],
+  [GlobeAltIcon, "Ships worldwide", "tracked, dispatched in 1-2 days"],
+];
 
 export default async function HomePage() {
   // Derived from COLLECTIONS rather than listed by hand — the hardcoded
@@ -51,47 +68,23 @@ export default async function HomePage() {
     .sort((a, b) => price(a) - price(b));
 
   return (
-    <div className="aq-grain bg-[var(--aq-deep)] text-[var(--aq-bone)]">
-      {/* ── HERO ─────────────────────────────────────────── */}
-      <section className="relative flex min-h-[92dvh] items-center overflow-hidden">
-        <Image
-          src="/brand/hero.jpg"
-          alt="A planted freshwater aquascape lit by a warm full-spectrum LED bar"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-right"
-        />
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(100deg,#060d0e 0%,rgba(6,13,14,.94) 32%,rgba(6,13,14,.55) 58%,rgba(6,13,14,.12) 100%)",
-          }}
-        />
-        <div
-          aria-hidden
-          className="aq-caustic pointer-events-none absolute -left-1/4 top-0 h-full w-3/4"
-          style={{
-            background:
-              "radial-gradient(60% 50% at 50% 30%, rgba(242,169,59,.16), transparent 70%)",
-          }}
-        />
-
-        <div className="relative mx-auto w-full max-w-[1400px] px-6 pt-24 md:px-12">
-          <div className="max-w-xl">
+    <div className="bg-[var(--aq-canvas)] text-[var(--aq-ink)]">
+      {/* ── HERO — typography-led, light ─────────────────── */}
+      <section className="relative overflow-hidden">
+        <div className="mx-auto grid w-full max-w-[1400px] items-center gap-12 px-6 pb-16 pt-14 md:px-12 md:pb-24 md:pt-20 lg:grid-cols-[1.05fr_0.95fr]">
+          <div>
             <Reveal>
-              <span className="inline-flex items-center rounded-full border border-[#f2a93b]/30 bg-[#f2a93b]/[0.07] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.2em] text-[#f2a93b]">
+              <span className="inline-flex items-center rounded-full border border-[#0e7490]/25 bg-[#0e7490]/[0.06] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.2em] text-[#0e7490]">
                 Planted tank specialists
               </span>
             </Reveal>
             <Reveal delay={80}>
-              <h1 className="mt-7 text-4xl font-semibold leading-[1.04] md:text-6xl lg:text-[4.1rem]">
+              <h1 className="mt-6 text-4xl font-semibold leading-[1.05] md:text-6xl lg:text-[4.1rem]">
                 Grow the tank
                 <br />
                 you keep{" "}
-                <em className="not-italic text-[#f2a93b]">redrawing</em>
-                <span className="text-[#f2a93b]">.</span>
+                <em className="not-italic text-[#0e7490]">redrawing</em>
+                <span className="text-[#0e7490]">.</span>
               </h1>
             </Reveal>
             <Reveal delay={160}>
@@ -104,10 +97,10 @@ export default async function HomePage() {
               <div className="mt-9 flex flex-wrap items-center gap-3">
                 <Link
                   href="/search/lighting"
-                  className="group inline-flex items-center gap-3 rounded-full bg-[#f2a93b] py-2 pl-6 pr-2 text-sm font-semibold text-[#1a1205] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:brightness-[1.07] active:scale-[0.98]"
+                  className="group inline-flex items-center gap-3 rounded-full bg-[#0e7490] py-2 pl-6 pr-2 text-sm font-semibold text-white transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:bg-[#155e75] active:scale-[0.98]"
                 >
                   Shop lighting
-                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-black/10 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-x-0.5 group-hover:scale-105">
+                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/15 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-x-0.5 group-hover:scale-105">
                     <svg
                       viewBox="0 0 24 24"
                       className="h-4 w-4"
@@ -125,93 +118,109 @@ export default async function HomePage() {
                 </Link>
                 <Link
                   href="/search"
-                  className="rounded-full border border-[var(--aq-line)] px-6 py-3 text-sm font-medium text-[var(--aq-bone)] transition-colors duration-500 hover:border-[#f2a93b]/50 hover:text-[#f2a93b]"
+                  className="rounded-full border border-black/15 px-6 py-3 text-sm font-medium text-[var(--aq-ink)] transition-colors duration-300 hover:border-[#0e7490]/50 hover:text-[#0e7490]"
                 >
                   All {total} products
                 </Link>
               </div>
             </Reveal>
           </div>
+          <Reveal delay={120} className="relative hidden lg:block">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-black/10 shadow-[0_30px_60px_-35px_rgba(19,42,53,0.4)]">
+              <Image
+                src="/brand/hero.jpg"
+                alt="A planted freshwater aquascape lit by a full-spectrum LED bar"
+                fill
+                priority
+                sizes="(min-width:1024px) 45vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+          </Reveal>
         </div>
       </section>
 
-      {/* ── TRUST STRIP (below hero, not inside it) ──────── */}
-      <div className="border-y border-[var(--aq-line)] bg-[var(--aq-panel)]">
+      {/* ── TRUST / USP BAR ──────────────────────────────── */}
+      <div className="border-y border-black/10 bg-white">
         <div className="mx-auto grid max-w-[1400px] grid-cols-2 gap-px px-6 md:grid-cols-4 md:px-12">
-          {[
-            ["Free shipping", `over $${FREE_SHIPPING_THRESHOLD} to AU & NZ`],
-            ["30-day returns", "unused, in packaging"],
-            ["Real specs", "PAR, spectrum, dimensions"],
-            ["Ships worldwide", "tracked, dispatched in 1-2 days"],
-          ].map(([t, d]) => (
-            <div key={t} className="py-6 md:py-7">
-              <p className="text-sm font-medium text-[var(--aq-bone)]">{t}</p>
-              <p className="mt-1 text-[13px] text-[var(--aq-muted)]">{d}</p>
+          {USP.map(([Icon, t, d]) => (
+            <div key={t} className="flex items-start gap-3 py-6 md:py-7">
+              <Icon
+                aria-hidden
+                className="mt-0.5 h-5 w-5 flex-none text-[#0e7490]"
+              />
+              <div>
+                <p className="text-sm font-medium text-[var(--aq-ink)]">{t}</p>
+                <p className="mt-1 text-[13px] text-[var(--aq-muted)]">{d}</p>
+              </div>
             </div>
           ))}
         </div>
       </div>
 
-      {/* ── CATEGORY BENTO — derives its shape from COLLECTIONS ── */}
-      <section className="mx-auto max-w-[1400px] px-6 py-24 md:px-12 md:py-32">
+      {/* ── CATEGORY TILES — uniform image, label below ──── */}
+      <section className="mx-auto max-w-[1400px] px-6 py-20 md:px-12 md:py-28">
         <Reveal>
           <h2 className="max-w-lg text-3xl font-semibold leading-tight md:text-5xl">
             Everything a planted tank actually needs.
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid grid-cols-1 gap-4 md:grid-cols-6">
-          {COLLECTIONS.map((c, i) => {
-            // The grid was hand-tuned for exactly five tiles and broke to a
-            // ragged third row when Filtration was added. Now it fills 6
-            // columns per row from the item count: the lead tile is wide, the
-            // last tile stretches to close the row if the count is odd.
-            const n = COLLECTIONS.length;
-            const lead = i === 0;
-            const closesRow = i === n - 1 && (n - 1) % 3 !== 0;
-            const span = lead
-              ? "md:col-span-4"
-              : closesRow
-                ? "md:col-span-4"
-                : "md:col-span-2";
-            const tall = lead;
-            return (
-              <Reveal key={c.handle} delay={i * 70} className={span}>
-                <Link
-                  href={`/search/${c.handle}`}
-                  className="group relative flex h-full min-h-[220px] flex-col justify-end overflow-hidden rounded-[1.75rem] border border-[var(--aq-line)] p-1.5 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:border-[#f2a93b]/35"
-                  style={tall ? { minHeight: "320px" } : undefined}
-                >
-                  <div className="absolute inset-1.5 overflow-hidden rounded-[calc(1.75rem-0.375rem)]">
-                    <Image
-                      src={COLLECTION_IMAGE[c.handle] ?? "/brand/hero.jpg"}
-                      alt={c.title}
-                      fill
-                      sizes="(min-width:768px) 45vw, 100vw"
-                      className="object-cover transition-transform duration-[1100ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#060d0e] via-[#060d0e]/45 to-transparent" />
-                  </div>
-                  <div className="relative p-6">
-                    <h3 className="text-xl font-semibold md:text-2xl">
+        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+          {COLLECTIONS.map((c, i) => (
+            <Reveal key={c.handle} delay={i * 60}>
+              <Link
+                href={`/search/${c.handle}`}
+                className="group block overflow-hidden rounded-2xl border border-black/10 bg-white transition-all duration-500 hover:-translate-y-1 hover:border-[#0e7490]/40 hover:shadow-[0_20px_45px_-24px_rgba(19,42,53,0.28)]"
+              >
+                <div className="relative aspect-[4/3] overflow-hidden bg-white">
+                  <Image
+                    src={COLLECTION_IMAGE[c.handle] ?? "/brand/hero.jpg"}
+                    alt={c.title}
+                    fill
+                    sizes="(min-width:768px) 33vw, 100vw"
+                    className="object-cover transition-transform duration-[1100ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.05]"
+                  />
+                </div>
+                <div className="flex items-center justify-between gap-3 border-t border-black/5 p-5">
+                  <div>
+                    <h3 className="text-base font-semibold md:text-lg">
                       {c.title}
                     </h3>
-                    <p className="aq-spec mt-1 text-[13px] text-[#f2a93b]">
+                    <p className="aq-spec mt-1 text-[13px] text-[var(--aq-muted)]">
                       {counts[c.handle]}{" "}
                       {counts[c.handle] === 1 ? "product" : "products"}
                     </p>
                   </div>
-                </Link>
-              </Reveal>
-            );
-          })}
+                  <span
+                    aria-hidden
+                    className="flex h-9 w-9 flex-none items-center justify-center rounded-full border border-black/10 text-[var(--aq-ink)] transition-colors duration-300 group-hover:border-[#0e7490] group-hover:bg-[#0e7490] group-hover:text-white"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      className="h-4 w-4"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={1.6}
+                    >
+                      <path
+                        d="M5 12h13M13 6l6 6-6 6"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </Link>
+            </Reveal>
+          ))}
         </div>
       </section>
 
-      {/* ── BUNDLES (different layout family: editorial split) ── */}
+      {/* ── BUNDLES (editorial split on a tinted band) ───── */}
       {bundles.length > 0 && (
-        <section className="border-y border-[var(--aq-line)] bg-[var(--aq-panel)]">
-          <div className="mx-auto grid max-w-[1400px] items-center gap-12 px-6 py-24 md:grid-cols-[0.85fr_1.15fr] md:px-12 md:py-32">
+        <section className="border-y border-black/5 bg-[var(--aq-raised)]">
+          <div className="mx-auto grid max-w-[1400px] items-center gap-12 px-6 py-20 md:grid-cols-[0.85fr_1.15fr] md:px-12 md:py-28">
             <Reveal>
               <h2 className="text-3xl font-semibold leading-tight md:text-5xl">
                 Start with a kit,
@@ -224,7 +233,7 @@ export default async function HomePage() {
               </p>
               <Link
                 href="/search"
-                className="mt-8 inline-block text-sm font-medium text-[#f2a93b] underline-offset-4 hover:underline"
+                className="mt-8 inline-block text-sm font-medium text-[#0e7490] underline-offset-4 hover:underline"
               >
                 Browse everything
               </Link>
@@ -244,8 +253,8 @@ export default async function HomePage() {
         </section>
       )}
 
-      {/* ── LIGHTING RAIL (different family: horizontal scroll) ── */}
-      <section className="mx-auto max-w-[1400px] px-6 py-24 md:px-12 md:py-32">
+      {/* ── LIGHTING RAIL (horizontal scroll) ────────────── */}
+      <section className="mx-auto max-w-[1400px] px-6 py-20 md:px-12 md:py-28">
         <div className="mb-12 flex flex-wrap items-end justify-between gap-6">
           <Reveal>
             <h2 className="max-w-md text-3xl font-semibold leading-tight md:text-5xl">
@@ -255,7 +264,7 @@ export default async function HomePage() {
           <Reveal delay={80}>
             <Link
               href="/search/lighting"
-              className="text-sm font-medium text-[var(--aq-muted)] transition-colors hover:text-[#f2a93b]"
+              className="text-sm font-medium text-[var(--aq-muted)] transition-colors hover:text-[#0e7490]"
             >
               All lighting
             </Link>
@@ -279,18 +288,18 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── WELCOME OFFER (different family: centered band) ── */}
-      <section className="mx-auto max-w-[1400px] px-6 pb-24 md:px-12 md:pb-32">
+      {/* ── WELCOME OFFER (centered band) ────────────────── */}
+      <section className="mx-auto max-w-[1400px] px-6 pb-20 md:px-12 md:pb-28">
         <Reveal>
-          <div className="rounded-[2rem] border border-[var(--aq-line)] bg-white/[0.02] p-1.5">
-            <div className="flex flex-col items-center gap-8 rounded-[calc(2rem-0.375rem)] bg-[var(--aq-panel2)] px-8 py-14 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] md:px-16">
-              <h2 className="max-w-lg text-3xl font-semibold leading-tight md:text-4xl">
-                Get 10% off your first order.
-              </h2>
-              <p className="max-w-md text-[var(--aq-muted)]">
-                New gear, restocks and scaping guides. No spam, unsubscribe
-                anytime.
-              </p>
+          <div className="rounded-3xl border border-black/10 bg-white px-8 py-14 text-center shadow-[0_20px_45px_-30px_rgba(19,42,53,0.25)] md:px-16">
+            <h2 className="mx-auto max-w-lg text-3xl font-semibold leading-tight md:text-4xl">
+              Get 10% off your first order.
+            </h2>
+            <p className="mx-auto mt-4 max-w-md text-[var(--aq-muted)]">
+              New gear, restocks and scaping guides. No spam, unsubscribe
+              anytime.
+            </p>
+            <div className="mt-8">
               <NewsletterForm source="homepage" />
             </div>
           </div>

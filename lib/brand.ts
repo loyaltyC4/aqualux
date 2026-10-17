@@ -4,10 +4,9 @@ import { baseUrl } from "lib/utils";
 
 /**
  * Central brand configuration for Aqualux.
- * Palette rationale: deep-water near-black canvas with a single warm amber
- * accent. The accent is brand-motivated, not decorative. The hero product
- * category IS aquarium grow lighting, so warm light over dark water is the
- * literal product experience.
+ * Palette rationale: warm off-white canvas with deep ocean ink text and a
+ * single deep-aqua accent. The accent is brand-motivated, not decorative: it
+ * reads as clean water, which is what the store sells gear for.
  */
 
 export const SITE_NAME = "Aqualux";
@@ -50,10 +49,11 @@ export const WELCOME_DISCOUNT_CODE = "SCAPE10";
 export const WELCOME_DISCOUNT_LABEL = "10% off your first order";
 
 // Palette tokens (mirrored in globals.css)
-export const AMBER = "#f2a93b"; // single accent: warm grow-light
-export const DEEP = "#060d0e"; // deep water canvas
-export const PANEL = "#0d1618"; // raised panel
-export const BONE = "#eceae4"; // primary text
+export const ACCENT = "#0e7490"; // single accent: deep ocean aqua
+export const ACCENT_STRONG = "#155e75"; // accent hover / pressed
+export const CANVAS = "#fafaf7"; // warm off-white canvas
+export const SURFACE = "#ffffff"; // raised panel
+export const INK = "#132a35"; // primary text
 
 export const COLLECTIONS = [
   { handle: "lighting", title: "Planted Aquarium Lighting", short: "Lighting" },

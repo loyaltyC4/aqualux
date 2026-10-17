@@ -24,19 +24,19 @@ export async function Navbar() {
 
   return (
     <header className="sticky top-0 z-50">
-      {/* Announcement bar */}
-      <div className="hidden bg-[#f2a93b] text-black sm:block">
-        <div className="mx-auto flex max-w-7xl items-center justify-center gap-8 px-6 py-1.5 text-[12px] font-semibold tracking-wide">
+      {/* Announcement bar — the utility strip: shipping, curation, returns */}
+      <div className="hidden bg-[#0e7490] text-white sm:block">
+        <div className="mx-auto flex max-w-7xl items-center justify-center gap-8 px-6 py-1.5 text-[12px] font-medium tracking-wide">
           {ANNOUNCEMENTS.map((a) => (
             <span key={a} className="flex items-center gap-8">
               {a}
-              <span className="text-black/30">◆</span>
+              <span className="text-white/40">◆</span>
             </span>
           ))}
         </div>
       </div>
 
-      <nav className="flex items-center gap-4 border-b border-white/10 bg-[#060d0e]/85 px-4 py-3 backdrop-blur-md lg:px-6">
+      <nav className="flex items-center gap-4 border-b border-black/10 bg-white/90 px-4 py-3 backdrop-blur-md lg:px-6">
         <div className="flex-none md:hidden">
           <Suspense fallback={null}>
             <MobileMenu menu={links} />
@@ -51,7 +51,7 @@ export async function Navbar() {
               <Link
                 href={item.path}
                 prefetch={true}
-                className="whitespace-nowrap text-sm font-medium text-neutral-300 underline-offset-4 transition-colors hover:text-[#f2a93b]"
+                className="whitespace-nowrap text-sm font-medium text-neutral-700 underline-offset-4 transition-colors hover:text-[#0e7490]"
               >
                 {item.title}
               </Link>

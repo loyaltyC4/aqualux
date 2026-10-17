@@ -44,7 +44,7 @@ export default function PrivacyPage() {
           data at any time by emailing{" "}
           <a
             href={`mailto:${SUPPORT_EMAIL}`}
-            className="text-[#f2a93b] hover:underline"
+            className="text-[#0e7490] hover:underline"
           >
             {SUPPORT_EMAIL}
           </a>

@@ -6,25 +6,25 @@ export function FreeShippingBar({ subtotal }: { subtotal: number }) {
   const unlocked = remaining <= 0;
 
   return (
-    <div className="mb-4 rounded-2xl border border-white/10 bg-white/[0.03] p-3.5">
-      <p className="text-center text-xs font-medium text-neutral-300">
+    <div className="mb-4 rounded-2xl border border-black/10 bg-white p-3.5">
+      <p className="text-center text-xs font-medium text-neutral-700">
         {unlocked ? (
-          <span className="text-[#f2a93b]">
+          <span className="text-[#0e7490]">
             🎉 You&apos;ve unlocked free shipping!
           </span>
         ) : (
           <>
             Add{" "}
-            <span className="font-semibold text-[#eceae4]">
+            <span className="font-semibold text-[#132a35]">
               ${remaining.toFixed(2)}
             </span>{" "}
             more for free shipping
           </>
         )}
       </p>
-      <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-white/10">
+      <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-black/10">
         <div
-          className="h-full rounded-full bg-[#f2a93b] transition-all duration-500"
+          className="h-full rounded-full bg-[#0e7490] transition-all duration-500"
           style={{ width: `${pct}%` }}
         />
       </div>

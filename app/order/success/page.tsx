@@ -56,8 +56,8 @@ export default async function OrderSuccessPage(props: {
     <>
       <ClearCartOnMount />
       <div className="mx-auto max-w-2xl px-6 py-24 md:py-32">
-        <div className="rounded-3xl border border-white/10 bg-[#0d1618] p-8 md:p-12">
-          <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-[#f2a93b] text-black">
+        <div className="rounded-3xl border border-black/10 bg-[#ffffff] p-8 md:p-12">
+          <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-[#0e7490] text-white">
             <svg
               viewBox="0 0 24 24"
               className="h-7 w-7"
@@ -77,24 +77,24 @@ export default async function OrderSuccessPage(props: {
               ? "Order confirmed. Grip it and rip it."
               : "Thanks for your order."}
           </h1>
-          <p className="mt-3 text-neutral-400">
+          <p className="mt-3 text-neutral-600">
             {paid
               ? `We're on it. A confirmation${email ? ` is on its way to ${email}` : ""}. Your ${SITE_NAME} order ships within 1-2 business days with tracking.`
               : "If your payment went through, you'll receive an email confirmation shortly."}
           </p>
 
           {items.length > 0 && (
-            <div className="mt-8 divide-y divide-white/10 border-y border-white/10">
+            <div className="mt-8 divide-y divide-black/10 border-y border-black/10">
               {items.map((it, i) => (
                 <div
                   key={i}
                   className="flex items-center justify-between py-3 text-sm"
                 >
-                  <span className="text-neutral-200">
+                  <span className="text-neutral-800">
                     {it.name}{" "}
                     <span className="text-neutral-500">× {it.quantity}</span>
                   </span>
-                  <span className="text-neutral-300">
+                  <span className="text-neutral-700">
                     {money(it.amount, currency)}
                   </span>
                 </div>
@@ -102,7 +102,7 @@ export default async function OrderSuccessPage(props: {
               {total != null && (
                 <div className="flex items-center justify-between py-3 text-base font-semibold">
                   <span>Total</span>
-                  <span style={{ color: "#f2a93b" }}>
+                  <span style={{ color: "#0e7490" }}>
                     {money(total, currency)}
                   </span>
                 </div>
@@ -113,13 +113,13 @@ export default async function OrderSuccessPage(props: {
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/search"
-              className="rounded-full bg-[#f2a93b] px-6 py-3 text-sm font-semibold text-black transition hover:brightness-110"
+              className="rounded-full bg-[#0e7490] px-6 py-3 text-sm font-semibold text-white transition hover:brightness-110"
             >
               Keep shopping
             </Link>
             <Link
               href="/guides"
-              className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold transition hover:border-[#f2a93b] hover:text-[#f2a93b]"
+              className="rounded-full border border-black/20 px-6 py-3 text-sm font-semibold transition hover:border-[#0e7490] hover:text-[#0e7490]"
             >
               Read the build guides →
             </Link>

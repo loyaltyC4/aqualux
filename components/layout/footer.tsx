@@ -20,7 +20,7 @@ function Column({
           <li key={l.href}>
             <Link
               href={l.href}
-              className="text-sm text-neutral-400 transition-colors hover:text-[#f2a93b]"
+              className="text-sm text-neutral-600 transition-colors hover:text-[#0e7490]"
             >
               {l.label}
             </Link>
@@ -36,7 +36,7 @@ export default function Footer() {
   const copyrightDate = 2023 + (currentYear > 2023 ? `-${currentYear}` : "");
 
   return (
-    <footer className="border-t border-white/10 bg-[#060d0e] text-sm text-neutral-400">
+    <footer className="border-t border-black/10 bg-white text-sm text-neutral-600">
       <div className="mx-auto grid w-full max-w-7xl grid-cols-2 gap-10 px-6 py-16 md:grid-cols-5 md:px-12">
         <div className="col-span-2 md:col-span-2">
           <BrandLogo />
@@ -56,7 +56,7 @@ export default function Footer() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-neutral-400 transition hover:border-[#f2a93b]/50 hover:text-[#f2a93b]"
+                className="rounded-full border border-black/10 px-3 py-1.5 text-xs text-neutral-600 transition hover:border-[#0e7490]/50 hover:text-[#0e7490]"
               >
                 {label}
               </a>
@@ -98,7 +98,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10">
+      <div className="border-t border-black/10">
         <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-3 px-6 py-6 text-xs text-neutral-500 md:flex-row md:px-12">
           <p>
             &copy; {copyrightDate} {SITE_NAME}. Gear for planted aquariums.
@@ -107,15 +107,15 @@ export default function Footer() {
             Secure checkout by Stripe · Visa · Mastercard · Amex · Apple Pay
           </p>
           <div className="flex gap-4 md:ml-auto">
-            <Link href="/privacy" className="hover:text-neutral-300">
+            <Link href="/privacy" className="hover:text-neutral-800">
               Privacy
             </Link>
-            <Link href="/terms" className="hover:text-neutral-300">
+            <Link href="/terms" className="hover:text-neutral-800">
               Terms
             </Link>
             <a
               href={`mailto:${SUPPORT_EMAIL}`}
-              className="hover:text-neutral-300"
+              className="hover:text-neutral-800"
             >
               {SUPPORT_EMAIL}
             </a>

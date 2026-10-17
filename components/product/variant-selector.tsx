@@ -48,7 +48,7 @@ export function VariantSelector({
   return options.map((option) => (
     <form key={option.id}>
       <dl className="mb-6">
-        <dt className="mb-3 text-xs font-semibold uppercase tracking-[0.16em] text-neutral-400">
+        <dt className="mb-3 text-xs font-semibold uppercase tracking-[0.16em] text-neutral-600">
           {option.name}
         </dt>
         <dd className="flex flex-wrap gap-2.5">
@@ -84,11 +84,11 @@ export function VariantSelector({
                 className={clsx(
                   "flex min-w-[48px] items-center justify-center rounded-full border px-3 py-1.5 text-sm transition",
                   {
-                    "border-[#f2a93b] bg-[#f2a93b] font-semibold text-black":
+                    "border-[#0e7490] bg-[#0e7490] font-semibold text-white":
                       isActive,
-                    "border-white/15 bg-white/[0.03] text-neutral-200 hover:border-[#f2a93b]/60 hover:text-[#f2a93b]":
+                    "border-black/15 bg-white text-neutral-800 hover:border-[#0e7490]/60 hover:text-[#0e7490]":
                       !isActive && isAvailableForSale,
-                    "relative z-10 cursor-not-allowed overflow-hidden border-white/10 bg-white/[0.02] text-neutral-600 before:absolute before:inset-x-0 before:-z-10 before:h-px before:-rotate-45 before:bg-neutral-700":
+                    "relative z-10 cursor-not-allowed overflow-hidden border-black/10 bg-white text-neutral-600 before:absolute before:inset-x-0 before:-z-10 before:h-px before:-rotate-45 before:bg-neutral-700":
                       !isAvailableForSale,
                   },
                 )}

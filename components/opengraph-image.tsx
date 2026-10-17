@@ -24,7 +24,7 @@ export default async function OpengraphImage(
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          background: "#060d0e",
+          background: "#fafaf7",
           padding: "72px",
         }}
       >
@@ -34,12 +34,12 @@ export default async function OpengraphImage(
               width: "46px",
               height: "46px",
               borderRadius: "12px",
-              background: "#f2a93b",
+              background: "#0e7490",
             }}
           />
           <div
             style={{
-              color: "#f2a93b",
+              color: "#0e7490",
               fontSize: "24px",
               letterSpacing: "4px",
             }}
@@ -53,7 +53,7 @@ export default async function OpengraphImage(
             style={{
               fontSize: "86px",
               fontWeight: 700,
-              color: "#eceae4",
+              color: "#132a35",
               lineHeight: 1.03,
               maxWidth: "1010px",
             }}
@@ -65,7 +65,7 @@ export default async function OpengraphImage(
               marginTop: "26px",
               height: "8px",
               width: "150px",
-              background: "#f2a93b",
+              background: "#0e7490",
             }}
           />
         </div>

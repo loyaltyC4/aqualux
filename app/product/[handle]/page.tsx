@@ -159,7 +159,7 @@ export default async function ProductPage(props: {
       <div className="mx-auto max-w-7xl px-4 py-8 md:px-8">
         {/* Breadcrumb */}
         <nav className="mb-6 flex flex-wrap items-center gap-2 text-sm text-neutral-500">
-          <Link href="/" className="hover:text-[#f2a93b]">
+          <Link href="/" className="hover:text-[#0e7490]">
             Home
           </Link>
           <span>/</span>
@@ -167,28 +167,31 @@ export default async function ProductPage(props: {
             <>
               <Link
                 href={`/search/${collectionMeta.handle}`}
-                className="hover:text-[#f2a93b]"
+                className="hover:text-[#0e7490]"
               >
                 {collectionMeta.title}
               </Link>
               <span>/</span>
             </>
           ) : null}
-          <span className="text-neutral-300">{product.title}</span>
+          <span className="text-neutral-700">{product.title}</span>
         </nav>
 
-        <div className="flex flex-col gap-8 rounded-3xl border border-white/10 bg-[#0d1618] p-6 md:p-10 lg:flex-row lg:gap-12">
+        <div className="flex flex-col gap-8 rounded-3xl border border-black/10 bg-[#ffffff] p-6 md:p-10 lg:flex-row lg:gap-12">
           <div className="h-full w-full basis-full lg:basis-3/5">
-            <div className="rounded-2xl border border-white/10 bg-[#0a1214] p-4">
+            <div className="rounded-2xl border border-black/10 bg-[#ffffff] p-4">
               <Suspense
                 fallback={
                   <div className="relative aspect-square h-full max-h-[550px] w-full overflow-hidden" />
                 }
               >
                 <Gallery
-                  images={product.images.slice(0, 6).map((image: Image) => ({
+                  images={product.images.slice(0, 6).map((image: Image, i: number) => ({
                     src: image.url,
-                    altText: image.altText,
+                    // Catalogue images ship without alt text; fall back to a
+                    // descriptive, per-position alt instead of an empty one.
+                    altText:
+                      image.altText || `${product.title} — photo ${i + 1}`,
                   }))}
                 />
               </Suspense>
@@ -206,7 +209,7 @@ export default async function ProductPage(props: {
             {guideLink ? (
               <Link
                 href={guideLink.href}
-                className="mt-6 flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 text-sm text-neutral-300 transition hover:border-[#f2a93b]/40 hover:text-[#f2a93b]"
+                className="mt-6 flex items-center justify-between rounded-2xl border border-black/10 bg-white px-4 py-3 text-sm text-neutral-700 transition hover:border-[#0e7490]/40 hover:text-[#0e7490]"
               >
                 {guideLink.label}
                 <span aria-hidden>→</span>
@@ -217,23 +220,23 @@ export default async function ProductPage(props: {
 
         {/* DETAILS + SPECS */}
         {(product.descriptionHtml || publicTags.length > 0) && (
-          <div className="mt-10 grid gap-10 rounded-3xl border border-white/10 bg-[#0d1618] p-6 md:p-10 lg:grid-cols-[1.5fr_1fr]">
+          <div className="mt-10 grid gap-10 rounded-3xl border border-black/10 bg-[#ffffff] p-6 md:p-10 lg:grid-cols-[1.5fr_1fr]">
             <div>
               <h2 className="mb-4 text-xl font-semibold">Details</h2>
               {product.descriptionHtml ? (
                 <Prose
-                  className="mx-0 max-w-none text-sm leading-relaxed text-neutral-300 dark:text-neutral-300"
+                  className="mx-0 max-w-none text-sm leading-relaxed text-neutral-700"
                   html={product.descriptionHtml}
                 />
               ) : (
-                <p className="text-sm text-neutral-400">
+                <p className="text-sm text-neutral-600">
                   {product.description}
                 </p>
               )}
             </div>
             {(specs.length > 0 || publicTags.length > 0) && (
               <div>
-                <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.16em] text-neutral-400">
+                <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.16em] text-neutral-600">
                   Specifications
                 </h3>
                 {specs.length > 0 ? (
@@ -241,13 +244,13 @@ export default async function ProductPage(props: {
                     {specs.map((s) => (
                       <div
                         key={s.label}
-                        className="border-b border-white/10 py-2.5"
+                        className="border-b border-black/10 py-2.5"
                       >
                         <div className="flex justify-between gap-4">
                           <dt className="shrink-0 text-neutral-500">
                             {s.label}
                           </dt>
-                          <dd className="text-right font-medium text-neutral-100 tabular-nums">
+                          <dd className="text-right font-medium text-neutral-900 tabular-nums">
                             {s.value}
                           </dd>
                         </div>
@@ -264,7 +267,7 @@ export default async function ProductPage(props: {
                     {publicTags.slice(0, 12).map((t) => (
                       <span
                         key={t}
-                        className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-neutral-300"
+                        className="rounded-full border border-black/10 bg-white px-3 py-1 text-xs text-neutral-700"
                       >
                         {t}
                       </span>
@@ -273,9 +276,9 @@ export default async function ProductPage(props: {
                 )}
                 <dl className="mt-6 space-y-2 text-sm">
                   {collectionMeta ? (
-                    <div className="flex justify-between border-b border-white/10 py-2">
+                    <div className="flex justify-between border-b border-black/10 py-2">
                       <dt className="text-neutral-500">Category</dt>
-                      <dd className="text-neutral-200">
+                      <dd className="text-neutral-800">
                         {collectionMeta.title}
                       </dd>
                     </div>
@@ -285,20 +288,20 @@ export default async function ProductPage(props: {
                      current fulfilment route and the same string rendered on
                      every product. Shipping timings live on one page so they
                      can be corrected in one place. */}
-                  <div className="flex justify-between border-b border-white/10 py-2">
+                  <div className="flex justify-between border-b border-black/10 py-2">
                     <dt className="text-neutral-500">Shipping</dt>
                     <dd>
                       <Link
                         href="/shipping-returns"
-                        className="text-neutral-200 underline decoration-white/30 underline-offset-2 hover:text-[#f2a93b]"
+                        className="text-neutral-800 underline decoration-black/30 underline-offset-2 hover:text-[#0e7490]"
                       >
                         See delivery times
                       </Link>
                     </dd>
                   </div>
-                  <div className="flex justify-between border-b border-white/10 py-2">
+                  <div className="flex justify-between border-b border-black/10 py-2">
                     <dt className="text-neutral-500">Returns</dt>
-                    <dd className="text-neutral-200">30 days</dd>
+                    <dd className="text-neutral-800">30 days</dd>
                   </div>
                 </dl>
               </div>
@@ -307,7 +310,7 @@ export default async function ProductPage(props: {
         )}
 
         {faqs.length > 0 && (
-          <div className="mt-10 rounded-3xl border border-white/10 bg-[#0d1618] p-6 md:p-10">
+          <div className="mt-10 rounded-3xl border border-black/10 bg-[#ffffff] p-6 md:p-10">
             <h2 className="mb-6 text-xl font-semibold">
               Questions about this light
             </h2>

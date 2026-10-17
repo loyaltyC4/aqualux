@@ -29,9 +29,9 @@ export function EditItemQuantityButton({
       )}
     >
       {type === "plus" ? (
-        <PlusIcon className="h-4 w-4 text-neutral-300" />
+        <PlusIcon className="h-4 w-4 text-neutral-700" />
       ) : (
-        <MinusIcon className="h-4 w-4 text-neutral-300" />
+        <MinusIcon className="h-4 w-4 text-neutral-700" />
       )}
     </button>
   );

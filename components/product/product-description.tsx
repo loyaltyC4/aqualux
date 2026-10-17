@@ -12,7 +12,7 @@ export function ProductDescription({ product }: { product: Product }) {
   return (
     <div className="flex flex-col">
       <div className="mt-4 flex items-center gap-3">
-        <span className="rounded-full bg-[#f2a93b] px-4 py-1.5 text-lg font-semibold text-black">
+        <span className="rounded-full bg-[#0e7490] px-4 py-1.5 text-lg font-semibold text-white">
           <Price
             amount={product.priceRange.minVariantPrice.amount}
             currencyCode={product.priceRange.minVariantPrice.currencyCode}
@@ -23,14 +23,14 @@ export function ProductDescription({ product }: { product: Product }) {
              not achievable on the current fulfilment route and sat next to the
              price where it reads as a delivery promise. Delivery timings live
              on /shipping-returns so there is one place to keep them true. */
-          <span className="text-sm text-neutral-400">In stock</span>
+          <span className="text-sm text-neutral-600">In stock</span>
         ) : (
           <span className="text-sm text-red-400">Currently out of stock</span>
         )}
       </div>
 
       {summary ? (
-        <p className="mt-5 text-sm leading-relaxed text-neutral-300">
+        <p className="mt-5 text-sm leading-relaxed text-neutral-700">
           {summary}
           {summary.endsWith(".") ? "" : "."}
         </p>
@@ -47,7 +47,7 @@ export function ProductDescription({ product }: { product: Product }) {
         <AddToCart product={product} />
       </div>
 
-      <ul className="mt-6 grid grid-cols-1 gap-2 text-sm text-neutral-400 sm:grid-cols-2">
+      <ul className="mt-6 grid grid-cols-1 gap-2 text-sm text-neutral-600 sm:grid-cols-2">
         {[
           "Hand-picked and quality-checked",
           `Free shipping over $${FREE_SHIPPING_THRESHOLD} to AU & NZ`,
@@ -57,7 +57,7 @@ export function ProductDescription({ product }: { product: Product }) {
           <li key={t} className="flex items-center gap-2">
             <svg
               viewBox="0 0 24 24"
-              className="h-4 w-4 flex-none text-[#f2a93b]"
+              className="h-4 w-4 flex-none text-[#0e7490]"
               fill="none"
               stroke="currentColor"
               strokeWidth={2.5}

@@ -53,16 +53,16 @@ export default async function SearchPage(props: {
           {searchValue ? "Search" : "All products"}
         </h1>
         {searchValue ? (
-          <p className="mt-2 text-neutral-400">
+          <p className="mt-2 text-neutral-600">
             {products.length === 0
               ? "No products match "
               : `Showing ${products.length} ${resultsText} for `}
-            <span className="font-semibold text-[#eceae4]">
+            <span className="font-semibold text-[#132a35]">
               &quot;{searchValue}&quot;
             </span>
           </p>
         ) : (
-          <p className="mt-2 text-neutral-400">
+          <p className="mt-2 text-neutral-600">
             Every light, CO2 part, tool, substrate and test kit we stock.
           </p>
         )}
@@ -77,7 +77,7 @@ export default async function SearchPage(props: {
           </Grid>
         </>
       ) : (
-        <p className="py-3 text-lg text-neutral-400">
+        <p className="py-3 text-lg text-neutral-600">
           No products match these filters. Try clearing one.
         </p>
       )}

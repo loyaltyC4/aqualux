@@ -93,7 +93,7 @@ export default async function CategoryPage(props: {
       )}
 
       {collection && (
-        <div className="relative mb-8 overflow-hidden rounded-3xl border border-white/10">
+        <div className="relative mb-8 overflow-hidden rounded-3xl border border-black/10">
           {banner ? (
             <>
               <div className="relative h-40 w-full md:h-52">
@@ -112,11 +112,11 @@ export default async function CategoryPage(props: {
                   {collection.title}
                 </h1>
                 {collection.description ? (
-                  <p className="mt-1 max-w-xl text-sm text-neutral-300">
+                  <p className="mt-1 max-w-xl text-sm text-neutral-200">
                     {collection.description}
                   </p>
                 ) : null}
-                <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-[#f2a93b]">
+                <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-white/80">
                   {products.length} products
                 </p>
               </div>
@@ -127,7 +127,7 @@ export default async function CategoryPage(props: {
                 {collection.title}
               </h1>
               {collection.description ? (
-                <p className="mt-1 max-w-xl text-sm text-neutral-400">
+                <p className="mt-1 max-w-xl text-sm text-neutral-600">
                   {collection.description}
                 </p>
               ) : null}
@@ -139,7 +139,7 @@ export default async function CategoryPage(props: {
       <FilterBar facets={facets} />
 
       {products.length === 0 ? (
-        <p className="py-3 text-lg text-neutral-400">
+        <p className="py-3 text-lg text-neutral-600">
           {unfiltered.length === 0
             ? "No products found in this collection."
             : "No products match these filters. Try clearing one."}
@@ -155,16 +155,16 @@ export default async function CategoryPage(props: {
 
       {copy ? (
         <div className="mx-auto mt-16 max-w-3xl px-2 md:mt-24">
-          <p className="text-base leading-relaxed text-neutral-300">
+          <p className="text-base leading-relaxed text-neutral-700">
             {copy.intro}
           </p>
           <div className="mt-10 space-y-8">
             {copy.sections.map((sec) => (
               <div key={sec.heading}>
-                <h2 className="text-lg font-semibold text-[#eceae4]">
+                <h2 className="text-lg font-semibold text-[#132a35]">
                   {sec.heading}
                 </h2>
-                <p className="mt-2 text-[15px] leading-relaxed text-neutral-400">
+                <p className="mt-2 text-[15px] leading-relaxed text-neutral-600">
                   {sec.body}
                 </p>
               </div>

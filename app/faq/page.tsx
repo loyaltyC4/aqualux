@@ -55,7 +55,7 @@ export default function FaqPage() {
       <FaqList items={FAQS} />
       <p className="mt-8 text-sm text-[var(--aq-muted)]">
         Still stuck?{" "}
-        <Link href="/contact" className="text-[#f2a93b] hover:underline">
+        <Link href="/contact" className="text-[#0e7490] hover:underline">
           Contact us
         </Link>
         .

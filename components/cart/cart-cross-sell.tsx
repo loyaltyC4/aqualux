@@ -86,7 +86,7 @@ export function CartCrossSell({
   }
 
   return (
-    <div className="mb-4 border-t border-white/10 pt-4">
+    <div className="mb-4 border-t border-black/10 pt-4">
       <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-neutral-500">
         Build essentials
       </p>
@@ -94,7 +94,7 @@ export function CartCrossSell({
         {items.map((item) => (
           <div
             key={item.handle}
-            className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.02] p-2"
+            className="flex items-center gap-3 rounded-xl border border-black/10 bg-white p-2"
           >
             <div className="relative h-10 w-10 flex-none overflow-hidden rounded-md bg-white">
               {item.image ? (
@@ -107,14 +107,14 @@ export function CartCrossSell({
               ) : null}
             </div>
             <div className="min-w-0 flex-1">
-              <p className="truncate text-xs text-neutral-200">{item.title}</p>
-              <p className="text-xs font-semibold text-[#f2a93b]">
+              <p className="truncate text-xs text-neutral-800">{item.title}</p>
+              <p className="text-xs font-semibold text-[#0e7490]">
                 {fmt(item.price, item.currencyCode)}
               </p>
             </div>
             <button
               onClick={() => quickAdd(item)}
-              className="shrink-0 rounded-full border border-white/20 px-3 py-1.5 text-xs font-semibold transition hover:border-[#f2a93b] hover:text-[#f2a93b]"
+              className="shrink-0 rounded-full border border-black/20 px-3 py-1.5 text-xs font-semibold transition hover:border-[#0e7490] hover:text-[#0e7490]"
             >
               Add
             </button>

@@ -115,7 +115,7 @@ export default function Search() {
           role="combobox"
           aria-expanded={open}
           aria-autocomplete="list"
-          className="w-full rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-[#eceae4] placeholder:text-neutral-500 focus:border-[#f2a93b]/60"
+          className="w-full rounded-full border border-black/15 bg-white px-4 py-2 text-sm text-[#132a35] placeholder:text-neutral-500 focus:border-[#0e7490]/60"
         />
         <div className="absolute right-0 top-0 mr-3 flex h-full items-center text-neutral-500">
           <MagnifyingGlassIcon className="h-4" />
@@ -123,7 +123,7 @@ export default function Search() {
       </form>
 
       {open && results.length > 0 && (
-        <div className="absolute left-0 top-[calc(100%+8px)] z-50 w-full min-w-[280px] overflow-hidden rounded-2xl border border-white/10 bg-[#0d1618] shadow-2xl">
+        <div className="absolute left-0 top-[calc(100%+8px)] z-50 w-full min-w-[280px] overflow-hidden rounded-2xl border border-black/10 bg-[#ffffff] shadow-2xl">
           <ul>
             {results.map((r, i) => (
               <li key={r.handle}>
@@ -132,8 +132,8 @@ export default function Search() {
                   onClick={() => setOpen(false)}
                   className={`flex items-center gap-3 px-3 py-2.5 transition ${
                     i === highlight
-                      ? "bg-white/[0.06]"
-                      : "hover:bg-white/[0.04]"
+                      ? "bg-neutral-100"
+                      : "hover:bg-neutral-50"
                   }`}
                 >
                   <div className="relative h-10 w-10 flex-none overflow-hidden rounded-md bg-white">
@@ -146,10 +146,10 @@ export default function Search() {
                       />
                     ) : null}
                   </div>
-                  <span className="flex-1 truncate text-sm text-neutral-200">
+                  <span className="flex-1 truncate text-sm text-neutral-800">
                     {r.title}
                   </span>
-                  <span className="shrink-0 text-sm font-semibold text-[#f2a93b]">
+                  <span className="shrink-0 text-sm font-semibold text-[#0e7490]">
                     {fmt(r.price, r.currencyCode)}
                   </span>
                 </Link>
@@ -158,7 +158,7 @@ export default function Search() {
           </ul>
           <button
             onClick={goToSearch}
-            className="block w-full border-t border-white/10 px-3 py-2.5 text-left text-xs font-semibold text-neutral-400 hover:text-[#f2a93b]"
+            className="block w-full border-t border-black/10 px-3 py-2.5 text-left text-xs font-semibold text-neutral-600 hover:text-[#0e7490]"
           >
             See all results for &quot;{query}&quot; →
           </button>
@@ -173,7 +173,7 @@ export function SearchSkeleton() {
     <form className="relative w-full">
       <input
         placeholder="Search lights, CO2, tools…"
-        className="w-full rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-[#eceae4] placeholder:text-neutral-500"
+        className="w-full rounded-full border border-black/15 bg-white px-4 py-2 text-sm text-[#132a35] placeholder:text-neutral-500"
       />
       <div className="absolute right-0 top-0 mr-3 flex h-full items-center text-neutral-500">
         <MagnifyingGlassIcon className="h-4" />

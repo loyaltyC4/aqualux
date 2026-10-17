@@ -18,7 +18,7 @@ export function DeliveryTable() {
     <div className="not-prose">
       <p className="mb-4 text-[15px] text-[var(--aq-muted)]">
         Orders are packed and handed to the carrier within{" "}
-        <strong className="text-[var(--aq-bone)]">
+        <strong className="text-[var(--aq-ink)]">
           {DISPATCH_MIN_DAYS}-{DISPATCH_MAX_DAYS} business days
         </strong>
         . The windows below are the total time from order to doorstep, dispatch
@@ -29,16 +29,16 @@ export function DeliveryTable() {
         <table className="w-full border-collapse text-left text-[14px]">
           <thead>
             <tr className="border-b border-[var(--aq-line)]">
-              <th className="py-3 pr-4 font-medium text-[var(--aq-bone)]">
+              <th className="py-3 pr-4 font-medium text-[var(--aq-ink)]">
                 Destination
               </th>
-              <th className="py-3 pr-4 font-medium text-[var(--aq-bone)]">
+              <th className="py-3 pr-4 font-medium text-[var(--aq-ink)]">
                 Delivery
               </th>
-              <th className="py-3 pr-4 font-medium text-[var(--aq-bone)]">
+              <th className="py-3 pr-4 font-medium text-[var(--aq-ink)]">
                 Shipping
               </th>
-              <th className="py-3 font-medium text-[var(--aq-bone)]">
+              <th className="py-3 font-medium text-[var(--aq-ink)]">
                 Free over
               </th>
             </tr>
@@ -51,7 +51,7 @@ export function DeliveryTable() {
                   key={z.id}
                   className="border-b border-[var(--aq-line)] align-top"
                 >
-                  <td className="py-3 pr-4 text-[var(--aq-bone)]">
+                  <td className="py-3 pr-4 text-[var(--aq-ink)]">
                     {z.label}
                     <span className="mt-1 block text-[13px] text-[var(--aq-muted)]">
                       {z.note}

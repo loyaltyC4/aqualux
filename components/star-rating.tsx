@@ -7,8 +7,8 @@ function Star({ filled, className }: { filled: boolean; className?: string }) {
     <svg
       viewBox="0 0 20 20"
       className={className}
-      fill={filled ? "#f2a93b" : "none"}
-      stroke={filled ? "#f2a93b" : "currentColor"}
+      fill={filled ? "#0e7490" : "none"}
+      stroke={filled ? "#0e7490" : "currentColor"}
       strokeWidth={1.4}
     >
       <path

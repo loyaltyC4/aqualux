@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function AdminLoginPage() {
   return (
     <div className="flex min-h-[70vh] flex-col items-center justify-center px-6 py-24">
-      <h1 className="mb-6 text-2xl font-semibold text-[#eceae4]">
+      <h1 className="mb-6 text-2xl font-semibold text-[#132a35]">
         Aqualux admin
       </h1>
       <AdminLoginForm />

@@ -14,19 +14,19 @@ export default function NotFound() {
           className="mb-6"
         />
         <h1 className="text-4xl font-semibold md:text-5xl">Bailed that one.</h1>
-        <p className="mt-3 text-neutral-400">
+        <p className="mt-3 text-neutral-600">
           That page rolled away. Let&apos;s get you back on board.
         </p>
         <div className="mt-7 flex flex-wrap justify-center gap-3">
           <Link
             href="/"
-            className="rounded-full bg-[#f2a93b] px-6 py-3 text-sm font-semibold text-black transition hover:brightness-110"
+            className="rounded-full bg-[#0e7490] px-6 py-3 text-sm font-semibold text-white transition hover:brightness-110"
           >
             Back home
           </Link>
           <Link
             href="/search"
-            className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold transition hover:border-[#f2a93b] hover:text-[#f2a93b]"
+            className="rounded-full border border-black/20 px-6 py-3 text-sm font-semibold transition hover:border-[#0e7490] hover:text-[#0e7490]"
           >
             Shop the catalog
           </Link>
