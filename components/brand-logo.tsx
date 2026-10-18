@@ -3,7 +3,7 @@ import clsx from "clsx";
 import { SITE_NAME } from "lib/brand";
 import LogoIcon from "components/icons/logo";
 
-/** Live brand lockup: animated tank mark + two-tone wordmark. */
+/** Live brand lockup: Refraction A mark + two-tone wordmark. */
 export function BrandLogo({ className }: { className?: string }) {
   return (
     <Link
@@ -14,11 +14,11 @@ export function BrandLogo({ className }: { className?: string }) {
     >
       <span
         aria-hidden
-        className="flex h-9 w-[72px] items-center justify-center rounded-lg border border-[#0e7490]/40 bg-[#0e7490]/[0.06] px-2 transition-colors duration-300 group-hover:bg-[#0e7490]/[0.12]"
+        className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#0e7490]/35 bg-white shadow-[0_1px_2px_rgba(19,42,53,0.06)] transition-shadow duration-300 group-hover:shadow-[0_2px_8px_rgba(14,116,144,0.18)]"
       >
-        <LogoIcon className="h-5 w-auto text-[#0e7490] transition-colors duration-300 group-hover:text-[#0b5c73]" />
+        <LogoIcon className="h-7 w-7 text-[#0e7490]" />
       </span>
-      <span className="text-[17px] font-semibold leading-none tracking-tight text-[#132a35]">
+      <span className="text-[18px] font-semibold leading-none tracking-tight text-[#132a35]">
         Aqua<span className="text-[#0e7490]">lux</span>
       </span>
     </Link>
