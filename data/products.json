@@ -5085,6 +5085,1726 @@
           "a": "Yes, they are inert in fresh water. Bury the wrap under the substrate so it is out of sight."
         }
       ]
+    },
+    {
+      "id": 7000000210,
+      "handle": "4-in-1-internal-filter-pump",
+      "title": "4-in-1 Internal Filter & Pump",
+      "body_html": "<p>Clear water, four ways: mechanical, chemical, biological and gentle circulation in one submersible unit. Adjustable flow suits nano tanks up to ~100 L, and the lift-out media basket makes monthly rinses a two-minute job.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "filtration",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000055,
+          "product_id": 7000000210,
+          "title": "Default Title",
+          "price": "44.95",
+          "compare_at_price": "54.95",
+          "sku": "AQL-7000000210",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 520,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/4-in-1-internal-filter-pump-1.jpg"
+        },
+        {
+          "src": "/products/4-in-1-internal-filter-pump-2.jpg"
+        },
+        {
+          "src": "/products/4-in-1-internal-filter-pump-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/4-in-1-internal-filter-pump-1.jpg"
+      },
+      "_cat": "filtration",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000211,
+      "handle": "three-in-one-built-in-filter",
+      "title": "Three-in-One Built-In Filter",
+      "body_html": "<p>A compact hang-in filter that cleans, circulates and oxygenates at once. The quiet workhorse for small tanks and quarantine setups — fits inside the tank, no plumbing, no fuss.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "filtration",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000056,
+          "product_id": 7000000211,
+          "title": "Default Title",
+          "price": "14.95",
+          "compare_at_price": "19.95",
+          "sku": "AQL-7000000211",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 260,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/three-in-one-built-in-filter-1.jpg"
+        },
+        {
+          "src": "/products/three-in-one-built-in-filter-2.jpg"
+        },
+        {
+          "src": "/products/three-in-one-built-in-filter-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/three-in-one-built-in-filter-1.jpg"
+      },
+      "_cat": "filtration",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000212,
+      "handle": "protein-skimmer-marine",
+      "title": "Protein Skimmer — Marine",
+      "body_html": "<p>Needle-wheel protein skimmer for marine and reef tanks. Pulls dissolved organics before they become nitrates, with an adjustable collection cup and a pump rated for tanks to ~400 L. The single biggest water-quality upgrade a reef tank can get.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "filtration",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000057,
+          "product_id": 7000000212,
+          "title": "Default Title",
+          "price": "279.00",
+          "compare_at_price": "329.00",
+          "sku": "AQL-7000000212",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 1900,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/protein-skimmer-marine-1.jpg"
+        },
+        {
+          "src": "/products/protein-skimmer-marine-2.jpg"
+        },
+        {
+          "src": "/products/protein-skimmer-marine-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/protein-skimmer-marine-1.jpg"
+      },
+      "_cat": "filtration",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000213,
+      "handle": "300g-filter-pump",
+      "title": "300 GPH Filter Pump",
+      "body_html": "<p>A 300-gallon-per-hour pump with built-in filtration — strong, quiet flow for medium tanks, sump refill or pond loops. Sealed motor, tool-free impeller access.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "filtration",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000058,
+          "product_id": 7000000213,
+          "title": "Default Title",
+          "price": "54.95",
+          "compare_at_price": "64.95",
+          "sku": "AQL-7000000213",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 760,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/300g-filter-pump-1.jpg"
+        },
+        {
+          "src": "/products/300g-filter-pump-2.jpg"
+        },
+        {
+          "src": "/products/300g-filter-pump-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/300g-filter-pump-1.jpg"
+      },
+      "_cat": "filtration",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000214,
+      "handle": "ro-countertop-3-stage",
+      "title": "Countertop RO System — 3 Stage",
+      "body_html": "<p>Three-stage reverse osmosis for spot-free water changes. Sediment, carbon and RO membranes in a countertop unit that connects to any tap — the starting point for soft-water tanks, shrimp and Discus.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "filtration",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000059,
+          "product_id": 7000000214,
+          "title": "Default Title",
+          "price": "169.00",
+          "compare_at_price": "199.00",
+          "sku": "AQL-7000000214",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 4200,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/ro-countertop-3-stage-1.jpg"
+        },
+        {
+          "src": "/products/ro-countertop-3-stage-2.jpg"
+        },
+        {
+          "src": "/products/ro-countertop-3-stage-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/ro-countertop-3-stage-1.jpg"
+      },
+      "_cat": "filtration",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000215,
+      "handle": "usb-siphon-gravel-cleaner-v2",
+      "title": "USB Siphon Gravel Cleaner V2",
+      "body_html": "<p>Brushless USB-powered gravel vacuum that pulls waste without buckets of drama. V2 motor moves water faster, and the intake guard keeps shrimp and fry out of the stream.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "tools",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000060,
+          "product_id": 7000000215,
+          "title": "Default Title",
+          "price": "52.95",
+          "compare_at_price": "62.95",
+          "sku": "AQL-7000000215",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 680,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/usb-siphon-gravel-cleaner-v2-1.jpg"
+        },
+        {
+          "src": "/products/usb-siphon-gravel-cleaner-v2-2.jpg"
+        },
+        {
+          "src": "/products/usb-siphon-gravel-cleaner-v2-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/usb-siphon-gravel-cleaner-v2-1.jpg"
+      },
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000216,
+      "handle": "gravel-cleaner-battery-2in1",
+      "title": "2-in-1 Gravel Cleaner & Siphon",
+      "body_html": "<p>Battery-powered siphon with a gravel head: vacuums substrate and drains the tank in one pass. Ideal for water-change day on tanks up to ~90 L.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "tools",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000061,
+          "product_id": 7000000216,
+          "title": "Default Title",
+          "price": "54.95",
+          "compare_at_price": "64.95",
+          "sku": "AQL-7000000216",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 720,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/gravel-cleaner-battery-2in1-1.jpg"
+        },
+        {
+          "src": "/products/gravel-cleaner-battery-2in1-2.jpg"
+        },
+        {
+          "src": "/products/gravel-cleaner-battery-2in1-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/gravel-cleaner-battery-2in1-1.jpg"
+      },
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000217,
+      "handle": "electric-water-exchanger",
+      "title": "Electric Water Exchanger Cleaner",
+      "body_html": "<p>An electric pump-and-hose system that drains and refills straight from the tap. What used to be a bucket-and-backache routine becomes a five-minute job.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "tools",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000062,
+          "product_id": 7000000217,
+          "title": "Default Title",
+          "price": "99.00",
+          "compare_at_price": "119.00",
+          "sku": "AQL-7000000217",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 1100,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/electric-water-exchanger-1.jpg"
+        },
+        {
+          "src": "/products/electric-water-exchanger-2.jpg"
+        },
+        {
+          "src": "/products/electric-water-exchanger-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/electric-water-exchanger-1.jpg"
+      },
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000218,
+      "handle": "pneumatic-sand-washer",
+      "title": "Pneumatic Sand Washer & Water Changer",
+      "body_html": "<p>Air-driven sand washer for gentle substrate cleaning — lifts debris without swallowing your aquasoil. Simple, cheap, and it just works.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "tools",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000063,
+          "product_id": 7000000218,
+          "title": "Default Title",
+          "price": "16.95",
+          "compare_at_price": "21.95",
+          "sku": "AQL-7000000218",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 240,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/pneumatic-sand-washer-1.jpg"
+        },
+        {
+          "src": "/products/pneumatic-sand-washer-2.jpg"
+        },
+        {
+          "src": "/products/pneumatic-sand-washer-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/pneumatic-sand-washer-1.jpg"
+      },
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000219,
+      "handle": "tweezers-stainless-30cm",
+      "title": "Stainless Tweezers — 30 cm",
+      "body_html": "<p>Long 30 cm planting tweezers in brushed stainless. Fine tips grip delicate stems without crushing, and the length keeps your knuckles dry in deep tanks.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "tools",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000064,
+          "product_id": 7000000219,
+          "title": "Default Title",
+          "price": "24.95",
+          "compare_at_price": "29.95",
+          "sku": "AQL-7000000219",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 160,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/tweezers-stainless-30cm-1.jpg"
+        },
+        {
+          "src": "/products/tweezers-stainless-30cm-2.jpg"
+        },
+        {
+          "src": "/products/tweezers-stainless-30cm-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/tweezers-stainless-30cm-1.jpg"
+      },
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000220,
+      "handle": "full-spectrum-led-40cm",
+      "title": "Full Spectrum LED Bar — 40 cm",
+      "body_html": "<p>A 40 cm full-spectrum bar tuned for planted tanks: strong reds for colour, balanced whites for growth, aluminium body that runs cool. Fits rimless and framed tanks alike.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "lighting",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000065,
+          "product_id": 7000000220,
+          "title": "Default Title",
+          "price": "79.95",
+          "compare_at_price": "94.95",
+          "sku": "AQL-7000000220",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 540,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/full-spectrum-led-40cm-1.jpg"
+        },
+        {
+          "src": "/products/full-spectrum-led-40cm-2.jpg"
+        },
+        {
+          "src": "/products/full-spectrum-led-40cm-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/full-spectrum-led-40cm-1.jpg"
+      },
+      "_cat": "lighting",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000221,
+      "handle": "spotlight-clamp-nano",
+      "title": "Spotlight Clamp Light — Nano",
+      "body_html": "<p>A tiny clamp-on spotlight for nano tanks, shrimp bowls and plant corners. Aim it, plug it, grow things.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "lighting",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000066,
+          "product_id": 7000000221,
+          "title": "Default Title",
+          "price": "12.95",
+          "compare_at_price": "16.95",
+          "sku": "AQL-7000000221",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 200,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/spotlight-clamp-nano-1.jpg"
+        },
+        {
+          "src": "/products/spotlight-clamp-nano-2.jpg"
+        },
+        {
+          "src": "/products/spotlight-clamp-nano-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/spotlight-clamp-nano-1.jpg"
+      },
+      "_cat": "lighting",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000222,
+      "handle": "underwater-color-lights",
+      "title": "Underwater Colour Lights",
+      "body_html": "<p>Submersible colour LED wands with remote — waterproof for permanent underwater use. Moody evening light for display tanks, or a night mode for nocturnal species.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "lighting",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000067,
+          "product_id": 7000000222,
+          "title": "Default Title",
+          "price": "34.95",
+          "compare_at_price": "42.95",
+          "sku": "AQL-7000000222",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 380,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/underwater-color-lights-1.jpg"
+        },
+        {
+          "src": "/products/underwater-color-lights-2.jpg"
+        },
+        {
+          "src": "/products/underwater-color-lights-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/underwater-color-lights-1.jpg"
+      },
+      "_cat": "lighting",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000223,
+      "handle": "digital-ph-meter-lcd",
+      "title": "Digital pH Meter — LCD",
+      "body_html": "<p>Pocket digital pH meter with LCD. Two-point calibration, 0.1 resolution — stop squinting at colour charts.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "testing",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000068,
+          "product_id": 7000000223,
+          "title": "Default Title",
+          "price": "26.95",
+          "compare_at_price": "32.95",
+          "sku": "AQL-7000000223",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 110,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/digital-ph-meter-lcd-1.jpg"
+        },
+        {
+          "src": "/products/digital-ph-meter-lcd-2.jpg"
+        },
+        {
+          "src": "/products/digital-ph-meter-lcd-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/digital-ph-meter-lcd-1.jpg"
+      },
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000224,
+      "handle": "ph-ec-meter-4in1",
+      "title": "4-in-1 pH / EC Meter",
+      "body_html": "<p>pH, EC, TDS and temperature in one pen. For planted-tank dosing and RO top-ups, one probe tells you everything you need.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "testing",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000069,
+          "product_id": 7000000224,
+          "title": "Default Title",
+          "price": "36.95",
+          "compare_at_price": "44.95",
+          "sku": "AQL-7000000224",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 150,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/ph-ec-meter-4in1-1.jpg"
+        },
+        {
+          "src": "/products/ph-ec-meter-4in1-2.jpg"
+        },
+        {
+          "src": "/products/ph-ec-meter-4in1-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/ph-ec-meter-4in1-1.jpg"
+      },
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000225,
+      "handle": "water-conditioner-100ml",
+      "title": "Water Conditioner — 100 ml",
+      "body_html": "<p>Dechlorinator and conditioner that neutralises chlorine and chloramine instantly. The 100 ml bottle treats roughly 2,000 L — the first thing into every bucket of tap water.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "testing",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000070,
+          "product_id": 7000000225,
+          "title": "Default Title",
+          "price": "14.95",
+          "compare_at_price": "18.95",
+          "sku": "AQL-7000000225",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 130,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/water-conditioner-100ml-1.jpg"
+        },
+        {
+          "src": "/products/water-conditioner-100ml-2.jpg"
+        },
+        {
+          "src": "/products/water-conditioner-100ml-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/water-conditioner-100ml-1.jpg"
+      },
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000226,
+      "handle": "treatment-tablets-35",
+      "title": "Water Treatment Tablets — 35 Pack",
+      "body_html": "<p>Slow-dissolve clarifying tablets for green or cloudy water. Dose per the label, keep the filter running, and watch the tank clear over a few days.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "testing",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000071,
+          "product_id": 7000000226,
+          "title": "Default Title",
+          "price": "14.95",
+          "compare_at_price": "18.95",
+          "sku": "AQL-7000000226",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 150,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/treatment-tablets-35-1.jpg"
+        },
+        {
+          "src": "/products/treatment-tablets-35-2.jpg"
+        },
+        {
+          "src": "/products/treatment-tablets-35-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/treatment-tablets-35-1.jpg"
+      },
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000227,
+      "handle": "shrimp-cave-2-pack",
+      "title": "Shrimp Cave — 2 Pack",
+      "body_html": "<p>Ceramic hides sized for shrimp and bottom dwellers. Biofilm grows on the glazed surface, berried females find cover, and the natural clay look sits quietly in any scape.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "hardscape",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000072,
+          "product_id": 7000000227,
+          "title": "Default Title",
+          "price": "14.95",
+          "compare_at_price": "18.95",
+          "sku": "AQL-7000000227",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 280,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/shrimp-cave-2-pack-1.jpg"
+        },
+        {
+          "src": "/products/shrimp-cave-2-pack-2.jpg"
+        },
+        {
+          "src": "/products/shrimp-cave-2-pack-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/shrimp-cave-2-pack-1.jpg"
+      },
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000228,
+      "handle": "aquatic-plants-decoration-set",
+      "title": "Aquatic Plants Decoration Set",
+      "body_html": "<p>A low-maintenance artificial plant set for tanks where live plants won't cooperate. Weighted bases, soft-edged leaves, no paint bleed.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "hardscape",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000073,
+          "product_id": 7000000228,
+          "title": "Default Title",
+          "price": "9.95",
+          "compare_at_price": "13.95",
+          "sku": "AQL-7000000228",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 190,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/aquatic-plants-decoration-set-1.jpg"
+        },
+        {
+          "src": "/products/aquatic-plants-decoration-set-2.jpg"
+        },
+        {
+          "src": "/products/aquatic-plants-decoration-set-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/aquatic-plants-decoration-set-1.jpg"
+      },
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000229,
+      "handle": "resin-ornament-wreck",
+      "title": "Resin Shipwreck Ornament",
+      "body_html": "<p>A detailed resin wreck that doubles as a cave network for cichlids and catfish. Non-toxic, weighted, and it looks better with a bit of algae on it.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "hardscape",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T11:41:53+00:00",
+      "updated_at": "2026-10-18T11:41:53+00:00",
+      "published_at": "2026-10-18T11:41:53+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000074,
+          "product_id": 7000000229,
+          "title": "Default Title",
+          "price": "12.95",
+          "compare_at_price": "16.95",
+          "sku": "AQL-7000000229",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 340,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/resin-ornament-wreck-1.jpg"
+        },
+        {
+          "src": "/products/resin-ornament-wreck-2.jpg"
+        },
+        {
+          "src": "/products/resin-ornament-wreck-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/resin-ornament-wreck-1.jpg"
+      },
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
     }
   ]
 }

@@ -5,7 +5,10 @@
     "aurora-smart-78-rgb-led",
     "aurora-48-planted-tank-led",
     "clip-on-nano-grow-light",
-    "aurora-pro-rgb-bluetooth"
+    "aurora-pro-rgb-bluetooth",
+    "full-spectrum-led-40cm",
+    "spotlight-clamp-nano",
+    "underwater-color-lights"
   ],
   "co2": [
     "co2-starter-bundle-regulator-diffuser-checker",
@@ -30,16 +33,28 @@
     "telescopic-fish-net",
     "gravel-siphon-kit",
     "floating-algae-magnet-3pk",
-    "plant-weights-10pk"
+    "plant-weights-10pk",
+    "usb-siphon-gravel-cleaner-v2",
+    "gravel-cleaner-battery-2in1",
+    "electric-water-exchanger",
+    "pneumatic-sand-washer",
+    "tweezers-stainless-30cm"
   ],
   "hardscape": [
-    "spider-wood-centrepiece-set"
+    "spider-wood-centrepiece-set",
+    "shrimp-cave-2-pack",
+    "aquatic-plants-decoration-set",
+    "resin-ornament-wreck"
   ],
   "testing": [
     "digital-ph-pen-meter",
     "test-strips-8-in-1-100-count",
     "digital-thermometer-lcd",
-    "pro-ph-meter-backlit"
+    "pro-ph-meter-backlit",
+    "digital-ph-meter-lcd",
+    "ph-ec-meter-4in1",
+    "water-conditioner-100ml",
+    "treatment-tablets-35"
   ],
   "starter-kits": [
     "planted-starter-bundle-light-tools-test-kit",
@@ -51,6 +66,11 @@
     "disc-air-stone-diffuser",
     "airline-tubing-25ft",
     "airline-suction-clips-10pk",
-    "intake-pre-filter-sponge-9pack"
+    "intake-pre-filter-sponge-9pack",
+    "4-in-1-internal-filter-pump",
+    "three-in-one-built-in-filter",
+    "protein-skimmer-marine",
+    "300g-filter-pump",
+    "ro-countertop-3-stage"
   ]
 }
