@@ -21,6 +21,7 @@ export async function getAllSiteUrls(): Promise<string[]> {
   ]);
 
   const urls = [
+    ...(await import("lib/guides")).guideUrls().map((u) => `${baseUrl}${u}`),
     ...STATIC_PATHS.map((p) => `${baseUrl}${p}`),
     ...collections.filter((c) => c.handle).map((c) => `${baseUrl}${c.path}`),
     ...products.map((p) => `${baseUrl}/product/${p.handle}`),

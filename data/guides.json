@@ -1,0 +1,32 @@
+{
+  "guides": [
+    {
+      "slug": "best-led-lights-planted-tanks-australia",
+      "title": "The honest guide to LED lights for planted tanks in Australia",
+      "description": "What actually grows plants: spectrum, spread and mounting height — plus the lights we stock and when each one is the right call.",
+      "publishedAt": "2026-10-18",
+      "readingMinutes": 5
+    },
+    {
+      "slug": "nano-tank-filter-guide",
+      "title": "Nano tank filters: sponge vs internal vs hang-on",
+      "description": "The three filter styles for small tanks, what each is genuinely good at, and the mistakes that kill shrimp.",
+      "publishedAt": "2026-10-18",
+      "readingMinutes": 5
+    },
+    {
+      "slug": "faster-water-changes",
+      "title": "The five-minute water change",
+      "description": "Bucket-and-backache is optional. The gear and the routine that turns water-change day into a non-event.",
+      "publishedAt": "2026-10-18",
+      "readingMinutes": 4
+    },
+    {
+      "slug": "aquarium-water-testing-guide",
+      "title": "Water testing without the guesswork",
+      "description": "What to test, how often, and why your test kit is probably lying to you a little.",
+      "publishedAt": "2026-10-18",
+      "readingMinutes": 5
+    }
+  ]
+}

@@ -7407,6 +7407,406 @@
           "value": "48 – 61 cm"
         }
       ]
+    },
+    {
+      "id": 7000000237,
+      "handle": "purifier-liquid",
+      "title": "Water Purifier — Liquid",
+      "body_html": "<p>Liquid clarifier for green or cloudy tanks. Works in 24-48 hours with the filter running; safe for plants and shrimp when dosed as directed.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "testing",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:26:38+00:00",
+      "updated_at": "2026-10-18T16:26:38+00:00",
+      "published_at": "2026-10-18T16:26:38+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000082,
+          "product_id": 7000000237,
+          "title": "Default Title",
+          "price": "12.95",
+          "compare_at_price": "16.95",
+          "sku": "AQL-7000000237",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 170,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/purifier-liquid-1.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/purifier-liquid-1.jpg"
+      },
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000238,
+      "handle": "turtle-heater-thermo",
+      "title": "Submersible Heater — Digital Display",
+      "body_html": "<p>Digital-display submersible heater with built-in thermostat readout. Set-and-forget temperature for tropical tanks and turtle setups.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "tools",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:26:45+00:00",
+      "updated_at": "2026-10-18T16:26:45+00:00",
+      "published_at": "2026-10-18T16:26:45+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000083,
+          "product_id": 7000000238,
+          "title": "Default Title",
+          "price": "34.95",
+          "compare_at_price": "42.95",
+          "sku": "AQL-7000000238",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 420,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/turtle-heater-thermo-1.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/turtle-heater-thermo-1.jpg"
+      },
+      "_cat": "tools",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000239,
+      "handle": "river-rocks-38lb",
+      "title": "Polished River Rocks — 38 lb",
+      "body_html": "<p>Thirty-eight pounds of polished mixed river rock. The one-time hardscape buy that scopes a 4-foot tank and every rescape after it.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "hardscape",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:26:56+00:00",
+      "updated_at": "2026-10-18T16:26:56+00:00",
+      "published_at": "2026-10-18T16:26:56+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000084,
+          "product_id": 7000000239,
+          "title": "Default Title",
+          "price": "139.00",
+          "compare_at_price": "165.00",
+          "sku": "AQL-7000000239",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 17500,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/river-rocks-38lb-1.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/river-rocks-38lb-1.jpg"
+      },
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000240,
+      "handle": "labradorite-stone",
+      "title": "Labradorite Stone — Handled",
+      "body_html": "<p>Natural labradorite with its blue-flash fire. Statement stone for iwagumi-style scapes; every piece is different.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "hardscape",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:27:05+00:00",
+      "updated_at": "2026-10-18T16:27:05+00:00",
+      "published_at": "2026-10-18T16:27:05+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000085,
+          "product_id": 7000000240,
+          "title": "Default Title",
+          "price": "12.95",
+          "compare_at_price": "16.95",
+          "sku": "AQL-7000000240",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 400,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/labradorite-stone-1.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/labradorite-stone-1.jpg"
+      },
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000241,
+      "handle": "luminous-pebbles",
+      "title": "Luminous Pebbles",
+      "body_html": "<p>Glow-in-the-dark pebbles that charge under your tank light. Subtle night accent for pathways and borders.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "hardscape",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:27:12+00:00",
+      "updated_at": "2026-10-18T16:27:12+00:00",
+      "published_at": "2026-10-18T16:27:12+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000086,
+          "product_id": 7000000241,
+          "title": "Default Title",
+          "price": "9.95",
+          "compare_at_price": "13.95",
+          "sku": "AQL-7000000241",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 300,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/luminous-pebbles-1.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/luminous-pebbles-1.jpg"
+      },
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
     }
   ]
 }
