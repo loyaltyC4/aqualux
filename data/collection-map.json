@@ -44,7 +44,10 @@
     "spider-wood-centrepiece-set",
     "shrimp-cave-2-pack",
     "aquatic-plants-decoration-set",
-    "resin-ornament-wreck"
+    "resin-ornament-wreck",
+    "glass-crafts-ornament",
+    "turtle-ornament",
+    "resin-cartoon-decor"
   ],
   "testing": [
     "digital-ph-pen-meter",
@@ -54,7 +57,10 @@
     "digital-ph-meter-lcd",
     "ph-ec-meter-4in1",
     "water-conditioner-100ml",
-    "treatment-tablets-35"
+    "treatment-tablets-35",
+    "water-purification-tablets",
+    "bio-cleaner-liquid",
+    "water-stabilizer"
   ],
   "starter-kits": [
     "planted-starter-bundle-light-tools-test-kit",
@@ -71,6 +77,7 @@
     "three-in-one-built-in-filter",
     "protein-skimmer-marine",
     "300g-filter-pump",
-    "ro-countertop-3-stage"
+    "ro-countertop-3-stage",
+    "xiten-submersible-filter"
   ]
 }

@@ -3398,7 +3398,10 @@
           "q": "Is it safe to leave for a week away?",
           "a": "For a week, yes, provided you run it for a few days first and confirm the portion size. Do not set a feeder for the first time the day you leave."
         }
-      ]
+      ],
+      "image": {
+        "src": "/products/auto-feeder-programmable/01.jpg"
+      }
     },
     {
       "id": 7000000122,
@@ -3502,7 +3505,10 @@
           "q": "Can I calibrate it?",
           "a": "No, it is a fixed ±1 °C sensor. For stability tracking that is plenty; if you need certified accuracy you want a lab probe."
         }
-      ]
+      ],
+      "image": {
+        "src": "/products/digital-thermometer-lcd/01.jpg"
+      }
     },
     {
       "id": 7000000123,
@@ -6793,6 +6799,602 @@
       ],
       "image": {
         "src": "/products/resin-ornament-wreck-1.jpg"
+      },
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000230,
+      "handle": "xiten-submersible-filter",
+      "title": "Xiten Submersible Filter",
+      "body_html": "<p>A slim submersible internal filter for nano tanks and fry grow-outs. Adjustable flow, suction-mount, quiet.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "filtration",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:01:02+00:00",
+      "updated_at": "2026-10-18T16:01:02+00:00",
+      "published_at": "2026-10-18T16:01:02+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000075,
+          "product_id": 7000000230,
+          "title": "Default Title",
+          "price": "19.95",
+          "compare_at_price": "24.95",
+          "sku": "AQL-7000000230",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 240,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/xiten-submersible-filter-1.jpg"
+        },
+        {
+          "src": "/products/xiten-submersible-filter-2.jpg"
+        },
+        {
+          "src": "/products/xiten-submersible-filter-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/xiten-submersible-filter-1.jpg"
+      },
+      "_cat": "filtration",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000231,
+      "handle": "water-purification-tablets",
+      "title": "Water Purification Tablets",
+      "body_html": "<p>Fast-dissolve purification tablets for new tanks and post-medication resets. One tablet per 20 L, no residue.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "testing",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:01:07+00:00",
+      "updated_at": "2026-10-18T16:01:07+00:00",
+      "published_at": "2026-10-18T16:01:07+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000076,
+          "product_id": 7000000231,
+          "title": "Default Title",
+          "price": "12.95",
+          "compare_at_price": "16.95",
+          "sku": "AQL-7000000231",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 120,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/water-purification-tablets-1.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/water-purification-tablets-1.jpg"
+      },
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000232,
+      "handle": "bio-cleaner-liquid",
+      "title": "Biological Cleaner — Liquid",
+      "body_html": "<p>Live bacterial cleaner that breaks down sludge and mulm in gravel and filters. Dose weekly; the tank does the rest.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "testing",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:01:22+00:00",
+      "updated_at": "2026-10-18T16:01:22+00:00",
+      "published_at": "2026-10-18T16:01:22+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000077,
+          "product_id": 7000000232,
+          "title": "Default Title",
+          "price": "13.95",
+          "compare_at_price": "17.95",
+          "sku": "AQL-7000000232",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 180,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/bio-cleaner-liquid-1.jpg"
+        },
+        {
+          "src": "/products/bio-cleaner-liquid-2.jpg"
+        },
+        {
+          "src": "/products/bio-cleaner-liquid-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/bio-cleaner-liquid-1.jpg"
+      },
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000233,
+      "handle": "water-stabilizer",
+      "title": "Water Quality Stabilizer",
+      "body_html": "<p>Buffers swings between water changes — steadier pH, calmer fish. One cap per 40 L at every change.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "testing",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:01:35+00:00",
+      "updated_at": "2026-10-18T16:01:35+00:00",
+      "published_at": "2026-10-18T16:01:35+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000078,
+          "product_id": 7000000233,
+          "title": "Default Title",
+          "price": "12.95",
+          "compare_at_price": "16.95",
+          "sku": "AQL-7000000233",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 170,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/water-stabilizer-1.jpg"
+        },
+        {
+          "src": "/products/water-stabilizer-2.jpg"
+        },
+        {
+          "src": "/products/water-stabilizer-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/water-stabilizer-1.jpg"
+      },
+      "_cat": "testing",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000234,
+      "handle": "glass-crafts-ornament",
+      "title": "Glass Ornament — Handmade",
+      "body_html": "<p>Hand-blown glass ornament that catches the light in a way plastic never will. Each piece one of a kind.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "hardscape",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:01:44+00:00",
+      "updated_at": "2026-10-18T16:01:44+00:00",
+      "published_at": "2026-10-18T16:01:44+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000079,
+          "product_id": 7000000234,
+          "title": "Default Title",
+          "price": "16.95",
+          "compare_at_price": "21.95",
+          "sku": "AQL-7000000234",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 300,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/glass-crafts-ornament-1.jpg"
+        },
+        {
+          "src": "/products/glass-crafts-ornament-2.jpg"
+        },
+        {
+          "src": "/products/glass-crafts-ornament-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/glass-crafts-ornament-1.jpg"
+      },
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000235,
+      "handle": "turtle-ornament",
+      "title": "Turtle Ornament",
+      "body_html": "<p>A resting turtle for riverbank scapes — hollow underneath, so it doubles as a hide for bottom dwellers.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "hardscape",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:01:52+00:00",
+      "updated_at": "2026-10-18T16:01:52+00:00",
+      "published_at": "2026-10-18T16:01:52+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000080,
+          "product_id": 7000000235,
+          "title": "Default Title",
+          "price": "12.95",
+          "compare_at_price": "16.95",
+          "sku": "AQL-7000000235",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 260,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/turtle-ornament-1.jpg"
+        },
+        {
+          "src": "/products/turtle-ornament-2.jpg"
+        },
+        {
+          "src": "/products/turtle-ornament-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/turtle-ornament-1.jpg"
+      },
+      "_cat": "hardscape",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
+        },
+        {
+          "label": "Suits tank width",
+          "value": "48 – 61 cm"
+        }
+      ]
+    },
+    {
+      "id": 7000000236,
+      "handle": "resin-cartoon-decor",
+      "title": "Resin Cartoon Decor",
+      "body_html": "<p>Cheerful resin decor for kids' tanks and classroom aquariums. Non-toxic, weighted, paint sealed.</p>",
+      "vendor": "Aqualux",
+      "product_type": "lighting",
+      "status": "active",
+      "tags": [
+        "hardscape",
+        "aquarium",
+        "fish tank"
+      ],
+      "created_at": "2026-10-18T16:02:00+00:00",
+      "updated_at": "2026-10-18T16:02:00+00:00",
+      "published_at": "2026-10-18T16:02:00+00:00",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Product/7000000000",
+      "options": [
+        {
+          "id": 7100000000,
+          "product_id": 7000000000,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 7500000081,
+          "product_id": 7000000236,
+          "title": "Default Title",
+          "price": "9.95",
+          "compare_at_price": "13.95",
+          "sku": "AQL-7000000236",
+          "position": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "taxable": true,
+          "requires_shipping": true,
+          "inventory_quantity": 100,
+          "inventory_management": null,
+          "inventory_policy": "deny",
+          "fulfillment_service": "manual",
+          "grams": 220,
+          "weight": 0.8,
+          "weight_unit": "kg",
+          "barcode": null,
+          "inventory_item_id": 7300000000,
+          "old_inventory_quantity": 100,
+          "created_at": "2026-08-01T00:00:00+00:00",
+          "updated_at": "2026-08-01T00:00:00+00:00",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
+          "image_id": 9785220
+        }
+      ],
+      "images": [
+        {
+          "src": "/products/resin-cartoon-decor-1.jpg"
+        },
+        {
+          "src": "/products/resin-cartoon-decor-2.jpg"
+        },
+        {
+          "src": "/products/resin-cartoon-decor-3.jpg"
+        }
+      ],
+      "image": {
+        "src": "/products/resin-cartoon-decor-1.jpg"
       },
       "_cat": "hardscape",
       "specs": [
