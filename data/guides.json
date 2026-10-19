@@ -1,6 +1,14 @@
 {
   "guides": [
     {
+      "slug": "aquarium-light-schedule-planted-tanks",
+      "title": "Aquarium Light Schedule: Grow Plants, Kill Algae",
+      "description": "Learn the optimal light schedule for your planted aquarium. Avoid common algae mistakes and ensure healthy plant growth with practical, no-nonsense advice.",
+      "publishedAt": "2026-10-19",
+      "readingMinutes": 6,
+      "image": "/guides/aquarium-light-schedule-planted-tanks.jpg"
+    },
+    {
       "slug": "best-light-for-planted-tank",
       "title": "Best Light for Planted Tank: A Guide to Strong Plant Growth",
       "description": "Find the best light for your planted aquarium. Learn about PAR, spectrum, and intensity to grow thriving plants without algae. Get honest recommendations.",
