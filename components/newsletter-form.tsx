@@ -53,12 +53,12 @@ export function NewsletterForm({ source = "footer" }: { source?: string }) {
         onChange={(e) => setEmail(e.target.value)}
         placeholder="you@email.com"
         aria-label="Email address"
-        className="w-full rounded-full border border-black/15 bg-white px-4 py-2.5 text-sm text-[#132a35] placeholder:text-neutral-500 focus:border-[#0e7490]/60"
+        className="w-full rounded-full border border-black/15 bg-white px-4 py-2.5 text-sm text-[#0f1d18] placeholder:text-neutral-500 focus:border-[#2f6a37]/60"
       />
       <button
         type="submit"
         disabled={submitting}
-        className="shrink-0 rounded-full bg-[#0e7490] px-4 py-2.5 text-sm font-semibold text-white transition hover:brightness-110 disabled:opacity-60"
+        className="shrink-0 rounded-full bg-[#2f6a37] px-4 py-2.5 text-sm font-semibold text-white transition hover:brightness-110 disabled:opacity-60"
       >
         {submitting ? "…" : "Join"}
       </button>

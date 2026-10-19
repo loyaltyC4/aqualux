@@ -24,19 +24,20 @@ input,
 button,
 select,
 textarea {
-  @apply focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#0e7490]/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#fafaf7];
+  @apply focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#2f6a37]/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#f3f5f1];
 }
 
-/* ===== Aqualux — clean light retail design system ===== */
+/* ===== Lush Aquarium: nature-aquarium retail system (moss on stone) ===== */
 :root {
-  --aq-canvas: #fafaf7; /* canvas: warm off-white */
+  --aq-canvas: #f3f5f1; /* canvas: cool stone */
   --aq-surface: #ffffff; /* raised surface: white cards */
-  --aq-raised: #f1f6f7; /* tinted panel: pale aqua */
-  --aq-line: rgba(19, 42, 53, 0.12);
-  --aq-accent: #0e7490; /* single accent: deep ocean aqua */
-  --aq-accent-strong: #155e75; /* accent hover / pressed */
-  --aq-ink: #132a35; /* primary text: deep ocean ink */
-  --aq-muted: #55666e; /* secondary text */
+  --aq-raised: #e9eee7; /* tinted panel: pale moss */
+  --aq-line: rgba(15,29,24, 0.12);
+  --aq-deep: #0c1a14; /* dark band: tank-at-night */
+  --aq-accent: #2f6a37; /* single accent: moss green */
+  --aq-accent-strong: #234f29; /* accent hover / pressed */
+  --aq-ink: #0f1d18; /* primary text: forest ink */
+  --aq-muted: #56645d; /* secondary text */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 

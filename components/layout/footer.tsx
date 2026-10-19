@@ -20,7 +20,7 @@ function Column({
           <li key={l.href}>
             <Link
               href={l.href}
-              className="text-sm text-neutral-600 transition-colors hover:text-[#0e7490]"
+              className="text-sm text-neutral-600 transition-colors hover:text-[#2f6a37]"
             >
               {l.label}
             </Link>
@@ -56,7 +56,7 @@ export default function Footer() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-black/10 px-3 py-1.5 text-xs text-neutral-600 transition hover:border-[#0e7490]/50 hover:text-[#0e7490]"
+                className="rounded-full border border-black/10 px-3 py-1.5 text-xs text-neutral-600 transition hover:border-[#2f6a37]/50 hover:text-[#2f6a37]"
               >
                 {label}
               </a>

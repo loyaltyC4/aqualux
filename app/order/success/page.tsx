@@ -57,7 +57,7 @@ export default async function OrderSuccessPage(props: {
       <ClearCartOnMount />
       <div className="mx-auto max-w-2xl px-6 py-24 md:py-32">
         <div className="rounded-3xl border border-black/10 bg-[#ffffff] p-8 md:p-12">
-          <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-[#0e7490] text-white">
+          <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-[#2f6a37] text-white">
             <svg
               viewBox="0 0 24 24"
               className="h-7 w-7"
@@ -102,7 +102,7 @@ export default async function OrderSuccessPage(props: {
               {total != null && (
                 <div className="flex items-center justify-between py-3 text-base font-semibold">
                   <span>Total</span>
-                  <span style={{ color: "#0e7490" }}>
+                  <span style={{ color: "#2f6a37" }}>
                     {money(total, currency)}
                   </span>
                 </div>
@@ -113,13 +113,13 @@ export default async function OrderSuccessPage(props: {
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/search"
-              className="rounded-full bg-[#0e7490] px-6 py-3 text-sm font-semibold text-white transition hover:brightness-110"
+              className="rounded-full bg-[#2f6a37] px-6 py-3 text-sm font-semibold text-white transition hover:brightness-110"
             >
               Keep shopping
             </Link>
             <Link
               href="/guides"
-              className="rounded-full border border-black/20 px-6 py-3 text-sm font-semibold transition hover:border-[#0e7490] hover:text-[#0e7490]"
+              className="rounded-full border border-black/20 px-6 py-3 text-sm font-semibold transition hover:border-[#2f6a37] hover:text-[#2f6a37]"
             >
               Read the build guides →
             </Link>

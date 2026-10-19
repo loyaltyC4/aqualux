@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function AdminLoginPage() {
   return (
     <div className="flex min-h-[70vh] flex-col items-center justify-center px-6 py-24">
-      <h1 className="mb-6 text-2xl font-semibold text-[#132a35]">
+      <h1 className="mb-6 text-2xl font-semibold text-[#0f1d18]">
         Lush Aquarium admin
       </h1>
       <AdminLoginForm />

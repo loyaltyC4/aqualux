@@ -12,7 +12,7 @@ export function ProductDescription({ product }: { product: Product }) {
   return (
     <div className="flex flex-col">
       <div className="mt-4 flex items-center gap-3">
-        <span className="rounded-full bg-[#0e7490] px-4 py-1.5 text-lg font-semibold text-white">
+        <span className="rounded-full bg-[#2f6a37] px-4 py-1.5 text-lg font-semibold text-white">
           <Price
             amount={product.priceRange.minVariantPrice.amount}
             currencyCode={product.priceRange.minVariantPrice.currencyCode}
@@ -57,7 +57,7 @@ export function ProductDescription({ product }: { product: Product }) {
           <li key={t} className="flex items-center gap-2">
             <svg
               viewBox="0 0 24 24"
-              className="h-4 w-4 flex-none text-[#0e7490]"
+              className="h-4 w-4 flex-none text-[#2f6a37]"
               fill="none"
               stroke="currentColor"
               strokeWidth={2.5}

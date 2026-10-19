@@ -4,9 +4,10 @@ import { baseUrl } from "lib/utils";
 
 /**
  * Central brand configuration for Lush Aquarium.
- * Palette rationale: warm off-white canvas with deep ocean ink text and a
- * single deep-aqua accent. The accent is brand-motivated, not decorative: it
- * reads as clean water, which is what the store sells gear for.
+ * Palette rationale: a cool stone canvas with near-black forest ink and a
+ * single moss-green accent. The store sells gear for growing plants, so the
+ * accent is the colour of a healthy carpet plant, not generic "aqua" blue
+ * (which every aquarium store uses). White on the accent is 6.5:1 (WCAG AA).
  */
 
 export const SITE_NAME = "Lush Aquarium";
@@ -49,11 +50,11 @@ export const WELCOME_DISCOUNT_CODE = "SCAPE10";
 export const WELCOME_DISCOUNT_LABEL = "10% off your first order";
 
 // Palette tokens (mirrored in globals.css)
-export const ACCENT = "#0e7490"; // single accent: deep ocean aqua
-export const ACCENT_STRONG = "#155e75"; // accent hover / pressed
-export const CANVAS = "#fafaf7"; // warm off-white canvas
+export const ACCENT = "#2f6a37"; // single accent: moss green
+export const ACCENT_STRONG = "#234f29"; // accent hover / pressed
+export const CANVAS = "#f3f5f1"; // cool stone canvas
 export const SURFACE = "#ffffff"; // raised panel
-export const INK = "#132a35"; // primary text
+export const INK = "#0f1d18"; // primary text
 
 export const COLLECTIONS = [
   { handle: "lighting", title: "Planted Aquarium Lighting", short: "Lighting" },

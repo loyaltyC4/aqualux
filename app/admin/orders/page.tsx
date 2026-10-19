@@ -29,11 +29,11 @@ export default async function AdminOrdersPage() {
   if (!isAdminConfigured()) {
     return (
       <div className="mx-auto max-w-xl px-6 py-24 text-center">
-        <h1 className="text-2xl font-semibold text-[#132a35]">
+        <h1 className="text-2xl font-semibold text-[#0f1d18]">
           Admin area isn&apos;t set up yet
         </h1>
         <p className="mt-3 text-neutral-600">
-          Add an <code className="text-[#0e7490]">ADMIN_ACCESS_KEY</code>{" "}
+          Add an <code className="text-[#2f6a37]">ADMIN_ACCESS_KEY</code>{" "}
           environment variable (any password you choose) to enable this page.
         </p>
       </div>
@@ -55,7 +55,7 @@ export default async function AdminOrdersPage() {
     <div className="mx-auto max-w-5xl px-6 py-14 md:py-20">
       <div className="mb-8 flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-semibold text-[#132a35] md:text-3xl">
+          <h1 className="text-2xl font-semibold text-[#0f1d18] md:text-3xl">
             Orders
           </h1>
           <p className="mt-1 text-sm text-neutral-500">
@@ -66,29 +66,29 @@ export default async function AdminOrdersPage() {
       </div>
 
       {!isSupabaseConfigured() && (
-        <div className="mb-8 rounded-2xl border border-[#0e7490]/30 bg-[#0e7490]/5 p-4 text-sm text-neutral-700">
+        <div className="mb-8 rounded-2xl border border-[#2f6a37]/30 bg-[#2f6a37]/5 p-4 text-sm text-neutral-700">
           Supabase isn&apos;t configured yet / orders can&apos;t be recorded
-          until <code className="text-[#0e7490]">SUPABASE_URL</code> and{" "}
-          <code className="text-[#0e7490]">SUPABASE_SERVICE_ROLE_KEY</code> are
+          until <code className="text-[#2f6a37]">SUPABASE_URL</code> and{" "}
+          <code className="text-[#2f6a37]">SUPABASE_SERVICE_ROLE_KEY</code> are
           set.
         </div>
       )}
 
       <div className="mb-10 grid grid-cols-2 gap-4 md:grid-cols-3">
         <div className="rounded-2xl border border-black/10 bg-[#ffffff] p-5">
-          <div className="text-2xl font-semibold text-[#0e7490]">
+          <div className="text-2xl font-semibold text-[#2f6a37]">
             {summary.count}
           </div>
           <div className="mt-1 text-sm text-neutral-600">Total orders</div>
         </div>
         <div className="rounded-2xl border border-black/10 bg-[#ffffff] p-5">
-          <div className="text-2xl font-semibold text-[#0e7490]">
+          <div className="text-2xl font-semibold text-[#2f6a37]">
             {money(summary.revenueCents)}
           </div>
           <div className="mt-1 text-sm text-neutral-600">Total revenue</div>
         </div>
         <div className="rounded-2xl border border-black/10 bg-[#ffffff] p-5">
-          <div className="text-2xl font-semibold text-[#0e7490]">
+          <div className="text-2xl font-semibold text-[#2f6a37]">
             {orders[0]
               ? new Date(orders[0].createdAt).toLocaleDateString()
               : "-"}
@@ -111,7 +111,7 @@ export default async function AdminOrdersPage() {
             >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 bg-[#ffffff] px-5 py-4 hover:bg-white">
                 <div className="min-w-0">
-                  <p className="truncate text-sm font-medium text-[#132a35]">
+                  <p className="truncate text-sm font-medium text-[#0f1d18]">
                     {o.customerEmail || "Unknown customer"}
                   </p>
                   <p className="text-xs text-neutral-500">
@@ -119,11 +119,11 @@ export default async function AdminOrdersPage() {
                     item{o.items.length === 1 ? "" : "s"}
                   </p>
                 </div>
-                <span className="shrink-0 font-semibold text-[#0e7490]">
+                <span className="shrink-0 font-semibold text-[#2f6a37]">
                   {money(o.amountTotal, o.currency)}
                 </span>
               </summary>
-              <div className="bg-[#fafaf7] px-5 py-4">
+              <div className="bg-[#f3f5f1] px-5 py-4">
                 <ul className="space-y-2">
                   {o.items.map((it, i) => (
                     <li key={i} className="flex justify-between text-sm">
@@ -132,7 +132,7 @@ export default async function AdminOrdersPage() {
                         {it.productHandle ? (
                           <Link
                             href={`/product/${it.productHandle}`}
-                            className="ml-2 text-xs text-neutral-500 hover:text-[#0e7490]"
+                            className="ml-2 text-xs text-neutral-500 hover:text-[#2f6a37]"
                           >
                             view →
                           </Link>

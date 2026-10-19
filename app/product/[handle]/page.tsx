@@ -159,7 +159,7 @@ export default async function ProductPage(props: {
       <div className="mx-auto max-w-7xl px-4 py-8 md:px-8">
         {/* Breadcrumb */}
         <nav className="mb-6 flex flex-wrap items-center gap-2 text-sm text-neutral-500">
-          <Link href="/" className="hover:text-[#0e7490]">
+          <Link href="/" className="hover:text-[#2f6a37]">
             Home
           </Link>
           <span>/</span>
@@ -167,7 +167,7 @@ export default async function ProductPage(props: {
             <>
               <Link
                 href={`/search/${collectionMeta.handle}`}
-                className="hover:text-[#0e7490]"
+                className="hover:text-[#2f6a37]"
               >
                 {collectionMeta.title}
               </Link>
@@ -209,7 +209,7 @@ export default async function ProductPage(props: {
             {guideLink ? (
               <Link
                 href={guideLink.href}
-                className="mt-6 flex items-center justify-between rounded-2xl border border-black/10 bg-white px-4 py-3 text-sm text-neutral-700 transition hover:border-[#0e7490]/40 hover:text-[#0e7490]"
+                className="mt-6 flex items-center justify-between rounded-2xl border border-black/10 bg-white px-4 py-3 text-sm text-neutral-700 transition hover:border-[#2f6a37]/40 hover:text-[#2f6a37]"
               >
                 {guideLink.label}
                 <span aria-hidden>→</span>
@@ -293,7 +293,7 @@ export default async function ProductPage(props: {
                     <dd>
                       <Link
                         href="/shipping-returns"
-                        className="text-neutral-800 underline decoration-black/30 underline-offset-2 hover:text-[#0e7490]"
+                        className="text-neutral-800 underline decoration-black/30 underline-offset-2 hover:text-[#2f6a37]"
                       >
                         See delivery times
                       </Link>

@@ -161,7 +161,7 @@ export default async function CategoryPage(props: {
           <div className="mt-10 space-y-8">
             {copy.sections.map((sec) => (
               <div key={sec.heading}>
-                <h2 className="text-lg font-semibold text-[#132a35]">
+                <h2 className="text-lg font-semibold text-[#0f1d18]">
                   {sec.heading}
                 </h2>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-600">

@@ -111,7 +111,7 @@ export function ReviewsSection({
         </div>
         <button
           onClick={() => setFormOpen((v) => !v)}
-          className="rounded-full border border-black/20 px-5 py-2.5 text-sm font-semibold transition hover:border-[#0e7490] hover:text-[#0e7490]"
+          className="rounded-full border border-black/20 px-5 py-2.5 text-sm font-semibold transition hover:border-[#2f6a37] hover:text-[#2f6a37]"
         >
           {formOpen
             ? "Cancel"
@@ -141,7 +141,7 @@ export function ReviewsSection({
               onChange={(e) => setAuthorName(e.target.value)}
               maxLength={80}
               placeholder="e.g. Alex R."
-              className="w-full rounded-lg border border-black/15 bg-white px-3 py-2 text-sm text-[#132a35] placeholder:text-neutral-500 focus:border-[#0e7490]/60"
+              className="w-full rounded-lg border border-black/15 bg-white px-3 py-2 text-sm text-[#0f1d18] placeholder:text-neutral-500 focus:border-[#2f6a37]/60"
             />
           </div>
           <div>
@@ -153,7 +153,7 @@ export function ReviewsSection({
               onChange={(e) => setTitle(e.target.value)}
               maxLength={120}
               placeholder="Sum it up in a few words"
-              className="w-full rounded-lg border border-black/15 bg-white px-3 py-2 text-sm text-[#132a35] placeholder:text-neutral-500 focus:border-[#0e7490]/60"
+              className="w-full rounded-lg border border-black/15 bg-white px-3 py-2 text-sm text-[#0f1d18] placeholder:text-neutral-500 focus:border-[#2f6a37]/60"
             />
           </div>
           <div>
@@ -166,13 +166,13 @@ export function ReviewsSection({
               rows={4}
               maxLength={2000}
               placeholder="How does it ride? What did you set it up with?"
-              className="w-full rounded-lg border border-black/15 bg-white px-3 py-2 text-sm text-[#132a35] placeholder:text-neutral-500 focus:border-[#0e7490]/60"
+              className="w-full rounded-lg border border-black/15 bg-white px-3 py-2 text-sm text-[#0f1d18] placeholder:text-neutral-500 focus:border-[#2f6a37]/60"
             />
           </div>
           <button
             type="submit"
             disabled={submitting}
-            className="rounded-full bg-[#0e7490] px-6 py-2.5 text-sm font-semibold text-white transition hover:brightness-110 disabled:opacity-60"
+            className="rounded-full bg-[#2f6a37] px-6 py-2.5 text-sm font-semibold text-white transition hover:brightness-110 disabled:opacity-60"
           >
             {submitting ? "Posting…" : "Post review"}
           </button>
@@ -190,7 +190,7 @@ export function ReviewsSection({
                 </span>
               </div>
               {r.title && (
-                <h3 className="mt-2 font-medium text-[#132a35]">{r.title}</h3>
+                <h3 className="mt-2 font-medium text-[#0f1d18]">{r.title}</h3>
               )}
               <p className="mt-1 text-sm leading-relaxed text-neutral-700">
                 {r.body}
@@ -198,7 +198,7 @@ export function ReviewsSection({
               <div className="mt-2 flex items-center gap-2 text-xs text-neutral-500">
                 <span>{r.authorName}</span>
                 {r.verifiedPurchase && (
-                  <span className="rounded-full bg-[#0e7490]/10 px-2 py-0.5 text-[#0e7490]">
+                  <span className="rounded-full bg-[#2f6a37]/10 px-2 py-0.5 text-[#2f6a37]">
                     Verified purchase
                   </span>
                 )}

@@ -4,6 +4,7 @@ import { baseUrl } from "lib/utils";
 const STATIC_PATHS = [
   "",
   "/search",
+  "/guides",
   "/about",
   "/contact",
   "/shipping-returns",

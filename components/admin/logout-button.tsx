@@ -11,7 +11,7 @@ export function LogoutButton() {
         router.push("/admin/login");
         router.refresh();
       }}
-      className="text-sm font-semibold text-neutral-600 hover:text-[#0e7490]"
+      className="text-sm font-semibold text-neutral-600 hover:text-[#2f6a37]"
     >
       Log out
     </button>

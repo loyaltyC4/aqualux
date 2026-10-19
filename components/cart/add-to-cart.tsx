@@ -19,7 +19,7 @@ function SubmitButton({
   const buttonClasses =
     "relative flex w-full items-center justify-center gap-2 rounded-full p-4 text-sm font-semibold uppercase tracking-wide transition active:scale-[0.99]";
   const enabled =
-    "bg-[#0e7490] text-white hover:bg-[#155e75] shadow-[0_10px_30px_-14px_rgba(14,116,144,0.5)]";
+    "bg-[#2f6a37] text-white hover:bg-[#234f29] shadow-[0_10px_30px_-14px_rgba(47,106,55,0.5)]";
   const disabledClasses = "cursor-not-allowed bg-neutral-100 text-neutral-400";
 
   if (!availableForSale) {

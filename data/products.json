@@ -5098,7 +5098,7 @@
       "title": "4-in-1 Internal Filter & Pump",
       "body_html": "<p>Clear water, four ways: mechanical, chemical, biological and gentle circulation in one submersible unit. Adjustable flow suits nano tanks up to ~100 L, and the lift-out media basket makes monthly rinses a two-minute job.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "filtration",
       "status": "active",
       "tags": [
         "filtration",
@@ -5166,17 +5166,7 @@
       "image": {
         "src": "/products/4-in-1-internal-filter-pump-1.jpg"
       },
-      "_cat": "filtration",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "filtration"
     },
     {
       "id": 7000000211,
@@ -5184,7 +5174,7 @@
       "title": "Three-in-One Built-In Filter",
       "body_html": "<p>A compact hang-in filter that cleans, circulates and oxygenates at once. The quiet workhorse for small tanks and quarantine setups — fits inside the tank, no plumbing, no fuss.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "filtration",
       "status": "active",
       "tags": [
         "filtration",
@@ -5252,17 +5242,7 @@
       "image": {
         "src": "/products/three-in-one-built-in-filter-1.jpg"
       },
-      "_cat": "filtration",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "filtration"
     },
     {
       "id": 7000000212,
@@ -5270,7 +5250,7 @@
       "title": "Protein Skimmer — Marine",
       "body_html": "<p>Needle-wheel protein skimmer for marine and reef tanks. Pulls dissolved organics before they become nitrates, with an adjustable collection cup and a pump rated for tanks to ~400 L. The single biggest water-quality upgrade a reef tank can get.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "filtration",
       "status": "active",
       "tags": [
         "filtration",
@@ -5338,17 +5318,7 @@
       "image": {
         "src": "/products/protein-skimmer-marine-1.jpg"
       },
-      "_cat": "filtration",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "filtration"
     },
     {
       "id": 7000000213,
@@ -5356,7 +5326,7 @@
       "title": "300 GPH Filter Pump",
       "body_html": "<p>A 300-gallon-per-hour pump with built-in filtration — strong, quiet flow for medium tanks, sump refill or pond loops. Sealed motor, tool-free impeller access.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "filtration",
       "status": "active",
       "tags": [
         "filtration",
@@ -5424,17 +5394,7 @@
       "image": {
         "src": "/products/300g-filter-pump-1.jpg"
       },
-      "_cat": "filtration",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "filtration"
     },
     {
       "id": 7000000214,
@@ -5442,7 +5402,7 @@
       "title": "Countertop RO System — 3 Stage",
       "body_html": "<p>Three-stage reverse osmosis for spot-free water changes. Sediment, carbon and RO membranes in a countertop unit that connects to any tap — the starting point for soft-water tanks, shrimp and Discus.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "filtration",
       "status": "active",
       "tags": [
         "filtration",
@@ -5510,17 +5470,7 @@
       "image": {
         "src": "/products/ro-countertop-3-stage-1.jpg"
       },
-      "_cat": "filtration",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "filtration"
     },
     {
       "id": 7000000215,
@@ -5528,7 +5478,7 @@
       "title": "USB Siphon Gravel Cleaner V2",
       "body_html": "<p>Brushless USB-powered gravel vacuum that pulls waste without buckets of drama. V2 motor moves water faster, and the intake guard keeps shrimp and fry out of the stream.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "tools",
       "status": "active",
       "tags": [
         "tools",
@@ -5596,17 +5546,7 @@
       "image": {
         "src": "/products/usb-siphon-gravel-cleaner-v2-1.jpg"
       },
-      "_cat": "tools",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "tools"
     },
     {
       "id": 7000000216,
@@ -5614,7 +5554,7 @@
       "title": "2-in-1 Gravel Cleaner & Siphon",
       "body_html": "<p>Battery-powered siphon with a gravel head: vacuums substrate and drains the tank in one pass. Ideal for water-change day on tanks up to ~90 L.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "tools",
       "status": "active",
       "tags": [
         "tools",
@@ -5682,17 +5622,7 @@
       "image": {
         "src": "/products/gravel-cleaner-battery-2in1-1.jpg"
       },
-      "_cat": "tools",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "tools"
     },
     {
       "id": 7000000217,
@@ -5700,7 +5630,7 @@
       "title": "Electric Water Exchanger Cleaner",
       "body_html": "<p>An electric pump-and-hose system that drains and refills straight from the tap. What used to be a bucket-and-backache routine becomes a five-minute job.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "tools",
       "status": "active",
       "tags": [
         "tools",
@@ -5768,17 +5698,7 @@
       "image": {
         "src": "/products/electric-water-exchanger-1.jpg"
       },
-      "_cat": "tools",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "tools"
     },
     {
       "id": 7000000218,
@@ -5786,7 +5706,7 @@
       "title": "Pneumatic Sand Washer & Water Changer",
       "body_html": "<p>Air-driven sand washer for gentle substrate cleaning — lifts debris without swallowing your aquasoil. Simple, cheap, and it just works.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "tools",
       "status": "active",
       "tags": [
         "tools",
@@ -5854,17 +5774,7 @@
       "image": {
         "src": "/products/pneumatic-sand-washer-1.jpg"
       },
-      "_cat": "tools",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "tools"
     },
     {
       "id": 7000000219,
@@ -5872,7 +5782,7 @@
       "title": "Stainless Tweezers — 30 cm",
       "body_html": "<p>Long 30 cm planting tweezers in brushed stainless. Fine tips grip delicate stems without crushing, and the length keeps your knuckles dry in deep tanks.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "tools",
       "status": "active",
       "tags": [
         "tools",
@@ -5940,17 +5850,7 @@
       "image": {
         "src": "/products/tweezers-stainless-30cm-1.jpg"
       },
-      "_cat": "tools",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "tools"
     },
     {
       "id": 7000000220,
@@ -6026,17 +5926,7 @@
       "image": {
         "src": "/products/full-spectrum-led-40cm-1.jpg"
       },
-      "_cat": "lighting",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "lighting"
     },
     {
       "id": 7000000221,
@@ -6112,17 +6002,7 @@
       "image": {
         "src": "/products/spotlight-clamp-nano-1.jpg"
       },
-      "_cat": "lighting",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "lighting"
     },
     {
       "id": 7000000222,
@@ -6198,17 +6078,7 @@
       "image": {
         "src": "/products/underwater-color-lights-1.jpg"
       },
-      "_cat": "lighting",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "lighting"
     },
     {
       "id": 7000000223,
@@ -6216,7 +6086,7 @@
       "title": "Digital pH Meter — LCD",
       "body_html": "<p>Pocket digital pH meter with LCD. Two-point calibration, 0.1 resolution — stop squinting at colour charts.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "testing",
       "status": "active",
       "tags": [
         "testing",
@@ -6284,17 +6154,7 @@
       "image": {
         "src": "/products/digital-ph-meter-lcd-1.jpg"
       },
-      "_cat": "testing",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "testing"
     },
     {
       "id": 7000000224,
@@ -6302,7 +6162,7 @@
       "title": "4-in-1 pH / EC Meter",
       "body_html": "<p>pH, EC, TDS and temperature in one pen. For planted-tank dosing and RO top-ups, one probe tells you everything you need.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "testing",
       "status": "active",
       "tags": [
         "testing",
@@ -6370,17 +6230,7 @@
       "image": {
         "src": "/products/ph-ec-meter-4in1-1.jpg"
       },
-      "_cat": "testing",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "testing"
     },
     {
       "id": 7000000225,
@@ -6388,7 +6238,7 @@
       "title": "Water Conditioner — 100 ml",
       "body_html": "<p>Dechlorinator and conditioner that neutralises chlorine and chloramine instantly. The 100 ml bottle treats roughly 2,000 L — the first thing into every bucket of tap water.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "testing",
       "status": "active",
       "tags": [
         "testing",
@@ -6456,17 +6306,7 @@
       "image": {
         "src": "/products/water-conditioner-100ml-1.jpg"
       },
-      "_cat": "testing",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "testing"
     },
     {
       "id": 7000000226,
@@ -6474,7 +6314,7 @@
       "title": "Water Treatment Tablets — 35 Pack",
       "body_html": "<p>Slow-dissolve clarifying tablets for green or cloudy water. Dose per the label, keep the filter running, and watch the tank clear over a few days.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "testing",
       "status": "active",
       "tags": [
         "testing",
@@ -6542,17 +6382,7 @@
       "image": {
         "src": "/products/treatment-tablets-35-1.jpg"
       },
-      "_cat": "testing",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "testing"
     },
     {
       "id": 7000000227,
@@ -6560,7 +6390,7 @@
       "title": "Shrimp Cave — 2 Pack",
       "body_html": "<p>Ceramic hides sized for shrimp and bottom dwellers. Biofilm grows on the glazed surface, berried females find cover, and the natural clay look sits quietly in any scape.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "hardscape",
       "status": "active",
       "tags": [
         "hardscape",
@@ -6628,17 +6458,7 @@
       "image": {
         "src": "/products/shrimp-cave-2-pack-1.jpg"
       },
-      "_cat": "hardscape",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "hardscape"
     },
     {
       "id": 7000000228,
@@ -6646,7 +6466,7 @@
       "title": "Aquatic Plants Decoration Set",
       "body_html": "<p>A low-maintenance artificial plant set for tanks where live plants won't cooperate. Weighted bases, soft-edged leaves, no paint bleed.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "hardscape",
       "status": "active",
       "tags": [
         "hardscape",
@@ -6714,17 +6534,7 @@
       "image": {
         "src": "/products/aquatic-plants-decoration-set-1.jpg"
       },
-      "_cat": "hardscape",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "hardscape"
     },
     {
       "id": 7000000229,
@@ -6732,7 +6542,7 @@
       "title": "Resin Shipwreck Ornament",
       "body_html": "<p>A detailed resin wreck that doubles as a cave network for cichlids and catfish. Non-toxic, weighted, and it looks better with a bit of algae on it.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "hardscape",
       "status": "active",
       "tags": [
         "hardscape",
@@ -6800,17 +6610,7 @@
       "image": {
         "src": "/products/resin-ornament-wreck-1.jpg"
       },
-      "_cat": "hardscape",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "hardscape"
     },
     {
       "id": 7000000230,
@@ -6818,7 +6618,7 @@
       "title": "Xiten Submersible Filter",
       "body_html": "<p>A slim submersible internal filter for nano tanks and fry grow-outs. Adjustable flow, suction-mount, quiet.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "filtration",
       "status": "active",
       "tags": [
         "filtration",
@@ -6886,17 +6686,7 @@
       "image": {
         "src": "/products/xiten-submersible-filter-1.jpg"
       },
-      "_cat": "filtration",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "filtration"
     },
     {
       "id": 7000000231,
@@ -6904,7 +6694,7 @@
       "title": "Water Purification Tablets",
       "body_html": "<p>Fast-dissolve purification tablets for new tanks and post-medication resets. One tablet per 20 L, no residue.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "testing",
       "status": "active",
       "tags": [
         "testing",
@@ -6966,17 +6756,7 @@
       "image": {
         "src": "/products/water-purification-tablets-1.jpg"
       },
-      "_cat": "testing",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "testing"
     },
     {
       "id": 7000000232,
@@ -6984,7 +6764,7 @@
       "title": "Biological Cleaner — Liquid",
       "body_html": "<p>Live bacterial cleaner that breaks down sludge and mulm in gravel and filters. Dose weekly; the tank does the rest.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "testing",
       "status": "active",
       "tags": [
         "testing",
@@ -7052,17 +6832,7 @@
       "image": {
         "src": "/products/bio-cleaner-liquid-1.jpg"
       },
-      "_cat": "testing",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "testing"
     },
     {
       "id": 7000000233,
@@ -7070,7 +6840,7 @@
       "title": "Water Quality Stabilizer",
       "body_html": "<p>Buffers swings between water changes — steadier pH, calmer fish. One cap per 40 L at every change.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "testing",
       "status": "active",
       "tags": [
         "testing",
@@ -7138,17 +6908,7 @@
       "image": {
         "src": "/products/water-stabilizer-1.jpg"
       },
-      "_cat": "testing",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "testing"
     },
     {
       "id": 7000000234,
@@ -7156,7 +6916,7 @@
       "title": "Glass Ornament — Handmade",
       "body_html": "<p>Hand-blown glass ornament that catches the light in a way plastic never will. Each piece one of a kind.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "hardscape",
       "status": "active",
       "tags": [
         "hardscape",
@@ -7224,17 +6984,7 @@
       "image": {
         "src": "/products/glass-crafts-ornament-1.jpg"
       },
-      "_cat": "hardscape",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "hardscape"
     },
     {
       "id": 7000000235,
@@ -7242,7 +6992,7 @@
       "title": "Turtle Ornament",
       "body_html": "<p>A resting turtle for riverbank scapes — hollow underneath, so it doubles as a hide for bottom dwellers.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "hardscape",
       "status": "active",
       "tags": [
         "hardscape",
@@ -7310,17 +7060,7 @@
       "image": {
         "src": "/products/turtle-ornament-1.jpg"
       },
-      "_cat": "hardscape",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "hardscape"
     },
     {
       "id": 7000000236,
@@ -7328,7 +7068,7 @@
       "title": "Resin Cartoon Decor",
       "body_html": "<p>Cheerful resin decor for kids' tanks and classroom aquariums. Non-toxic, weighted, paint sealed.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "hardscape",
       "status": "active",
       "tags": [
         "hardscape",
@@ -7396,17 +7136,7 @@
       "image": {
         "src": "/products/resin-cartoon-decor-1.jpg"
       },
-      "_cat": "hardscape",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "hardscape"
     },
     {
       "id": 7000000237,
@@ -7414,7 +7144,7 @@
       "title": "Water Purifier — Liquid",
       "body_html": "<p>Liquid clarifier for green or cloudy tanks. Works in 24-48 hours with the filter running; safe for plants and shrimp when dosed as directed.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "testing",
       "status": "active",
       "tags": [
         "testing",
@@ -7476,17 +7206,7 @@
       "image": {
         "src": "/products/purifier-liquid-1.jpg"
       },
-      "_cat": "testing",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "testing"
     },
     {
       "id": 7000000238,
@@ -7494,7 +7214,7 @@
       "title": "Submersible Heater — Digital Display",
       "body_html": "<p>Digital-display submersible heater with built-in thermostat readout. Set-and-forget temperature for tropical tanks and turtle setups.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "tools",
       "status": "active",
       "tags": [
         "tools",
@@ -7556,17 +7276,7 @@
       "image": {
         "src": "/products/turtle-heater-thermo-1.jpg"
       },
-      "_cat": "tools",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "tools"
     },
     {
       "id": 7000000239,
@@ -7574,7 +7284,7 @@
       "title": "Polished River Rocks — 38 lb",
       "body_html": "<p>Thirty-eight pounds of polished mixed river rock. The one-time hardscape buy that scopes a 4-foot tank and every rescape after it.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "hardscape",
       "status": "active",
       "tags": [
         "hardscape",
@@ -7636,17 +7346,7 @@
       "image": {
         "src": "/products/river-rocks-38lb-1.jpg"
       },
-      "_cat": "hardscape",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "hardscape"
     },
     {
       "id": 7000000240,
@@ -7654,7 +7354,7 @@
       "title": "Labradorite Stone — Handled",
       "body_html": "<p>Natural labradorite with its blue-flash fire. Statement stone for iwagumi-style scapes; every piece is different.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "hardscape",
       "status": "active",
       "tags": [
         "hardscape",
@@ -7716,17 +7416,7 @@
       "image": {
         "src": "/products/labradorite-stone-1.jpg"
       },
-      "_cat": "hardscape",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "hardscape"
     },
     {
       "id": 7000000241,
@@ -7734,7 +7424,7 @@
       "title": "Luminous Pebbles",
       "body_html": "<p>Glow-in-the-dark pebbles that charge under your tank light. Subtle night accent for pathways and borders.</p>",
       "vendor": "Lush Aquarium",
-      "product_type": "lighting",
+      "product_type": "hardscape",
       "status": "active",
       "tags": [
         "hardscape",
@@ -7796,17 +7486,7 @@
       "image": {
         "src": "/products/luminous-pebbles-1.jpg"
       },
-      "_cat": "hardscape",
-      "specs": [
-        {
-          "label": "Includes",
-          "value": "Aurora 48 LED, 5-piece tool set, 8-in-1 test strips"
-        },
-        {
-          "label": "Suits tank width",
-          "value": "48 – 61 cm"
-        }
-      ]
+      "_cat": "hardscape"
     }
   ]
 }
