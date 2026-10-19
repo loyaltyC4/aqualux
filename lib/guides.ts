@@ -1,7 +1,18 @@
 import fs from "node:fs";
 import path from "node:path";
 
-type GuideMeta = { slug: string; title: string; description: string; publishedAt: string; readingMinutes: number };
+export type GuideFaq = { q: string; a: string };
+export type GuideMeta = {
+  slug: string;
+  title: string;
+  description: string;
+  publishedAt: string;
+  updatedAt?: string;
+  readingMinutes: number;
+  /** Path under /public, e.g. /guides/slug.jpg. Optional. */
+  image?: string;
+  faq?: GuideFaq[];
+};
 
 const data = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/guides.json"), "utf8"));
 

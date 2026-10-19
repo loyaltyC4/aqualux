@@ -16,8 +16,8 @@ export default function TermsPage() {
     >
       <Section heading="Orders & pricing">
         <p>
-          All prices are in AUD and include applicable product pricing shown at
-          checkout. We reserve the right to correct pricing errors and to cancel
+          All prices are in USD and shown at checkout. Import duty, VAT or GST in
+          your country, where charged, is separate and payable by the recipient. We reserve the right to correct pricing errors and to cancel
           and refund any order affected by an obvious mistake.
         </p>
       </Section>

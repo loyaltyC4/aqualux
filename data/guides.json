@@ -1,8 +1,34 @@
 {
   "guides": [
     {
-      "slug": "best-led-lights-planted-tanks-australia",
-      "title": "The honest guide to LED lights for planted tanks in Australia",
+      "slug": "best-light-for-planted-tank",
+      "title": "Best Light for Planted Tank: A Guide to Strong Plant Growth",
+      "description": "Find the best light for your planted aquarium. Learn about PAR, spectrum, and intensity to grow thriving plants without algae. Get honest recommendations.",
+      "publishedAt": "2026-10-19",
+      "readingMinutes": 7,
+      "image": "/guides/best-light-for-planted-tank.jpg",
+      "faq": [
+        {
+          "q": "How many hours a day should I run my planted tank light?",
+          "a": "Start with 6-8 hours daily. If you see algae, reduce the duration. If plants look leggy or pale, increase it slowly. Consistency with a timer is key."
+        },
+        {
+          "q": "Do I need a \"full spectrum\" light?",
+          "a": "\"Full spectrum\" is a common marketing term. What matters is that the light provides sufficient red and blue wavelengths for plant photosynthesis. Many good LED lights achieve this without being labeled \"full spectrum.\""
+        },
+        {
+          "q": "What is PAR and why is it important?",
+          "a": "PAR (Photosynthetically Active Radiation) measures the light energy plants actually use for photosynthesis. It's a more accurate way to gauge a light's effectiveness for plant growth than lumens or watts."
+        },
+        {
+          "q": "Is more powerful light always better for plants?",
+          "a": "No. Too much light without adequate CO2 and nutrients will cause severe algae problems, not better plant growth. Match light intensity to your plants' needs and your tank's CO2 setup."
+        }
+      ]
+    },
+    {
+      "slug": "best-led-lights-for-planted-tanks",
+      "title": "The honest guide to LED lights for planted tanks",
       "description": "What actually grows plants: spectrum, spread and mounting height — plus the lights we stock and when each one is the right call.",
       "publishedAt": "2026-10-18",
       "readingMinutes": 5

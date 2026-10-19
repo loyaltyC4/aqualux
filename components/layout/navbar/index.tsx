@@ -8,7 +8,7 @@ import MobileMenu from "./mobile-menu";
 import Search, { SearchSkeleton } from "./search";
 
 const ANNOUNCEMENTS = [
-  `Free shipping over $${FREE_SHIPPING_THRESHOLD} to AU & NZ`,
+  `Free shipping over $${FREE_SHIPPING_THRESHOLD} to US & Canada`,
   "Dispatched in 1-2 business days",
   "30-day returns",
 ];
