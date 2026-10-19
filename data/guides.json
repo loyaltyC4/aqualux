@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "carpet-plants-without-co2",
+      "title": "Carpet Plants Without CO2: Low-Tech Aquarium Carpet Guide",
+      "description": "Achieve a lush aquarium carpet without CO2 injection. Discover the best low-tech plants, essential gear, and crucial care tips for success.",
+      "publishedAt": "2026-10-19",
+      "readingMinutes": 6,
+      "image": "/guides/carpet-plants-without-co2.jpg",
+      "faq": [
+        {
+          "q": "What is the easiest carpet plant without CO2?",
+          "a": "Dwarf Sagittaria (*Sagittaria subulata 'Dwarf'*) is generally considered the easiest. It's hardy, spreads reliably by runners, and tolerates a wide range of water parameters and light conditions."
+        },
+        {
+          "q": "How long does it take to carpet a tank without CO2?",
+          "a": "Expect it to take significantly longer than with CO2. Depending on the plant species and tank conditions, a full carpet can take anywhere from 3 to 6 months, or even longer for very slow growers like Cryptocoryne parva or Marsilea hirsuta."
+        },
+        {
+          "q": "Do I need special lighting for a low-tech carpet?",
+          "a": "Yes, good quality LED lighting is crucial. While you don't need extremely high light like a CO2-injected tank, you need consistent, medium-intensity light to promote horizontal growth. Lights like the Aurora 48 LED or Aurora Smart 78 provide the necessary spectrum and intensity."
+        },
+        {
+          "q": "Can Monte Carlo carpet without CO2?",
+          "a": "Monte Carlo (*Micranthemum 'Monte Carlo'*) can carpet without CO2, but it's challenging. It requires high light, a nutrient-rich substrate, and consistent liquid fertilisation. Growth will be very slow, and it's more prone to algae than other low-tech options. It's not recommended for beginners trying a low-tech carpet."
+        }
+      ]
+    },
+    {
       "slug": "best-light-for-planted-tank",
       "title": "Best Light for Planted Tank: A Guide to Strong Plant Growth",
       "description": "Find the best light for your planted aquarium. Learn about PAR, spectrum, and intensity to grow thriving plants without algae. Get honest recommendations.",
