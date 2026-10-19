@@ -26,13 +26,11 @@ export const SOCIALS = {
 
 // Revenue mechanics
 /**
- * Store currency. The catalog is priced for the Australian market, where the
- * same generic planted-tank gear retails 2-3x the Amazon US price (verified:
- * an "Ultra-Thin LED Full Spectrum Planted Light" sells for A$180 locally
- * against A$56 on Amazon US). Selling in AUD is what makes the store read as
- * the cheap local option rather than a foreign site with a conversion step.
+ * Store currency. Lush is a global .com store, so it prices in USD, the
+ * currency most planted-tank buyers compare against. Stripe Checkout converts
+ * for local-currency display where Adaptive Pricing is enabled on the account.
  */
-export const CURRENCY = "AUD";
+export const CURRENCY = "USD";
 
 /**
  * In CURRENCY. Set above the median order so it actually lifts basket size.
@@ -40,12 +38,12 @@ export const CURRENCY = "AUD";
  * Derived from the Australia/NZ zone rather than typed again, because freight
  * to Europe costs meaningfully more than freight to Australia and each zone
  * therefore carries its own threshold (see lib/shipping). This constant is the
- * HOME-MARKET figure, used wherever a single headline number is shown — the
+ * HOME-ZONE (US & Canada) figure, used wherever a single headline number is shown — the
  * cart progress bar and the announcement bar. Anywhere that states it must say
  * which destinations it applies to, or it becomes a promise we do not keep for
  * a European buyer.
  */
-export const FREE_SHIPPING_THRESHOLD = zoneById("AU").freeOver;
+export const FREE_SHIPPING_THRESHOLD = zoneById("NA").freeOver;
 export const WELCOME_DISCOUNT_CODE = "SCAPE10";
 export const WELCOME_DISCOUNT_LABEL = "10% off your first order";
 

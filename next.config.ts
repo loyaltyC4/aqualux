@@ -40,6 +40,11 @@ export default {
         permanent: true,
       },
       {
+        source: "/guides/best-led-lights-planted-tanks-australia",
+        destination: "/guides/best-led-lights-for-planted-tanks",
+        permanent: true,
+      },
+      {
         source: "/product/digital-ph-tds-meter",
         destination: "/product/digital-ph-pen-meter",
         permanent: true,

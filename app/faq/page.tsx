@@ -37,7 +37,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "How long does shipping take?",
-    a: "We ship worldwide. Orders are packed within 1-2 business days, then delivery is 8-16 business days to Australia and New Zealand, 7-14 to the US and Canada, 9-20 to the UK and Europe, and longer to some other destinations — the full table by destination is on the Shipping & Returns page. Every order is tracked from dispatch. Stock ships direct from our supplier, which is why the windows are quoted in weeks rather than days. Freight is charged by weight, so one combined order costs materially less than several small ones.",
+    a: "We ship worldwide. Orders are packed within 1-2 business days, then delivery is 7-14 business days to the US and Canada, 8-16 to Australia and New Zealand, 9-20 to the UK and Europe, and longer to some other destinations — the full table by destination is on the Shipping & Returns page. Every order is tracked from dispatch. Stock ships direct from our supplier, which is why the windows are quoted in weeks rather than days. Freight is charged by weight, so one combined order costs materially less than several small ones.",
   },
   {
     q: "What is your returns policy?",

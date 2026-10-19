@@ -22,17 +22,17 @@ import { GUIDES_META } from "lib/guides";
 export const metadata = {
   title: {
     absolute:
-      "Lush Aquarium | Planted Tank Lighting, CO2 & Aquascaping Gear in Australia",
+      "Lush Aquarium | Planted Tank Lighting, CO2 & Aquascaping Gear Worldwide",
   },
   description:
-    "Planted aquarium lighting, CO2 systems, aquascaping tools and water test kits, chosen on real specs. Free shipping over $99 in Australia and NZ, tracked delivery worldwide.",
+    "Planted aquarium lighting, CO2 systems, aquascaping tools and water test kits, chosen on real specs. Free shipping over $65 to the US and Canada, tracked delivery worldwide.",
   alternates: { canonical: "/" },
 };
 
 const price = (p: Product) => parseFloat(p.priceRange.minVariantPrice.amount);
 
 const USP: [typeof TruckIcon, string, string][] = [
-  [TruckIcon, "Free shipping", `over $${FREE_SHIPPING_THRESHOLD} to AU & NZ`],
+  [TruckIcon, "Free shipping", `over $${FREE_SHIPPING_THRESHOLD} to US & Canada`],
   [ArrowPathIcon, "30-day returns", "unused, in packaging"],
   [ClipboardDocumentCheckIcon, "Real specs", "PAR, spectrum, dimensions"],
   [GlobeAltIcon, "Ships worldwide", "tracked, dispatched in 1-2 days"],
@@ -128,7 +128,7 @@ export default async function HomePage() {
             </h1>
             <p className="mt-6 max-w-[30rem] text-base leading-relaxed text-white/70 md:text-lg">
               Full-spectrum lights, CO2 and scaping tools chosen on real specs.
-              Free shipping over ${FREE_SHIPPING_THRESHOLD} in Australia and NZ.
+              Free shipping over ${FREE_SHIPPING_THRESHOLD} to the US and Canada.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link

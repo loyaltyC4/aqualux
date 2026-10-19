@@ -76,9 +76,8 @@ export function DeliveryTable() {
       <p className="mt-4 text-[13px] text-[var(--aq-muted)]">
         All prices are in {CURRENCY}. Stock ships direct from our supplier, which
         is why the windows are measured in weeks rather than days — we would
-        rather quote a range we can hold than a fast one we would miss. Outside
-        Australia, any import duty or tax is set by your country and payable by
-        the recipient.
+        rather quote a range we can hold than a fast one we would miss. Import duty, VAT or GST is
+        set by your country and payable by the recipient.
       </p>
     </div>
   );

@@ -8,7 +8,7 @@
  * Stripe checkout still offered "Standard 3-8" and an "Express 1-3" that is
  * physically impossible from a Chinese origin. A buyer who read one number and
  * was charged against another has a legitimate complaint, and under the
- * Australian Consumer Law an unachievable delivery estimate is misleading
+ * consumer law in most of our markets (including the Australian Consumer Law) an unachievable delivery estimate is misleading
  * conduct regardless of intent.
  *
  * Every transit range below starts from CARRIER-QUOTED figures we actually
@@ -58,8 +58,8 @@ export const ZONES: Zone[] = [
     countries: ["AU", "NZ"],
     minDays: 7,
     maxDays: 14,
-    rate: 9.95,
-    freeOver: 99,
+    rate: 6.95,
+    freeOver: 65,
     note: "Carrier quotes 6-10 business days in transit. We widen it to 7-14 to absorb supplier handling and customs, then add dispatch for the figure shown.",
   },
   {
@@ -68,8 +68,8 @@ export const ZONES: Zone[] = [
     countries: ["US", "CA"],
     minDays: 6,
     maxDays: 12,
-    rate: 11.95,
-    freeOver: 120,
+    rate: 7.95,
+    freeOver: 79,
     note: "The fastest lane we buy — carrier quotes 4-7 business days in transit. Widened to 6-12 before dispatch is added.",
   },
   {
@@ -81,8 +81,8 @@ export const ZONES: Zone[] = [
     ],
     minDays: 8,
     maxDays: 18,
-    rate: 13.95,
-    freeOver: 140,
+    rate: 9.95,
+    freeOver: 95,
     note: "Customs clearance is the variable here, not transit. Import VAT and any duty are payable by the recipient.",
   },
   {
@@ -91,8 +91,8 @@ export const ZONES: Zone[] = [
     countries: ["SG", "JP", "HK", "KR", "AE", "MY"],
     minDays: 6,
     maxDays: 14,
-    rate: 12.95,
-    freeOver: 140,
+    rate: 8.95,
+    freeOver: 95,
     note: "Short haul from origin, but clearance varies by destination.",
   },
   {
@@ -101,16 +101,16 @@ export const ZONES: Zone[] = [
     countries: ["ZA", "MX", "BR", "CL", "IL", "TH", "PH", "IS", "GR", "RO", "HU", "SK"],
     minDays: 12,
     maxDays: 25,
-    rate: 19.95,
-    freeOver: 180,
+    rate: 12.95,
+    freeOver: 120,
     note: "Tracked but slower, and clearance can add time we do not control. Duties and taxes are payable by the recipient.",
   },
 ];
 
 export const ALLOWED_COUNTRIES: string[] = ZONES.flatMap((z) => z.countries);
 
-/** Australia is the primary market: prices are set against AU comparables. */
-export const DEFAULT_ZONE: ZoneId = "AU";
+/** Global store: the US and Canada are the largest and fastest lane, so they set the default. */
+export const DEFAULT_ZONE: ZoneId = "NA";
 
 const BY_COUNTRY = new Map<string, Zone>();
 for (const z of ZONES) for (const c of z.countries) BY_COUNTRY.set(c, z);

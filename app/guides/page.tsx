@@ -5,7 +5,7 @@ import { GUIDES_META } from "lib/guides";
 export const metadata: Metadata = {
   title: "Aquarium Guides: Planted Tanks, Filters & Water Care",
   description:
-    "Straight-talking Australian aquarium guides: LED lighting for planted tanks, nano filters, faster water changes and water testing that actually means something.",
+    "Straight-talking planted aquarium guides: LED lighting for planted tanks, nano filters, faster water changes and water testing that actually means something.",
   alternates: { canonical: "/guides" },
 };
 

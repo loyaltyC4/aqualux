@@ -80,7 +80,7 @@ export async function POST(req: NextRequest) {
     line_items.push({
       quantity: Math.max(1, Math.min(99, Number(l.quantity) || 1)),
       price_data: {
-        currency: "aud",
+        currency: CURRENCY.toLowerCase(),
         unit_amount,
         product_data: {
           name: name.slice(0, 250),
