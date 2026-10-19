@@ -29,7 +29,7 @@ export function FaqList({
       <div className="divide-y divide-[var(--aq-line)] border-y border-[var(--aq-line)]">
         {items.map((f, i) => (
           <details key={i} className="group py-5">
-            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-medium text-[#132a35]">
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-medium text-[#0f1d18]">
               {f.q}
               <span className="text-xl leading-none text-[var(--aq-muted)] transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-open:rotate-45">
                 +

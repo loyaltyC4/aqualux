@@ -115,7 +115,7 @@ export default function Search() {
           role="combobox"
           aria-expanded={open}
           aria-autocomplete="list"
-          className="w-full rounded-full border border-black/15 bg-white px-4 py-2 text-sm text-[#132a35] placeholder:text-neutral-500 focus:border-[#0e7490]/60"
+          className="w-full rounded-full border border-black/15 bg-white px-4 py-2 text-sm text-[#0f1d18] placeholder:text-neutral-500 focus:border-[#2f6a37]/60"
         />
         <div className="absolute right-0 top-0 mr-3 flex h-full items-center text-neutral-500">
           <MagnifyingGlassIcon className="h-4" />
@@ -149,7 +149,7 @@ export default function Search() {
                   <span className="flex-1 truncate text-sm text-neutral-800">
                     {r.title}
                   </span>
-                  <span className="shrink-0 text-sm font-semibold text-[#0e7490]">
+                  <span className="shrink-0 text-sm font-semibold text-[#2f6a37]">
                     {fmt(r.price, r.currencyCode)}
                   </span>
                 </Link>
@@ -158,7 +158,7 @@ export default function Search() {
           </ul>
           <button
             onClick={goToSearch}
-            className="block w-full border-t border-black/10 px-3 py-2.5 text-left text-xs font-semibold text-neutral-600 hover:text-[#0e7490]"
+            className="block w-full border-t border-black/10 px-3 py-2.5 text-left text-xs font-semibold text-neutral-600 hover:text-[#2f6a37]"
           >
             See all results for &quot;{query}&quot; →
           </button>
@@ -173,7 +173,7 @@ export function SearchSkeleton() {
     <form className="relative w-full">
       <input
         placeholder="Search lights, CO2, tools…"
-        className="w-full rounded-full border border-black/15 bg-white px-4 py-2 text-sm text-[#132a35] placeholder:text-neutral-500"
+        className="w-full rounded-full border border-black/15 bg-white px-4 py-2 text-sm text-[#0f1d18] placeholder:text-neutral-500"
       />
       <div className="absolute right-0 top-0 mr-3 flex h-full items-center text-neutral-500">
         <MagnifyingGlassIcon className="h-4" />

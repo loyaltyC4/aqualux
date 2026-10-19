@@ -20,7 +20,7 @@ export default function ContactPage() {
         <p>
           <a
             href={`mailto:${SUPPORT_EMAIL}`}
-            className="text-[#0e7490] hover:underline"
+            className="text-[#2f6a37] hover:underline"
           >
             {SUPPORT_EMAIL}
           </a>
@@ -38,7 +38,7 @@ export default function ContactPage() {
             href={SOCIALS.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#0e7490] hover:underline"
+            className="text-[#2f6a37] hover:underline"
           >
             Instagram
           </a>
@@ -46,7 +46,7 @@ export default function ContactPage() {
             href={SOCIALS.youtube}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#0e7490] hover:underline"
+            className="text-[#2f6a37] hover:underline"
           >
             YouTube
           </a>
@@ -54,7 +54,7 @@ export default function ContactPage() {
             href={SOCIALS.tiktok}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#0e7490] hover:underline"
+            className="text-[#2f6a37] hover:underline"
           >
             TikTok
           </a>

@@ -41,6 +41,9 @@ export type GearType =
   | "Controllers"
   | "CO2 Regulators"
   | "CO2 Diffusers"
+  | "Filters & Air"
+  | "Water Care"
+  | "Decor"
   | "Scissors & Tweezers"
   | "Cleaning"
   | "Substrate"
@@ -53,26 +56,45 @@ export type GearType =
 export function gearTypeFor(title: string): GearType {
   const t = title.toLowerCase();
 
-  if (t.includes("bundle") || t.includes("complete")) return "Bundles";
+  if (/bundle|complete|starter kit/.test(t)) return "Bundles";
   if (t.includes("timer") || t.includes("controller")) return "Controllers";
-  if (t.includes("led") || t.includes("grow light") || t.includes("light"))
-    return "LED Lighting";
-  if (t.includes("regulator") || t.includes("solenoid")) return "CO2 Regulators";
-  if (t.includes("diffuser") || t.includes("atomiser") || t.includes("atomizer"))
+  // Water care before cleaning/filters: "Bio Cleaner Liquid" is a treatment.
+  if (
+    /conditioner|tablet|purif|stabili|bio cleaner|biological|treatment/.test(t)
+  )
+    return "Water Care";
+  // Filters and air before "diffuser": an air-stone diffuser is not CO2 gear.
+  if (
+    /filter|sponge|airline|air stone|air pump|skimmer|reverse osmosis|\bro\b|media/.test(
+      t,
+    )
+  )
+    return "Filters & Air";
+  // \bled\b: includes("led") matched "Handled".
+  if (/\bled\b|grow light|light|\brgb\b/.test(t)) return "LED Lighting";
+  if (t.includes("regulator") || t.includes("solenoid"))
+    return "CO2 Regulators";
+  if (
+    t.includes("diffuser") ||
+    t.includes("atomiser") ||
+    t.includes("atomizer")
+  )
     return "CO2 Diffusers";
-  if (t.includes("scissor") || t.includes("tweezer")) return "Scissors & Tweezers";
-  if (t.includes("cleaner") || t.includes("scraper") || t.includes("maintenance"))
+  if (t.includes("scissor") || t.includes("tweezer"))
+    return "Scissors & Tweezers";
+  if (
+    /cleaner|cleaning|scraper|maintenance|siphon|gravel|water exchanger|sand washer|magnet/.test(
+      t,
+    )
+  )
     return "Cleaning";
   if (t.includes("soil") || t.includes("sand") || t.includes("substrate"))
     return "Substrate";
   if (t.includes("stone") || t.includes("wood") || t.includes("rock"))
     return "Stone & Wood";
-  if (
-    t.includes("test") ||
-    t.includes("meter") ||
-    t.includes("checker") ||
-    t.includes("ph")
-  )
+  if (/ornament|decor|cave|pebble/.test(t)) return "Decor";
+  // \bph\b: plain includes("ph") matched "siphon" and "phone".
+  if (/test|meter|checker|thermometer|\bph\b/.test(t))
     return "Test Kits & Meters";
   if (t.includes("tool set") || t.includes("kit")) return "Bundles";
   return "Accessories";

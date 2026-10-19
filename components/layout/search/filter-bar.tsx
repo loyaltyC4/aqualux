@@ -106,7 +106,7 @@ export function FilterBar({ facets }: { facets: Facets }) {
       {hasActive && (
         <button
           onClick={clearAll}
-          className="text-xs font-semibold text-neutral-600 underline-offset-2 hover:text-[#0e7490] hover:underline"
+          className="text-xs font-semibold text-neutral-600 underline-offset-2 hover:text-[#2f6a37] hover:underline"
         >
           Clear filters
         </button>
@@ -148,8 +148,8 @@ function Chip({
       className={clsx(
         "rounded-full border px-3 py-1 text-xs font-medium transition",
         active
-          ? "border-[#0e7490] bg-[#0e7490] text-white"
-          : "border-black/15 bg-white text-neutral-700 hover:border-[#0e7490]/50 hover:text-[#0e7490]",
+          ? "border-[#2f6a37] bg-[#2f6a37] text-white"
+          : "border-black/15 bg-white text-neutral-700 hover:border-[#2f6a37]/50 hover:text-[#2f6a37]",
       )}
     >
       {children}

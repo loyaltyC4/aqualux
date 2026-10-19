@@ -57,7 +57,7 @@ export default async function SearchPage(props: {
             {products.length === 0
               ? "No products match "
               : `Showing ${products.length} ${resultsText} for `}
-            <span className="font-semibold text-[#132a35]">
+            <span className="font-semibold text-[#0f1d18]">
               &quot;{searchValue}&quot;
             </span>
           </p>

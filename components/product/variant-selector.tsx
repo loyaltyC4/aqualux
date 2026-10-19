@@ -84,9 +84,9 @@ export function VariantSelector({
                 className={clsx(
                   "flex min-w-[48px] items-center justify-center rounded-full border px-3 py-1.5 text-sm transition",
                   {
-                    "border-[#0e7490] bg-[#0e7490] font-semibold text-white":
+                    "border-[#2f6a37] bg-[#2f6a37] font-semibold text-white":
                       isActive,
-                    "border-black/15 bg-white text-neutral-800 hover:border-[#0e7490]/60 hover:text-[#0e7490]":
+                    "border-black/15 bg-white text-neutral-800 hover:border-[#2f6a37]/60 hover:text-[#2f6a37]":
                       !isActive && isAvailableForSale,
                     "relative z-10 cursor-not-allowed overflow-hidden border-black/10 bg-white text-neutral-600 before:absolute before:inset-x-0 before:-z-10 before:h-px before:-rotate-45 before:bg-neutral-700":
                       !isAvailableForSale,

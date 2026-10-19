@@ -14,12 +14,12 @@ export function BrandLogo({ className }: { className?: string }) {
     >
       <span
         aria-hidden
-        className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#0e7490]/35 bg-white shadow-[0_1px_2px_rgba(19,42,53,0.06)] transition-shadow duration-300 group-hover:shadow-[0_2px_8px_rgba(14,116,144,0.18)]"
+        className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#2f6a37]/35 bg-white shadow-[0_1px_2px_rgba(15,29,24,0.06)] transition-shadow duration-300 group-hover:shadow-[0_2px_8px_rgba(47,106,55,0.18)]"
       >
-        <LogoIcon className="h-7 w-7 text-[#0e7490]" />
+        <LogoIcon className="h-7 w-7 text-[#2f6a37]" />
       </span>
-      <span className="text-[18px] font-semibold leading-none tracking-tight text-[#132a35]">
-        Lush <span className="text-[#0e7490]">Aquarium</span>
+      <span className="text-[18px] font-semibold leading-none tracking-tight text-[#0f1d18]">
+        Lush <span className="text-[#2f6a37]">Aquarium</span>
       </span>
     </Link>
   );

@@ -1,6 +1,6 @@
 import CartModal from "components/cart/modal";
 import { BrandLogo } from "components/brand-logo";
-import { FREE_SHIPPING_THRESHOLD } from "lib/brand";
+import { COLLECTIONS, FREE_SHIPPING_THRESHOLD } from "lib/brand";
 import { getCollections } from "lib/shopify";
 import Link from "next/link";
 import { Suspense } from "react";
@@ -9,29 +9,32 @@ import Search, { SearchSkeleton } from "./search";
 
 const ANNOUNCEMENTS = [
   `Free shipping over $${FREE_SHIPPING_THRESHOLD} to AU & NZ`,
-  "Curated, not mass-listed",
-  "Worldwide tracked delivery",
+  "Dispatched in 1-2 business days",
   "30-day returns",
 ];
+
+// Full collection titles ("Aquascaping Tools & Equipment") are for page H1s and
+// SEO. In the nav they pushed the bar to ~1700px and wrapped on laptops.
+const SHORT: Record<string, string> = Object.fromEntries(
+  COLLECTIONS.map((c) => [c.handle, c.short]),
+);
 
 export async function Navbar() {
   const collections = await getCollections();
   const links = [
     ...collections
       .filter((c) => c.handle)
-      .map((c) => ({ title: c.title, path: c.path })),
+      .map((c) => ({ title: SHORT[c.handle] ?? c.title, path: c.path })),
+    { title: "Guides", path: "/guides" },
   ];
 
   return (
     <header className="sticky top-0 z-50">
       {/* Announcement bar — the utility strip: shipping, curation, returns */}
-      <div className="hidden bg-[#0e7490] text-white sm:block">
-        <div className="mx-auto flex max-w-7xl items-center justify-center gap-8 px-6 py-1.5 text-[12px] font-medium tracking-wide">
+      <div className="hidden bg-[var(--aq-deep)] text-white/85 sm:block">
+        <div className="mx-auto flex max-w-7xl items-center justify-center gap-10 px-6 py-2 text-[12px] font-medium">
           {ANNOUNCEMENTS.map((a) => (
-            <span key={a} className="flex items-center gap-8">
-              {a}
-              <span className="text-white/40">◆</span>
-            </span>
+            <span key={a}>{a}</span>
           ))}
         </div>
       </div>
@@ -45,13 +48,13 @@ export async function Navbar() {
 
         <BrandLogo />
 
-        <ul className="hidden flex-1 items-center gap-6 pl-4 md:flex">
+        <ul className="hidden flex-1 items-center gap-1 pl-6 md:flex">
           {links.map((item) => (
             <li key={item.title}>
               <Link
                 href={item.path}
                 prefetch={true}
-                className="whitespace-nowrap text-sm font-medium text-neutral-700 underline-offset-4 transition-colors hover:text-[#0e7490]"
+                className="whitespace-nowrap rounded-full px-3 py-1.5 text-sm font-medium text-[var(--aq-ink)]/75 transition-colors hover:bg-[var(--aq-raised)] hover:text-[var(--aq-ink)]"
               >
                 {item.title}
               </Link>

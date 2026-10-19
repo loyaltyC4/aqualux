@@ -25,8 +25,8 @@ export function PageShell({
       >
         {eyebrow ? (
           <div className="mb-3 flex items-center gap-3">
-            <span className="h-px w-7 bg-[#0e7490]" />
-            <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[#0e7490]">
+            <span className="h-px w-7 bg-[#2f6a37]" />
+            <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[#2f6a37]">
               {eyebrow}
             </span>
           </div>
@@ -54,7 +54,7 @@ export function Section({
   return (
     <section className="mb-8">
       {heading ? (
-        <h2 className="mb-3 text-xl font-semibold text-[#132a35]">{heading}</h2>
+        <h2 className="mb-3 text-xl font-semibold text-[#0f1d18]">{heading}</h2>
       ) : null}
       <div className="space-y-3 text-[15px] leading-relaxed text-neutral-700">
         {children}

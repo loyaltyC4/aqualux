@@ -104,7 +104,7 @@ export default function CartModal() {
             leaveFrom="translate-x-0"
             leaveTo="translate-x-full"
           >
-            <Dialog.Panel className="fixed bottom-0 right-0 top-0 flex h-full w-full flex-col border-l border-black/10 bg-[#fafaf7]/95 p-6 text-[#132a35] backdrop-blur-xl md:w-[420px]">
+            <Dialog.Panel className="fixed bottom-0 right-0 top-0 flex h-full w-full flex-col border-l border-black/10 bg-[#f3f5f1]/95 p-6 text-[#0f1d18] backdrop-blur-xl md:w-[420px]">
               <div className="flex items-center justify-between">
                 <p className="text-lg font-semibold">Your cart</p>
                 <button aria-label="Close cart" onClick={closeCart}>
@@ -127,7 +127,7 @@ export default function CartModal() {
                   <Link
                     href="/search"
                     onClick={closeCart}
-                    className="mt-6 rounded-full bg-[#0e7490] px-6 py-3 text-sm font-semibold text-white transition hover:brightness-110"
+                    className="mt-6 rounded-full bg-[#2f6a37] px-6 py-3 text-sm font-semibold text-white transition hover:brightness-110"
                   >
                     Shop the catalog
                   </Link>
@@ -258,7 +258,7 @@ export default function CartModal() {
                           : "Calculated at checkout"}
                       </p>
                     </div>
-                    <div className="mb-3 flex items-center justify-between border-b border-black/10 pb-2 text-base font-semibold text-[#132a35]">
+                    <div className="mb-3 flex items-center justify-between border-b border-black/10 pb-2 text-base font-semibold text-[#0f1d18]">
                       <p>Subtotal</p>
                       <Price
                         className="text-right"
@@ -270,7 +270,7 @@ export default function CartModal() {
                   <button
                     onClick={handleCheckout}
                     disabled={loading}
-                    className="block w-full rounded-full bg-[#0e7490] p-3.5 text-center text-sm font-semibold uppercase tracking-wide text-white transition hover:brightness-110 disabled:opacity-70"
+                    className="block w-full rounded-full bg-[#2f6a37] p-3.5 text-center text-sm font-semibold uppercase tracking-wide text-white transition hover:brightness-110 disabled:opacity-70"
                   >
                     {loading ? (
                       <LoadingDots className="bg-white" />
@@ -293,7 +293,7 @@ export default function CartModal() {
 
 function CloseCart({ className }: { className?: string }) {
   return (
-    <div className="relative flex h-11 w-11 items-center justify-center rounded-md border border-black/15 text-[#132a35] transition-colors">
+    <div className="relative flex h-11 w-11 items-center justify-center rounded-md border border-black/15 text-[#0f1d18] transition-colors">
       <XMarkIcon
         className={`h-6 transition-all ease-in-out hover:scale-110 ${className ?? ""}`}
       />

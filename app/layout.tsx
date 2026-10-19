@@ -50,7 +50,7 @@ export const metadata = {
     siteName: SITE_NAME,
     title: `${SITE_NAME} / ${SITE_TAGLINE}`,
     description: SITE_DESCRIPTION,
-    locale: "en_US",
+    locale: "en_AU",
     url: baseUrl,
   },
   twitter: {
@@ -93,8 +93,8 @@ export default async function RootLayout({
   };
 
   return (
-    <html lang="en" className={GeistSans.variable}>
-      <body className="bg-[#fafaf7] text-[#132a35] antialiased selection:bg-[#0e7490] selection:text-white">
+    <html lang="en-AU" className={GeistSans.variable}>
+      <body className="bg-[#f3f5f1] text-[#0f1d18] antialiased selection:bg-[#2f6a37] selection:text-white">
         {/* Direction C display + body fonts (Fontshare); React hoists these to <head> */}
         <link rel="preconnect" href="https://api.fontshare.com" />
         <link

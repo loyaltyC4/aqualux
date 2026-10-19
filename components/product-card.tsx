@@ -11,8 +11,9 @@ function fmt(a: string, c: string) {
 }
 
 /**
- * Clean retail product card: white image tile with a uniform square aspect and
- * object-contain, so mixed supplier photography lines up as one catalogue.
+ * Retail product card. Supplier photos arrive on mixed white and off-white
+ * backgrounds; multiplying them onto one tinted panel makes the backgrounds
+ * disappear into the same colour, so a grid of cards reads as one catalogue.
  * Price stays prominent; the card-level CTA routes to the product page.
  */
 export function ProductCard({
@@ -34,9 +35,9 @@ export function ProductCard({
     <Link
       href={`/product/${product.handle}`}
       prefetch
-      className="group block rounded-2xl border border-black/10 bg-white transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 hover:border-[#0e7490]/40 hover:shadow-[0_20px_45px_-24px_rgba(19,42,53,0.28)]"
+      className="group flex h-full flex-col rounded-2xl border border-black/[0.07] bg-white transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 hover:border-[#2f6a37]/40 hover:shadow-[0_20px_45px_-24px_rgba(15,29,24,0.28)]"
     >
-      <div className="relative aspect-square overflow-hidden rounded-t-[calc(1rem-1px)] bg-white">
+      <div className="relative aspect-square overflow-hidden rounded-t-[calc(1rem-1px)] bg-[var(--aq-raised)]">
         {img ? (
           <Image
             src={img}
@@ -44,23 +45,23 @@ export function ProductCard({
             fill
             sizes={sizes}
             priority={priority}
-            className="object-contain p-4 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
+            className="object-contain p-6 mix-blend-multiply transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
           />
         ) : (
           <div className="absolute inset-0 bg-[var(--aq-raised)]" />
         )}
         {badge ? (
-          <span className="absolute left-4 top-4 rounded-full bg-[#0e7490] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-white">
+          <span className="absolute left-4 top-4 rounded-full bg-[#2f6a37] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-white">
             {badge}
           </span>
         ) : null}
       </div>
-      <div className="flex flex-col gap-3 border-t border-black/5 p-5">
+      <div className="flex flex-1 flex-col gap-2 p-5">
         <h3 className="text-[15px] font-medium leading-snug text-[var(--aq-ink)]">
           {product.title}
         </h3>
         <div className="mt-auto flex items-baseline gap-2.5">
-          <span className="aq-spec text-lg font-semibold text-[#0e7490]">
+          <span className="aq-spec text-[17px] font-semibold text-[var(--aq-ink)]">
             {fmt(price.amount, price.currencyCode)}
           </span>
           {compare ? (
@@ -69,9 +70,6 @@ export function ProductCard({
             </span>
           ) : null}
         </div>
-        <span className="inline-flex w-full items-center justify-center rounded-full border border-[#0e7490]/30 py-2 text-[13px] font-semibold text-[#0e7490] transition-colors duration-300 group-hover:bg-[#0e7490] group-hover:text-white">
-          View product
-        </span>
       </div>
     </Link>
   );

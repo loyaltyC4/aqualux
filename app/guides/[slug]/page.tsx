@@ -35,15 +35,15 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     <div className="bg-[var(--aq-canvas)] text-[var(--aq-ink)]">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <article className="mx-auto max-w-3xl px-6 py-16 md:py-20">
-        <Link href="/guides" className="text-xs font-medium uppercase tracking-[0.15em] text-[#0e7490]">Guides</Link>
+        <Link href="/guides" className="text-xs font-medium uppercase tracking-[0.15em] text-[#2f6a37]">Guides</Link>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">{g.title}</h1>
-        <p className="mt-2 text-xs text-[#132a35]/50">{g.readingMinutes} min read · {g.publishedAt}</p>
+        <p className="mt-2 text-xs text-[#0f1d18]/50">{g.readingMinutes} min read · {g.publishedAt}</p>
         <div
-          className="mt-8 text-[15px] leading-7 text-[#132a35]/85 [&_a]:text-[#0e7490] [&_a]:underline [&_a]:underline-offset-2 [&_h2]:mt-10 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:tracking-tight [&_p]:mt-4 [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:mt-1.5 [&_strong]:text-[#132a35]"
+          className="mt-8 text-[15px] leading-7 text-[#0f1d18]/85 [&_a]:text-[#2f6a37] [&_a]:underline [&_a]:underline-offset-2 [&_h2]:mt-10 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:tracking-tight [&_p]:mt-4 [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:mt-1.5 [&_strong]:text-[#0f1d18]"
           dangerouslySetInnerHTML={{ __html: g.html }}
         />
-        <div className="mt-12 border-t border-[#132a35]/10 pt-6 text-sm">
-          <Link href="/search" className="text-[#0e7490] underline underline-offset-2">Shop the gear from this guide →</Link>
+        <div className="mt-12 border-t border-[#0f1d18]/10 pt-6 text-sm">
+          <Link href="/search" className="text-[#2f6a37] underline underline-offset-2">Shop the gear from this guide →</Link>
         </div>
       </article>
     </div>
