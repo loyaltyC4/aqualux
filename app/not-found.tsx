@@ -8,7 +8,7 @@ export default function NotFound() {
       <div className="mx-auto flex max-w-2xl flex-col items-center px-6 py-24 text-center md:py-32">
         <Image
           src="/brand/mascot.png"
-          alt="Aqualux mascot"
+          alt="Lush Aquarium mascot"
           width={160}
           height={160}
           className="mb-6"

@@ -1,6 +1,6 @@
-# Aqualux
+# Lush Aquarium
 
-> Aqualux is a specialist online shop for planted freshwater aquariums. We curate full-spectrum LED lighting, CO2 injection equipment, aquascaping tools, substrate and hardscape, and water testing kits. Products are selected on published specifications such as PAR, spectrum and physical dimensions rather than on marketing claims. Free shipping over $79, worldwide tracked delivery, and 30-day returns on unused items.
+> Lush Aquarium is a specialist online shop for planted freshwater aquariums. We curate full-spectrum LED lighting, CO2 injection equipment, aquascaping tools, substrate and hardscape, and water testing kits. Products are selected on published specifications such as PAR, spectrum and physical dimensions rather than on marketing claims. Free shipping over $79, worldwide tracked delivery, and 30-day returns on unused items.
 
 ## Key facts
 
@@ -16,16 +16,16 @@
 
 ## Catalog
 
-- [All products](https://aqualux.store/search): The full planted aquarium catalog.
-- [Lighting](https://aqualux.store/search/lighting): Full-spectrum LED bars, nano clip lights, and timer controllers.
-- [CO2 Systems](https://aqualux.store/search/co2): Regulators, solenoids, inline atomiser diffusers, bubble counters, and drop checkers.
-- [Aquascaping Tools](https://aqualux.store/search/tools): Curved scissors, long-reach tweezers, algae scrapers, and maintenance kits.
-- [Substrate & Hardscape](https://aqualux.store/search/hardscape): Aqua soil, fine sand, seiryu stone, and spider wood.
-- [Water Testing](https://aqualux.store/search/testing): Liquid master test kits, test strips, and digital pH and TDS meters.
+- [All products](https://lushaquarium.com/search): The full planted aquarium catalog.
+- [Lighting](https://lushaquarium.com/search/lighting): Full-spectrum LED bars, nano clip lights, and timer controllers.
+- [CO2 Systems](https://lushaquarium.com/search/co2): Regulators, solenoids, inline atomiser diffusers, bubble counters, and drop checkers.
+- [Aquascaping Tools](https://lushaquarium.com/search/tools): Curved scissors, long-reach tweezers, algae scrapers, and maintenance kits.
+- [Substrate & Hardscape](https://lushaquarium.com/search/hardscape): Aqua soil, fine sand, seiryu stone, and spider wood.
+- [Water Testing](https://lushaquarium.com/search/testing): Liquid master test kits, test strips, and digital pH and TDS meters.
 
 ## Company
 
-- [About Aqualux](https://aqualux.store/about): What we stock and how we choose it.
-- [Shipping & Returns](https://aqualux.store/shipping-returns): Delivery times, free shipping threshold, and 30-day returns.
-- [FAQ](https://aqualux.store/faq): Lighting, CO2, substrate and policy questions.
-- [Contact](https://aqualux.store/contact): Get in touch.
+- [About Lush Aquarium](https://lushaquarium.com/about): What we stock and how we choose it.
+- [Shipping & Returns](https://lushaquarium.com/shipping-returns): Delivery times, free shipping threshold, and 30-day returns.
+- [FAQ](https://lushaquarium.com/faq): Lighting, CO2, substrate and policy questions.
+- [Contact](https://lushaquarium.com/contact): Get in touch.

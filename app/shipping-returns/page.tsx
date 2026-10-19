@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Shipping & Returns",
   description:
-    "Aqualux delivery windows by destination, tracked shipping rates, and our 30-day returns policy for planted aquarium gear.",
+    "Lush Aquarium delivery windows by destination, tracked shipping rates, and our 30-day returns policy for planted aquarium gear.",
   alternates: { canonical: "/shipping-returns" },
 };
 

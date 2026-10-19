@@ -3,9 +3,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Aqualux",
+  title: "About Lush Aquarium",
   description:
-    "Aqualux is a curated shop for planted freshwater aquariums, stocking lighting, CO2 systems, aquascaping tools, substrate, hardscape, and water testing gear.",
+    "Lush Aquarium is a curated shop for planted freshwater aquariums, stocking lighting, CO2 systems, aquascaping tools, substrate, hardscape, and water testing gear.",
   alternates: { canonical: "/about" },
 };
 
@@ -14,7 +14,7 @@ export default function AboutPage() {
     <PageShell
       eyebrow="About"
       title="Gear for planted aquariums."
-      intro="Aqualux exists for one reason: a well-curated range of planted-tank gear chosen on real specifications, not marketing copy. Every product is here because it works in a living aquascape."
+      intro="Lush Aquarium exists for one reason: a well-curated range of planted-tank gear chosen on real specifications, not marketing copy. Every product is here because it works in a living aquascape."
     >
       <Section heading="Curated, not manufactured">
         <p>

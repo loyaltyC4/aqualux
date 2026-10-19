@@ -151,7 +151,7 @@ export async function POST(req: NextRequest) {
       allow_promotion_codes: true,
       success_url: `${origin}/order/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/search`,
-      metadata: { source: "aqualux" },
+      metadata: { source: "lushaquarium" },
     });
 
     return NextResponse.json({ url: session.url });

@@ -17,7 +17,7 @@ export async function generateMetadata(props: {
   return {
     title: q ? `"${q}" search results` : "Search all planted tank gear",
     description:
-      "Search Aqualux for planted tank LED lighting, CO2 systems, aquascaping tools, substrate, hardscape and water testing.",
+      "Search Lush Aquarium for planted tank LED lighting, CO2 systems, aquascaping tools, substrate, hardscape and water testing.",
     // Every sort/filter/query combination collapses to one canonical URL -
     // otherwise each parameter combo is a thin near-duplicate page competing
     // with itself in the index.

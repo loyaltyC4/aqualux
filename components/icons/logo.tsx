@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 /**
- * Aqualux — the Refraction A.
+ * Lush Aquarium — the Refraction A.
  * Light enters water and bends: the A's strokes run straight above the
  * surface and kink below it. The crossbar IS the waterline. One bubble
  * rises on a slow loop; hover accelerates it and sends a glint across
@@ -11,7 +11,7 @@ export default function LogoIcon(props: React.ComponentProps<"svg">) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      aria-label="Aqualux logo"
+      aria-label="Lush Aquarium logo"
       viewBox="0 0 64 48"
       fill="none"
       {...props}

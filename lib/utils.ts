@@ -22,7 +22,7 @@ export const ensureStartsWith = (stringToCheck: string, startsWith: string) =>
     : `${startsWith}${stringToCheck}`;
 
 export const validateEnvironmentVariables = () => {
-  // Aqualux runs on a bundled static catalog + Stripe checkout / no Shopify
+  // Lush Aquarium runs on a bundled static catalog + Stripe checkout / no Shopify
   // credentials are required for the storefront to build or run.
   const requiredEnvironmentVariables: string[] = [];
   const missingEnvironmentVariables = [] as string[];

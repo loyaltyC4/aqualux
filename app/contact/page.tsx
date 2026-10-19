@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Aqualux / product questions, order help, and wholesale enquiries.",
+    "Get in touch with Lush Aquarium / product questions, order help, and wholesale enquiries.",
   alternates: { canonical: "/contact" },
 };
 

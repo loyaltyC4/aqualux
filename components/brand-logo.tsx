@@ -19,7 +19,7 @@ export function BrandLogo({ className }: { className?: string }) {
         <LogoIcon className="h-7 w-7 text-[#0e7490]" />
       </span>
       <span className="text-[18px] font-semibold leading-none tracking-tight text-[#132a35]">
-        Aqua<span className="text-[#0e7490]">lux</span>
+        Lush <span className="text-[#0e7490]">Aquarium</span>
       </span>
     </Link>
   );

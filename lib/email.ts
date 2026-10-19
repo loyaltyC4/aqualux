@@ -75,7 +75,7 @@ export async function sendOrderConfirmationEmail(params: {
   if (!isResendConfigured() || !params.to) return { sent: false };
 
   const from =
-    process.env.RESEND_FROM_EMAIL || "Aqualux <onboarding@resend.dev>";
+    process.env.RESEND_FROM_EMAIL || "Lush Aquarium <onboarding@resend.dev>";
   const adminEmail = process.env.ADMIN_NOTIFICATION_EMAIL || SUPPORT_EMAIL;
 
   try {

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "The terms and conditions that apply when you order from Aqualux, covering pricing, orders, delivery, dangerous goods restrictions and returns.",
+  description: "The terms and conditions that apply when you order from Lush Aquarium, covering pricing, orders, delivery, dangerous goods restrictions and returns.",
   alternates: { canonical: "/terms" },
 };
 
@@ -12,7 +12,7 @@ export default function TermsPage() {
     <PageShell
       eyebrow="Legal"
       title="Terms of service."
-      intro="By ordering from Aqualux you agree to the following."
+      intro="By ordering from Lush Aquarium you agree to the following."
     >
       <Section heading="Orders & pricing">
         <p>
@@ -36,7 +36,7 @@ export default function TermsPage() {
       </Section>
       <Section heading="Product use">
         <p>
-          Aqualux products are hobby and aquascaping items intended for use in
+          Lush Aquarium products are hobby and aquascaping items intended for use in
           freshwater planted aquariums. Follow manufacturer guidance for
           electrical equipment and CO2 systems. We do not supply pressurised CO2
           gas cylinders. Small parts and liquid reagents should be kept away from

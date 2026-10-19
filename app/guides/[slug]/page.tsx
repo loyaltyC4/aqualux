@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const g = GUIDES_META.find((x) => x.slug === slug);
   if (!g) return {};
   return {
-    title: `${g.title} | Aqualux`,
+    title: `${g.title} | Lush Aquarium`,
     description: g.description,
     alternates: { canonical: `/guides/${g.slug}` },
     openGraph: { title: g.title, description: g.description, type: "article" },
@@ -29,7 +29,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     headline: g.title,
     description: g.description,
     datePublished: g.publishedAt,
-    author: { "@type": "Organization", name: "Aqualux" },
+    author: { "@type": "Organization", name: "Lush Aquarium" },
   };
   return (
     <div className="bg-[var(--aq-canvas)] text-[var(--aq-ink)]">

@@ -3,24 +3,24 @@ import { zoneById } from "lib/shipping";
 import { baseUrl } from "lib/utils";
 
 /**
- * Central brand configuration for Aqualux.
+ * Central brand configuration for Lush Aquarium.
  * Palette rationale: warm off-white canvas with deep ocean ink text and a
  * single deep-aqua accent. The accent is brand-motivated, not decorative: it
  * reads as clean water, which is what the store sells gear for.
  */
 
-export const SITE_NAME = "Aqualux";
-export const SITE_LEGAL_NAME = "Aqualux";
+export const SITE_NAME = "Lush Aquarium";
+export const SITE_LEGAL_NAME = "Lush Aquarium";
 export const SITE_TAGLINE = "Gear for planted aquariums";
 export const SITE_DESCRIPTION =
-  "Aqualux is a curated shop for planted freshwater aquariums. Full-spectrum LED lighting, CO2 systems, aquascaping tools, substrate and hardscape, and water testing. Specs you can actually compare.";
+  "Lush Aquarium is a curated shop for planted freshwater aquariums. Full-spectrum LED lighting, CO2 systems, aquascaping tools, substrate and hardscape, and water testing. Specs you can actually compare.";
 export const SITE_URL = baseUrl;
 
-export const SUPPORT_EMAIL = "hello@aqualux.store";
+export const SUPPORT_EMAIL = "hello@lushaquarium.com";
 export const SOCIALS = {
-  instagram: "https://instagram.com/aqualux",
-  youtube: "https://youtube.com/@aqualux",
-  tiktok: "https://tiktok.com/@aqualux",
+  instagram: "https://instagram.com/lushaquarium",
+  youtube: "https://youtube.com/@lushaquarium",
+  tiktok: "https://tiktok.com/@lushaquarium",
 };
 
 // Revenue mechanics

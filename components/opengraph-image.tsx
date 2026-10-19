@@ -70,7 +70,7 @@ export default async function OpengraphImage(
           />
         </div>
 
-        <div style={{ color: "#8a8f98", fontSize: "28px" }}>aqualux.store</div>
+        <div style={{ color: "#8a8f98", fontSize: "28px" }}>lushaquarium.com</div>
       </div>
     ),
     {

@@ -12,7 +12,7 @@ export function getStripe(): Stripe | null {
   if (!key) return null;
   if (!_stripe) {
     _stripe = new Stripe(key, {
-      appInfo: { name: "Aqualux", url: "https://aqualux.store" },
+      appInfo: { name: "Lush Aquarium", url: "https://lushaquarium.com" },
     });
   }
   return _stripe;
