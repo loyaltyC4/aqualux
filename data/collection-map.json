@@ -55,7 +55,11 @@
   "labradorite-stone",
   "luminous-pebbles",
   "aqua-soil-planted-substrate",
-  "3d-aquarium-background"
+  "3d-aquarium-background",
+  "crystal-quartz-gravel",
+  "double-sided-background-poster",
+  "dragon-stone-ohko-rock",
+  "natural-driftwood-branch"
  ],
  "testing": [
   "digital-ph-pen-meter",
@@ -69,7 +73,8 @@
   "water-purification-tablets",
   "bio-cleaner-liquid",
   "water-stabilizer",
-  "purifier-liquid"
+  "purifier-liquid",
+  "gh-kh-test-strips-7in1"
  ],
  "starter-kits": [
   "planted-starter-bundle-light-tools-test-kit",
@@ -90,6 +95,39 @@
   "xiten-submersible-filter",
   "ceramic-bio-rings-filter-media",
   "aquarium-filter-floss-pad",
-  "activated-carbon-filter-bags"
+  "activated-carbon-filter-bags",
+  "ultra-quiet-nano-air-pump",
+  "dual-outlet-air-pump",
+  "one-way-check-valve-2pack",
+  "usb-portable-air-pump",
+  "hob-waterfall-filter-3-stage",
+  "nano-hang-on-filter-usb",
+  "submersible-uv-sterilizer"
+ ],
+ "food": [
+  "tropical-fish-flakes-100g",
+  "betta-micro-pellets-colour-boost",
+  "ranchu-goldfish-sinking-pellets",
+  "sinking-algae-wafers-bottom-feeder",
+  "freeze-dried-bloodworm-cubes",
+  "decapsulated-brine-shrimp-eggs",
+  "blizzard-shrimp-tablets-spinach",
+  "freeze-dried-tubifex-cubes"
+ ],
+ "breeding": [
+  "in-tank-feeding-station",
+  "catappa-leaves-indian-almond",
+  "betta-leaf-hammock",
+  "ceramic-breeding-cave"
+ ],
+ "heating": [
+  "adjustable-submersible-heater",
+  "stick-on-thermometer-strips"
+ ],
+ "water-care": [
+  "root-fertilizer-tabs-40",
+  "all-in-one-liquid-fertilizer",
+  "nitrifying-bacteria-300ml",
+  "himalayan-mineral-salt-chunks"
  ]
 }

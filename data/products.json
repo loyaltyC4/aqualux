@@ -65,7 +65,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Planted Starter Bundle — Light, Tools, Test Kit",
-     "variant_ids": []
+     "variant_ids": [
+      7200000000
+     ]
     }
    ],
    "image": {
@@ -155,7 +157,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "CO2 Starter Kit - Regulator, Diffuser & Checker",
-     "variant_ids": []
+     "variant_ids": [
+      7200000001
+     ]
     }
    ],
    "image": {
@@ -246,7 +250,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Aurora Smart 78 — RGB App-Controlled LED",
-     "variant_ids": []
+     "variant_ids": [
+      7200000002
+     ]
     }
    ],
    "image": {
@@ -2256,7 +2262,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Inline Atomiser Diffuser - 16/22mm",
-     "variant_ids": []
+     "variant_ids": [
+      7200000014
+     ]
     },
     {
      "id": 9756298,
@@ -3250,7 +3258,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "RGBW 55 Full Spectrum LED bar with extendable brackets",
-     "variant_ids": []
+     "variant_ids": [
+      7200000099
+     ]
     }
    ],
    "image": {
@@ -3324,7 +3334,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "CO2 Solenoid Valve — 12V",
-     "variant_ids": []
+     "variant_ids": [
+      7000000122
+     ]
     }
    ],
    "specs": [
@@ -3406,7 +3418,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-05T00:00:00+00:00",
      "updated_at": "2026-08-05T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000321"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000321",
+     "image_id": 7000000421
     }
    ],
    "images": [
@@ -3418,7 +3431,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Programmable Auto Feeder with rim clamp",
-     "variant_ids": []
+     "variant_ids": [
+      7000000321
+     ]
     },
     {
      "id": 7000000422,
@@ -3519,19 +3534,23 @@
      "weight_unit": "kg",
      "created_at": "2026-08-05T00:00:00+00:00",
      "updated_at": "2026-08-05T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000322"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000322",
+     "image_id": 7000000684
     }
    ],
    "images": [
     {
-     "id": 7000000422,
+     "id": 7000000684,
      "product_id": 7000000122,
      "position": 1,
      "src": "/products/digital-thermometer-lcd/01.jpg",
      "width": 1200,
      "height": 1200,
      "alt": "Digital Thermometer with probe and suction cup",
-     "variant_ids": []
+     "variant_ids": [
+      7000000322
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000684"
     }
    ],
    "specs": [
@@ -3626,7 +3645,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-05T00:00:00+00:00",
      "updated_at": "2026-08-05T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000323"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000323",
+     "image_id": 7000000423
     }
    ],
    "images": [
@@ -3638,7 +3658,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Fine-mesh aquarium fish net with braided stainless handle",
-     "variant_ids": []
+     "variant_ids": [
+      7000000323
+     ]
     }
    ],
    "image": {
@@ -3728,7 +3750,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-05T00:00:00+00:00",
      "updated_at": "2026-08-05T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000324"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000324",
+     "image_id": 7000000424
     }
    ],
    "images": [
@@ -3740,7 +3763,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Nine-pack of foam pre-filter sponge sleeves for aquarium filter intakes",
-     "variant_ids": []
+     "variant_ids": [
+      7000000324
+     ]
     }
    ],
    "image": {
@@ -3830,7 +3855,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-05T00:00:00+00:00",
      "updated_at": "2026-08-05T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000325"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000325",
+     "image_id": 7000000425
     }
    ],
    "images": [
@@ -3842,7 +3868,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Clear acrylic hang-on aquarium breeder box with suction cups",
-     "variant_ids": []
+     "variant_ids": [
+      7000000325
+     ]
     }
    ],
    "image": {
@@ -4052,7 +4080,7 @@
    ],
    "variants": [
     {
-     "id": 7000000327,
+     "id": 7500000202,
      "product_id": 7000000127,
      "title": "12/16 mm",
      "price": "59.95",
@@ -4072,8 +4100,9 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000327",
-     "image_id": 7000000427
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000202",
+     "image_id": 7000000427,
+     "inventory_item_id": 7500000242
     },
     {
      "id": 7000000328,
@@ -4110,7 +4139,7 @@
      "height": 1200,
      "alt": "Stainless steel lily pipe set, inflow and outflow with clamps",
      "variant_ids": [
-      7000000327,
+      7500000202,
       7000000328
      ]
     }
@@ -4190,7 +4219,7 @@
    ],
    "variants": [
     {
-     "id": 7000000328,
+     "id": 7500000203,
      "product_id": 7000000128,
      "title": "Default Title",
      "price": "46.95",
@@ -4210,7 +4239,9 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000328"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000203",
+     "inventory_item_id": 7500000243,
+     "image_id": 7000000428
     }
    ],
    "images": [
@@ -4222,7 +4253,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Pro pH meter with backlit display and protected probe",
-     "variant_ids": []
+     "variant_ids": [
+      7500000203
+     ]
     }
    ],
    "image": {
@@ -4328,7 +4361,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000131"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000131",
+     "image_id": 7000000132
     }
    ],
    "images": [
@@ -4340,7 +4374,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Four air-driven bio sponge filters with uplift tubes",
-     "variant_ids": []
+     "variant_ids": [
+      7000000131
+     ]
     }
    ],
    "image": {
@@ -4430,7 +4466,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000141"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000141",
+     "image_id": 7000000142
     }
    ],
    "images": [
@@ -4442,7 +4479,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Four reticulated foam filter media pads",
-     "variant_ids": []
+     "variant_ids": [
+      7000000141
+     ]
     }
    ],
    "image": {
@@ -4532,7 +4571,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000151"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000151",
+     "image_id": 7000000152
     }
    ],
    "images": [
@@ -4544,7 +4584,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Ceramic disc air stone diffuser with airline barb",
-     "variant_ids": []
+     "variant_ids": [
+      7000000151
+     ]
     }
    ],
    "image": {
@@ -4630,7 +4672,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000161"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000161",
+     "image_id": 7000000162
     }
    ],
    "images": [
@@ -4642,7 +4685,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Coil of clear 3/16 inch aquarium airline tubing",
-     "variant_ids": []
+     "variant_ids": [
+      7000000161
+     ]
     }
    ],
    "image": {
@@ -4728,7 +4773,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000171"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000171",
+     "image_id": 7000000172
     }
    ],
    "images": [
@@ -4740,7 +4786,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Ten aquarium airline suction cup clips",
-     "variant_ids": []
+     "variant_ids": [
+      7000000171
+     ]
     }
    ],
    "image": {
@@ -4826,7 +4874,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000181"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000181",
+     "image_id": 7000000182
     }
    ],
    "images": [
@@ -4838,7 +4887,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Telescopic stainless aquarium fish net with fine mesh",
-     "variant_ids": []
+     "variant_ids": [
+      7000000181
+     ]
     }
    ],
    "image": {
@@ -4924,7 +4975,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000191"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000191",
+     "image_id": 7000000192
     }
    ],
    "images": [
@@ -4936,7 +4988,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Five-piece aquarium gravel siphon and cleaning kit",
-     "variant_ids": []
+     "variant_ids": [
+      7000000191
+     ]
     }
    ],
    "image": {
@@ -5022,7 +5076,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000201"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000201",
+     "image_id": 7000000202
     }
    ],
    "images": [
@@ -5034,7 +5089,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Three floating magnetic aquarium algae cleaners",
-     "variant_ids": []
+     "variant_ids": [
+      7000000201
+     ]
     }
    ],
    "image": {
@@ -5120,7 +5177,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000211"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000211",
+     "image_id": 7000000212
     }
    ],
    "images": [
@@ -5132,7 +5190,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Ten aquarium plant weight strips for anchoring stems",
-     "variant_ids": []
+     "variant_ids": [
+      7000000211
+     ]
     }
    ],
    "image": {
@@ -5227,18 +5287,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000600
     }
    ],
    "images": [
     {
-     "src": "/products/4-in-1-internal-filter-pump-1.jpg"
+     "src": "/products/4-in-1-internal-filter-pump-1.jpg",
+     "id": 7000000600,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000600",
+     "variant_ids": [
+      7500000055
+     ]
     },
     {
-     "src": "/products/4-in-1-internal-filter-pump-2.jpg"
+     "src": "/products/4-in-1-internal-filter-pump-2.jpg",
+     "id": 7000000601,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000601"
     },
     {
-     "src": "/products/4-in-1-internal-filter-pump-3.jpg"
+     "src": "/products/4-in-1-internal-filter-pump-3.jpg",
+     "id": 7000000602,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000602"
     }
    ],
    "image": {
@@ -5303,18 +5372,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000603
     }
    ],
    "images": [
     {
-     "src": "/products/three-in-one-built-in-filter-1.jpg"
+     "src": "/products/three-in-one-built-in-filter-1.jpg",
+     "id": 7000000603,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000603",
+     "variant_ids": [
+      7500000056
+     ]
     },
     {
-     "src": "/products/three-in-one-built-in-filter-2.jpg"
+     "src": "/products/three-in-one-built-in-filter-2.jpg",
+     "id": 7000000604,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000604"
     },
     {
-     "src": "/products/three-in-one-built-in-filter-3.jpg"
+     "src": "/products/three-in-one-built-in-filter-3.jpg",
+     "id": 7000000605,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000605"
     }
    ],
    "image": {
@@ -5379,18 +5457,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000606
     }
    ],
    "images": [
     {
-     "src": "/products/protein-skimmer-marine-1.jpg"
+     "src": "/products/protein-skimmer-marine-1.jpg",
+     "id": 7000000606,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000606",
+     "variant_ids": [
+      7500000057
+     ]
     },
     {
-     "src": "/products/protein-skimmer-marine-2.jpg"
+     "src": "/products/protein-skimmer-marine-2.jpg",
+     "id": 7000000607,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000607"
     },
     {
-     "src": "/products/protein-skimmer-marine-3.jpg"
+     "src": "/products/protein-skimmer-marine-3.jpg",
+     "id": 7000000608,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000608"
     }
    ],
    "image": {
@@ -5455,18 +5542,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000609
     }
    ],
    "images": [
     {
-     "src": "/products/300g-filter-pump-1.jpg"
+     "src": "/products/300g-filter-pump-1.jpg",
+     "id": 7000000609,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000609",
+     "variant_ids": [
+      7500000058
+     ]
     },
     {
-     "src": "/products/300g-filter-pump-2.jpg"
+     "src": "/products/300g-filter-pump-2.jpg",
+     "id": 7000000610,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000610"
     },
     {
-     "src": "/products/300g-filter-pump-3.jpg"
+     "src": "/products/300g-filter-pump-3.jpg",
+     "id": 7000000611,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000611"
     }
    ],
    "image": {
@@ -5531,18 +5627,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000612
     }
    ],
    "images": [
     {
-     "src": "/products/ro-countertop-3-stage-1.jpg"
+     "src": "/products/ro-countertop-3-stage-1.jpg",
+     "id": 7000000612,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000612",
+     "variant_ids": [
+      7500000059
+     ]
     },
     {
-     "src": "/products/ro-countertop-3-stage-2.jpg"
+     "src": "/products/ro-countertop-3-stage-2.jpg",
+     "id": 7000000613,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000613"
     },
     {
-     "src": "/products/ro-countertop-3-stage-3.jpg"
+     "src": "/products/ro-countertop-3-stage-3.jpg",
+     "id": 7000000614,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000614"
     }
    ],
    "image": {
@@ -5607,18 +5712,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000615
     }
    ],
    "images": [
     {
-     "src": "/products/usb-siphon-gravel-cleaner-v2-1.jpg"
+     "src": "/products/usb-siphon-gravel-cleaner-v2-1.jpg",
+     "id": 7000000615,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000615",
+     "variant_ids": [
+      7500000060
+     ]
     },
     {
-     "src": "/products/usb-siphon-gravel-cleaner-v2-2.jpg"
+     "src": "/products/usb-siphon-gravel-cleaner-v2-2.jpg",
+     "id": 7000000616,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000616"
     },
     {
-     "src": "/products/usb-siphon-gravel-cleaner-v2-3.jpg"
+     "src": "/products/usb-siphon-gravel-cleaner-v2-3.jpg",
+     "id": 7000000617,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000617"
     }
    ],
    "image": {
@@ -5683,18 +5797,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000618
     }
    ],
    "images": [
     {
-     "src": "/products/gravel-cleaner-battery-2in1-1.jpg"
+     "src": "/products/gravel-cleaner-battery-2in1-1.jpg",
+     "id": 7000000618,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000618",
+     "variant_ids": [
+      7500000061
+     ]
     },
     {
-     "src": "/products/gravel-cleaner-battery-2in1-2.jpg"
+     "src": "/products/gravel-cleaner-battery-2in1-2.jpg",
+     "id": 7000000619,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000619"
     },
     {
-     "src": "/products/gravel-cleaner-battery-2in1-3.jpg"
+     "src": "/products/gravel-cleaner-battery-2in1-3.jpg",
+     "id": 7000000620,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000620"
     }
    ],
    "image": {
@@ -5759,18 +5882,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000621
     }
    ],
    "images": [
     {
-     "src": "/products/electric-water-exchanger-1.jpg"
+     "src": "/products/electric-water-exchanger-1.jpg",
+     "id": 7000000621,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000621",
+     "variant_ids": [
+      7500000062
+     ]
     },
     {
-     "src": "/products/electric-water-exchanger-2.jpg"
+     "src": "/products/electric-water-exchanger-2.jpg",
+     "id": 7000000622,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000622"
     },
     {
-     "src": "/products/electric-water-exchanger-3.jpg"
+     "src": "/products/electric-water-exchanger-3.jpg",
+     "id": 7000000623,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000623"
     }
    ],
    "image": {
@@ -5835,18 +5967,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000624
     }
    ],
    "images": [
     {
-     "src": "/products/pneumatic-sand-washer-1.jpg"
+     "src": "/products/pneumatic-sand-washer-1.jpg",
+     "id": 7000000624,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000624",
+     "variant_ids": [
+      7500000063
+     ]
     },
     {
-     "src": "/products/pneumatic-sand-washer-2.jpg"
+     "src": "/products/pneumatic-sand-washer-2.jpg",
+     "id": 7000000625,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000625"
     },
     {
-     "src": "/products/pneumatic-sand-washer-3.jpg"
+     "src": "/products/pneumatic-sand-washer-3.jpg",
+     "id": 7000000626,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000626"
     }
    ],
    "image": {
@@ -5911,18 +6052,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000627
     }
    ],
    "images": [
     {
-     "src": "/products/tweezers-stainless-30cm-1.jpg"
+     "src": "/products/tweezers-stainless-30cm-1.jpg",
+     "id": 7000000627,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000627",
+     "variant_ids": [
+      7500000064
+     ]
     },
     {
-     "src": "/products/tweezers-stainless-30cm-2.jpg"
+     "src": "/products/tweezers-stainless-30cm-2.jpg",
+     "id": 7000000628,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000628"
     },
     {
-     "src": "/products/tweezers-stainless-30cm-3.jpg"
+     "src": "/products/tweezers-stainless-30cm-3.jpg",
+     "id": 7000000629,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000629"
     }
    ],
    "image": {
@@ -5987,18 +6137,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000630
     }
    ],
    "images": [
     {
-     "src": "/products/full-spectrum-led-40cm-1.jpg"
+     "src": "/products/full-spectrum-led-40cm-1.jpg",
+     "id": 7000000630,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000630",
+     "variant_ids": [
+      7500000065
+     ]
     },
     {
-     "src": "/products/full-spectrum-led-40cm-2.jpg"
+     "src": "/products/full-spectrum-led-40cm-2.jpg",
+     "id": 7000000631,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000631"
     },
     {
-     "src": "/products/full-spectrum-led-40cm-3.jpg"
+     "src": "/products/full-spectrum-led-40cm-3.jpg",
+     "id": 7000000632,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000632"
     }
    ],
    "image": {
@@ -6063,18 +6222,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000633
     }
    ],
    "images": [
     {
-     "src": "/products/spotlight-clamp-nano-1.jpg"
+     "src": "/products/spotlight-clamp-nano-1.jpg",
+     "id": 7000000633,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000633",
+     "variant_ids": [
+      7500000066
+     ]
     },
     {
-     "src": "/products/spotlight-clamp-nano-2.jpg"
+     "src": "/products/spotlight-clamp-nano-2.jpg",
+     "id": 7000000634,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000634"
     },
     {
-     "src": "/products/spotlight-clamp-nano-3.jpg"
+     "src": "/products/spotlight-clamp-nano-3.jpg",
+     "id": 7000000635,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000635"
     }
    ],
    "image": {
@@ -6139,18 +6307,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000636
     }
    ],
    "images": [
     {
-     "src": "/products/underwater-color-lights-1.jpg"
+     "src": "/products/underwater-color-lights-1.jpg",
+     "id": 7000000636,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000636",
+     "variant_ids": [
+      7500000067
+     ]
     },
     {
-     "src": "/products/underwater-color-lights-2.jpg"
+     "src": "/products/underwater-color-lights-2.jpg",
+     "id": 7000000637,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000637"
     },
     {
-     "src": "/products/underwater-color-lights-3.jpg"
+     "src": "/products/underwater-color-lights-3.jpg",
+     "id": 7000000638,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000638"
     }
    ],
    "image": {
@@ -6215,18 +6392,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000639
     }
    ],
    "images": [
     {
-     "src": "/products/digital-ph-meter-lcd-1.jpg"
+     "src": "/products/digital-ph-meter-lcd-1.jpg",
+     "id": 7000000639,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000639",
+     "variant_ids": [
+      7500000068
+     ]
     },
     {
-     "src": "/products/digital-ph-meter-lcd-2.jpg"
+     "src": "/products/digital-ph-meter-lcd-2.jpg",
+     "id": 7000000640,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000640"
     },
     {
-     "src": "/products/digital-ph-meter-lcd-3.jpg"
+     "src": "/products/digital-ph-meter-lcd-3.jpg",
+     "id": 7000000641,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000641"
     }
    ],
    "image": {
@@ -6291,18 +6477,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000642
     }
    ],
    "images": [
     {
-     "src": "/products/ph-ec-meter-4in1-1.jpg"
+     "src": "/products/ph-ec-meter-4in1-1.jpg",
+     "id": 7000000642,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000642",
+     "variant_ids": [
+      7500000069
+     ]
     },
     {
-     "src": "/products/ph-ec-meter-4in1-2.jpg"
+     "src": "/products/ph-ec-meter-4in1-2.jpg",
+     "id": 7000000643,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000643"
     },
     {
-     "src": "/products/ph-ec-meter-4in1-3.jpg"
+     "src": "/products/ph-ec-meter-4in1-3.jpg",
+     "id": 7000000644,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000644"
     }
    ],
    "image": {
@@ -6367,18 +6562,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000645
     }
    ],
    "images": [
     {
-     "src": "/products/water-conditioner-100ml-1.jpg"
+     "src": "/products/water-conditioner-100ml-1.jpg",
+     "id": 7000000645,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000645",
+     "variant_ids": [
+      7500000070
+     ]
     },
     {
-     "src": "/products/water-conditioner-100ml-2.jpg"
+     "src": "/products/water-conditioner-100ml-2.jpg",
+     "id": 7000000646,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000646"
     },
     {
-     "src": "/products/water-conditioner-100ml-3.jpg"
+     "src": "/products/water-conditioner-100ml-3.jpg",
+     "id": 7000000647,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000647"
     }
    ],
    "image": {
@@ -6443,18 +6647,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000648
     }
    ],
    "images": [
     {
-     "src": "/products/treatment-tablets-35-1.jpg"
+     "src": "/products/treatment-tablets-35-1.jpg",
+     "id": 7000000648,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000648",
+     "variant_ids": [
+      7500000071
+     ]
     },
     {
-     "src": "/products/treatment-tablets-35-2.jpg"
+     "src": "/products/treatment-tablets-35-2.jpg",
+     "id": 7000000649,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000649"
     },
     {
-     "src": "/products/treatment-tablets-35-3.jpg"
+     "src": "/products/treatment-tablets-35-3.jpg",
+     "id": 7000000650,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000650"
     }
    ],
    "image": {
@@ -6519,18 +6732,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000651
     }
    ],
    "images": [
     {
-     "src": "/products/shrimp-cave-2-pack-1.jpg"
+     "src": "/products/shrimp-cave-2-pack-1.jpg",
+     "id": 7000000651,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000651",
+     "variant_ids": [
+      7500000072
+     ]
     },
     {
-     "src": "/products/shrimp-cave-2-pack-2.jpg"
+     "src": "/products/shrimp-cave-2-pack-2.jpg",
+     "id": 7000000652,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000652"
     },
     {
-     "src": "/products/shrimp-cave-2-pack-3.jpg"
+     "src": "/products/shrimp-cave-2-pack-3.jpg",
+     "id": 7000000653,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000653"
     }
    ],
    "image": {
@@ -6595,18 +6817,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000654
     }
    ],
    "images": [
     {
-     "src": "/products/aquatic-plants-decoration-set-1.jpg"
+     "src": "/products/aquatic-plants-decoration-set-1.jpg",
+     "id": 7000000654,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000654",
+     "variant_ids": [
+      7500000073
+     ]
     },
     {
-     "src": "/products/aquatic-plants-decoration-set-2.jpg"
+     "src": "/products/aquatic-plants-decoration-set-2.jpg",
+     "id": 7000000655,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000655"
     },
     {
-     "src": "/products/aquatic-plants-decoration-set-3.jpg"
+     "src": "/products/aquatic-plants-decoration-set-3.jpg",
+     "id": 7000000656,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000656"
     }
    ],
    "image": {
@@ -6671,18 +6902,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000657
     }
    ],
    "images": [
     {
-     "src": "/products/resin-ornament-wreck-1.jpg"
+     "src": "/products/resin-ornament-wreck-1.jpg",
+     "id": 7000000657,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000657",
+     "variant_ids": [
+      7500000074
+     ]
     },
     {
-     "src": "/products/resin-ornament-wreck-2.jpg"
+     "src": "/products/resin-ornament-wreck-2.jpg",
+     "id": 7000000658,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000658"
     },
     {
-     "src": "/products/resin-ornament-wreck-3.jpg"
+     "src": "/products/resin-ornament-wreck-3.jpg",
+     "id": 7000000659,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000659"
     }
    ],
    "image": {
@@ -6747,18 +6987,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000660
     }
    ],
    "images": [
     {
-     "src": "/products/xiten-submersible-filter-1.jpg"
+     "src": "/products/xiten-submersible-filter-1.jpg",
+     "id": 7000000660,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000660",
+     "variant_ids": [
+      7500000075
+     ]
     },
     {
-     "src": "/products/xiten-submersible-filter-2.jpg"
+     "src": "/products/xiten-submersible-filter-2.jpg",
+     "id": 7000000661,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000661"
     },
     {
-     "src": "/products/xiten-submersible-filter-3.jpg"
+     "src": "/products/xiten-submersible-filter-3.jpg",
+     "id": 7000000662,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000662"
     }
    ],
    "image": {
@@ -6823,12 +7072,17 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000663
     }
    ],
    "images": [
     {
-     "src": "/products/water-purification-tablets-1.jpg"
+     "src": "/products/water-purification-tablets-1.jpg",
+     "id": 7000000663,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000663",
+     "variant_ids": [
+      7500000076
+     ]
     }
    ],
    "image": {
@@ -6893,18 +7147,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000664
     }
    ],
    "images": [
     {
-     "src": "/products/bio-cleaner-liquid-1.jpg"
+     "src": "/products/bio-cleaner-liquid-1.jpg",
+     "id": 7000000664,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000664",
+     "variant_ids": [
+      7500000077
+     ]
     },
     {
-     "src": "/products/bio-cleaner-liquid-2.jpg"
+     "src": "/products/bio-cleaner-liquid-2.jpg",
+     "id": 7000000665,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000665"
     },
     {
-     "src": "/products/bio-cleaner-liquid-3.jpg"
+     "src": "/products/bio-cleaner-liquid-3.jpg",
+     "id": 7000000666,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000666"
     }
    ],
    "image": {
@@ -6969,18 +7232,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000667
     }
    ],
    "images": [
     {
-     "src": "/products/water-stabilizer-1.jpg"
+     "src": "/products/water-stabilizer-1.jpg",
+     "id": 7000000667,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000667",
+     "variant_ids": [
+      7500000078
+     ]
     },
     {
-     "src": "/products/water-stabilizer-2.jpg"
+     "src": "/products/water-stabilizer-2.jpg",
+     "id": 7000000668,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000668"
     },
     {
-     "src": "/products/water-stabilizer-3.jpg"
+     "src": "/products/water-stabilizer-3.jpg",
+     "id": 7000000669,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000669"
     }
    ],
    "image": {
@@ -7045,18 +7317,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000670
     }
    ],
    "images": [
     {
-     "src": "/products/glass-crafts-ornament-1.jpg"
+     "src": "/products/glass-crafts-ornament-1.jpg",
+     "id": 7000000670,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000670",
+     "variant_ids": [
+      7500000079
+     ]
     },
     {
-     "src": "/products/glass-crafts-ornament-2.jpg"
+     "src": "/products/glass-crafts-ornament-2.jpg",
+     "id": 7000000671,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000671"
     },
     {
-     "src": "/products/glass-crafts-ornament-3.jpg"
+     "src": "/products/glass-crafts-ornament-3.jpg",
+     "id": 7000000672,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000672"
     }
    ],
    "image": {
@@ -7121,18 +7402,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000673
     }
    ],
    "images": [
     {
-     "src": "/products/turtle-ornament-1.jpg"
+     "src": "/products/turtle-ornament-1.jpg",
+     "id": 7000000673,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000673",
+     "variant_ids": [
+      7500000080
+     ]
     },
     {
-     "src": "/products/turtle-ornament-2.jpg"
+     "src": "/products/turtle-ornament-2.jpg",
+     "id": 7000000674,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000674"
     },
     {
-     "src": "/products/turtle-ornament-3.jpg"
+     "src": "/products/turtle-ornament-3.jpg",
+     "id": 7000000675,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000675"
     }
    ],
    "image": {
@@ -7197,18 +7487,27 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000676
     }
    ],
    "images": [
     {
-     "src": "/products/resin-cartoon-decor-1.jpg"
+     "src": "/products/resin-cartoon-decor-1.jpg",
+     "id": 7000000676,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000676",
+     "variant_ids": [
+      7500000081
+     ]
     },
     {
-     "src": "/products/resin-cartoon-decor-2.jpg"
+     "src": "/products/resin-cartoon-decor-2.jpg",
+     "id": 7000000677,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000677"
     },
     {
-     "src": "/products/resin-cartoon-decor-3.jpg"
+     "src": "/products/resin-cartoon-decor-3.jpg",
+     "id": 7000000678,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000678"
     }
    ],
    "image": {
@@ -7273,12 +7572,17 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000679
     }
    ],
    "images": [
     {
-     "src": "/products/purifier-liquid-1.jpg"
+     "src": "/products/purifier-liquid-1.jpg",
+     "id": 7000000679,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000679",
+     "variant_ids": [
+      7500000082
+     ]
     }
    ],
    "image": {
@@ -7343,12 +7647,17 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000680
     }
    ],
    "images": [
     {
-     "src": "/products/turtle-heater-thermo-1.jpg"
+     "src": "/products/turtle-heater-thermo-1.jpg",
+     "id": 7000000680,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000680",
+     "variant_ids": [
+      7500000083
+     ]
     }
    ],
    "image": {
@@ -7413,12 +7722,17 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000681
     }
    ],
    "images": [
     {
-     "src": "/products/river-rocks-38lb-1.jpg"
+     "src": "/products/river-rocks-38lb-1.jpg",
+     "id": 7000000681,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000681",
+     "variant_ids": [
+      7500000084
+     ]
     }
    ],
    "image": {
@@ -7483,12 +7797,17 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000682
     }
    ],
    "images": [
     {
-     "src": "/products/labradorite-stone-1.jpg"
+     "src": "/products/labradorite-stone-1.jpg",
+     "id": 7000000682,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000682",
+     "variant_ids": [
+      7500000085
+     ]
     }
    ],
    "image": {
@@ -7553,12 +7872,17 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000000",
-     "image_id": 9785220
+     "image_id": 7000000683
     }
    ],
    "images": [
     {
-     "src": "/products/luminous-pebbles-1.jpg"
+     "src": "/products/luminous-pebbles-1.jpg",
+     "id": 7000000683,
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000683",
+     "variant_ids": [
+      7500000086
+     ]
     }
    ],
    "image": {
@@ -7619,7 +7943,8 @@
      "available": true,
      "created_at": "2026-10-20T00:00:00+00:00",
      "updated_at": "2026-10-20T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000100"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000100",
+     "image_id": 7000000500
     }
    ],
    "images": [
@@ -7631,7 +7956,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Bowl of porous ceramic bio filter rings on a dark background",
-     "variant_ids": [],
+     "variant_ids": [
+      7500000100
+     ],
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000500"
     },
     {
@@ -7711,7 +8038,8 @@
      "available": true,
      "created_at": "2026-10-20T00:00:00+00:00",
      "updated_at": "2026-10-20T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000110"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000110",
+     "image_id": 7000000510
     }
    ],
    "images": [
@@ -7723,7 +8051,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Layered blue and white aquarium filter pads with a planted tank behind",
-     "variant_ids": [],
+     "variant_ids": [
+      7500000110
+     ],
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000510"
     },
     {
@@ -7803,7 +8133,8 @@
      "available": true,
      "created_at": "2026-10-20T00:00:00+00:00",
      "updated_at": "2026-10-20T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000120"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000120",
+     "image_id": 7000000520
     }
    ],
    "images": [
@@ -7815,7 +8146,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Black activated carbon pellets in an open mesh filter bag",
-     "variant_ids": [],
+     "variant_ids": [
+      7500000120
+     ],
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000520"
     },
     {
@@ -7895,7 +8228,8 @@
      "available": true,
      "created_at": "2026-10-20T00:00:00+00:00",
      "updated_at": "2026-10-20T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000130"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000130",
+     "image_id": 7000000530
     }
    ],
    "images": [
@@ -7907,7 +8241,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Black aqua soil substrate granules piled with planted tanks behind",
-     "variant_ids": [],
+     "variant_ids": [
+      7500000130
+     ],
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000530"
     },
     {
@@ -8146,7 +8482,8 @@
      "available": true,
      "created_at": "2026-10-20T00:00:00+00:00",
      "updated_at": "2026-10-20T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000150"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000150",
+     "image_id": 7000000550
     }
    ],
    "images": [
@@ -8158,7 +8495,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Glass shrimp feeding tube with feeding dish in a planted tank",
-     "variant_ids": [],
+     "variant_ids": [
+      7500000150
+     ],
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000550"
     },
     {
@@ -8311,6 +8650,2906 @@
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000562"
     }
    ]
+  },
+  {
+   "id": 7000000307,
+   "handle": "tropical-fish-flakes-100g",
+   "title": "Tropical Fish Flakes — 100 g",
+   "body_html": "<p>An everyday staple flake for community tanks — guppies, tetras, barbs, danios and anything else that feeds up top. Soft enough for small mouths to crush, balanced so it doesn't cloud your water.</p>\n<ul>\n<li><strong>Colour-rich formula.</strong> Multi-ingredient flakes with spirulina and shrimp meal for steady colour, not just filler.</li>\n<li><strong>Feeds the whole tank.</strong> Floats first so surface feeders eat, then drifts down for mid-water fish — less waste.</li>\n<li><strong>100 g tub.</strong> Roughly a three-month supply for a typical 75-litre community tank.</li>\n<li><strong>Feed 1-2 times daily.</strong> Only what fish finish in two minutes.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "food",
+   "status": "active",
+   "tags": "fish food, tropical flakes, flake food, community fish, guppy, tetra, daily feeding",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000307",
+   "options": [
+    {
+     "id": 7600000108,
+     "product_id": 7000000307,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000162,
+     "product_id": 7000000307,
+     "title": "Default",
+     "price": "12.95",
+     "compare_at_price": "16.95",
+     "sku": "AQL-TROPFISH-001",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 140,
+     "weight": 0.14,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000262,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000162",
+     "image_id": 7000000563
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000563,
+     "product_id": 7000000307,
+     "position": 1,
+     "src": "/products/tropical-fish-flakes-100g/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "An everyday staple flake for community tanks — guppies, tetras, barbs, danios and anything else that feeds up ",
+     "variant_ids": [
+      7500000162
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000563"
+    }
+   ],
+   "image": {
+    "id": 7000000563,
+    "product_id": 7000000307,
+    "position": 1,
+    "src": "/products/tropical-fish-flakes-100g/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "An everyday staple flake for community tanks — guppies, tetras, barbs, danios and anything else that feeds up ",
+    "variant_ids": [
+     7500000162
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000563"
+   }
+  },
+  {
+   "id": 7000000308,
+   "handle": "betta-micro-pellets-colour-boost",
+   "title": "Betta Micro Pellets — Colour Boost, with Feeding Spoon",
+   "body_html": "<p>Micro pellets sized for a betta's upturned mouth — high protein for tissue, colour enhancers for the fins. Comes with a small spoon so you don't overfeed, which is the number one betta killer.</p>\n<ul>\n<li><strong>High protein.</strong> Fish-meal-first formula suited to an insectivore's gut, not a generic tropical blend.</li>\n<li><strong>Colour enhancing.</strong> Natural enhancers keep reds and blues deep over months, not weeks.</li>\n<li><strong>Slow-sinking.</strong> Long enough at the surface for your betta to strike, no scramble to the floor.</li>\n<li><strong>Feeding spoon included.</strong> One scoop per feeding — bettas need tiny amounts, twice a day.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "food",
+   "status": "active",
+   "tags": "betta food, betta pellets, colour enhancing, siamese fighting fish, micro pellets",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000308",
+   "options": [
+    {
+     "id": 7600000109,
+     "product_id": 7000000308,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000163,
+     "product_id": 7000000308,
+     "title": "Default",
+     "price": "13.95",
+     "compare_at_price": "17.95",
+     "sku": "AQL-BETTMICR-002",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 190,
+     "weight": 0.19,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000263,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000163",
+     "image_id": 7000000564
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000564,
+     "product_id": 7000000308,
+     "position": 1,
+     "src": "/products/betta-micro-pellets-colour-boost/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Micro pellets sized for a betta's upturned mouth — high protein for tissue, colour enhancers for the fins. Com",
+     "variant_ids": [
+      7500000163
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000564"
+    }
+   ],
+   "image": {
+    "id": 7000000564,
+    "product_id": 7000000308,
+    "position": 1,
+    "src": "/products/betta-micro-pellets-colour-boost/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Micro pellets sized for a betta's upturned mouth — high protein for tissue, colour enhancers for the fins. Com",
+    "variant_ids": [
+     7500000163
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000564"
+   }
+  },
+  {
+   "id": 7000000309,
+   "handle": "ranchu-goldfish-sinking-pellets",
+   "title": "Ranchu & Fancy Goldfish Pellets — Spirulina Enriched",
+   "body_html": "<p>Sinking pellets made for fancy goldfish — ranchu, oranda, lionhead, ryukin. Sinking format matters: gulping air at the surface is what causes swim-bladder issues in round-bodied goldfish.</p>\n<ul>\n<li><strong>Soft sinking pellet.</strong> Drops to the fish instead of making them surface-feed, easier on the swim bladder.</li>\n<li><strong>Spirulina enriched.</strong> Supports colour and digestion; goldfish are grazers by nature.</li>\n<li><strong>High protein growth formula.</strong> For young fish building body and head growth.</li>\n<li><strong>Soak before feeding.</strong> Two minutes in tank water makes it even gentler on digestion.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "food",
+   "status": "active",
+   "tags": "goldfish food, ranchu, oranda, sinking pellets, spirulina, fancy goldfish",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000309",
+   "options": [
+    {
+     "id": 7600000110,
+     "product_id": 7000000309,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000164,
+     "product_id": 7000000309,
+     "title": "Default",
+     "price": "21.95",
+     "compare_at_price": "27.95",
+     "sku": "AQL-RANCGOLD-003",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 260,
+     "weight": 0.26,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000264,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000164",
+     "image_id": 7000000565
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000565,
+     "product_id": 7000000309,
+     "position": 1,
+     "src": "/products/ranchu-goldfish-sinking-pellets/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Sinking pellets made for fancy goldfish — ranchu, oranda, lionhead, ryukin. Sinking format matters: gulping ai",
+     "variant_ids": [
+      7500000164
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000565"
+    }
+   ],
+   "image": {
+    "id": 7000000565,
+    "product_id": 7000000309,
+    "position": 1,
+    "src": "/products/ranchu-goldfish-sinking-pellets/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Sinking pellets made for fancy goldfish — ranchu, oranda, lionhead, ryukin. Sinking format matters: gulping ai",
+    "variant_ids": [
+     7500000164
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000565"
+   }
+  },
+  {
+   "id": 7000000310,
+   "handle": "sinking-algae-wafers-bottom-feeder",
+   "title": "Sinking Algae Wafers — for Plecos & Bottom Feeders",
+   "body_html": "<p>Dense sinking wafers that hold together long enough for night workers — plecos, bristlenose, corydoras, larger catfish — to find them. Algae and protein balanced, because pure algae isn't a complete diet.</p>\n<ul>\n<li><strong>Stays intact.</strong> Doesn't dissolve into mush in the first hour, so bottom feeders eat it, not the filter.</li>\n<li><strong>Algae + protein balance.</strong> Spirulina-led with protein to support growth, not just grazing.</li>\n<li><strong>One wafer per few fish.</strong> Drop one after lights-out and remove any remainder the next morning.</li>\n<li><strong>700 ml resealable jar.</strong> Keeps wafers dry and out of the way of moisture.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "food",
+   "status": "active",
+   "tags": "algae wafers, pleco food, catfish food, bottom feeder, corydoras, sinking food",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000310",
+   "options": [
+    {
+     "id": 7600000111,
+     "product_id": 7000000310,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000165,
+     "product_id": 7000000310,
+     "title": "Default",
+     "price": "24.95",
+     "compare_at_price": "31.95",
+     "sku": "AQL-SINKALGA-004",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 480,
+     "weight": 0.48,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000265,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000165",
+     "image_id": 7000000566
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000566,
+     "product_id": 7000000310,
+     "position": 1,
+     "src": "/products/sinking-algae-wafers-bottom-feeder/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Dense sinking wafers that hold together long enough for night workers — plecos, bristlenose, corydoras, larger",
+     "variant_ids": [
+      7500000165
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000566"
+    }
+   ],
+   "image": {
+    "id": 7000000566,
+    "product_id": 7000000310,
+    "position": 1,
+    "src": "/products/sinking-algae-wafers-bottom-feeder/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Dense sinking wafers that hold together long enough for night workers — plecos, bristlenose, corydoras, larger",
+    "variant_ids": [
+     7500000165
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000566"
+   }
+  },
+  {
+   "id": 7000000311,
+   "handle": "freeze-dried-bloodworm-cubes",
+   "title": "Freeze-Dried Bloodworm Cubes — High Protein Treat",
+   "body_html": "<p>Freeze-dried bloodworms pressed into portion cubes — the treat almost every fish goes wild for. Rich protein for condition and colour, without the mess of frozen.</p>\n<ul>\n<li><strong>Cube portions.</strong> Press one cube to the tank glass below the waterline; it releases slowly as fish pick at it.</li>\n<li><strong>High protein condition food.</strong> Ideal a few times a week alongside a staple flake or pellet.</li>\n<li><strong>No freezer needed.</strong> Freeze-drying locks nutrition in a shelf-stable form — no half-used frozen packs.</li>\n<li><strong>For all fish.</strong> Bettas, tetras, cichlids, discus, marine fish, even turtles and frogs.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "food",
+   "status": "active",
+   "tags": "bloodworms, freeze dried, fish treat, high protein, tropical fish, betta, discus",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000311",
+   "options": [
+    {
+     "id": 7600000112,
+     "product_id": 7000000311,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000166,
+     "product_id": 7000000311,
+     "title": "Default",
+     "price": "19.95",
+     "compare_at_price": "24.95",
+     "sku": "AQL-FREEDRIE-005",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 150,
+     "weight": 0.15,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000266,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000166",
+     "image_id": 7000000567
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000567,
+     "product_id": 7000000311,
+     "position": 1,
+     "src": "/products/freeze-dried-bloodworm-cubes/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Freeze-dried bloodworms pressed into portion cubes — the treat almost every fish goes wild for. Rich protein f",
+     "variant_ids": [
+      7500000166
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000567"
+    }
+   ],
+   "image": {
+    "id": 7000000567,
+    "product_id": 7000000311,
+    "position": 1,
+    "src": "/products/freeze-dried-bloodworm-cubes/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Freeze-dried bloodworms pressed into portion cubes — the treat almost every fish goes wild for. Rich protein f",
+    "variant_ids": [
+     7500000166
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000567"
+   }
+  },
+  {
+   "id": 7000000312,
+   "handle": "decapsulated-brine-shrimp-eggs",
+   "title": "Decapsulated Brine Shrimp Eggs — Fry Food",
+   "body_html": "<p>Decapsulated artemia eggs — the shell is already removed, so tiny fry can eat them directly without you hatching anything. One of the easiest first foods for slow, safe fry growth.</p>\n<ul>\n<li><strong>No hatching required.</strong> Decapsulation removes the shell that young fry choke on — feed straight from the tub.</li>\n<li><strong>Perfect first-food size.</strong> Suspends in the water column where fry actually hunt.</li>\n<li><strong>For picky fish.</strong> Often the food that gets fussy eaters eating again.</li>\n<li><strong>Feed small amounts.</strong> A pinch per feeding; uneaten eggs are harmless but wasteful.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "food",
+   "status": "active",
+   "tags": "brine shrimp eggs, fry food, decapsulated artemia, baby fish, picky eaters",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000312",
+   "options": [
+    {
+     "id": 7600000113,
+     "product_id": 7000000312,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000167,
+     "product_id": 7000000312,
+     "title": "Default",
+     "price": "14.95",
+     "compare_at_price": "18.95",
+     "sku": "AQL-DECABRIN-006",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 110,
+     "weight": 0.11,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000267,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000167",
+     "image_id": 7000000568
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000568,
+     "product_id": 7000000312,
+     "position": 1,
+     "src": "/products/decapsulated-brine-shrimp-eggs/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Decapsulated artemia eggs — the shell is already removed, so tiny fry can eat them directly without you hatchi",
+     "variant_ids": [
+      7500000167
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000568"
+    }
+   ],
+   "image": {
+    "id": 7000000568,
+    "product_id": 7000000312,
+    "position": 1,
+    "src": "/products/decapsulated-brine-shrimp-eggs/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Decapsulated artemia eggs — the shell is already removed, so tiny fry can eat them directly without you hatchi",
+    "variant_ids": [
+     7500000167
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000568"
+   }
+  },
+  {
+   "id": 7000000313,
+   "handle": "blizzard-shrimp-tablets-spinach",
+   "title": "Blizzard Shrimp Tablets — Spinach & Mineral Rich",
+   "body_html": "<p>The \"blizzard\" style tablet carabiner shrimp keepers love — a spinach-and-mineral tablet that grows a fine biofilm fuzz after a day in the tank. That fuzz is what the colony actually grazes, adults and shrimplets alike.</p>\n<ul>\n<li><strong>Grazing plate effect.</strong> Drop a piece in and the shrimp gather on it for hours — great for watching the colony.</li>\n<li><strong>Spinach + minerals.</strong> Supports moulting and shell strength, not just filling bellies.</li>\n<li><strong>Beta carotene colour.</strong> Deepens reds in cherry shrimp and crystals over regular use.</li>\n<li><strong>Break, don't drop whole.</strong> A quarter tablet per 20-30 shrimp; remove after 24 hours.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "food",
+   "status": "active",
+   "tags": "shrimp food, blizzard tablets, spinach tablets, cherry shrimp, crystal red, biofilm",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000313",
+   "options": [
+    {
+     "id": 7600000114,
+     "product_id": 7000000313,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000168,
+     "product_id": 7000000313,
+     "title": "Default",
+     "price": "36.95",
+     "compare_at_price": "44.95",
+     "sku": "AQL-BLIZSHRI-007",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 180,
+     "weight": 0.18,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000268,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000168",
+     "image_id": 7000000569
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000569,
+     "product_id": 7000000313,
+     "position": 1,
+     "src": "/products/blizzard-shrimp-tablets-spinach/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "The \"blizzard\" style tablet carabiner shrimp keepers love — a spinach-and-mineral tablet that grows a fine bio",
+     "variant_ids": [
+      7500000168
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000569"
+    }
+   ],
+   "image": {
+    "id": 7000000569,
+    "product_id": 7000000313,
+    "position": 1,
+    "src": "/products/blizzard-shrimp-tablets-spinach/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "The \"blizzard\" style tablet carabiner shrimp keepers love — a spinach-and-mineral tablet that grows a fine bio",
+    "variant_ids": [
+     7500000168
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000569"
+   }
+  },
+  {
+   "id": 7000000314,
+   "handle": "freeze-dried-tubifex-cubes",
+   "title": "Freeze-Dried Tubifex Cubes — Protein Treat",
+   "body_html": "<p>Freeze-dried tubifex worm cubes — a denser, richer protein hit than bloodworms. Cubes stick to wet glass so the whole tank feeds in view, which makes it a favourite for conditioning breeding pairs.</p>\n<ul>\n<li><strong>Press-to-glass feeding.</strong> Wet a cube, stick it below the waterline, and watch the tank swarm it.</li>\n<li><strong>Conditioning food.</strong> The protein boost breeders use before spawning; also great for growing juveniles.</li>\n<li><strong>Shelf-stable.</strong> All the nutrition of live foods with none of the parasite risk of live tubifex.</li>\n<li><strong>Rotate, don't staple.</strong> Two or three feeds a week alongside a balanced staple food.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "food",
+   "status": "active",
+   "tags": "tubifex, freeze dried worms, fish treat, protein food, discus, cichlid food",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000314",
+   "options": [
+    {
+     "id": 7600000115,
+     "product_id": 7000000314,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000169,
+     "product_id": 7000000314,
+     "title": "Default",
+     "price": "19.95",
+     "compare_at_price": "24.95",
+     "sku": "AQL-FREEDRIE-008",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 150,
+     "weight": 0.15,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000269,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000169",
+     "image_id": 7000000570
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000570,
+     "product_id": 7000000314,
+     "position": 1,
+     "src": "/products/freeze-dried-tubifex-cubes/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Freeze-dried tubifex worm cubes — a denser, richer protein hit than bloodworms. Cubes stick to wet glass so th",
+     "variant_ids": [
+      7500000169
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000570"
+    }
+   ],
+   "image": {
+    "id": 7000000570,
+    "product_id": 7000000314,
+    "position": 1,
+    "src": "/products/freeze-dried-tubifex-cubes/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Freeze-dried tubifex worm cubes — a denser, richer protein hit than bloodworms. Cubes stick to wet glass so th",
+    "variant_ids": [
+     7500000169
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000570"
+   }
+  },
+  {
+   "id": 7000000315,
+   "handle": "in-tank-feeding-station",
+   "title": "In-Tank Feeding Station — Suction Mount",
+   "body_html": "<p>A clear acrylic feeding station that suctions inside the glass. Flakes and pellets go in the top chute, fish learn to feed in one spot, and food stops drifting into the filter or landing under rocks.</p>\n<ul>\n<li><strong>Feeds in one place.</strong> Trains fish to a feeding point — less food lost to the overflow box or behind hardscape.</li>\n<li><strong>Works with flakes and pellets.</strong> The chute washes food down into the catch basin below.</li>\n<li><strong>Suction mount.</strong> Moves and re-positions in seconds; holds firmly on clean glass.</li>\n<li><strong>Also a great shrimp dish.</strong> Keeps food off the substrate where it would bury and foul.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "breeding",
+   "status": "active",
+   "tags": "feeding station, fish feeder, feeding tube, flake feeder, feeding ring, suction cup",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000315",
+   "options": [
+    {
+     "id": 7600000116,
+     "product_id": 7000000315,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000170,
+     "product_id": 7000000315,
+     "title": "Default",
+     "price": "9.95",
+     "compare_at_price": "12.95",
+     "sku": "AQL-INTANK-009",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 90,
+     "weight": 0.09,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000270,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000170",
+     "image_id": 7000000571
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000571,
+     "product_id": 7000000315,
+     "position": 1,
+     "src": "/products/in-tank-feeding-station/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A clear acrylic feeding station that suctions inside the glass. Flakes and pellets go in the top chute, fish l",
+     "variant_ids": [
+      7500000170
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000571"
+    }
+   ],
+   "image": {
+    "id": 7000000571,
+    "product_id": 7000000315,
+    "position": 1,
+    "src": "/products/in-tank-feeding-station/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A clear acrylic feeding station that suctions inside the glass. Flakes and pellets go in the top chute, fish l",
+    "variant_ids": [
+     7500000170
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000571"
+   }
+  },
+  {
+   "id": 7000000316,
+   "handle": "adjustable-submersible-heater",
+   "title": "Adjustable Submersible Heater — 25 W to 300 W",
+   "body_html": "<p>A straightforward adjustable heater — dial in a temperature between roughly 20 and 34 °C and the thermostat holds it. Sizes from 25 W nano tanks to 300 W large displays, all fully submersible with suction cups included.</p>\n<ul>\n<li><strong>Exact-size thermostat.</strong> The dial clicks to a real set point; the red light tells you when it's actively heating.</li>\n<li><strong>Shatter-resistant glass tube.</strong> Fully sealed and submersible — lay it or stand it, as long as it's underwater.</li>\n<li><strong>Suction cups included.</strong> Mounts vertically in a corner, out of the flow of your aquascape.</li>\n<li><strong>Size up, not down.</strong> A slightly bigger heater cycles less and lasts longer. Rule of thumb: 1 W per litre.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "heating",
+   "status": "active",
+   "tags": "aquarium heater, submersible heater, adjustable thermostat, fish tank heating, tropical tank",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000316",
+   "options": [
+    {
+     "id": 7600000117,
+     "product_id": 7000000316,
+     "name": "Wattage",
+     "position": 1,
+     "values": [
+      "25 W — 20-40 L tanks",
+      "50 W — 40-80 L tanks",
+      "100 W — 80-150 L tanks",
+      "200 W — 150-250 L tanks",
+      "300 W — 250-400 L tanks"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000171,
+     "product_id": 7000000316,
+     "title": "25 W — 20-40 L tanks",
+     "price": "12.95",
+     "compare_at_price": "16.95",
+     "sku": "AQL-ADJUSUBM-010-1",
+     "position": 1,
+     "option1": "25 W — 20-40 L tanks",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 180,
+     "weight": 0.18,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000271,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000171",
+     "image_id": 7000000572
+    },
+    {
+     "id": 7500000172,
+     "product_id": 7000000316,
+     "title": "50 W — 40-80 L tanks",
+     "price": "14.95",
+     "compare_at_price": "18.95",
+     "sku": "AQL-ADJUSUBM-011-2",
+     "position": 2,
+     "option1": "50 W — 40-80 L tanks",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 200,
+     "weight": 0.2,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000272,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000172",
+     "image_id": 7000000572
+    },
+    {
+     "id": 7500000173,
+     "product_id": 7000000316,
+     "title": "100 W — 80-150 L tanks",
+     "price": "17.95",
+     "compare_at_price": "22.95",
+     "sku": "AQL-ADJUSUBM-012-3",
+     "position": 3,
+     "option1": "100 W — 80-150 L tanks",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 240,
+     "weight": 0.24,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000273,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000173",
+     "image_id": 7000000572
+    },
+    {
+     "id": 7500000174,
+     "product_id": 7000000316,
+     "title": "200 W — 150-250 L tanks",
+     "price": "21.95",
+     "compare_at_price": "27.95",
+     "sku": "AQL-ADJUSUBM-013-4",
+     "position": 4,
+     "option1": "200 W — 150-250 L tanks",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 320,
+     "weight": 0.32,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000274,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000174",
+     "image_id": 7000000572
+    },
+    {
+     "id": 7500000175,
+     "product_id": 7000000316,
+     "title": "300 W — 250-400 L tanks",
+     "price": "24.95",
+     "compare_at_price": "31.95",
+     "sku": "AQL-ADJUSUBM-014-5",
+     "position": 5,
+     "option1": "300 W — 250-400 L tanks",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 380,
+     "weight": 0.38,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000275,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000175",
+     "image_id": 7000000572
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000572,
+     "product_id": 7000000316,
+     "position": 1,
+     "src": "/products/adjustable-submersible-heater/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A straightforward adjustable heater — dial in a temperature between roughly 20 and 34 °C and the thermostat ho",
+     "variant_ids": [
+      7500000171,
+      7500000172,
+      7500000173,
+      7500000174,
+      7500000175
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000572"
+    }
+   ],
+   "image": {
+    "id": 7000000572,
+    "product_id": 7000000316,
+    "position": 1,
+    "src": "/products/adjustable-submersible-heater/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A straightforward adjustable heater — dial in a temperature between roughly 20 and 34 °C and the thermostat ho",
+    "variant_ids": [
+     7500000171,
+     7500000172,
+     7500000173,
+     7500000174,
+     7500000175
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000572"
+   }
+  },
+  {
+   "id": 7000000317,
+   "handle": "stick-on-thermometer-strips",
+   "title": "Stick-On Thermometer Strips — Dual Scale, 5 Pack",
+   "body_html": "<p>Thin liquid-crystal strips that stick to the outside of the glass and read the tank temperature in about a minute. Dual scale (°C and °F), no batteries, nothing in the water — one on every tank you own.</p>\n<ul>\n<li><strong>Instant read.</strong> Colour band shows the current temperature at a glance, 18-34 °C range.</li>\n<li><strong>Dual scale.</strong> Both Celsius and Fahrenheit on every strip.</li>\n<li><strong>Zero intrusion.</strong> Nothing inside the tank to trap debris or interest a curious fish.</li>\n<li><strong>Five strips per pack.</strong> One per tank, or spares for when one peels after a rescape.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "heating",
+   "status": "active",
+   "tags": "thermometer strip, stick on thermometer, temperature sticker, fish tank thermometer",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000317",
+   "options": [
+    {
+     "id": 7600000118,
+     "product_id": 7000000317,
+     "name": "Pack",
+     "position": 1,
+     "values": [
+      "5 pack",
+      "10 pack"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000176,
+     "product_id": 7000000317,
+     "title": "5 pack",
+     "price": "8.95",
+     "compare_at_price": "11.95",
+     "sku": "AQL-STICON-015-1",
+     "position": 1,
+     "option1": "5 pack",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 40,
+     "weight": 0.04,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000276,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000176",
+     "image_id": 7000000573
+    },
+    {
+     "id": 7500000177,
+     "product_id": 7000000317,
+     "title": "10 pack",
+     "price": "12.95",
+     "compare_at_price": "15.95",
+     "sku": "AQL-STICON-016-2",
+     "position": 2,
+     "option1": "10 pack",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 70,
+     "weight": 0.07,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000277,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000177",
+     "image_id": 7000000573
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000573,
+     "product_id": 7000000317,
+     "position": 1,
+     "src": "/products/stick-on-thermometer-strips/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Thin liquid-crystal strips that stick to the outside of the glass and read the tank temperature in about a min",
+     "variant_ids": [
+      7500000176,
+      7500000177
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000573"
+    }
+   ],
+   "image": {
+    "id": 7000000573,
+    "product_id": 7000000317,
+    "position": 1,
+    "src": "/products/stick-on-thermometer-strips/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Thin liquid-crystal strips that stick to the outside of the glass and read the tank temperature in about a min",
+    "variant_ids": [
+     7500000176,
+     7500000177
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000573"
+   }
+  },
+  {
+   "id": 7000000318,
+   "handle": "ultra-quiet-nano-air-pump",
+   "title": "Ultra-Quiet Nano Air Pump",
+   "body_html": "<p>A single-outlet air pump sized for nano and small community tanks — quiet enough for a bedroom, small enough to tuck behind a bookshelf tank. Pairs with sponge filters, air stones or bubble walls.</p>\n<ul>\n<li><strong>Genuinely low noise.</strong> Dampened diaphragm and soft feet — the hum sits under the sound of the filter.</li>\n<li><strong>Single outlet.</strong> Ideal for one sponge filter or air stone up to around 60 litres.</li>\n<li><strong>Adjustable flow.</strong> Turn the dial down for a betta or shrimp tank that doesn't want a storm.</li>\n<li><strong>Low power draw.</strong> Pennies a month even running 24/7.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "filtration",
+   "status": "active",
+   "tags": "air pump, quiet air pump, nano air pump, oxygen pump, sponge filter air, betta tank",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000318",
+   "options": [
+    {
+     "id": 7600000119,
+     "product_id": 7000000318,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000178,
+     "product_id": 7000000318,
+     "title": "Default",
+     "price": "12.95",
+     "compare_at_price": "16.95",
+     "sku": "AQL-ULTRQUIE-017",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 280,
+     "weight": 0.28,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000278,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000178",
+     "image_id": 7000000574
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000574,
+     "product_id": 7000000318,
+     "position": 1,
+     "src": "/products/ultra-quiet-nano-air-pump/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A single-outlet air pump sized for nano and small community tanks — quiet enough for a bedroom, small enough t",
+     "variant_ids": [
+      7500000178
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000574"
+    }
+   ],
+   "image": {
+    "id": 7000000574,
+    "product_id": 7000000318,
+    "position": 1,
+    "src": "/products/ultra-quiet-nano-air-pump/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A single-outlet air pump sized for nano and small community tanks — quiet enough for a bedroom, small enough t",
+    "variant_ids": [
+     7500000178
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000574"
+   }
+  },
+  {
+   "id": 7000000319,
+   "handle": "dual-outlet-air-pump",
+   "title": "Dual-Outlet Air Pump — 3 W / 5 W",
+   "body_html": "<p>Two outlets from one pump — run a sponge filter and an air stone, or air two tanks at once. The 5 W version keeps decent pressure across both lines; the 3 W suits single smaller setups.</p>\n<ul>\n<li><strong>Two independent outlets.</strong> Air a breeding tank's sponge filter and a stone in the display from one unit.</li>\n<li><strong>3 W or 5 W.</strong> 5 W holds pressure on longer runs and deeper tanks.</li>\n<li><strong>Check valves recommended.</strong> Fit one per line below the water line so water can't siphon back (we sell them).</li>\n<li><strong>Rubber feet.</strong> Sits quietly on hard stands without the usual buzz.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "filtration",
+   "status": "active",
+   "tags": "dual air pump, two outlet air pump, aquarium air pump, sponge filter, air stone",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000319",
+   "options": [
+    {
+     "id": 7600000120,
+     "product_id": 7000000319,
+     "name": "Wattage",
+     "position": 1,
+     "values": [
+      "3 W — single tank",
+      "5 W — dual output"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000179,
+     "product_id": 7000000319,
+     "title": "3 W — single tank",
+     "price": "14.95",
+     "compare_at_price": "18.95",
+     "sku": "AQL-DUALOUTL-018-1",
+     "position": 1,
+     "option1": "3 W — single tank",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 380,
+     "weight": 0.38,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000279,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000179",
+     "image_id": 7000000575
+    },
+    {
+     "id": 7500000180,
+     "product_id": 7000000319,
+     "title": "5 W — dual output",
+     "price": "17.95",
+     "compare_at_price": "22.95",
+     "sku": "AQL-DUALOUTL-019-2",
+     "position": 2,
+     "option1": "5 W — dual output",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 430,
+     "weight": 0.43,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000280,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000180",
+     "image_id": 7000000575
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000575,
+     "product_id": 7000000319,
+     "position": 1,
+     "src": "/products/dual-outlet-air-pump/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Two outlets from one pump — run a sponge filter and an air stone, or air two tanks at once. The 5 W version ke",
+     "variant_ids": [
+      7500000179,
+      7500000180
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000575"
+    }
+   ],
+   "image": {
+    "id": 7000000575,
+    "product_id": 7000000319,
+    "position": 1,
+    "src": "/products/dual-outlet-air-pump/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Two outlets from one pump — run a sponge filter and an air stone, or air two tanks at once. The 5 W version ke",
+    "variant_ids": [
+     7500000179,
+     7500000180
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000575"
+   }
+  },
+  {
+   "id": 7000000320,
+   "handle": "one-way-check-valve-2pack",
+   "title": "One-Way Check Valve — 2 Pack",
+   "body_html": "<p>The cheapest insurance in the hobby. A check valve in the airline stops water siphoning back into your air pump during a power cut — the classic way pumps die and floors get wet.</p>\n<ul>\n<li><strong>One-way flow.</strong> Air travels to the tank; water can't travel back down the line.</li>\n<li><strong>Fits standard airline.</strong> Push-fit on 3-5 mm tubing — trim the tube end square for a tight seal.</li>\n<li><strong>Fit it low.</strong> Place the valve below the tank waterline, between pump and tank.</li>\n<li><strong>Two per pack.</strong> One in use, one spare — or one per line on a dual pump.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "filtration",
+   "status": "active",
+   "tags": "check valve, non return valve, airline valve, air pump protection, aquarium air",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000320",
+   "options": [
+    {
+     "id": 7600000121,
+     "product_id": 7000000320,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000181,
+     "product_id": 7000000320,
+     "title": "Default",
+     "price": "6.95",
+     "compare_at_price": "8.95",
+     "sku": "AQL-ONEWAY-020",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 40,
+     "weight": 0.04,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000281,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000181",
+     "image_id": 7000000576
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000576,
+     "product_id": 7000000320,
+     "position": 1,
+     "src": "/products/one-way-check-valve-2pack/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "The cheapest insurance in the hobby. A check valve in the airline stops water siphoning back into your air pum",
+     "variant_ids": [
+      7500000181
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000576"
+    }
+   ],
+   "image": {
+    "id": 7000000576,
+    "product_id": 7000000320,
+    "position": 1,
+    "src": "/products/one-way-check-valve-2pack/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "The cheapest insurance in the hobby. A check valve in the airline stops water siphoning back into your air pum",
+    "variant_ids": [
+     7500000181
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000576"
+   }
+  },
+  {
+   "id": 7000000321,
+   "handle": "usb-portable-air-pump",
+   "title": "USB Portable Air Pump — Travel & Emergency Aerator",
+   "body_html": "<p>A palm-sized USB air pump that keeps water oxygenated anywhere — fish bagged for transport, a bucket during a power cut, or a quarantine tub with no mains outlet. Runs off any USB power bank.</p>\n<ul>\n<li><strong>USB powered.</strong> Works from a phone power bank, laptop or USB wall adapter — 5 V, tiny draw.</li>\n<li><strong>Emergency aeration.</strong> The thing you want in the drawer before the power goes out, not after.</li>\n<li><strong>Complete kit.</strong> Airline, check valve and small air stone included — attach and run.</li>\n<li><strong>Travel friendly.</strong> Quiet enough for a car cabin; light enough for any bucket or cooler.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "filtration",
+   "status": "active",
+   "tags": "usb air pump, portable aerator, battery air pump, fish transport, power outage, bait aerator",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000321",
+   "options": [
+    {
+     "id": 7600000122,
+     "product_id": 7000000321,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000182,
+     "product_id": 7000000321,
+     "title": "Default",
+     "price": "11.95",
+     "compare_at_price": "14.95",
+     "sku": "AQL-USBPORT-021",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 220,
+     "weight": 0.22,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000282,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000182",
+     "image_id": 7000000577
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000577,
+     "product_id": 7000000321,
+     "position": 1,
+     "src": "/products/usb-portable-air-pump/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A palm-sized USB air pump that keeps water oxygenated anywhere — fish bagged for transport, a bucket during a ",
+     "variant_ids": [
+      7500000182
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000577"
+    }
+   ],
+   "image": {
+    "id": 7000000577,
+    "product_id": 7000000321,
+    "position": 1,
+    "src": "/products/usb-portable-air-pump/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A palm-sized USB air pump that keeps water oxygenated anywhere — fish bagged for transport, a bucket during a ",
+    "variant_ids": [
+     7500000182
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000577"
+   }
+  },
+  {
+   "id": 7000000322,
+   "handle": "root-fertilizer-tabs-40",
+   "title": "Root Fertilizer Tabs — 40 Capsules",
+   "body_html": "<p>Slow-release fertilizer capsules pushed into the substrate under heavy root feeders — swords, crypts, vallisneria, lotus. Root feeding is what makes those plants actually thrive instead of merely survive.</p>\n<ul>\n<li><strong>For root feeders.</strong> Swords and crypts take most nutrition through roots; liquid ferts barely reach them.</li>\n<li><strong>Slow release.</strong> Capsules feed for weeks, without dumping nitrates into the water column.</li>\n<li><strong>40 capsules.</strong> A capsule every 10-15 cm around the root ball, refreshed every 2-3 months.</li>\n<li><strong>No algae trigger.</strong> Because the nutrition goes to the roots, not the water, dosing stays clean.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "water-care",
+   "status": "active",
+   "tags": "root tabs, fertilizer tablets, planted tank, aquarium plants, root feeder, sword plants",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000322",
+   "options": [
+    {
+     "id": 7600000123,
+     "product_id": 7000000322,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000183,
+     "product_id": 7000000322,
+     "title": "Default",
+     "price": "11.95",
+     "compare_at_price": "14.95",
+     "sku": "AQL-ROOTFERT-022",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 110,
+     "weight": 0.11,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000283,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000183",
+     "image_id": 7000000578
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000578,
+     "product_id": 7000000322,
+     "position": 1,
+     "src": "/products/root-fertilizer-tabs-40/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Slow-release fertilizer capsules pushed into the substrate under heavy root feeders — swords, crypts, vallisne",
+     "variant_ids": [
+      7500000183
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000578"
+    }
+   ],
+   "image": {
+    "id": 7000000578,
+    "product_id": 7000000322,
+    "position": 1,
+    "src": "/products/root-fertilizer-tabs-40/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Slow-release fertilizer capsules pushed into the substrate under heavy root feeders — swords, crypts, vallisne",
+    "variant_ids": [
+     7500000183
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000578"
+   }
+  },
+  {
+   "id": 7000000323,
+   "handle": "all-in-one-liquid-fertilizer",
+   "title": "All-in-One Liquid Plant Fertilizer — NPK + Micronutrients",
+   "body_html": "<p>A complete NPK-plus-micronutrients liquid food for planted tanks — the weekly dosing backbone for stems, rosettes and carpeting plants, whether you run CO2 or not.</p>\n<ul>\n<li><strong>Complete NPK.</strong> Nitrogen, phosphorus and potassium in hobby-safe ratios, plus iron and traces.</li>\n<li><strong>Lush growth without algae swings.</strong> Balanced dosing keeps plants outcompeting algae rather than stalling.</li>\n<li><strong>Pump bottle.</strong> Measured pumps make the weekly routine a five-second job.</li>\n<li><strong>Works without CO2.</strong> Dose lighter in low-tech tanks; full rate alongside injected CO2.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "water-care",
+   "status": "active",
+   "tags": "liquid fertilizer, planted tank fertilizer, npk, micronutrients, aquarium plants, co2 tank",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000323",
+   "options": [
+    {
+     "id": 7600000124,
+     "product_id": 7000000323,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000184,
+     "product_id": 7000000323,
+     "title": "Default",
+     "price": "27.95",
+     "compare_at_price": "34.95",
+     "sku": "AQL-ALLIN-023",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 380,
+     "weight": 0.38,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000284,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000184",
+     "image_id": 7000000579
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000579,
+     "product_id": 7000000323,
+     "position": 1,
+     "src": "/products/all-in-one-liquid-fertilizer/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A complete NPK-plus-micronutrients liquid food for planted tanks — the weekly dosing backbone for stems, roset",
+     "variant_ids": [
+      7500000184
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000579"
+    }
+   ],
+   "image": {
+    "id": 7000000579,
+    "product_id": 7000000323,
+    "position": 1,
+    "src": "/products/all-in-one-liquid-fertilizer/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A complete NPK-plus-micronutrients liquid food for planted tanks — the weekly dosing backbone for stems, roset",
+    "variant_ids": [
+     7500000184
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000579"
+   }
+  },
+  {
+   "id": 7000000324,
+   "handle": "nitrifying-bacteria-300ml",
+   "title": "Nitrifying Bacteria — 300 ml Water Treatment",
+   "body_html": "<p>Live nitrifying bacteria in a dosing bottle — for cycling new tanks, recovering filters after medication, or backing up a tank during an ammonia spike. The biological filter in a bottle.</p>\n<ul>\n<li><strong>Cycle new tanks faster.</strong> Seeded bacteria shorten the dead time before fish go in.</li>\n<li><strong>Ammonia and nitrite backup.</strong> Dose during spikes or after deep filter cleans that bruise the biofilter.</li>\n<li><strong>Shake and dose.</strong> 10 ml per 50 litres for maintenance; double for new or stressed systems.</li>\n<li><strong>300 ml bottle.</strong> Enough for a full cycle plus months of top-ups on a mid-size tank.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "water-care",
+   "status": "active",
+   "tags": "nitrifying bacteria, water treatment, cycle a tank, ammonia remover, new tank, filter starter",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000324",
+   "options": [
+    {
+     "id": 7600000125,
+     "product_id": 7000000324,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000185,
+     "product_id": 7000000324,
+     "title": "Default",
+     "price": "14.95",
+     "compare_at_price": "18.95",
+     "sku": "AQL-NITRBACT-024",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 340,
+     "weight": 0.34,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000285,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000185",
+     "image_id": 7000000580
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000580,
+     "product_id": 7000000324,
+     "position": 1,
+     "src": "/products/nitrifying-bacteria-300ml/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Live nitrifying bacteria in a dosing bottle — for cycling new tanks, recovering filters after medication, or b",
+     "variant_ids": [
+      7500000185
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000580"
+    }
+   ],
+   "image": {
+    "id": 7000000580,
+    "product_id": 7000000324,
+    "position": 1,
+    "src": "/products/nitrifying-bacteria-300ml/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Live nitrifying bacteria in a dosing bottle — for cycling new tanks, recovering filters after medication, or b",
+    "variant_ids": [
+     7500000185
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000580"
+   }
+  },
+  {
+   "id": 7000000325,
+   "handle": "himalayan-mineral-salt-chunks",
+   "title": "Himalayan Mineral Salt Chunks",
+   "body_html": "<p>Natural pink Himalayan mineral chunks — a slow-dissolving mineral source for soft-water shrimp tanks, and an unusual crystal accent for hardscape or paludarium rockwork.</p>\n<ul>\n<li><strong>Slow mineral release.</strong> In shrimp tanks a small chunk replenishes calcium and trace minerals between water changes.</li>\n<li><strong>Use sparingly.</strong> A fingernail-sized piece per 20 litres — watch TDS and pull it once you hit target.</li>\n<li><strong>Decorative.</strong> Translucent pink chunks read beautifully against dark substrate and moss.</li>\n<li><strong>Not a marine salt substitute.</strong> This is a mineral supplement, not a sea salt mix.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "water-care",
+   "status": "active",
+   "tags": "himalayan salt, mineral crystals, shrimp minerals, aquarium decor, crystal gravel",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000325",
+   "options": [
+    {
+     "id": 7600000126,
+     "product_id": 7000000325,
+     "name": "Size",
+     "position": 1,
+     "values": [
+      "200 g",
+      "500 g"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000186,
+     "product_id": 7000000325,
+     "title": "200 g",
+     "price": "8.95",
+     "compare_at_price": "11.95",
+     "sku": "AQL-HIMAMINE-025-1",
+     "position": 1,
+     "option1": "200 g",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 240,
+     "weight": 0.24,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000286,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000186",
+     "image_id": 7000000581
+    },
+    {
+     "id": 7500000187,
+     "product_id": 7000000325,
+     "title": "500 g",
+     "price": "12.95",
+     "compare_at_price": "16.95",
+     "sku": "AQL-HIMAMINE-026-2",
+     "position": 2,
+     "option1": "500 g",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 540,
+     "weight": 0.54,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000287,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000187",
+     "image_id": 7000000581
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000581,
+     "product_id": 7000000325,
+     "position": 1,
+     "src": "/products/himalayan-mineral-salt-chunks/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Natural pink Himalayan mineral chunks — a slow-dissolving mineral source for soft-water shrimp tanks, and an u",
+     "variant_ids": [
+      7500000186,
+      7500000187
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000581"
+    }
+   ],
+   "image": {
+    "id": 7000000581,
+    "product_id": 7000000325,
+    "position": 1,
+    "src": "/products/himalayan-mineral-salt-chunks/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Natural pink Himalayan mineral chunks — a slow-dissolving mineral source for soft-water shrimp tanks, and an u",
+    "variant_ids": [
+     7500000186,
+     7500000187
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000581"
+   }
+  },
+  {
+   "id": 7000000326,
+   "handle": "gh-kh-test-strips-7in1",
+   "title": "7-in-1 Aquarium Test Strips — GH & KH, 100 Count",
+   "body_html": "<p>Seven parameters on one strip — GH and KH lead, with pH, nitrate, nitrite and chlorine alongside. Hardness is the parameter most planted and shrimp keepers ignore until something goes wrong; this makes checking it a 30-second habit.</p>\n<ul>\n<li><strong>GH &amp; KH matter.</strong>KH buffers pH stability; GH drives shrimp moulting and plant growth — now you can see both.</li>\n<li><strong>Seven parameters per dip.</strong> One strip, one dunk, one read against the bottle chart.</li>\n<li><strong>100 strips.</strong> Weekly testing on two tanks lasts a year.</li>\n<li><strong>Freshwater and marine.</strong> Works for both, plus ponds.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "testing",
+   "status": "active",
+   "tags": "gh kh test kit, aquarium test strips, water hardness, 7 in 1 test, water testing",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000326",
+   "options": [
+    {
+     "id": 7600000127,
+     "product_id": 7000000326,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000188,
+     "product_id": 7000000326,
+     "title": "Default",
+     "price": "12.95",
+     "compare_at_price": "16.95",
+     "sku": "AQL-GHKH-027",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 120,
+     "weight": 0.12,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000288,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000188",
+     "image_id": 7000000582
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000582,
+     "product_id": 7000000326,
+     "position": 1,
+     "src": "/products/gh-kh-test-strips-7in1/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Seven parameters on one strip — GH and KH lead, with pH, nitrate, nitrite and chlorine alongside. Hardness is ",
+     "variant_ids": [
+      7500000188
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000582"
+    }
+   ],
+   "image": {
+    "id": 7000000582,
+    "product_id": 7000000326,
+    "position": 1,
+    "src": "/products/gh-kh-test-strips-7in1/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Seven parameters on one strip — GH and KH lead, with pH, nitrate, nitrite and chlorine alongside. Hardness is ",
+    "variant_ids": [
+     7500000188
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000582"
+   }
+  },
+  {
+   "id": 7000000327,
+   "handle": "catappa-leaves-indian-almond",
+   "title": "Catappa Leaves — Indian Almond, Natural Tannins",
+   "body_html": "<p>Dried Indian almond leaves — the blackwater classic. As a leaf breaks down it releases tannins that tint the water amber, soften light, and create the conditions bettas, killifish, shrimp and apistogrammas breed in.</p>\n<ul>\n<li><strong>Natural tannin source.</strong> Mild antibacterial and antifungal properties; comfort for blackwater species.</li>\n<li><strong>Shrimp food too.</strong> The biofilm that grows on a softening leaf is a shrimp colony's favourite grazing surface.</li>\n<li><strong>Cover and spawning sites.</strong> Bettas anchors bubble nests under leaf edges; fry shelter in the wrap.</li>\n<li><strong>One leaf per 40-60 litres.</strong> Replace when fully eaten or broken down.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "breeding",
+   "status": "active",
+   "tags": "catappa leaves, indian almond leaf, betta, blackwater, tannins, shrimp leaf, antifungal",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000327",
+   "options": [
+    {
+     "id": 7600000128,
+     "product_id": 7000000327,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000189,
+     "product_id": 7000000327,
+     "title": "Default",
+     "price": "16.95",
+     "compare_at_price": "21.95",
+     "sku": "AQL-CATALEAV-028",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 120,
+     "weight": 0.12,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000289,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000189",
+     "image_id": 7000000583
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000583,
+     "product_id": 7000000327,
+     "position": 1,
+     "src": "/products/catappa-leaves-indian-almond/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Dried Indian almond leaves — the blackwater classic. As a leaf breaks down it releases tannins that tint the w",
+     "variant_ids": [
+      7500000189
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000583"
+    }
+   ],
+   "image": {
+    "id": 7000000583,
+    "product_id": 7000000327,
+    "position": 1,
+    "src": "/products/catappa-leaves-indian-almond/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Dried Indian almond leaves — the blackwater classic. As a leaf breaks down it releases tannins that tint the w",
+    "variant_ids": [
+     7500000189
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000583"
+   }
+  },
+  {
+   "id": 7000000328,
+   "handle": "crystal-quartz-gravel",
+   "title": "Crystal Quartz Gravel — Natural Stone Chips",
+   "body_html": "<p>Bags of natural crystal quartz chips — white and translucent stone for accent lines in aquascapes, top dressing on potted plants, or bright contrast patches against dark sand.</p>\n<ul>\n<li><strong>100 g resealable bag.</strong> Enough for accent lines and highlights, not full substrate.</li>\n<li><strong>Inert stone.</strong> Quartz won't swing pH or hardness — safe in any freshwater tank.</li>\n<li><strong>Rinse and place.</strong> Rinse to remove dust, then place with tweezers exactly where the eye should go.</li>\n<li><strong>Not just aquariums.</strong> Also used in terrariums, succulent pots and fairy gardens.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "hardscape",
+   "status": "active",
+   "tags": "quartz gravel, crystal stones, aquarium gravel, decor stones, 100g, fairy garden",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000328",
+   "options": [
+    {
+     "id": 7600000129,
+     "product_id": 7000000328,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000190,
+     "product_id": 7000000328,
+     "title": "Default",
+     "price": "6.95",
+     "compare_at_price": "8.95",
+     "sku": "AQL-CRYSQUAR-029",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 140,
+     "weight": 0.14,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000290,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000190",
+     "image_id": 7000000584
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000584,
+     "product_id": 7000000328,
+     "position": 1,
+     "src": "/products/crystal-quartz-gravel/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Bags of natural crystal quartz chips — white and translucent stone for accent lines in aquascapes, top dressin",
+     "variant_ids": [
+      7500000190
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000584"
+    }
+   ],
+   "image": {
+    "id": 7000000584,
+    "product_id": 7000000328,
+    "position": 1,
+    "src": "/products/crystal-quartz-gravel/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Bags of natural crystal quartz chips — white and translucent stone for accent lines in aquascapes, top dressin",
+    "variant_ids": [
+     7500000190
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000584"
+   }
+  },
+  {
+   "id": 7000000329,
+   "handle": "betta-leaf-hammock",
+   "title": "Betta Leaf Hammock — Suction Mount",
+   "body_html": "<p>A silk leaf that suction-mounts near the surface — the classic betta resting spot. Bettas sleep on it, spawn under it, and patrol from it. If your betta naps on the filter intake, this is the upgrade.</p>\n<ul>\n<li><strong>Near-surface rest.</strong> Bettas are top dwellers; the hammock gives them a natural place to lounge.</li>\n<li><strong>Spawning anchor.</strong> Males build bubble nests under and around the leaf.</li>\n<li><strong>Soft silk, no sharp edges.</strong> Safe for veil tails and big fins.</li>\n<li><strong>Repositionable.</strong> Move it with the water level or the betta's preference.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "breeding",
+   "status": "active",
+   "tags": "betta hammock, leaf hammock, betta rest, betta decor, suction leaf, spawning site",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000329",
+   "options": [
+    {
+     "id": 7600000130,
+     "product_id": 7000000329,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000191,
+     "product_id": 7000000329,
+     "title": "Default",
+     "price": "7.95",
+     "compare_at_price": "9.95",
+     "sku": "AQL-BETTLEAF-030",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 60,
+     "weight": 0.06,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000291,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000191",
+     "image_id": 7000000585
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000585,
+     "product_id": 7000000329,
+     "position": 1,
+     "src": "/products/betta-leaf-hammock/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A silk leaf that suction-mounts near the surface — the classic betta resting spot. Bettas sleep on it, spawn u",
+     "variant_ids": [
+      7500000191
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000585"
+    }
+   ],
+   "image": {
+    "id": 7000000585,
+    "product_id": 7000000329,
+    "position": 1,
+    "src": "/products/betta-leaf-hammock/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A silk leaf that suction-mounts near the surface — the classic betta resting spot. Bettas sleep on it, spawn u",
+    "variant_ids": [
+     7500000191
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000585"
+   }
+  },
+  {
+   "id": 7000000330,
+   "handle": "ceramic-breeding-cave",
+   "title": "Ceramic Breeding Cave & Spawn Site",
+   "body_html": "<p>A fired-ceramic cave that gives shy fish and shrimp a dark, defensible shelter — plecos lay inside it, cichlids claim it, shrimp colonies swarm it after moulting. Aquarium-safe ceramic with a natural matte finish.</p>\n<ul>\n<li><strong>Dark interior.</strong> Cave-spawners (bristlenose, Apistogramma, kribensis) need a covered site to spawn.</li>\n<li><strong>Shrimp safe house.</strong> Moulting shrimp hide here; the porous ceramic grows a grazeable biofilm.</li>\n<li><strong>Sinkable and stable.</strong> Weighs itself down — no floating, no tipping.</li>\n<li><strong>Neutral look.</strong> Matte brown ceramic disappears into naturalistic layouts.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "breeding",
+   "status": "active",
+   "tags": "breeding cave, spawning cone, ceramic cave, shrimp tube, pleco cave, cichlid shelter, hide",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000330",
+   "options": [
+    {
+     "id": 7600000131,
+     "product_id": 7000000330,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000192,
+     "product_id": 7000000330,
+     "title": "Default",
+     "price": "9.95",
+     "compare_at_price": "12.95",
+     "sku": "AQL-CERABREE-031",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 180,
+     "weight": 0.18,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000292,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000192",
+     "image_id": 7000000586
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000586,
+     "product_id": 7000000330,
+     "position": 1,
+     "src": "/products/ceramic-breeding-cave/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A fired-ceramic cave that gives shy fish and shrimp a dark, defensible shelter — plecos lay inside it, cichlid",
+     "variant_ids": [
+      7500000192
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000586"
+    }
+   ],
+   "image": {
+    "id": 7000000586,
+    "product_id": 7000000330,
+    "position": 1,
+    "src": "/products/ceramic-breeding-cave/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A fired-ceramic cave that gives shy fish and shrimp a dark, defensible shelter — plecos lay inside it, cichlid",
+    "variant_ids": [
+     7500000192
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000586"
+   }
+  },
+  {
+   "id": 7000000331,
+   "handle": "hob-waterfall-filter-3-stage",
+   "title": "Hang-On-Back Waterfall Filter — 3-Stage, 250 L/H",
+   "body_html": "<p>A compact hang-on-back filter for tanks up to about 80 litres — mechanical sponge, carbon and biological stages in a waterfall return. The simplest way to add real filtration to a tank that only has room for a rim mount.</p>\n<ul>\n<li><strong>Three stages.</strong> Sponge catches debris, carbon polishes, bio-media matures the cycle.</li>\n<li><strong>250 L/H turnover.</strong> Right in the sweet spot for 30-80 litre community tanks.</li>\n<li><strong>Ultra-quiet motor.</strong> The waterfall return does the work; the pump hums below conversation level.</li>\n<li><strong>Adjustable flow.</strong> Dial it down for bettas and slow-water fish.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "filtration",
+   "status": "active",
+   "tags": "hang on back filter, hob filter, waterfall filter, 3 stage filtration, small tank filter, 30-80L",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000331",
+   "options": [
+    {
+     "id": 7600000132,
+     "product_id": 7000000331,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000193,
+     "product_id": 7000000331,
+     "title": "Default",
+     "price": "16.95",
+     "compare_at_price": "21.95",
+     "sku": "AQL-HOBWATE-032",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 520,
+     "weight": 0.52,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000293,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000193",
+     "image_id": 7000000587
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000587,
+     "product_id": 7000000331,
+     "position": 1,
+     "src": "/products/hob-waterfall-filter-3-stage/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A compact hang-on-back filter for tanks up to about 80 litres — mechanical sponge, carbon and biological stage",
+     "variant_ids": [
+      7500000193
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000587"
+    }
+   ],
+   "image": {
+    "id": 7000000587,
+    "product_id": 7000000331,
+    "position": 1,
+    "src": "/products/hob-waterfall-filter-3-stage/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A compact hang-on-back filter for tanks up to about 80 litres — mechanical sponge, carbon and biological stage",
+    "variant_ids": [
+     7500000193
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000587"
+   }
+  },
+  {
+   "id": 7000000332,
+   "handle": "nano-hang-on-filter-usb",
+   "title": "Nano Hang-On Filter — USB Powered",
+   "body_html": "<p>A miniature hang-on filter that runs off USB power — built for nano tanks, shrimp cubes and desk setups where a full HOB would dwarf the tank. Low flow, big clarity for its size.</p>\n<ul>\n<li><strong>USB 5 V motor.</strong> Run it from a phone charger or power bank — 2.5 W draw.</li>\n<li><strong>Nano footprint.</strong> Sized for 10-40 litre tanks; hangs on rims a full HOB won't fit.</li>\n<li><strong>Gentle flow.</strong> Shrimp-safe current with a spray-bar style return.</li>\n<li><strong>Easy media access.</strong> Lift the cartridge tray, swap or rinse, done in a minute.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "filtration",
+   "status": "active",
+   "tags": "nano filter, usb filter, mini hob filter, shrimp tank filter, small tank, desk tank",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000332",
+   "options": [
+    {
+     "id": 7600000133,
+     "product_id": 7000000332,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000194,
+     "product_id": 7000000332,
+     "title": "Default",
+     "price": "17.95",
+     "compare_at_price": "22.95",
+     "sku": "AQL-NANOHANG-033",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 350,
+     "weight": 0.35,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000294,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000194",
+     "image_id": 7000000588
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000588,
+     "product_id": 7000000332,
+     "position": 1,
+     "src": "/products/nano-hang-on-filter-usb/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A miniature hang-on filter that runs off USB power — built for nano tanks, shrimp cubes and desk setups where ",
+     "variant_ids": [
+      7500000194
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000588"
+    }
+   ],
+   "image": {
+    "id": 7000000588,
+    "product_id": 7000000332,
+    "position": 1,
+    "src": "/products/nano-hang-on-filter-usb/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A miniature hang-on filter that runs off USB power — built for nano tanks, shrimp cubes and desk setups where ",
+    "variant_ids": [
+     7500000194
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000588"
+   }
+  },
+  {
+   "id": 7000000333,
+   "handle": "submersible-uv-sterilizer",
+   "title": "Submersible UV Sterilizer Lamp — 5–11 W",
+   "body_html": "<p>A submersible UV lamp that clarifies green water and knocks back suspended algae, bacteria and parasites in the water column. Drop it in, run it a few hours a day, and watch green fog water go glass again.</p>\n<ul>\n<li><strong>Clears green water.</strong> UV scrambles suspended algae that filters alone can't catch.</li>\n<li><strong>Water-column sanitiser.</strong> Reduces free-swimming pathogens during outbreaks.</li>\n<li><strong>Two sizes.</strong> 5 W for tanks to ~200 litres, 11 W for larger displays.</li>\n<li><strong>Use responsibly.</strong> Don't look directly at the lit tube, and replace the bulb yearly — UV output fades.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "filtration",
+   "status": "active",
+   "tags": "uv sterilizer, uv lamp, green water, algae control, water clarifier, submersible uv",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000333",
+   "options": [
+    {
+     "id": 7600000134,
+     "product_id": 7000000333,
+     "name": "Wattage",
+     "position": 1,
+     "values": [
+      "5 W — up to 200 L",
+      "11 W — up to 500 L"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000195,
+     "product_id": 7000000333,
+     "title": "5 W — up to 200 L",
+     "price": "21.95",
+     "compare_at_price": "27.95",
+     "sku": "AQL-SUBMUV-034-1",
+     "position": 1,
+     "option1": "5 W — up to 200 L",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 340,
+     "weight": 0.34,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000295,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000195",
+     "image_id": 7000000589
+    },
+    {
+     "id": 7500000196,
+     "product_id": 7000000333,
+     "title": "11 W — up to 500 L",
+     "price": "26.95",
+     "compare_at_price": "33.95",
+     "sku": "AQL-SUBMUV-035-2",
+     "position": 2,
+     "option1": "11 W — up to 500 L",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 400,
+     "weight": 0.4,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000296,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000196",
+     "image_id": 7000000589
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000589,
+     "product_id": 7000000333,
+     "position": 1,
+     "src": "/products/submersible-uv-sterilizer/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A submersible UV lamp that clarifies green water and knocks back suspended algae, bacteria and parasites in th",
+     "variant_ids": [
+      7500000195,
+      7500000196
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000589"
+    }
+   ],
+   "image": {
+    "id": 7000000589,
+    "product_id": 7000000333,
+    "position": 1,
+    "src": "/products/submersible-uv-sterilizer/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A submersible UV lamp that clarifies green water and knocks back suspended algae, bacteria and parasites in th",
+    "variant_ids": [
+     7500000195,
+     7500000196
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000589"
+   }
+  },
+  {
+   "id": 7000000334,
+   "handle": "double-sided-background-poster",
+   "title": "Double-Sided Aquarium Background Poster",
+   "body_html": "<p>A double-sided printed backdrop that hides wires, walls and reflections — one deep ocean scene, one lush planted scene. Tape it on, flip it if you redecorate, and the whole tank reads deeper instantly.</p>\n<ul>\n<li><strong>Two scenes in one.</strong> Reef on one side, dense plants on the other — flip for a free rescape.</li>\n<li><strong>Depth effect.</strong> A dark, busy background makes fish colours pop and calms skittish fish.</li>\n<li><strong>Waterproof print.</strong> Wipes clean; safe pressed against wet glass.</li>\n<li><strong>Cut to size.</strong> Trim to your tank's exact dimensions with scissors.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "hardscape",
+   "status": "active",
+   "tags": "aquarium background, background poster, fish tank backdrop, double sided background, decor",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000334",
+   "options": [
+    {
+     "id": 7600000135,
+     "product_id": 7000000334,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000197,
+     "product_id": 7000000334,
+     "title": "Default",
+     "price": "12.95",
+     "compare_at_price": "16.95",
+     "sku": "AQL-DOUBSIDE-036",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 120,
+     "weight": 0.12,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000297,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000197",
+     "image_id": 7000000590
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000590,
+     "product_id": 7000000334,
+     "position": 1,
+     "src": "/products/double-sided-background-poster/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A double-sided printed backdrop that hides wires, walls and reflections — one deep ocean scene, one lush plant",
+     "variant_ids": [
+      7500000197
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000590"
+    }
+   ],
+   "image": {
+    "id": 7000000590,
+    "product_id": 7000000334,
+    "position": 1,
+    "src": "/products/double-sided-background-poster/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A double-sided printed backdrop that hides wires, walls and reflections — one deep ocean scene, one lush plant",
+    "variant_ids": [
+     7500000197
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000590"
+   }
+  },
+  {
+   "id": 7000000335,
+   "handle": "dragon-stone-ohko-rock",
+   "title": "Dragon Stone — Natural Ohko Rock",
+   "body_html": "<p>The signature iwagumi rock — warm clay-brown Ohko stone with the pitted, scale-like texture that earned it the dragon name. Plant moss straight into its pockets and it becomes a living boulder.</p>\n<ul>\n<li><strong>Inert clay stone.</strong> Won't meaningfully shift pH or hardness — safe for shrimp and soft-water fish.</li>\n<li><strong>Plantable texture.</strong> The pits hold substrate and moss — Fissidens on dragon stone is a classic.</li>\n<li><strong>Three sizes.</strong> 250 g accents, 500 g small layouts, 1 kg feature stones.</li>\n<li><strong>Rinse before use.</strong> Dust from quarrying washes off in a colander — no soaking needed.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "hardscape",
+   "status": "active",
+   "tags": "dragon stone, ohko stone, aquascape rock, hardscape stone, aquarium rocks, iwagumi",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000335",
+   "options": [
+    {
+     "id": 7600000136,
+     "product_id": 7000000335,
+     "name": "Size",
+     "position": 1,
+     "values": [
+      "250 g — accents",
+      "500 g — small layout",
+      "1000 g — feature rocks"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000198,
+     "product_id": 7000000335,
+     "title": "250 g — accents",
+     "price": "9.95",
+     "compare_at_price": "12.95",
+     "sku": "AQL-DRAGSTON-037-1",
+     "position": 1,
+     "option1": "250 g — accents",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 300,
+     "weight": 0.3,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000298,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000198",
+     "image_id": 7000000591
+    },
+    {
+     "id": 7500000199,
+     "product_id": 7000000335,
+     "title": "500 g — small layout",
+     "price": "15.95",
+     "compare_at_price": "19.95",
+     "sku": "AQL-DRAGSTON-038-2",
+     "position": 2,
+     "option1": "500 g — small layout",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 560,
+     "weight": 0.56,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000299,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000199",
+     "image_id": 7000000591
+    },
+    {
+     "id": 7500000200,
+     "product_id": 7000000335,
+     "title": "1000 g — feature rocks",
+     "price": "26.95",
+     "compare_at_price": "32.95",
+     "sku": "AQL-DRAGSTON-039-3",
+     "position": 3,
+     "option1": "1000 g — feature rocks",
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 1080,
+     "weight": 1.08,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000300,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000200",
+     "image_id": 7000000591
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000591,
+     "product_id": 7000000335,
+     "position": 1,
+     "src": "/products/dragon-stone-ohko-rock/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "The signature iwagumi rock — warm clay-brown Ohko stone with the pitted, scale-like texture that earned it the",
+     "variant_ids": [
+      7500000198,
+      7500000199,
+      7500000200
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000591"
+    }
+   ],
+   "image": {
+    "id": 7000000591,
+    "product_id": 7000000335,
+    "position": 1,
+    "src": "/products/dragon-stone-ohko-rock/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "The signature iwagumi rock — warm clay-brown Ohko stone with the pitted, scale-like texture that earned it the",
+    "variant_ids": [
+     7500000198,
+     7500000199,
+     7500000200
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000591"
+   }
+  },
+  {
+   "id": 7000000336,
+   "handle": "natural-driftwood-branch",
+   "title": "Natural Sinkable Driftwood Branch",
+   "body_html": "<p>A natural driftwood branch for aquascapes — plant anubias or moss on the limbs, let shrimp graze the biofilm, and give the tank instant age. Sinks within a few days; boil or soak to speed it up.</p>\n<ul>\n<li><strong>Sinkable hardwood.</strong> Waterlogs within days — a small stone tied on top makes it immediate.</li>\n<li><strong>Attachment surfaces.</strong> Superglue gel or thread holds moss and rhizome plants right where you want them.</li>\n<li><strong>Tannins are a feature.</strong> Light amber tint and softened light are exactly what many fish prefer.</li>\n<li><strong>One piece, one-of-a-kind.</strong> Every branch differs in shape — that's the point.</li>\n</ul>",
+   "vendor": "Lush Aquarium",
+   "product_type": "hardscape",
+   "status": "active",
+   "tags": "driftwood, aquarium wood, sinkable wood, aquascape branch, spider wood, hardscape",
+   "created_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "template_suffix": null,
+   "published_scope": "web",
+   "admin_graphql_api_id": "gid://shopify/Product/7000000336",
+   "options": [
+    {
+     "id": 7600000137,
+     "product_id": 7000000336,
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 7500000201,
+     "product_id": 7000000336,
+     "title": "Default",
+     "price": "14.95",
+     "compare_at_price": "18.95",
+     "sku": "AQL-NATUDRIF-040",
+     "position": 1,
+     "option1": null,
+     "option2": null,
+     "option3": null,
+     "taxable": true,
+     "requires_shipping": true,
+     "inventory_quantity": 50,
+     "inventory_management": null,
+     "inventory_policy": "continue",
+     "fulfillment_service": "manual",
+     "grams": 450,
+     "weight": 0.45,
+     "weight_unit": "kg",
+     "barcode": null,
+     "inventory_item_id": 7500000301,
+     "old_inventory_quantity": 50,
+     "available": true,
+     "created_at": "2026-10-20T00:00:00+00:00",
+     "updated_at": "2026-10-20T00:00:00+00:00",
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000201",
+     "image_id": 7000000592
+    }
+   ],
+   "images": [
+    {
+     "id": 7000000592,
+     "product_id": 7000000336,
+     "position": 1,
+     "src": "/products/natural-driftwood-branch/01.jpg",
+     "width": 1200,
+     "height": 1200,
+     "alt": "A natural driftwood branch for aquascapes — plant anubias or moss on the limbs, let shrimp graze the biofilm, ",
+     "variant_ids": [
+      7500000201
+     ],
+     "admin_graphql_api_id": "gid://shopify/ProductImage/7000000592"
+    }
+   ],
+   "image": {
+    "id": 7000000592,
+    "product_id": 7000000336,
+    "position": 1,
+    "src": "/products/natural-driftwood-branch/01.jpg",
+    "width": 1200,
+    "height": 1200,
+    "alt": "A natural driftwood branch for aquascapes — plant anubias or moss on the limbs, let shrimp graze the biofilm, ",
+    "variant_ids": [
+     7500000201
+    ],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/7000000592"
+   }
   }
  ]
 }

@@ -69,6 +69,10 @@ export const COLLECTIONS = [
   },
   { handle: "hardscape", title: "Substrate & Hardscape", short: "Hardscape" },
   { handle: "testing", title: "Aquarium Water Test Kits", short: "Testing" },
+  { handle: "food", title: "Fish Food & Treats", short: "Food" },
+  { handle: "water-care", title: "Water Care & Plant Nutrition", short: "Water Care" },
+  { handle: "breeding", title: "Breeding & Shrimp", short: "Breeding" },
+  { handle: "heating", title: "Heating & Temperature", short: "Heating" },
 ] as const;
 
 export const COLLECTION_IMAGE: Record<string, string> = {
@@ -78,6 +82,10 @@ export const COLLECTION_IMAGE: Record<string, string> = {
   filtration: "/brand/cat-filtration.jpg",
   hardscape: "/brand/cat-hardscape.jpg",
   testing: "/brand/cat-testing.jpg",
+  food: "/brand/cat-food.jpg",
+  "water-care": "/brand/cat-water-care.jpg",
+  breeding: "/brand/cat-breeding.jpg",
+  heating: "/brand/cat-heating.jpg",
 };
 
 // Guides drive the SEO layer. Metadata only until the articles ship.

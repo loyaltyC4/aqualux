@@ -1,64 +1,92 @@
 {
-  "collections": [
-    {
-      "id": 800000,
-      "handle": "lighting",
-      "title": "Planted Aquarium Lighting",
-      "body_html": "<p>Full-spectrum LED aquarium lights, planted tank LED bars, nano grow lights and timer controllers. Chosen on PAR and spectrum, not marketing.</p>",
-      "updated_at": "2026-08-01T00:00:00+00:00",
-      "published_at": "2026-08-01T00:00:00+00:00",
-      "sort_order": "manual",
-      "published_scope": "web"
-    },
-    {
-      "id": 800001,
-      "handle": "co2",
-      "title": "Aquarium CO2 Systems",
-      "body_html": "<p>Aquarium CO2 regulators, dual-gauge solenoid regulators, inline diffusers, drop checkers and bubble counters. Everything for planted-tank CO2 injection except the gas cylinder.</p>",
-      "updated_at": "2026-08-01T00:00:00+00:00",
-      "published_at": "2026-08-01T00:00:00+00:00",
-      "sort_order": "manual",
-      "published_scope": "web"
-    },
-    {
-      "id": 800002,
-      "handle": "tools",
-      "title": "Aquascaping Tools & Equipment",
-      "body_html": "<p>Aquascaping tools, tank maintenance gear and equipment: stainless tweezers and scissors, magnetic glass cleaners, gravel cleaners and programmable feeders.</p>",
-      "updated_at": "2026-08-01T00:00:00+00:00",
-      "published_at": "2026-08-01T00:00:00+00:00",
-      "sort_order": "manual",
-      "published_scope": "web"
-    },
-    {
-      "id": 800003,
-      "handle": "hardscape",
-      "title": "Aquarium Substrate & Hardscape",
-      "body_html": "<p>Active aqua soil substrate for planted tanks, fine white aquarium sand, seiryu stone hardscape and spider wood driftwood.</p>",
-      "updated_at": "2026-08-01T00:00:00+00:00",
-      "published_at": "2026-08-01T00:00:00+00:00",
-      "sort_order": "manual",
-      "published_scope": "web"
-    },
-    {
-      "id": 800004,
-      "handle": "testing",
-      "title": "Aquarium Water Test Kits",
-      "body_html": "<p>Freshwater aquarium water test kits: liquid master reagent kits, 8-in-1 test strips and digital pH / TDS meters. The three parameters that actually kill fish: ammonia, nitrite, pH.</p>",
-      "updated_at": "2026-08-01T00:00:00+00:00",
-      "published_at": "2026-08-01T00:00:00+00:00",
-      "sort_order": "manual",
-      "published_scope": "web"
-    },
-    {
-      "id": 800005,
-      "handle": "filtration",
-      "title": "Filtration & Air",
-      "body_html": "<p>Sponge filters, filter media, air stones, airline and the fittings that hold it all together. Air-driven and passive gear for planted, shrimp and breeding tanks.</p>",
-      "updated_at": "2026-08-01T00:00:00+00:00",
-      "published_at": "2026-08-01T00:00:00+00:00",
-      "sort_order": "manual",
-      "published_scope": "web"
-    }
-  ]
+ "collections": [
+  {
+   "id": 800000,
+   "handle": "lighting",
+   "title": "Planted Aquarium Lighting",
+   "body_html": "<p>Full-spectrum LED aquarium lights, planted tank LED bars, nano grow lights and timer controllers. Chosen on PAR and spectrum, not marketing.</p>",
+   "updated_at": "2026-08-01T00:00:00+00:00",
+   "published_at": "2026-08-01T00:00:00+00:00",
+   "sort_order": "manual",
+   "published_scope": "web"
+  },
+  {
+   "id": 800001,
+   "handle": "co2",
+   "title": "Aquarium CO2 Systems",
+   "body_html": "<p>Aquarium CO2 regulators, dual-gauge solenoid regulators, inline diffusers, drop checkers and bubble counters. Everything for planted-tank CO2 injection except the gas cylinder.</p>",
+   "updated_at": "2026-08-01T00:00:00+00:00",
+   "published_at": "2026-08-01T00:00:00+00:00",
+   "sort_order": "manual",
+   "published_scope": "web"
+  },
+  {
+   "id": 800002,
+   "handle": "tools",
+   "title": "Aquascaping Tools & Equipment",
+   "body_html": "<p>Aquascaping tools, tank maintenance gear and equipment: stainless tweezers and scissors, magnetic glass cleaners, gravel cleaners and programmable feeders.</p>",
+   "updated_at": "2026-08-01T00:00:00+00:00",
+   "published_at": "2026-08-01T00:00:00+00:00",
+   "sort_order": "manual",
+   "published_scope": "web"
+  },
+  {
+   "id": 800003,
+   "handle": "hardscape",
+   "title": "Aquarium Substrate & Hardscape",
+   "body_html": "<p>Active aqua soil substrate for planted tanks, fine white aquarium sand, seiryu stone hardscape and spider wood driftwood.</p>",
+   "updated_at": "2026-08-01T00:00:00+00:00",
+   "published_at": "2026-08-01T00:00:00+00:00",
+   "sort_order": "manual",
+   "published_scope": "web"
+  },
+  {
+   "id": 800004,
+   "handle": "testing",
+   "title": "Aquarium Water Test Kits",
+   "body_html": "<p>Freshwater aquarium water test kits: liquid master reagent kits, 8-in-1 test strips and digital pH / TDS meters. The three parameters that actually kill fish: ammonia, nitrite, pH.</p>",
+   "updated_at": "2026-08-01T00:00:00+00:00",
+   "published_at": "2026-08-01T00:00:00+00:00",
+   "sort_order": "manual",
+   "published_scope": "web"
+  },
+  {
+   "id": 800005,
+   "handle": "filtration",
+   "title": "Filtration & Air",
+   "body_html": "<p>Sponge filters, filter media, air stones, airline and the fittings that hold it all together. Air-driven and passive gear for planted, shrimp and breeding tanks.</p>",
+   "updated_at": "2026-08-01T00:00:00+00:00",
+   "published_at": "2026-08-01T00:00:00+00:00",
+   "sort_order": "manual",
+   "published_scope": "web"
+  },
+  {
+   "handle": "food",
+   "title": "Fish Food & Treats",
+   "description": "",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "handle": "water-care",
+   "title": "Water Care & Plant Nutrition",
+   "description": "",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "handle": "breeding",
+   "title": "Breeding & Shrimp",
+   "description": "",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "handle": "heating",
+   "title": "Heating & Temperature",
+   "description": "",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "updated_at": "2026-10-20T00:00:00+00:00"
+  }
+ ]
 }
