@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "co2-for-beginners-planted-tank",
+      "title": "CO2 for Beginners: Simple Planted‑Tank Setup",
+      "description": "Get the cheapest reliable CO2 kit for a starter planted tank, with exact costs, parts list, and step‑by‑step setup instructions.",
+      "publishedAt": "2026-10-20",
+      "readingMinutes": 5,
+      "image": "/guides/co2-for-beginners-planted-tank.jpg",
+      "faq": [
+        {
+          "q": "Do I need a pressurised CO2 cylinder for a beginner tank?",
+          "a": "A small pressurised cylinder with a regulator is the most reliable start; DIY generators are optional and less consistent."
+        },
+        {
+          "q": "How often should I check my CO2 levels?",
+          "a": "Check the drop checker daily and adjust the regulator weekly or after major water changes."
+        },
+        {
+          "q": "Can I use airline tubing for CO2?",
+          "a": "Yes, standard 3/16\" PVC airline tubing works fine for low‑flow setups."
+        },
+        {
+          "q": "Is a solenoid valve necessary?",
+          "a": "It lets you run CO2 on a timer, preventing waste and protecting fish when lights are off."
+        }
+      ]
+    },
+    {
       "slug": "best-light-for-planted-tank",
       "title": "Best Light for Planted Tank: A Guide to Strong Plant Growth",
       "description": "Find the best light for your planted aquarium. Learn about PAR, spectrum, and intensity to grow thriving plants without algae. Get honest recommendations.",
