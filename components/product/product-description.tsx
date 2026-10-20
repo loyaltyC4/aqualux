@@ -59,6 +59,11 @@ export function ProductDescription({ product }: { product: Product }) {
         <VariantSelector
           options={product.options}
           variants={product.variants}
+          variantImageIndex={Object.fromEntries(
+            product.images.flatMap((img, i) =>
+              (img.variantIds ?? []).map((vid) => [vid, i] as const),
+            ),
+          )}
         />
       </div>
 

@@ -450,7 +450,11 @@
      "width": 1200,
      "height": 1200,
      "alt": "Aurora 48 Planted Tank LED Bar",
-     "variant_ids": []
+     "variant_ids": [
+      7500000001,
+      7500000002,
+      7500000003
+     ]
     }
    ],
    "image": {
@@ -683,7 +687,12 @@
      "width": 1200,
      "height": 1200,
      "alt": "Clip-On Nano Grow Light",
-     "variant_ids": []
+     "variant_ids": [
+      7500000004,
+      7500000005,
+      7500000006,
+      7500000007
+     ]
     },
     {
      "id": 9713593,
@@ -845,7 +854,11 @@
      "width": 1200,
      "height": 1200,
      "alt": "Aurora Pro RGB — Bluetooth, IP68",
-     "variant_ids": []
+     "variant_ids": [
+      7500000008,
+      7500000009,
+      7500000010
+     ]
     }
    ],
    "image": {
@@ -956,7 +969,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000007",
-     "image_id": 9727876
+     "image_id": 9727877
     },
     {
      "id": 7500000012,
@@ -984,7 +997,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000007",
-     "image_id": 9727876
+     "image_id": 9727878
     },
     {
      "id": 7500000013,
@@ -1012,7 +1025,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000007",
-     "image_id": 9727876
+     "image_id": 9727878
     }
    ],
    "images": [
@@ -1034,7 +1047,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Aquascaping Tool Set - 5 Piece — view 2",
-     "variant_ids": []
+     "variant_ids": [
+      7500000011
+     ]
     },
     {
      "id": 9727878,
@@ -1044,7 +1059,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "Aquascaping Tool Set - 5 Piece — view 3",
-     "variant_ids": []
+     "variant_ids": [
+      7500000012,
+      7500000013
+     ]
     }
    ],
    "image": {
@@ -1173,7 +1191,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "Long-Reach Tweezers — 30 cm",
-     "variant_ids": []
+     "variant_ids": [
+      7500000014,
+      7500000015
+     ]
     },
     {
      "id": 9798688,
@@ -1352,7 +1373,11 @@
      "width": 1200,
      "height": 1200,
      "alt": "Curved Spring Scissors — 25 cm",
-     "variant_ids": []
+     "variant_ids": [
+      7500000016,
+      7500000017,
+      7500000018
+     ]
     },
     {
      "id": 9756892,
@@ -1544,7 +1569,12 @@
      "width": 1200,
      "height": 1200,
      "alt": "Magnetic Glass Cleaner - Float",
-     "variant_ids": []
+     "variant_ids": [
+      7500000019,
+      7500000020,
+      7500000021,
+      7500000022
+     ]
     }
    ],
    "image": {
@@ -1629,7 +1659,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000011",
-     "image_id": 9731391
+     "image_id": 9731392
     },
     {
      "id": 7500000024,
@@ -1657,7 +1687,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000011",
-     "image_id": 9731391
+     "image_id": 9731392
     },
     {
      "id": 7500000025,
@@ -1685,7 +1715,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000011",
-     "image_id": 9731391
+     "image_id": 9731394
     }
    ],
    "images": [
@@ -1707,7 +1737,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "5-in-1 Tank Cleaning Set — view 2",
-     "variant_ids": []
+     "variant_ids": [
+      7500000023,
+      7500000024
+     ]
     },
     {
      "id": 9731393,
@@ -1727,7 +1760,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "5-in-1 Tank Cleaning Set — view 4",
-     "variant_ids": []
+     "variant_ids": [
+      7500000025
+     ]
     }
    ],
    "image": {
@@ -1864,7 +1899,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000012",
-     "image_id": 9766875
+     "image_id": 9766876
     },
     {
      "id": 7500000029,
@@ -1892,7 +1927,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000012",
-     "image_id": 9766875
+     "image_id": 9766876
     }
    ],
    "images": [
@@ -1904,7 +1939,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "DIY CO2 Generator Kit — 2 L Stainless",
-     "variant_ids": []
+     "variant_ids": [
+      7500000026,
+      7500000027
+     ]
     },
     {
      "id": 9766876,
@@ -1914,7 +1952,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "DIY CO2 Generator Kit — 2 L Stainless — view 2",
-     "variant_ids": []
+     "variant_ids": [
+      7500000028,
+      7500000029
+     ]
     }
    ],
    "image": {
@@ -2050,7 +2091,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000013",
-     "image_id": 9742812
+     "image_id": 9742814
     },
     {
      "id": 7500000032,
@@ -2078,7 +2119,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000013",
-     "image_id": 9742812
+     "image_id": 9742813
     }
    ],
    "images": [
@@ -2090,7 +2131,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Dual-Gauge Regulator + Solenoid",
-     "variant_ids": []
+     "variant_ids": [
+      7500000030
+     ]
     },
     {
      "id": 9742813,
@@ -2100,7 +2143,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Dual-Gauge Regulator + Solenoid — view 2",
-     "variant_ids": []
+     "variant_ids": [
+      7500000032
+     ]
     },
     {
      "id": 9742814,
@@ -2110,7 +2155,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Dual-Gauge Regulator + Solenoid — view 3",
-     "variant_ids": []
+     "variant_ids": [
+      7500000031
+     ]
     }
    ],
    "image": {
@@ -2340,7 +2387,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-     "image_id": 9708570
+     "image_id": 9708571
     },
     {
      "id": 7500000035,
@@ -2396,7 +2443,7 @@
      "created_at": "2026-08-01T00:00:00+00:00",
      "updated_at": "2026-08-01T00:00:00+00:00",
      "admin_graphql_api_id": "gid://shopify/ProductVariant/7200000015",
-     "image_id": 9708570
+     "image_id": 9708571
     }
    ],
    "images": [
@@ -2408,7 +2455,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "Glass Drop Checker + 4dKH Solution",
-     "variant_ids": []
+     "variant_ids": [
+      7500000033,
+      7500000035
+     ]
     },
     {
      "id": 9708571,
@@ -2418,7 +2468,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "Glass Drop Checker + 4dKH Solution — view 2",
-     "variant_ids": []
+     "variant_ids": [
+      7500000034,
+      7500000036
+     ]
     }
    ],
    "image": {
@@ -2541,7 +2594,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "Bubble Counter + Check Valve Set",
-     "variant_ids": []
+     "variant_ids": [
+      7500000037,
+      7500000038
+     ]
     }
    ],
    "image": {
@@ -2722,7 +2778,12 @@
      "width": 1200,
      "height": 1200,
      "alt": "Spider Wood - Centrepiece Set",
-     "variant_ids": []
+     "variant_ids": [
+      7500000041,
+      7500000042,
+      7500000043,
+      7500000044
+     ]
     }
    ],
    "image": {
@@ -2881,7 +2942,11 @@
      "width": 1200,
      "height": 1200,
      "alt": "Digital pH Pen Meter",
-     "variant_ids": []
+     "variant_ids": [
+      7500000052,
+      7500000053,
+      7500000054
+     ]
     }
    ],
    "image": {
@@ -3023,7 +3088,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "8 in 1 aquarium test strips, 100-count bottle with colour chart",
-     "variant_ids": []
+     "variant_ids": [
+      7200000230,
+      7200000231
+     ]
     }
    ],
    "image": {
@@ -3865,7 +3933,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000326"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000326",
+     "image_id": 7000000426
     },
     {
      "id": 7000000327,
@@ -3888,7 +3957,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000327"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000327",
+     "image_id": 7000000426
     }
    ],
    "images": [
@@ -3900,7 +3970,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "Glass lily pipe set, inflow with slotted intake and curved outflow",
-     "variant_ids": []
+     "variant_ids": [
+      7000000326,
+      7000000327
+     ]
     }
    ],
    "image": {
@@ -3999,7 +4072,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000327"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000327",
+     "image_id": 7000000427
     },
     {
      "id": 7000000328,
@@ -4022,7 +4096,8 @@
      "weight_unit": "kg",
      "created_at": "2026-08-07T00:00:00+00:00",
      "updated_at": "2026-08-07T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000328"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7000000328",
+     "image_id": 7000000427
     }
    ],
    "images": [
@@ -4034,7 +4109,10 @@
      "width": 1200,
      "height": 1200,
      "alt": "Stainless steel lily pipe set, inflow and outflow with clamps",
-     "variant_ids": []
+     "variant_ids": [
+      7000000327,
+      7000000328
+     ]
     }
    ],
    "image": {
@@ -7911,7 +7989,8 @@
      "available": true,
      "created_at": "2026-10-20T00:00:00+00:00",
      "updated_at": "2026-10-20T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000140"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000140",
+     "image_id": 7000000540
     },
     {
      "id": 7500000141,
@@ -7939,7 +8018,8 @@
      "available": true,
      "created_at": "2026-10-20T00:00:00+00:00",
      "updated_at": "2026-10-20T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000141"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000141",
+     "image_id": 7000000541
     },
     {
      "id": 7500000142,
@@ -7967,7 +8047,8 @@
      "available": true,
      "created_at": "2026-10-20T00:00:00+00:00",
      "updated_at": "2026-10-20T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000142"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000142",
+     "image_id": 7000000542
     }
    ],
    "images": [
@@ -7979,7 +8060,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Aquarium with a 3D rock cave background installed showing depth",
-     "variant_ids": [],
+     "variant_ids": [
+      7500000140
+     ],
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000540"
     },
     {
@@ -7990,7 +8073,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Aquarium with a rainforest 3D background print",
-     "variant_ids": [],
+     "variant_ids": [
+      7500000141
+     ],
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000541"
     },
     {
@@ -8001,7 +8086,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "Aquarium with a coral reef 3D background print",
-     "variant_ids": [],
+     "variant_ids": [
+      7500000142
+     ],
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000542"
     }
    ]
@@ -8152,7 +8239,8 @@
      "available": true,
      "created_at": "2026-10-20T00:00:00+00:00",
      "updated_at": "2026-10-20T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000160"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000160",
+     "image_id": 7000000561
     },
     {
      "id": 7500000161,
@@ -8180,7 +8268,8 @@
      "available": true,
      "created_at": "2026-10-20T00:00:00+00:00",
      "updated_at": "2026-10-20T00:00:00+00:00",
-     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000161"
+     "admin_graphql_api_id": "gid://shopify/ProductVariant/7500000161",
+     "image_id": 7000000562
     }
    ],
    "images": [
@@ -8203,7 +8292,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "White divider grid sheets with 30x15 and 30x30 centimetre size labels",
-     "variant_ids": [],
+     "variant_ids": [
+      7500000160
+     ],
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000561"
     },
     {
@@ -8214,7 +8305,9 @@
      "width": 1200,
      "height": 1200,
      "alt": "White aquarium divider grid sheet close up",
-     "variant_ids": [],
+     "variant_ids": [
+      7500000161
+     ],
      "admin_graphql_api_id": "gid://shopify/ProductImage/7000000562"
     }
    ]

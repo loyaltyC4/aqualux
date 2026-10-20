@@ -45,6 +45,8 @@ export type Image = {
   altText: string;
   width: number;
   height: number;
+  /** Variant gids this image represents; empty for shared/gallery-only shots. */
+  variantIds?: string[];
 };
 
 export type Menu = {

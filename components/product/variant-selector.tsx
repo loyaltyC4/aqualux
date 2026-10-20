@@ -13,9 +13,12 @@ type Combination = {
 export function VariantSelector({
   options,
   variants,
+  variantImageIndex,
 }: {
   options: ProductOption[];
   variants: ProductVariant[];
+  /** Variant gid → index into the product-page gallery images. */
+  variantImageIndex?: Record<string, number>;
 }) {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -42,6 +45,31 @@ export function VariantSelector({
   const updateOption = (name: string, value: string) => {
     const params = new URLSearchParams(searchParams.toString());
     params.set(name, value);
+
+    // Jump the gallery to the photo that represents the newly selected
+    // variant. Resolve the variant the same way availability is resolved
+    // below: current query params plus this change, matched against every
+    // variant's selected options.
+    if (variantImageIndex && Object.keys(variantImageIndex).length > 0) {
+      const optionParams: Record<string, string> = {};
+      searchParams.forEach((v, k) => {
+        optionParams[k] = v;
+      });
+      optionParams[name.toLowerCase()] = value;
+
+      // A variant is selected when each of its options matches the current
+      // query params (with this update applied).
+      const selected = variants.find((variant) =>
+        variant.selectedOptions.every(
+          (o) => optionParams[o.name.toLowerCase()] === o.value,
+        ),
+      );
+      const imgIdx = selected ? variantImageIndex[selected.id] : undefined;
+      if (imgIdx !== undefined) {
+        params.set("image", String(imgIdx));
+      }
+    }
+
     router.replace(`?${params.toString()}`, { scroll: false });
   };
 

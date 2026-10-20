@@ -124,6 +124,11 @@ function restProductToProduct(p: any): Product {
     altText: (img.alt as string) || (p.title as string),
     width: (img.width as number) ?? 800,
     height: (img.height as number) ?? 800,
+    // gid-normalised so components can match images against variant ids
+    // without knowing the raw catalogue id space.
+    variantIds: ((img.variant_ids as (string | number)[] | undefined) ?? []).map(
+      (vid) => `gid://shopify/ProductVariant/${vid}`,
+    ),
   }));
 
   const variants = (p.variants ?? []).map((v: any) => {
