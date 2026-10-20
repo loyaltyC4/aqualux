@@ -1,8 +1,8 @@
 import { FREE_SHIPPING_THRESHOLD } from "lib/brand";
 import { deliveryWindow, zoneById } from "lib/shipping";
 import { AddToCart } from "components/cart/add-to-cart";
-import Price from "components/price";
 import { Product } from "lib/shopify/types";
+import { VariantPrice } from "./variant-price";
 import { VariantSelector } from "./variant-selector";
 
 export function ProductDescription({ product }: { product: Product }) {
@@ -10,43 +10,15 @@ export function ProductDescription({ product }: { product: Product }) {
     ? product.description.split(". ").slice(0, 2).join(". ")
     : "";
 
-  const cur = parseFloat(product.priceRange.minVariantPrice.amount);
-  const was = parseFloat(product.variants[0]?.compareAtPrice ?? "0");
-  const savePct = was > cur ? Math.round((1 - cur / was) * 100) : 0;
   const win = deliveryWindow(zoneById("NA"));
 
   return (
     <div className="flex flex-col">
-      <div className="mt-4 flex flex-wrap items-center gap-3">
-        <span className="rounded-full bg-[#2f6a37] px-4 py-1.5 text-lg font-semibold text-white">
-          <Price
-            amount={product.priceRange.minVariantPrice.amount}
-            currencyCode={product.priceRange.minVariantPrice.currencyCode}
-          />
-        </span>
-        {savePct >= 5 ? (
-          <>
-            <span className="text-base text-neutral-400 line-through">
-              <Price
-                amount={String(was)}
-                currencyCode={product.priceRange.minVariantPrice.currencyCode}
-              />
-            </span>
-            <span className="rounded-full bg-[#f1e6c8] px-2.5 py-1 text-xs font-semibold text-[#5a4410]">
-              Save {savePct}%
-            </span>
-          </>
-        ) : null}
-        {product.availableForSale ? (
-          /* Stock state only. This previously read "ships 1-2 days", which was
-             not achievable on the current fulfilment route and sat next to the
-             price where it reads as a delivery promise. Delivery timings live
-             on /shipping-returns so there is one place to keep them true. */
-          <span className="text-sm text-neutral-600">In stock</span>
-        ) : (
-          <span className="text-sm text-red-400">Currently out of stock</span>
-        )}
-      </div>
+      {/* Variant-aware price badge: the static priceRange badge always showed
+          the cheapest variant, so picking a 300 W heater still displayed the
+          25 W price. VariantPrice resolves the selected variant the same way
+          AddToCart does and re-renders on option change. */}
+      <VariantPrice product={product} />
 
       {summary ? (
         <p className="mt-5 text-sm leading-relaxed text-neutral-700">
