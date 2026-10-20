@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const g = GUIDES_META.find((x) => x.slug === slug);
   if (!g) return {};
   return {
-    title: `${g.title} | Lush Aquarium`,
+    title: g.title,
     description: g.description,
     alternates: { canonical: `/guides/${g.slug}` },
     openGraph: {
