@@ -87,6 +87,30 @@ export async function POST(req: NextRequest) {
   }
 
   const items = extractItems(session.line_items);
+  // Stripe-confirmed purchase to PostHog (the browser can miss the success page).
+  try {
+    const phKey = process.env.NEXT_PUBLIC_POSTHOG_KEY;
+    if (phKey && items.length > 0) {
+      const email = session.customer_details?.email || null;
+      await fetch("https://us.i.posthog.com/capture/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          api_key: phKey,
+          event: "purchase",
+          distinct_id: email || `stripe_${session.id}`,
+          properties: {
+            value: (session.amount_total ?? 0) / 100,
+            currency: (session.currency || "usd").toUpperCase(),
+            order_id: session.id,
+            source: "stripe_webhook",
+            site: "lushaquarium",
+            item_count: items.length,
+          },
+        }),
+      }).catch(() => {});
+    }
+  } catch {}
   const shippingAddress =
     (session as any).shipping_details?.address ??
     (session as any).collected_information?.shipping_details?.address ??
