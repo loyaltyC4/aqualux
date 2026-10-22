@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "aquascaping-tools-set-guide",
+      "title": "Aquascaping Tool Sets: What You Actually Need",
+      "description": "Don't waste money on useless aquarium tools. Learn which aquascaping tools are essential, what to skip, and how to get started without breaking the bank.",
+      "publishedAt": "2026-10-22",
+      "readingMinutes": 7,
+      "image": "/guides/aquascaping-tools-set-guide.jpg",
+      "faq": [
+        {
+          "q": "Do I need a full aquascaping tool set?",
+          "a": "No, you do not. A basic set of tweezers and scissors is often enough for a beginner. Many full sets contain tools you might rarely use."
+        },
+        {
+          "q": "What is the most important aquascaping tool?",
+          "a": "Long-reach tweezers are arguably the most important. They let you plant delicate stems and retrieve small items without getting your hands wet, especially in deeper tanks."
+        },
+        {
+          "q": "How do I clean my aquascaping tools?",
+          "a": "Rinse them with fresh water after each use and dry them thoroughly. Store them in a dry place to prevent mineral buildup and corrosion, even for stainless steel."
+        },
+        {
+          "q": "Are expensive aquascaping tools worth it?",
+          "a": "Not always. The quality of stainless steel varies, but even budget-friendly options can last if cared for properly. Focus on functionality and material, not just brand."
+        }
+      ]
+    },
+    {
       "slug": "cheapest-aquarium-lights-worth-buying",
       "title": "Cheapest Aquarium Lights: What's Worth Buying?",
       "description": "Don't waste money on bad aquarium lights. Learn what the cheapest good lights are for planted tanks and viewing, and which ones to skip.",
