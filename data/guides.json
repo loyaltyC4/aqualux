@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "best-cheap-co2-system-planted-aquariums",
+      "title": "Best Cheap CO2 System for Planted Aquariums",
+      "description": "Find the most affordable CO2 setup that keeps your plants thriving without breaking the bank.",
+      "publishedAt": "2026-10-22",
+      "readingMinutes": 4,
+      "image": "/guides/best-cheap-co2-system-planted-aquariums.jpg",
+      "faq": [
+        {
+          "q": "What is the cheapest way to get CO2 into a planted tank?",
+          "a": "A DIY generator kit paired with a basic regulator and diffuser costs less than a full starter kit and delivers reliable bubbles."
+        },
+        {
+          "q": "Do I need a solenoid valve for a cheap system?",
+          "a": "A solenoid lets you automate on‑off cycles. It adds a modest cost but saves gas and prevents over‑dosing."
+        },
+        {
+          "q": "How can I check my CO2 level without expensive equipment?",
+          "a": "A glass drop checker with a 4dKH solution gives a visual cue of saturation. It’s included in many starter bundles."
+        },
+        {
+          "q": "Is a pressurised cylinder worth the extra expense?",
+          "a": "Cylinders provide steady output and are easy to refill, but the initial outlay is higher than a chemical generator."
+        }
+      ]
+    },
+    {
       "slug": "cheapest-aquarium-lights-worth-buying",
       "title": "Cheapest Aquarium Lights: What's Worth Buying?",
       "description": "Don't waste money on bad aquarium lights. Learn what the cheapest good lights are for planted tanks and viewing, and which ones to skip.",
