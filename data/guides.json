@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "aquarium-carpet-plants-without-co2",
+      "title": "Aquarium Carpet Plants Without CO2: The Truth",
+      "description": "Want a lush planted tank carpet without CO2 injection? It's possible, but demanding. Learn which plants work and what you need for success.",
+      "publishedAt": "2026-10-23",
+      "readingMinutes": 6,
+      "image": "/guides/aquarium-carpet-plants-without-co2.jpg",
+      "faq": [
+        {
+          "q": "Can I really grow a carpet without CO2?",
+          "a": "Yes, but you must manage your expectations. Growth will be slower, the plant selection is limited, and a dense, 'golf-course' style carpet is extremely challenging without CO2."
+        },
+        {
+          "q": "What are the easiest carpet plants for a low-tech tank?",
+          "a": "Dwarf Sagittaria and Marsilea hirsuta are among the more forgiving options for carpeting without injected CO2, though they still require patience and good conditions."
+        },
+        {
+          "q": "Do I need special substrate or fertilizer for a non-CO2 carpet?",
+          "a": "Yes, a nutrient-rich substrate is vital, as are root tabs for heavy root feeders. Liquid fertilizers are also necessary to supply nutrients in the water column."
+        },
+        {
+          "q": "How much light do I need for a carpet without CO2?",
+          "a": "Moderate to high light is typically required to encourage carpeting growth, but this increases the risk of algae without CO2 to balance it. It's a tricky balance to strike."
+        }
+      ]
+    },
+    {
       "slug": "best-fish-tank-substrate-for-plants",
       "title": "Best Fish Tank Substrate for Plants – What Actually Works",
       "description": "Find the substrate that fuels plant growth, stabilizes roots and looks great—no wasted cash.",
