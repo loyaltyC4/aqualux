@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "best-fish-tank-substrate-for-plants",
+      "title": "Best Fish Tank Substrate for Plants – What Actually Works",
+      "description": "Find the substrate that fuels plant growth, stabilizes roots and looks great—no wasted cash.",
+      "publishedAt": "2026-10-23",
+      "readingMinutes": 4,
+      "image": "/guides/best-fish-tank-substrate-for-plants.jpg",
+      "faq": [
+        {
+          "q": "Can I use plain aquarium gravel for a planted tank?",
+          "a": "Plain gravel will hold plants, but it lacks the nutrients and water‑holding capacity that most plants need for vigorous growth."
+        },
+        {
+          "q": "How deep should the substrate be for most plant layouts?",
+          "a": "A few inches of nutrient‑rich medium gives roots room to spread while keeping the tank stable."
+        },
+        {
+          "q": "Is it worth buying a pre‑mixed plant substrate?",
+          "a": "Pre‑mixed substrates save time and provide a balanced nutrient profile, but a DIY mix can be cheaper if you source the components yourself."
+        },
+        {
+          "q": "Will a sand substrate cause cloudiness?",
+          "a": "Fine sand can stay suspended if disturbed, but once settled it offers a smooth surface that many leaf‑type plants appreciate."
+        }
+      ]
+    },
+    {
       "slug": "aquascaping-tools-set-guide",
       "title": "Aquascaping Tool Sets: What You Actually Need",
       "description": "Don't waste money on useless aquarium tools. Learn which aquascaping tools are essential, what to skip, and how to get started without breaking the bank.",
