@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "beginner-planted-aquarium-setup",
+      "title": "Setting Up Your First Planted Aquarium",
+      "description": "Learn how to set up a thriving planted aquarium for beginners. Avoid common mistakes and choose essential gear without overspending.",
+      "publishedAt": "2026-10-24",
+      "readingMinutes": 6,
+      "image": "/guides/beginner-planted-aquarium-setup.jpg",
+      "faq": [
+        {
+          "q": "Do beginners need CO2 injection for a planted tank?",
+          "a": "No. Many beginner-friendly aquatic plants thrive without supplemental carbon dioxide. Focus on good lighting and substrate first."
+        },
+        {
+          "q": "What is the most crucial piece of equipment for a planted tank?",
+          "a": "Lighting is non-negotiable. It drives plant growth, so invest in a light designed for plants."
+        },
+        {
+          "q": "Can I use regular aquarium gravel for a planted tank?",
+          "a": "While possible, it's not ideal. Nutrient-rich substrates or inert gravel with root tabs provide much better support for plant roots."
+        },
+        {
+          "q": "How often should I do water changes in a planted tank?",
+          "a": "Regular weekly water changes are typical. This removes waste and replenishes essential trace elements for plants."
+        }
+      ]
+    },
+    {
       "slug": "how-to-start-a-fish-tank-for-the-first-time",
       "title": "Your Blunt Guide to Starting a Fish Tank",
       "description": "Set up your first planted freshwater aquarium. Avoid common mistakes and wasted money with this blunt, step-by-step guide.",
