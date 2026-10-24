@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "how-to-start-a-fish-tank-for-the-first-time",
+      "title": "Your Blunt Guide to Starting a Fish Tank",
+      "description": "Set up your first planted freshwater aquarium. Avoid common mistakes and wasted money with this blunt, step-by-step guide.",
+      "publishedAt": "2026-10-24",
+      "readingMinutes": 7,
+      "image": "/guides/how-to-start-a-fish-tank-for-the-first-time.jpg",
+      "faq": [
+        {
+          "q": "How long does it take to set up a new fish tank?",
+          "a": "Physical setup is fast. Cycling your tank takes weeks before you can add fish safely."
+        },
+        {
+          "q": "Do I need CO2 for my first planted tank?",
+          "a": "No. Start simple with hardy plants that thrive without injected CO2."
+        },
+        {
+          "q": "What's the most important step for a new tank?",
+          "a": "Cycling the tank is non-negotiable. It builds the beneficial bacteria needed to process fish waste."
+        },
+        {
+          "q": "Can I add fish right away?",
+          "a": "Never. Adding fish to an uncycled tank leads to suffering and death. Wait until your tank is fully cycled."
+        }
+      ]
+    },
+    {
       "slug": "aquarium-carpet-plants-without-co2",
       "title": "Aquarium Carpet Plants Without CO2: The Truth",
       "description": "Want a lush planted tank carpet without CO2 injection? It's possible, but demanding. Learn which plants work and what you need for success.",
