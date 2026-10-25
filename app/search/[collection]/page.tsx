@@ -7,7 +7,7 @@ import Grid from "components/grid";
 import ProductGridItems from "components/layout/product-grid-items";
 import { FilterBar } from "components/layout/search/filter-bar";
 import { defaultSort, sorting } from "lib/constants";
-import { COLLECTION_IMAGE, COLLECTIONS, SITE_NAME } from "lib/brand";
+import { COLLECTIONS, SITE_NAME } from "lib/brand";
 import { COLLECTION_COPY } from "lib/collection-copy";
 import { baseUrl } from "lib/utils";
 import {
@@ -63,7 +63,10 @@ export default async function CategoryPage(props: {
   const products = applyFilters(unfiltered, filters);
   const copy = COLLECTION_COPY[params.collection];
 
-  const banner = COLLECTION_IMAGE[params.collection];
+  const banner =
+    [...unfiltered]
+      .filter((p) => p.featuredImage?.url)
+      .sort((x, y) => Number((y.specs?.length ?? 0) > 0) - Number((x.specs?.length ?? 0) > 0))[0] ?? null;
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -93,46 +96,33 @@ export default async function CategoryPage(props: {
       )}
 
       {collection && (
-        <div className="relative mb-8 overflow-hidden rounded-3xl border border-black/10">
-          {banner ? (
-            <>
-              <div className="relative h-40 w-full md:h-52">
-                <Image
-                  src={banner}
-                  alt={collection.title}
-                  fill
-                  sizes="100vw"
-                  className="object-cover"
-                  priority
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
-              </div>
-              <div className="absolute bottom-0 left-0 p-6 md:p-8">
-                <h1 className="text-2xl font-semibold text-white md:text-4xl">
-                  {collection.title}
-                </h1>
-                {collection.description ? (
-                  <p className="mt-1 max-w-xl text-sm text-neutral-200">
-                    {collection.description}
-                  </p>
-                ) : null}
-                <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-white/80">
-                  {products.length} products
-                </p>
-              </div>
-            </>
-          ) : (
-            <div className="p-6 md:p-8">
-              <h1 className="text-2xl font-semibold md:text-4xl">
-                {collection.title}
-              </h1>
-              {collection.description ? (
-                <p className="mt-1 max-w-xl text-sm text-neutral-600">
-                  {collection.description}
-                </p>
-              ) : null}
+        <div className="relative mb-8 grid items-center overflow-hidden rounded-[1.75rem] bg-[var(--aq-raised)] md:grid-cols-[1.2fr_0.8fr]">
+          <div className="p-6 md:p-10">
+            <h1 className="text-3xl font-semibold leading-tight tracking-tight md:text-5xl">
+              {collection.title}
+            </h1>
+            {collection.description ? (
+              <p className="mt-3 max-w-xl text-sm leading-relaxed text-[var(--aq-muted)] md:text-base">
+                {collection.description}
+              </p>
+            ) : null}
+            <p className="aq-spec mt-4 text-xs text-[var(--aq-muted)]">
+              {products.length} products
+            </p>
+          </div>
+          {/* A real product from this category, not a generated banner. */}
+          {banner?.featuredImage?.url ? (
+            <div className="relative hidden h-full min-h-[200px] md:block">
+              <Image
+                src={banner.featuredImage.url}
+                alt={banner.featuredImage.altText || banner.title}
+                fill
+                sizes="30vw"
+                priority
+                className="object-contain p-8 mix-blend-multiply"
+              />
             </div>
-          )}
+          ) : null}
         </div>
       )}
 

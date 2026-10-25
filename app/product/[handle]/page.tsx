@@ -177,9 +177,10 @@ export default async function ProductPage(props: {
           <span className="text-neutral-700">{product.title}</span>
         </nav>
 
-        <div className="flex flex-col gap-8 rounded-3xl border border-black/10 bg-[#ffffff] p-6 md:p-10 lg:flex-row lg:gap-12">
-          <div className="h-full w-full basis-full lg:basis-3/5">
-            <div className="rounded-2xl border border-black/10 bg-[#ffffff] p-4">
+        <div className="flex flex-col gap-8 rounded-[2rem] bg-white p-5 shadow-[0_30px_70px_-50px_rgba(15,29,24,0.35)] ring-1 ring-black/[0.06] md:p-10 lg:flex-row lg:gap-12">
+          <div className="h-full w-full basis-full lg:sticky lg:top-24 lg:self-start lg:basis-3/5">
+            {/* Studio tile: supplier photos sit on one pale-moss panel so the catalogue reads as a single set. */}
+            <div className="rounded-[1.5rem] bg-[var(--aq-raised)] p-3 md:p-5 [&_img]:mix-blend-multiply">
               <Suspense
                 fallback={
                   <div className="relative aspect-square h-full max-h-[550px] w-full overflow-hidden" />
