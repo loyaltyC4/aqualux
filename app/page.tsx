@@ -3,6 +3,7 @@ import Link from "next/link";
 import Footer from "components/layout/footer";
 import { ProductCard } from "components/product-card";
 import { Reveal } from "components/reveal";
+import { Spotlight } from "components/spotlight";
 import { NewsletterForm } from "components/newsletter-form";
 import {
   ArrowPathIcon,
@@ -14,7 +15,6 @@ import { getCollectionProducts } from "lib/shopify";
 import type { Product } from "lib/shopify/types";
 import {
   COLLECTIONS,
-  COLLECTION_IMAGE,
   FREE_SHIPPING_THRESHOLD,
 } from "lib/brand";
 import { GUIDES_META } from "lib/guides";
@@ -100,40 +100,42 @@ export default async function HomePage() {
         Number(hasSpecs(b)) - Number(hasSpecs(a)) || price(a) - price(b),
     );
 
+  // Hero display case: the three best-documented lights (real photo + spec table), cheapest first.
+  const showcase = heroLights.filter((p) => p.featuredImage?.url && hasSpecs(p)).slice(0, 3);
+
+  // Each category tile shows a REAL product photo from that category (best-documented first),
+  // never a rendered or generated image.
+  const shotFor = (handle: string) => {
+    const list = (byHandle[handle] ?? []).filter((p) => p.featuredImage?.url);
+    return (
+      [...list].sort((a, b) => Number(hasSpecs(b)) - Number(hasSpecs(a)) || price(b) - price(a))[0] ?? null
+    );
+  };
+
   const tiles = BENTO_ORDER.map((h) =>
     COLLECTIONS.find((c) => c.handle === h),
   ).filter((c): c is (typeof COLLECTIONS)[number] => Boolean(c));
 
   return (
     <div className="bg-[var(--aq-canvas)] text-[var(--aq-ink)]">
-      {/* ── HERO: the tank is the photograph ─────────────
-          No scroll-reveal here: the H1 and image are the LCP candidates and
-          must paint immediately. */}
-      <section className="relative overflow-hidden bg-[#041213] text-white">
-        <div className="absolute inset-0 hidden md:block">
-          <Image
-            src="/brand/hero.jpg"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover object-right"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#041213] via-[#041213]/55 to-transparent lg:via-transparent" />
-        </div>
-        <div className="relative mx-auto flex w-full max-w-[1400px] flex-col px-6 pt-14 md:min-h-[min(80vh,740px)] md:justify-center md:px-12 md:py-24">
-          <div className="relative z-10 max-w-[33rem]">
-            <h1 className="text-[2.5rem] font-semibold leading-[1.03] md:text-6xl lg:text-[4.3rem]">
+      {/* ── HERO: the products are the photograph ────────────
+          Real supplier photography of the actual lights we sell, with live
+          prices and spec lines from the catalogue. No stock or generated
+          imagery. No scroll-reveal here: the H1 is the LCP candidate. */}
+      <section className="relative overflow-hidden">
+        <div className="mx-auto grid w-full max-w-[1400px] items-center gap-12 px-6 pb-16 pt-12 md:px-12 md:pb-24 md:pt-16 lg:grid-cols-[0.9fr_1.1fr] lg:gap-8">
+          <div className="max-w-[34rem]">
+            <h1 className="text-[2.5rem] font-semibold leading-[1.03] tracking-tight md:text-6xl lg:text-[4.1rem]">
               Everything your planted tank needs to grow.
             </h1>
-            <p className="mt-6 max-w-[30rem] text-base leading-relaxed text-white/70 md:text-lg">
-              Full-spectrum lights, CO2 and scaping tools chosen on real specs.
+            <p className="mt-6 max-w-[30rem] text-base leading-relaxed text-[var(--aq-muted)] md:text-lg">
+              Full-spectrum lights, CO2 and scaping tools, chosen on real specs.
               Free shipping over ${FREE_SHIPPING_THRESHOLD} to the US and Canada.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link
                 href="/search/lighting"
-                className="group inline-flex items-center gap-3 rounded-full bg-white py-2 pl-6 pr-2 text-sm font-semibold text-[var(--aq-ink)] transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] active:scale-[0.98]"
+                className="group inline-flex items-center gap-3 rounded-full bg-[var(--aq-ink)] py-2 pl-6 pr-2 text-sm font-semibold text-white transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] active:scale-[0.98]"
               >
                 Shop lighting
                 <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#2f6a37] text-white transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-x-0.5">
@@ -142,23 +144,65 @@ export default async function HomePage() {
               </Link>
               <Link
                 href="/search"
-                className="text-sm font-medium text-white/80 underline decoration-white/30 underline-offset-[6px] transition-colors hover:text-white hover:decoration-white"
+                className="text-sm font-medium text-[var(--aq-muted)] underline decoration-black/20 underline-offset-[6px] transition-colors hover:text-[var(--aq-ink)] hover:decoration-[var(--aq-ink)]"
               >
                 Browse all {total} products
               </Link>
             </div>
           </div>
 
-          {/* Mobile: the tank sits under the copy instead of behind it. */}
-          <div className="relative -mx-6 mt-10 aspect-[5/4] md:hidden">
-            <Image
-              src="/brand/hero.jpg"
-              alt="A planted aquascape with a grass carpet and dragon stone under a full-spectrum LED"
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover object-[78%_50%]"
-            />
+          {/* Display case: double-bezel shell, three real products at slightly different heights.
+              Rotation and overlap collapse below md so nothing fights for touch targets. */}
+          <div className="rounded-[2rem] bg-[var(--aq-deep)]/[0.06] p-2 ring-1 ring-black/[0.06]">
+            <div className="relative overflow-hidden rounded-[calc(2rem-0.5rem)] bg-[var(--aq-deep)] p-5 shadow-[inset_0_1px_1px_rgba(255,255,255,0.12)] md:p-8">
+              <div
+                aria-hidden
+                className="absolute inset-0 opacity-[0.5]"
+                style={{
+                  backgroundImage:
+                    "radial-gradient(circle at 70% 0%, rgba(120,190,120,0.22), transparent 55%), radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1px)",
+                  backgroundSize: "100% 100%, 22px 22px",
+                }}
+              />
+              <div className="relative grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-5">
+                {showcase.map((p, i) => {
+                  const spec = p.specs?.[0];
+                  return (
+                    <Link
+                      key={p.id}
+                      href={`/product/${p.handle}`}
+                      className={`group relative flex flex-col overflow-hidden rounded-2xl bg-white shadow-[0_24px_48px_-28px_rgba(0,0,0,0.65)] transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1.5 ${
+                        i === 0
+                          ? "col-span-2 md:col-span-2 md:row-span-2 md:-rotate-[1.5deg]"
+                          : i === 1
+                            ? "md:translate-y-6 md:rotate-[2deg]"
+                            : "md:-translate-y-2 md:-rotate-[1deg]"
+                      }`}
+                    >
+                      <div className={`relative bg-[var(--aq-raised)] ${i === 0 ? "min-h-[240px] flex-1" : "aspect-[4/3] md:aspect-square"}`}>
+                        {p.featuredImage?.url && (
+                          <Image
+                            src={p.featuredImage.url}
+                            alt={p.featuredImage.altText || p.title}
+                            fill
+                            priority={i === 0}
+                            sizes={i === 0 ? "(min-width:1024px) 34vw, 90vw" : "(min-width:1024px) 16vw, 44vw"}
+                            className="object-contain p-5 mix-blend-multiply transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.05]"
+                          />
+                        )}
+                      </div>
+                      <div className="p-4">
+                        <p className="line-clamp-2 text-[13px] font-medium leading-snug text-[var(--aq-ink)]">{p.title}</p>
+                        <div className="mt-2 flex items-baseline justify-between gap-2">
+                          <span className="aq-spec text-[15px] font-semibold">${Math.round(price(p))}</span>
+                          {spec && <span className="aq-spec truncate text-[11px] text-[var(--aq-muted)]">{spec.value}</span>}
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -199,52 +243,54 @@ export default async function HomePage() {
           </Reveal>
         </div>
 
-        <div className="mt-12 grid auto-rows-[220px] grid-cols-1 gap-4 sm:grid-cols-2 md:auto-rows-[250px] lg:grid-cols-3">
+        <div className="mt-12 grid auto-rows-[240px] grid-cols-1 gap-4 sm:grid-cols-2 md:auto-rows-[270px] lg:grid-cols-3">
           {tiles.map((c, i) => {
             const big = c.handle === "lighting";
+            const shot = shotFor(c.handle);
+            // Background variety on purpose: pale moss, white, deep green. Never six identical cards.
+            const dark = c.handle === "co2" || c.handle === "testing";
+            const surface = dark
+              ? "bg-[var(--aq-deep)] text-white"
+              : i % 2 === 0
+                ? "bg-[var(--aq-raised)] text-[var(--aq-ink)]"
+                : "bg-white text-[var(--aq-ink)] ring-1 ring-black/[0.07]";
             return (
               <Reveal
                 key={c.handle}
                 delay={i * 60}
                 className={big ? `${BIG} h-full` : "h-full"}
               >
-                <Link
-                  href={`/search/${c.handle}`}
-                  className="group relative block h-full overflow-hidden rounded-2xl bg-[#0c1a14]"
-                >
-                  <Image
-                    src={COLLECTION_IMAGE[c.handle] ?? "/brand/hero.jpg"}
-                    alt=""
-                    fill
-                    sizes={
-                      big
-                        ? "(min-width:1024px) 66vw, 100vw"
-                        : "(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
-                    }
-                    className="object-cover transition-transform duration-[1100ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
-                  <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-5 md:p-6">
-                    <div>
-                      <h3
-                        className={
-                          big
-                            ? "text-2xl font-semibold text-white md:text-4xl"
-                            : "text-lg font-semibold text-white md:text-xl"
-                        }
-                      >
-                        {c.title}
-                      </h3>
-                      <p className="aq-spec mt-1 text-[13px] text-white/65">
-                        {counts[c.handle]}{" "}
-                        {counts[c.handle] === 1 ? "product" : "products"}
-                      </p>
+                <Spotlight className="h-full rounded-[1.75rem]" tint={dark ? "160 220 160" : "47 106 55"}>
+                  <Link
+                    href={`/search/${c.handle}`}
+                    className={`group relative flex h-full overflow-hidden rounded-[1.75rem] ${surface}`}
+                  >
+                    {shot?.featuredImage?.url && (
+                      <div className={`absolute ${big ? "inset-y-0 right-0 w-[62%]" : "inset-y-0 right-0 w-[52%]"}`}>
+                        <Image
+                          src={shot.featuredImage.url}
+                          alt={shot.featuredImage.altText || shot.title}
+                          fill
+                          sizes={big ? "(min-width:1024px) 40vw, 80vw" : "(min-width:1024px) 18vw, 40vw"}
+                          className={`object-contain p-6 transition-transform duration-[1100ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.06] ${dark ? "rounded-2xl bg-white p-4 m-5 !h-[calc(100%-2.5rem)] !w-[calc(100%-2.5rem)]" : "mix-blend-multiply"}`}
+                        />
+                      </div>
+                    )}
+                    <div className="relative z-10 flex h-full max-w-[52%] flex-col justify-between p-6 md:p-7">
+                      <span className="aq-spec text-[12px] opacity-60">
+                        {counts[c.handle]} {counts[c.handle] === 1 ? "product" : "products"}
+                      </span>
+                      <div>
+                        <h3 className={big ? "text-2xl font-semibold leading-tight md:text-4xl" : "text-lg font-semibold leading-snug md:text-xl"}>
+                          {c.title}
+                        </h3>
+                        <span className={`mt-4 inline-flex h-9 w-9 items-center justify-center rounded-full transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-x-1 ${dark ? "bg-white/15 text-white" : "bg-[var(--aq-ink)] text-white"}`}>
+                          <Arrow />
+                        </span>
+                      </div>
                     </div>
-                    <span className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm transition-colors duration-300 group-hover:bg-white group-hover:text-[var(--aq-ink)]">
-                      <Arrow />
-                    </span>
-                  </div>
-                </Link>
+                  </Link>
+                </Spotlight>
               </Reveal>
             );
           })}

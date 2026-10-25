@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -76,16 +75,6 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         <Link href="/guides" className="text-xs font-medium uppercase tracking-[0.15em] text-[#2f6a37]">Guides</Link>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">{g.title}</h1>
         <p className="mt-2 text-xs text-[#0f1d18]/50">{g.readingMinutes} min read · {g.publishedAt}</p>
-        {g.image ? (
-          <Image
-            src={g.image}
-            alt={g.title}
-            width={1600}
-            height={900}
-            priority
-            className="mt-8 aspect-video w-full rounded-2xl object-cover"
-          />
-        ) : null}
         <div
           className="mt-8 text-[15px] leading-7 text-[#0f1d18]/85 [&_a]:text-[#2f6a37] [&_a]:underline [&_a]:underline-offset-2 [&_h2]:mt-10 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:tracking-tight [&_p]:mt-4 [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:mt-1.5 [&_strong]:text-[#0f1d18]"
           dangerouslySetInnerHTML={{ __html: g.html }}
