@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "diy-co2-planted-tank-worth-it",
+      "title": "DIY CO2 for Planted Tanks: Worth It?",
+      "description": "DIY CO2 systems seem cheap, but they often lead to unstable plant growth and frustrated hobbyists. Learn when it's a false economy and better options exist.",
+      "publishedAt": "2026-10-25",
+      "readingMinutes": 8,
+      "image": "/guides/diy-co2-planted-tank-worth-it.jpg",
+      "faq": [
+        {
+          "q": "Is DIY CO2 effective for plant growth?",
+          "a": "DIY CO2 offers inconsistent carbon dioxide levels, making it less effective for stable plant growth than a pressurised system. Fluctuations stress plants and can promote algae."
+        },
+        {
+          "q": "How much does a basic DIY CO2 setup cost?",
+          "a": "A chemical CO2 generator kit can cost around $65.95, but this doesn't include ongoing ingredient costs or address the inherent instability of the system."
+        },
+        {
+          "q": "Are DIY CO2 systems safe?",
+          "a": "Reputable DIY CO2 kits include safety features like pressure relief valves that activate above 30 kg. However, homemade setups or improper use can still pose risks due to uncontrolled pressure."
+        },
+        {
+          "q": "What is a cheaper and better alternative to DIY CO2?",
+          "a": "For consistent plant growth, investing in a pressurised CO2 system is superior. If budget is a major concern, focusing on low-tech plants that don't require CO2 is a more reliable and less frustrating approach."
+        }
+      ]
+    },
+    {
       "slug": "beginner-planted-aquarium-setup",
       "title": "Setting Up Your First Planted Aquarium",
       "description": "Learn how to set up a thriving planted aquarium for beginners. Avoid common mistakes and choose essential gear without overspending.",
