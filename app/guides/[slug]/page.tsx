@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { GUIDES_META, getGuide } from "lib/guides";
+import { GUIDE_PRODUCT } from "lib/guide-products";
+import { getProduct } from "lib/shopify";
 
 export function generateStaticParams() {
   return GUIDES_META.map((g) => ({ slug: g.slug }));
@@ -66,6 +69,8 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     });
   }
   const related = GUIDES_META.filter((x) => x.slug !== g.slug).slice(0, 3);
+  const gearHandle = GUIDE_PRODUCT[g.slug];
+  const gear = gearHandle ? await getProduct(gearHandle) : undefined;
   return (
     <div className="bg-[var(--aq-canvas)] text-[var(--aq-ink)]">
       {jsonLd.map((j, i) => (
@@ -75,6 +80,23 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         <Link href="/guides" className="text-xs font-medium uppercase tracking-[0.15em] text-[#2f6a37]">Guides</Link>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">{g.title}</h1>
         <p className="mt-2 text-xs text-[#0f1d18]/50">{g.readingMinutes} min read · {g.publishedAt}</p>
+        {gear && (
+          <Link
+            href={`/product/${gear.handle}`}
+            className="group mt-8 flex items-center gap-5 rounded-2xl bg-white p-4 ring-1 ring-black/[0.07] transition-shadow duration-500 hover:shadow-[0_24px_48px_-32px_rgba(15,29,24,0.35)]"
+          >
+            <div className="relative h-24 w-24 flex-none overflow-hidden rounded-xl bg-[var(--aq-raised)]">
+              {gear.featuredImage?.url && (
+                <Image src={gear.featuredImage.url} alt={gear.title} fill sizes="96px" className="object-contain p-2 mix-blend-multiply" />
+              )}
+            </div>
+            <div className="min-w-0">
+              <p className="text-xs text-[var(--aq-muted)]">The gear this guide is about</p>
+              <p className="mt-1 text-[15px] font-semibold leading-snug group-hover:text-[#2f6a37]">{gear.title}</p>
+              <p className="aq-spec mt-1 text-sm">${Math.round(parseFloat(gear.priceRange.minVariantPrice.amount))}</p>
+            </div>
+          </Link>
+        )}
         <div
           className="mt-8 text-[15px] leading-7 text-[#0f1d18]/85 [&_a]:text-[#2f6a37] [&_a]:underline [&_a]:underline-offset-2 [&_h2]:mt-10 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:tracking-tight [&_p]:mt-4 [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:mt-1.5 [&_strong]:text-[#0f1d18]"
           dangerouslySetInnerHTML={{ __html: g.html }}
