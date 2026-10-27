@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "best-product-algae-fish-tank",
+      "title": "Best Products for Algae in Your Fish Tank",
+      "description": "Tired of algae? Learn which products actually work to control and remove it from your planted freshwater aquarium, and which are a waste of money.",
+      "publishedAt": "2026-10-27",
+      "readingMinutes": 8,
+      "image": "/guides/best-product-algae-fish-tank.jpg",
+      "faq": [
+        {
+          "q": "What causes algae in a fish tank?",
+          "a": "The most common causes are too much light, excess nutrients like nitrates and phosphates, and infrequent water changes."
+        },
+        {
+          "q": "Can fish eat all the algae?",
+          "a": "Algae-eating fish and invertebrates can help manage small amounts of algae, but they will not solve a persistent algae problem caused by an imbalance in the tank."
+        },
+        {
+          "q": "Is algae bad for my fish?",
+          "a": "Most types of algae are not directly harmful to fish, but excessive algae growth indicates poor water quality or an imbalance that can stress fish and plants."
+        },
+        {
+          "q": "How do I remove stubborn algae?",
+          "a": "Manual removal with scrapers and tweezers, combined with larger, more frequent water changes and addressing root causes like lighting and nutrients, is the most effective approach."
+        }
+      ]
+    },
+    {
       "slug": "best-way-to-set-up-a-fish-tank",
       "title": "Setting Up a Fish Tank: The Right Way",
       "description": "Learn the practical steps to set up a healthy planted freshwater aquarium. Avoid common mistakes and unnecessary spending with blunt advice.",
