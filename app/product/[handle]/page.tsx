@@ -20,6 +20,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { staticGetProducts } from "lib/shopify/static-data";
+import { returnPolicyLd, shippingDetailsLd } from "lib/merchant-schema";
+import { ALLOWED_COUNTRIES } from "lib/shipping";
 
 /**
  * Without these two, PPR serves a prerendered shell with HTTP 200 for ANY
@@ -107,18 +109,22 @@ export default async function ProductPage(props: {
           },
         }
       : {}),
-    offers: {
-      "@type": "AggregateOffer",
-      availability: product.availableForSale
+    // One Offer per variant (merchant listings want Offer, not AggregateOffer), each carrying shipping and returns.
+    offers: product.variants.map((v) => ({
+      "@type": "Offer",
+      sku: v.sku || undefined,
+      name: product.variants.length > 1 ? v.title : undefined,
+      url: `${baseUrl}/product/${product.handle}`,
+      price: v.price.amount,
+      priceCurrency: v.price.currencyCode,
+      itemCondition: "https://schema.org/NewCondition",
+      availability: v.availableForSale
         ? "https://schema.org/InStock"
         : "https://schema.org/OutOfStock",
-      priceCurrency: product.priceRange.minVariantPrice.currencyCode,
-      lowPrice: product.priceRange.minVariantPrice.amount,
-      highPrice: product.priceRange.maxVariantPrice.amount,
-      offerCount: product.variants.length || 1,
-      url: `${baseUrl}/product/${product.handle}`,
       seller: { "@type": "Organization", name: SITE_NAME },
-    },
+      shippingDetails: shippingDetailsLd(v.price.currencyCode),
+      hasMerchantReturnPolicy: returnPolicyLd(ALLOWED_COUNTRIES),
+    })),
   };
 
   const breadcrumbJsonLd = {
