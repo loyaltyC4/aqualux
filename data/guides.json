@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "fish-tank-sand-vs-gravel",
+      "title": "Fish Tank Sand vs Gravel: What's Best for You?",
+      "description": "Sand or gravel? Your choice of aquarium substrate impacts fish, plants, and cleaning. Get the blunt truth on which is right for your tank.",
+      "publishedAt": "2026-10-28",
+      "readingMinutes": 10,
+      "image": "/guides/fish-tank-sand-vs-gravel.jpg",
+      "faq": [
+        {
+          "q": "Is sand or gravel better for aquarium plants?",
+          "a": "Sand is generally better for root-feeding plants because their roots can spread easily. However, gravel tanks can support plants well with root tabs and proper care."
+        },
+        {
+          "q": "Which substrate is easier to clean, sand or gravel?",
+          "a": "Gravel is often perceived as easier to clean because detritus settles between the pieces, making it simple to siphon out. Sand requires a specific technique to avoid sucking up the substrate."
+        },
+        {
+          "q": "Can I mix sand and gravel in my aquarium?",
+          "a": "Yes, you can mix them. However, the sand will eventually settle to the bottom, with the gravel sitting on top, due to differences in density. This can create a layered look or just a mess."
+        },
+        {
+          "q": "What fish prefer sand substrate?",
+          "a": "Many bottom-dwelling fish, like Corydoras catfish, loaches, and some cichlids, prefer sand because it allows them to sift for food and burrow naturally without damaging their barbels."
+        }
+      ]
+    },
+    {
       "slug": "diy-co2-vs-pressurized-aquarium",
       "title": "DIY CO2 vs. Pressurized: What's Best for Your Plants?",
       "description": "Deciding between DIY CO2 and a pressurized system? Learn the real costs, performance, and trade-offs for your planted aquarium.",
