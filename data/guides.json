@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "diy-co2-vs-pressurized-aquarium",
+      "title": "DIY CO2 vs. Pressurized: What's Best for Your Plants?",
+      "description": "Deciding between DIY CO2 and a pressurized system? Learn the real costs, performance, and trade-offs for your planted aquarium.",
+      "publishedAt": "2026-10-28",
+      "readingMinutes": 7,
+      "image": "/guides/diy-co2-vs-pressurized-aquarium.jpg",
+      "faq": [
+        {
+          "q": "Is DIY CO2 good enough for a planted tank?",
+          "a": "DIY CO2 can work for smaller tanks or low-tech setups, but it lacks the consistency and control of a pressurized system, making it less ideal for demanding plants."
+        },
+        {
+          "q": "How much does a pressurized CO2 system cost upfront?",
+          "a": "A starter kit with a regulator, diffuser, and drop checker costs $109.95, but remember you still need to buy a refillable CO2 cylinder separately."
+        },
+        {
+          "q": "How often do I need to refill a DIY CO2 generator?",
+          "a": "DIY CO2 generators require regular refills of chemical ingredients, typically every few weeks, depending on the reaction formula and desired output."
+        },
+        {
+          "q": "Can a DIY CO2 system be dangerous?",
+          "a": "Modern DIY CO2 kits like the 2 L Stainless model include safety features such as an automatic pressure release above 30 kg, but any pressurized system requires careful handling."
+        }
+      ]
+    },
+    {
       "slug": "best-product-algae-fish-tank",
       "title": "Best Products for Algae in Your Fish Tank",
       "description": "Tired of algae? Learn which products actually work to control and remove it from your planted freshwater aquarium, and which are a waste of money.",
