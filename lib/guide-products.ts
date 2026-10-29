@@ -14,3 +14,11 @@ export const GUIDE_PRODUCT: Record<string, string> = {
   "faster-water-changes": "gravel-siphon-kit",
   "aquarium-water-testing-guide": "test-strips-8-in-1-100-count",
 };
+
+// Engine-written guides are added daily and cannot be hand-mapped. Fall back to the first product the guide itself links to,
+// which is the product the article is built around (the writer is given the live catalogue and must link what it recommends).
+export function guideProductHandle(slug: string, html?: string): string | undefined {
+  if (GUIDE_PRODUCT[slug]) return GUIDE_PRODUCT[slug];
+  const m = html?.match(/\/product\/([a-z0-9-]+)/);
+  return m?.[1];
+}

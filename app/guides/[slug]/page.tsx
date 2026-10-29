@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { GUIDES_META, getGuide } from "lib/guides";
-import { GUIDE_PRODUCT } from "lib/guide-products";
+import { guideProductHandle } from "lib/guide-products";
 import { getProduct } from "lib/shopify";
 
 export function generateStaticParams() {
@@ -69,7 +69,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     });
   }
   const related = GUIDES_META.filter((x) => x.slug !== g.slug).slice(0, 3);
-  const gearHandle = GUIDE_PRODUCT[g.slug];
+  const gearHandle = guideProductHandle(g.slug, g.html);
   const gear = gearHandle ? await getProduct(gearHandle) : undefined;
   return (
     <div className="bg-[var(--aq-canvas)] text-[var(--aq-ink)]">
