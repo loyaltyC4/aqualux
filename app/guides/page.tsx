@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { GUIDES_META } from "lib/guides";
-import { GUIDE_PRODUCT } from "lib/guide-products";
+import { GUIDES_META, getGuide } from "lib/guides";
+import { guideProductHandle } from "lib/guide-products";
 import { getProduct } from "lib/shopify";
 import { Reveal } from "components/reveal";
 import { Spotlight } from "components/spotlight";
@@ -18,7 +18,7 @@ export default async function GuidesPage() {
   // The photo on each card is the real product the guide recommends, not an illustration.
   const shots = await Promise.all(
     GUIDES_META.map(async (g) => {
-      const h = GUIDE_PRODUCT[g.slug];
+      const h = guideProductHandle(g.slug, getGuide(g.slug)?.html);
       return h ? await getProduct(h) : undefined;
     }),
   );
