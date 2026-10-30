@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "best-freshwater-aquarium-test-kit",
+      "title": "Best Freshwater Aquarium Test Kit: Liquid vs. Strips",
+      "description": "Cut through the marketing hype. Learn which aquarium test kits are worth your money for accurate water parameter readings and why liquid kits beat strips.",
+      "publishedAt": "2026-10-30",
+      "readingMinutes": 5,
+      "image": "/guides/best-freshwater-aquarium-test-kit.jpg",
+      "faq": [
+        {
+          "q": "Why do I need an aquarium test kit?",
+          "a": "You need to know your water parameters to keep fish and plants healthy. Without testing, you're guessing, and that leads to sick tanks and dead livestock."
+        },
+        {
+          "q": "Are test strips accurate enough for planted tanks?",
+          "a": "No, test strips are not accurate enough for essential parameters in a planted tank. They are fine for quick checks on less critical readings like general hardness or carbonate hardness."
+        },
+        {
+          "q": "What is the most important parameter to test for in a new aquarium?",
+          "a": "Ammonia is the most critical parameter in a new aquarium. High ammonia levels are toxic to fish, making it essential to monitor during the tank cycling process."
+        },
+        {
+          "q": "Should I buy a digital pH meter?",
+          "a": "A digital pH meter can offer more precise pH readings than liquid tests, especially for fine-tuning. It's a useful addition but doesn't replace a full liquid test kit."
+        }
+      ]
+    },
+    {
       "slug": "fish-tank-sand-vs-gravel",
       "title": "Fish Tank Sand vs Gravel: What's Best for You?",
       "description": "Sand or gravel? Your choice of aquarium substrate impacts fish, plants, and cleaning. Get the blunt truth on which is right for your tank.",
