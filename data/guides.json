@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "cheapest-aquarium-substrate",
+      "title": "Cheapest Aquarium Substrate: The Honest Truth",
+      "description": "Cut through the marketing hype. Discover the truly cheapest aquarium substrates, their real costs, and when spending more saves you money.",
+      "publishedAt": "2026-10-31",
+      "readingMinutes": 9,
+      "image": "/guides/cheapest-aquarium-substrate.jpg",
+      "faq": [
+        {
+          "q": "What is the absolute cheapest substrate for an aquarium?",
+          "a": "Inert sand, such as play sand or pool filter sand, is typically the least expensive option per bag. Washed river gravel is also a very cheap alternative."
+        },
+        {
+          "q": "Can I use cheap substrate for planted aquariums?",
+          "a": "Yes, you can use cheap, inert substrate for plants, but it will not provide any nutrients. You must plan to add liquid fertilizers or root tabs regularly, which is an ongoing cost."
+        },
+        {
+          "q": "How much substrate do I need for my tank?",
+          "a": "A general rule is to aim for a layer of at least a few centimeters across the tank bottom. For planted tanks, a deeper layer, perhaps several centimeters more, allows plant roots to anchor and spread better."
+        },
+        {
+          "q": "Do I need to wash cheap substrate before putting it in my tank?",
+          "a": "Yes, always. All new substrate, especially inexpensive sand and gravel not specifically marketed for aquariums, must be rinsed thoroughly until the water runs clear. This removes fine dust and debris that would cloud your water."
+        }
+      ]
+    },
+    {
       "slug": "fish-tank-sand-vs-gravel",
       "title": "Fish Tank Sand vs Gravel: What's Best for You?",
       "description": "Sand or gravel? Your choice of aquarium substrate impacts fish, plants, and cleaning. Get the blunt truth on which is right for your tank.",
