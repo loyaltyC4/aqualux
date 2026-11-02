@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "activated-carbon-filter-bags-guide",
+      "title": "Activated Carbon Filter Bags: The Blunt Truth",
+      "description": "Get the blunt truth on activated carbon filter bags for your aquarium. Learn when to use it, when to skip it, and better alternatives for planted tanks.",
+      "publishedAt": "2026-11-02",
+      "readingMinutes": 7,
+      "image": "/guides/activated-carbon-filter-bags-guide.jpg",
+      "faq": [
+        {
+          "q": "Is activated carbon safe for plants?",
+          "a": "Activated carbon is generally safe for plants, but it removes nutrients and trace elements they need, so continuous use is not recommended for planted tanks."
+        },
+        {
+          "q": "How often should I change activated carbon?",
+          "a": "Change activated carbon every two to four weeks, or sooner if it becomes saturated. Once saturated, it can leach trapped pollutants back into the water."
+        },
+        {
+          "q": "Can activated carbon remove ammonia?",
+          "a": "No, activated carbon does not remove ammonia, nitrite, or nitrate. That's the job of biological filtration."
+        },
+        {
+          "q": "When should I not use activated carbon?",
+          "a": "Do not use activated carbon continuously in a planted tank. Remove it when dosing medications or fertilizers as it will absorb them."
+        }
+      ]
+    },
+    {
       "slug": "cheapest-aquarium-substrate",
       "title": "Cheapest Aquarium Substrate: The Honest Truth",
       "description": "Cut through the marketing hype. Discover the truly cheapest aquarium substrates, their real costs, and when spending more saves you money.",
