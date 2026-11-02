@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "how-to-start-aquascaping",
+      "title": "How to Start Aquascaping Your First Planted Tank",
+      "description": "Learn how to start aquascaping. We cover design principles, essential equipment like lights and CO2, step-by-step setup, and plant care for a stunning aquatic landscape.",
+      "publishedAt": "2026-11-02",
+      "readingMinutes": 8,
+      "image": "/guides/how-to-start-aquascaping.jpg",
+      "faq": [
+        {
+          "q": "What's the minimum tank size for aquascaping?",
+          "a": "While you can aquascape nano tanks, a tank width of 48–61 cm (like those suited for the Aurora 48 LED) offers more room for intricate design and plant choices. Smaller tanks demand more precise planning and maintenance."
+        },
+        {
+          "q": "Do I need CO2 for aquascaping?",
+          "a": "For lush, vibrant aquascapes with dense plant carpets or demanding red plants, CO2 injection is essential. You can begin with a simpler DIY chemical CO2 generator kit, or invest in a full CO2 starter kit with a regulator and diffuser for superior control and consistent growth."
+        },
+        {
+          "q": "What's the most important piece of equipment for aquascaping?",
+          "a": "Good lighting is non-negotiable. Plants require intense, full-spectrum light to grow densely and display strong colors. A light with a colour rendering index (CRI) of 90.6 or higher, like the Aurora Pro RGB, provides excellent colour rendition and supports robust plant growth."
+        },
+        {
+          "q": "How do I prevent algae when aquascaping?",
+          "a": "Algae is a common challenge. The best prevention involves maintaining a balance between light intensity and duration, CO2 levels, and nutrient dosing. Consistent water changes also help. Algae growth usually signals an imbalance in your tank's ecosystem."
+        }
+      ]
+    },
+    {
       "slug": "cheapest-aquarium-substrate",
       "title": "Cheapest Aquarium Substrate: The Honest Truth",
       "description": "Cut through the marketing hype. Discover the truly cheapest aquarium substrates, their real costs, and when spending more saves you money.",
