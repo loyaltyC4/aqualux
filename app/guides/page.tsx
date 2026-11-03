@@ -1,18 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { pageMeta } from "lib/seo";
 import { GUIDES_META, getGuide } from "lib/guides";
 import { guideProductHandle } from "lib/guide-products";
 import { getProduct } from "lib/shopify";
 import { Reveal } from "components/reveal";
 import { Spotlight } from "components/spotlight";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Aquarium Guides: Planted Tanks, Filters & Water Care",
   description:
     "Straight-talking planted aquarium guides: LED lighting for planted tanks, nano filters, faster water changes and water testing that actually means something.",
-  alternates: { canonical: "/guides" },
-};
+  path: "/guides",
+});
 
 export default async function GuidesPage() {
   // The photo on each card is the real product the guide recommends, not an illustration.

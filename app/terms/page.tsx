@@ -1,11 +1,13 @@
 import { PageShell, Section } from "components/page-shell";
 import type { Metadata } from "next";
+import { pageMeta } from "lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Terms of Service",
-  description: "The terms and conditions that apply when you order from Lush Aquarium, covering pricing, orders, delivery, dangerous goods restrictions and returns.",
-  alternates: { canonical: "/terms" },
-};
+  description:
+    "The terms and conditions that apply when you order from Lush Aquarium, covering pricing, orders, delivery, dangerous goods restrictions and returns.",
+  path: "/terms",
+});
 
 export default function TermsPage() {
   return (

@@ -5,6 +5,7 @@ import Image from "next/image";
 import { GUIDES_META, getGuide } from "lib/guides";
 import { guideProductHandle } from "lib/guide-products";
 import { getProduct } from "lib/shopify";
+import { pageMeta } from "lib/seo";
 
 export function generateStaticParams() {
   return GUIDES_META.map((g) => ({ slug: g.slug }));
@@ -14,19 +15,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const g = GUIDES_META.find((x) => x.slug === slug);
   if (!g) return {};
-  return {
+  return pageMeta({
     title: g.title,
     description: g.description,
-    alternates: { canonical: `/guides/${g.slug}` },
-    openGraph: {
-      title: g.title,
-      description: g.description,
-      type: "article",
-      publishedTime: g.publishedAt,
-      ...(g.image ? { images: [{ url: g.image, alt: g.title }] } : {}),
-    },
-    twitter: { card: "summary_large_image", title: g.title, description: g.description },
-  };
+    path: `/guides/${g.slug}`,
+    type: "article",
+    publishedTime: g.publishedAt,
+    ...(g.image ? { image: { url: g.image, alt: g.title } } : {}),
+  });
 }
 
 export default async function GuidePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -43,7 +39,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
       datePublished: g.publishedAt,
       dateModified: g.updatedAt ?? g.publishedAt,
       mainEntityOfPage: `${base}/guides/${g.slug}`,
-      ...(g.image ? { image: [`${base}${g.image}`] } : {}),
+      image: [g.image ? `${base}${g.image}` : `${base}/opengraph-image`],
       author: { "@type": "Organization", name: "Lush Aquarium", url: base },
       publisher: { "@type": "Organization", name: "Lush Aquarium", url: base },
     },
@@ -68,7 +64,13 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
       })),
     });
   }
-  const related = GUIDES_META.filter((x) => x.slug !== g.slug).slice(0, 3);
+  // The next three guides in the list (wrapping round), so every guide gets
+  // inbound links from its neighbours instead of the same first three
+  // guides collecting all of them.
+  const at = GUIDES_META.findIndex((x) => x.slug === g.slug);
+  const related = [1, 2, 3]
+    .map((n) => GUIDES_META[(at + n) % GUIDES_META.length])
+    .filter((x): x is (typeof GUIDES_META)[number] => !!x && x.slug !== g.slug);
   const gearHandle = guideProductHandle(g.slug, g.html);
   const gear = gearHandle ? await getProduct(gearHandle) : undefined;
   return (

@@ -1,13 +1,14 @@
 import { DeliveryTable } from "components/delivery-table";
 import { PageShell, Section } from "components/page-shell";
 import type { Metadata } from "next";
+import { pageMeta } from "lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Shipping & Returns",
   description:
     "Lush Aquarium delivery windows by destination, tracked shipping rates, and our 30-day returns policy for planted aquarium gear.",
-  alternates: { canonical: "/shipping-returns" },
-};
+  path: "/shipping-returns",
+});
 
 export default function ShippingReturnsPage() {
   return (

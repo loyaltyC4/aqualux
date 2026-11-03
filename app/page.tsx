@@ -18,16 +18,14 @@ import {
   FREE_SHIPPING_THRESHOLD,
 } from "lib/brand";
 import { GUIDES_META } from "lib/guides";
+import { pageMeta } from "lib/seo";
 
-export const metadata = {
-  title: {
-    absolute:
-      "Lush Aquarium | Planted Tank Lighting, CO2 & Aquascaping Gear Worldwide",
-  },
-  description:
-    "Planted aquarium lighting, CO2 systems, aquascaping tools and water test kits, chosen on real specs. Free shipping over $65 to the US and Canada, tracked delivery worldwide.",
-  alternates: { canonical: "/" },
-};
+export const metadata = pageMeta({
+  title: "Lush Aquarium | Planted Tank Lighting, CO2 & Aquascaping",
+  absoluteTitle: true,
+  description: `Planted aquarium lighting, CO2 systems, aquascaping tools and water test kits, chosen on real specs. Free shipping over $${FREE_SHIPPING_THRESHOLD} to the US and Canada.`,
+  path: "/",
+});
 
 const price = (p: Product) => parseFloat(p.priceRange.minVariantPrice.amount);
 

@@ -1,13 +1,14 @@
 import { PageShell, Section } from "components/page-shell";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { pageMeta } from "lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "About Lush Aquarium",
   description:
     "Lush Aquarium is a curated shop for planted freshwater aquariums, stocking lighting, CO2 systems, aquascaping tools, substrate, hardscape, and water testing gear.",
-  alternates: { canonical: "/about" },
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

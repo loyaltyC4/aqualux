@@ -1,4 +1,5 @@
 import Footer from "components/layout/footer";
+import { pageMeta } from "lib/seo";
 import { FaqList } from "components/faq-list";
 import { Gallery } from "components/product/gallery";
 import { ProductDescription } from "components/product/product-description";
@@ -45,17 +46,17 @@ export async function generateMetadata(props: {
   const { url, width, height, altText: alt } = product.featuredImage || {};
   const indexable = !product.tags.includes(HIDDEN_PRODUCT_TAG);
 
-  return {
+  return pageMeta({
     title: product.seo.title || product.title,
     description: product.seo.description || product.description,
-    alternates: { canonical: `/product/${product.handle}` },
+    path: `/product/${product.handle}`,
     robots: {
       index: indexable,
       follow: indexable,
       googleBot: { index: indexable, follow: indexable },
     },
-    openGraph: url ? { images: [{ url, width, height, alt }] } : null,
-  };
+    ...(url ? { image: { url, width, height, alt } } : {}),
+  });
 }
 
 /**

@@ -2,13 +2,14 @@ import { PageShell } from "components/page-shell";
 import { FaqList, type Faq } from "components/faq-list";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { pageMeta } from "lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Planted Aquarium FAQ",
   description:
     "Answers on planted aquarium lighting, CO2, substrate choice, PAR levels, shipping and returns.",
-  alternates: { canonical: "/faq" },
-};
+  path: "/faq",
+});
 
 const FAQS: Faq[] = [
   {
@@ -46,7 +47,21 @@ const FAQS: Faq[] = [
 ];
 
 export default function FaqPage() {
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+    />
     <PageShell
       eyebrow="Support"
       title="Questions before you build."
@@ -61,5 +76,6 @@ export default function FaqPage() {
         .
       </p>
     </PageShell>
+    </>
   );
 }

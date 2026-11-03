@@ -1,4 +1,5 @@
 import Grid from "components/grid";
+import { pageMeta } from "lib/seo";
 import ProductGridItems from "components/layout/product-grid-items";
 import { FilterBar } from "components/layout/search/filter-bar";
 import { defaultSort, sorting } from "lib/constants";
@@ -14,15 +15,15 @@ export async function generateMetadata(props: {
 }) {
   const searchParams = await props.searchParams;
   const q = typeof searchParams?.q === "string" ? searchParams.q : undefined;
-  return {
+  // Every sort/filter/query combination collapses to one canonical URL -
+  // otherwise each parameter combo is a thin near-duplicate page competing
+  // with itself in the index.
+  return pageMeta({
     title: q ? `"${q}" search results` : "Search all planted tank gear",
     description:
       "Search Lush Aquarium for planted tank LED lighting, CO2 systems, aquascaping tools, substrate, hardscape and water testing.",
-    // Every sort/filter/query combination collapses to one canonical URL -
-    // otherwise each parameter combo is a thin near-duplicate page competing
-    // with itself in the index.
-    alternates: { canonical: "/search" },
-  };
+    path: "/search",
+  });
 }
 
 export default async function SearchPage(props: {

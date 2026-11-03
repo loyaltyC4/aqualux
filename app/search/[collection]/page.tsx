@@ -1,5 +1,6 @@
 import { getCollection, getCollectionProducts } from "lib/shopify";
 import { Metadata } from "next";
+import { pageMeta } from "lib/seo";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 
@@ -29,7 +30,7 @@ export async function generateMetadata(props: {
   const collection = await getCollection(params.collection);
   if (!collection) return notFound();
 
-  return {
+  return pageMeta({
     // Collection titles already say "Planted Tank ..." in several cases, so
     // only add the qualifier when it is not already implied.
     title: /planted|aquarium|aquascap/i.test(collection.title)
@@ -38,9 +39,9 @@ export async function generateMetadata(props: {
     description:
       collection.seo?.description ||
       collection.description ||
-      `Shop ${collection.title} at ${SITE_NAME}.`,
-    alternates: { canonical: `/search/${params.collection}` },
-  };
+      `Shop ${collection.title} at ${SITE_NAME}: planted-tank gear chosen on real specifications, not marketing copy.`,
+    path: `/search/${params.collection}`,
+  });
 }
 
 export default async function CategoryPage(props: {

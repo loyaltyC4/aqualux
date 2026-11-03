@@ -1,13 +1,15 @@
 import { PageShell, Section } from "components/page-shell";
-import { SUPPORT_EMAIL } from "lib/brand";
+import { EmailLink } from "components/email-link";
 import type { Metadata } from "next";
+import { pageMeta } from "lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Privacy Policy",
-  description: "How Lush Aquarium collects, uses and protects customer data. Cookies, order fulfilment, marketing and your rights over the information we hold.",
-  alternates: { canonical: "/privacy" },
+  description:
+    "How Lush Aquarium collects, uses and protects customer data. Cookies, order fulfilment, marketing and your rights over the information we hold.",
+  path: "/privacy",
   robots: { index: true, follow: true },
-};
+});
 
 export default function PrivacyPage() {
   return (
@@ -42,12 +44,7 @@ export default function PrivacyPage() {
         <p>
           You can request access to, correction of, or deletion of your personal
           data at any time by emailing{" "}
-          <a
-            href={`mailto:${SUPPORT_EMAIL}`}
-            className="text-[#2f6a37] hover:underline"
-          >
-            {SUPPORT_EMAIL}
-          </a>
+          <EmailLink className="text-[#2f6a37] hover:underline" />
           .
         </p>
       </Section>

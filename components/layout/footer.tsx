@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { BrandLogo } from "components/brand-logo";
+import { EmailLink } from "components/email-link";
 import { NewsletterForm } from "components/newsletter-form";
-import { COLLECTIONS, SITE_NAME, SUPPORT_EMAIL, SOCIALS } from "lib/brand";
+import { COLLECTIONS, SITE_NAME, SOCIALS } from "lib/brand";
 
 function Column({
   title,
@@ -113,12 +114,7 @@ export default function Footer() {
             <Link href="/terms" className="hover:text-neutral-800">
               Terms
             </Link>
-            <a
-              href={`mailto:${SUPPORT_EMAIL}`}
-              className="hover:text-neutral-800"
-            >
-              {SUPPORT_EMAIL}
-            </a>
+            <EmailLink className="hover:text-neutral-800" />
           </div>
         </div>
       </div>

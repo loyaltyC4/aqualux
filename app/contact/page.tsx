@@ -1,13 +1,15 @@
 import { PageShell, Section } from "components/page-shell";
-import { SUPPORT_EMAIL, SOCIALS } from "lib/brand";
+import { EmailLink } from "components/email-link";
+import { SOCIALS } from "lib/brand";
 import type { Metadata } from "next";
+import { pageMeta } from "lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Contact",
   description:
     "Get in touch with Lush Aquarium / product questions, order help, and wholesale enquiries.",
-  alternates: { canonical: "/contact" },
-};
+  path: "/contact",
+});
 
 export default function ContactPage() {
   return (
@@ -18,12 +20,7 @@ export default function ContactPage() {
     >
       <Section heading="Email">
         <p>
-          <a
-            href={`mailto:${SUPPORT_EMAIL}`}
-            className="text-[#2f6a37] hover:underline"
-          >
-            {SUPPORT_EMAIL}
-          </a>
+          <EmailLink className="text-[#2f6a37] hover:underline" />
         </p>
       </Section>
       <Section heading="Order help">
