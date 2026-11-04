@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "aquarium-light-duration-mastering-cycle",
+      "title": "Aquarium Light Duration: Mastering Your Planted Tank's Cycle",
+      "description": "Find the ideal light duration for your planted aquarium. Balance plant growth and algae control without specific hour recommendations.",
+      "publishedAt": "2026-11-04",
+      "readingMinutes": 8,
+      "image": "/guides/aquarium-light-duration-mastering-cycle.jpg",
+      "faq": [
+        {
+          "q": "How do I know if my light duration is right?",
+          "a": "Observe your plants and watch for algae. Healthy plants and minimal algae suggest a good balance. If plants struggle or algae thrives, adjustments are needed."
+        },
+        {
+          "q": "Can too much light harm my plants?",
+          "a": "Excessive light can stress plants, leading to stunted growth or melted leaves. It also heavily encourages aggressive algae blooms that compete for nutrients."
+        },
+        {
+          "q": "What if I have low-light plants?",
+          "a": "Low-light plants require a shorter duration of light and often lower intensity. Providing too much light to these plants can quickly lead to algae issues."
+        },
+        {
+          "q": "Is a consistent light schedule important?",
+          "a": "Absolutely. Plants thrive on predictability. A consistent daily schedule helps regulate their metabolic processes, leading to stronger growth. Use a timer for reliability."
+        }
+      ]
+    },
+    {
       "slug": "aquarium-water-test-kit-digital-review",
       "title": "Aquarium Water Test Kit Digital: Are They Worth It?",
       "description": "Digital aquarium test kits offer precision for pH and temperature, but they aren't a complete solution for your planted tank. Learn what they measure and when to use them.",
