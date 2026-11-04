@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "is-aquascaping-expensive",
+      "title": "Is Aquascaping Expensive? A Blunt Cost Breakdown",
+      "description": "Aquascaping can be cheap or costly. Learn where to save money and what's worth the investment in your planted aquarium setup.",
+      "publishedAt": "2026-11-04",
+      "readingMinutes": 9,
+      "image": "/guides/is-aquascaping-expensive.jpg",
+      "faq": [
+        {
+          "q": "What is the most expensive part of aquascaping?",
+          "a": "High-quality lighting and a full pressurized CO2 system are often the biggest expenses, especially for larger or high-tech setups."
+        },
+        {
+          "q": "Can I aquascape on a tight budget?",
+          "a": "Yes, you can start with a basic setup, low-tech plants, and DIY CO2 to keep initial costs down. Focus on good substrate and a basic light."
+        },
+        {
+          "q": "Are aquascaping tools worth the money?",
+          "a": "Essential tools like tweezers and scissors are worth buying for easier planting and trimming. A basic 5-piece set for $22.95 is a good start."
+        },
+        {
+          "q": "Do I need CO2 for a planted tank?",
+          "a": "Not all planted tanks require CO2. Many beautiful plants thrive in low-tech setups without it, saving you the cost of a CO2 system."
+        }
+      ]
+    },
+    {
       "slug": "aquarium-water-test-kit-digital-review",
       "title": "Aquarium Water Test Kit Digital: Are They Worth It?",
       "description": "Digital aquarium test kits offer precision for pH and temperature, but they aren't a complete solution for your planted tank. Learn what they measure and when to use them.",
