@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "planted-tank-substrate-layers-guide",
+      "title": "Planted Tank Substrate Layers: Yes or No?",
+      "description": "Do you need substrate layers for a thriving planted tank? Get the blunt truth on layering nutrient-rich base layers with inert caps, and when it's a waste of time.",
+      "publishedAt": "2026-11-05",
+      "readingMinutes": 9,
+      "image": "/guides/planted-tank-substrate-layers-guide.jpg",
+      "faq": [
+        {
+          "q": "Is a nutrient layer essential for planted tanks?",
+          "a": "No, not always. Many plants thrive with just a good all-in-one substrate like Aqua Soil, or even inert sand/gravel combined with root tabs and liquid fertilisers."
+        },
+        {
+          "q": "How thick should a substrate cap be?",
+          "a": "A cap of about a few centimeters is generally enough to prevent the nutrient layer from clouding the water. Too thick, and plant roots might struggle to reach the nutrients below."
+        },
+        {
+          "q": "Can I use garden soil as a nutrient layer?",
+          "a": "Some hobbyists experiment with soil mixes, but commercially prepared aquarium substrates are safer and less likely to cause nutrient imbalances or ammonia spikes in a new tank."
+        },
+        {
+          "q": "What are the main benefits of layering substrates?",
+          "a": "Layering allows you to provide a rich nutrient base for heavy root feeders while capping it with an inert material that looks good, prevents clouding, and keeps nutrients locked down."
+        }
+      ]
+    },
+    {
       "slug": "aquarium-water-test-kit-digital-review",
       "title": "Aquarium Water Test Kit Digital: Are They Worth It?",
       "description": "Digital aquarium test kits offer precision for pH and temperature, but they aren't a complete solution for your planted tank. Learn what they measure and when to use them.",
