@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "how-to-set-up-planted-aquarium-substrate",
+      "title": "How to Set Up Planted Aquarium Substrate",
+      "description": "Get your planted tank substrate right the first time. Learn types, layering, and how to prepare it for healthy plant growth.",
+      "publishedAt": "2026-11-05",
+      "readingMinutes": 9,
+      "image": "/guides/how-to-set-up-planted-aquarium-substrate.jpg",
+      "faq": [
+        {
+          "q": "Do I need multiple layers of substrate?",
+          "a": "You don't always need multiple layers, but some setups benefit from a nutrient-rich base layer covered by a cap."
+        },
+        {
+          "q": "Can I use regular garden soil?",
+          "a": "No, regular garden soil can cause nutrient spikes, cloudiness, and anaerobic zones. Use aquarium-specific substrates."
+        },
+        {
+          "q": "How deep should my substrate be?",
+          "a": "Aim for a minimum of 5 cm (2 inches) in the front and sloping up to 8-10 cm (3-4 inches) at the back."
+        },
+        {
+          "q": "Do I need root tabs with planted tank substrate?",
+          "a": "Root tabs are often beneficial, especially for heavy root feeders or if your substrate isn't specifically designed as a rich plant soil."
+        }
+      ]
+    },
+    {
       "slug": "planted-tank-substrate-layers-guide",
       "title": "Planted Tank Substrate Layers: Yes or No?",
       "description": "Do you need substrate layers for a thriving planted tank? Get the blunt truth on layering nutrient-rich base layers with inert caps, and when it's a waste of time.",
