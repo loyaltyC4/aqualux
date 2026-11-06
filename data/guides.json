@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "best-aquascaping-tool-kit-guide",
+      "title": "Best Aquascaping Tool Kit: What You Actually Need",
+      "description": "Cut through the marketing hype. Learn which aquascaping tools are essential for a thriving planted tank and where to save your money.",
+      "publishedAt": "2026-11-06",
+      "readingMinutes": 8,
+      "image": "/guides/best-aquascaping-tool-kit-guide.jpg",
+      "faq": [
+        {
+          "q": "Do I need a full aquascaping tool kit as a beginner?",
+          "a": "No. A simple set of long tweezers and curved scissors will get you started with most planting and trimming. You can add more tools as your needs grow."
+        },
+        {
+          "q": "Are expensive aquascaping tools better?",
+          "a": "Not always. Many affordable stainless steel sets offer good functionality. The important part is the right tool for the job, not a high price tag."
+        },
+        {
+          "q": "Can I use regular household scissors for aquascaping?",
+          "a": "You can, but it's not ideal. Regular scissors are often too short, not rust-resistant, and can be clumsy inside a tank, stressing plants and fish. Dedicated aquascaping scissors are designed for precision and reach."
+        },
+        {
+          "q": "What's the most important tool for planting in a deep tank?",
+          "a": "Long-reach straight tweezers are critical. They let you grip and place delicate plants without submerging your arm, reducing tank disturbance."
+        }
+      ]
+    },
+    {
       "slug": "setting-up-co2-system-planted-tank",
       "title": "Set Up a CO2 System for Planted Aquariums",
       "description": "Unlock vibrant plant growth in your planted aquarium. Learn how to set up a CO2 system, from choosing components to installation and monitoring.",
