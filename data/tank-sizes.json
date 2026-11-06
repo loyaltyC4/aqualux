@@ -1,0 +1,166 @@
+{
+  "_note": "Standard tank footprints (outer dimensions, inches). Notes are hand-written per size, not templated. Product picks are resolved in lib/tanks.ts from real catalogue fit ranges.",
+  "updatedAt": "2026-11-07",
+  "tanks": [
+    {
+      "slug": "5-gallon-planted-tank",
+      "name": "5 gallon",
+      "short": "5 gal",
+      "dims": [16, 8, 10],
+      "keyword": "5 gallon planted tank",
+      "summary": "The classic desk nano. Small enough to light with one clip-on or a 40 cm bar, big enough for a shrimp colony and a carpet.",
+      "style": "Nano shrimp tank or a single betta with a moss and crypt scape.",
+      "plants": ["Java moss and Christmas moss on wood", "Cryptocoryne parva or wendtii in the foreground", "Anubias nana petite tied to stone", "Monte Carlo if you add DIY CO2"],
+      "stocking": "A colony of neocaridina shrimp, or one betta, or a small group of chili rasboras. Not all three: 19 litres crashes fast when you overstock it.",
+      "pitfalls": [
+        "Heater too big. A 25 W unit is plenty; anything larger cooks a tank this small if the thermostat sticks.",
+        "Too much flow. Bettas and shrimp both hate a waterfall filter on full; a USB nano filter or sponge is the right size.",
+        "Dosing by the cap. Liquid fertilizer dose charts assume 40 L or more, so measure in drops, not caps."
+      ],
+      "co2": "low",
+      "faq": [
+        ["Is a 5 gallon tank big enough for live plants?", "Yes. Low-light plants like moss, anubias and crypts grow well in 5 gallons with a small LED and no CO2. The limit is stability, not space: do 30% water changes weekly."]
+      ]
+    },
+    {
+      "slug": "10-gallon-planted-tank",
+      "name": "10 gallon",
+      "short": "10 gal",
+      "dims": [20, 10, 12],
+      "keyword": "10 gallon planted tank",
+      "summary": "The most common first tank in North America, and a good one: a 50 cm footprint takes a single LED bar and a real hardscape.",
+      "style": "Low-tech jungle or a small iwagumi with one main stone.",
+      "plants": ["Vallisneria or Sagittaria along the back glass", "Java fern and Bucephalandra on driftwood", "Dwarf sagittaria as an easy carpet", "Rotala rotundifolia if you want red stems"],
+      "stocking": "A school of 8 to 10 small tetras or rasboras plus a few otocinclus or shrimp. Skip goldfish and anything that tops 2 inches.",
+      "pitfalls": [
+        "Buying a hood light. Most kit lids hold a low-output bulb; plants need a full-spectrum bar of 15 W or more.",
+        "Soil too shallow. Aim for about 2 inches at the front and 3 at the back so roots have somewhere to go.",
+        "Skipping the photoperiod. Six to seven hours on a timer stops most algae before it starts."
+      ],
+      "co2": "low",
+      "faq": [
+        ["Do I need CO2 for a 10 gallon planted tank?", "No. A 10 gallon grows moss, ferns, crypts and easy stems without CO2. Add it only if you want a dense carpet or fast red stems."]
+      ]
+    },
+    {
+      "slug": "20-gallon-long-planted-tank",
+      "name": "20 gallon long",
+      "short": "20 long",
+      "dims": [30, 12, 12],
+      "keyword": "20 gallon long planted tank",
+      "summary": "Shallow and wide, which is exactly what plants want: light reaches the substrate easily and the 30 inch length gives you room for a real layout.",
+      "style": "Nature aquarium with a sloped hardscape, or a shallow riverbank scape.",
+      "plants": ["Monte Carlo or dwarf hairgrass carpet (CO2 helps)", "Staurogyne repens in the midground", "Ludwigia and Rotala stems at the back", "Floating red root floaters to shade shy fish"],
+      "stocking": "A school of 12 ember tetras or harlequin rasboras, a group of pygmy corydoras on sand, and shrimp for clean-up.",
+      "pitfalls": [
+        "Choosing a 60 cm light. The tank is 76 cm long, so a short bar leaves dark ends; use a bar that fits 70 to 95 cm.",
+        "Under-sloping. A shallow tank looks flat unless the substrate rises 2 inches from front to back.",
+        "Heater placement. Put it near the filter outflow so warm water reaches both ends of a long tank."
+      ],
+      "co2": "optional",
+      "faq": [
+        ["Is a 20 long better than a 20 high for plants?", "Usually yes. The 20 long is 12 inches tall, so light reaches the bottom at full strength and carpet plants grow without high-output lighting."]
+      ]
+    },
+    {
+      "slug": "20-gallon-high-planted-tank",
+      "name": "20 gallon high",
+      "short": "20 high",
+      "dims": [24, 12, 16],
+      "keyword": "20 gallon high planted tank",
+      "summary": "A taller column of water on a smaller footprint. Great for stem plants and vertical wood, harder for carpets.",
+      "style": "Vertical driftwood scape with tall stems and epiphytes.",
+      "plants": ["Tall stems: Limnophila, Hygrophila, Rotala", "Spider wood with java fern and moss climbing it", "Cryptocoryne wendtii in the shade under wood", "Amazon frogbit to soften the light"],
+      "stocking": "Mid-water swimmers suit the height: a pair of honey gouramis with a school of 10 lemon tetras.",
+      "pitfalls": [
+        "Expecting a carpet. At 16 inches tall, light at the substrate drops off; pick plants that tolerate shade at the bottom.",
+        "Weak circulation. Tall tanks stratify; point the filter return along the surface so water rolls top to bottom.",
+        "Short light. The tank is 61 cm long; a 48 to 61 cm bar is the right fit."
+      ],
+      "co2": "optional",
+      "faq": [
+        ["Can you carpet a 20 gallon high?", "It is harder than a 20 long because the substrate sits 16 inches from the light. Use a stronger light and CO2, or choose shade-tolerant ground cover like crypts."]
+      ]
+    },
+    {
+      "slug": "29-gallon-planted-tank",
+      "name": "29 gallon",
+      "short": "29 gal",
+      "dims": [30, 12, 18],
+      "keyword": "29 gallon planted tank",
+      "summary": "A 20 long footprint with 6 extra inches of height. More water stability and fish options, but the light has further to travel.",
+      "style": "Community planted tank with background stems and an open swimming area.",
+      "plants": ["Amazon sword as a centrepiece (feed it root tabs)", "Cryptocoryne and Anubias in the lower third", "Hygrophila polysperma and Bacopa along the back", "Java moss on a log for fry cover"],
+      "stocking": "A school of 12 to 15 rummy-nose or cardinal tetras, a group of 6 corydoras, and a pair of dwarf cichlids or a centrepiece gourami.",
+      "pitfalls": [
+        "One weak light. 18 inches of water dims a small bar; use a bar rated for a 76 cm tank at full power or run two.",
+        "Overfeeding a big school. Uneaten food is the fastest route to an algae outbreak in a newly planted 29.",
+        "Undersized filter. Aim for about 4 to 6 times the tank volume per hour, which is more than most 20 gallon filters move."
+      ],
+      "co2": "optional",
+      "faq": [
+        ["What light do I need for a 29 gallon planted tank?", "A full-spectrum bar that covers the 30 inch (76 cm) length. Because the tank is 18 inches tall, run it at full output or add a second bar if you want carpet plants."]
+      ]
+    },
+    {
+      "slug": "40-gallon-breeder-planted-tank",
+      "name": "40 gallon breeder",
+      "short": "40 breeder",
+      "dims": [36, 18, 16],
+      "keyword": "40 breeder planted tank",
+      "summary": "The aquascaper favourite: 18 inches front to back gives real depth to a layout, and 16 inches of height keeps light at the substrate.",
+      "style": "Full nature aquarium or iwagumi with a deep foreground and layered hardscape.",
+      "plants": ["Dwarf hairgrass or Eleocharis carpet", "Bucephalandra and Anubias on rockwork", "Rotala and Ludwigia groups for colour at the back", "Cryptocoryne along the hardscape edges"],
+      "stocking": "A large school (20 or more) of one small species reads best in an aquascape, plus otocinclus and amano shrimp for algae.",
+      "pitfalls": [
+        "Single light on a deep tank. 18 inches front to back leaves the back row dim with one bar; run two or mount one at the centre line.",
+        "Not enough rock. A convincing layout in 40 gallons needs more hardscape than people expect; buy for the layout, then remove.",
+        "CO2 under-dosed. At 150 litres, a small DIY bottle runs out quickly; a pressurised regulator is easier to keep stable."
+      ],
+      "co2": "recommended",
+      "faq": [
+        ["How much substrate do I need for a 40 breeder?", "About 3 inches on average (2 at the front, 4 at the back) is roughly 30 litres of aqua soil. See the substrate figures on this page for the exact number at other depths."]
+      ]
+    },
+    {
+      "slug": "55-gallon-planted-tank",
+      "name": "55 gallon",
+      "short": "55 gal",
+      "dims": [48, 13, 21],
+      "keyword": "55 gallon planted tank",
+      "summary": "Long, narrow and tall. A forgiving volume for fish, but the 21 inch height and 48 inch length make lighting the main decision.",
+      "style": "Large community planted tank with background jungle and open midwater.",
+      "plants": ["Vallisneria and Amazon swords at the back", "Java fern, Anubias and Bucephalandra on wood", "Cryptocoryne and Marsilea in the foreground", "Floating plants to tame the light on a tall tank"],
+      "stocking": "Room for a school of 20 tetras, a group of 8 corydoras or a bristlenose pleco, and a centrepiece such as a pair of angelfish.",
+      "pitfalls": [
+        "Light that does not span the tank. You need about 120 cm of coverage; a short bar leaves both ends dark.",
+        "Thin substrate. 48 inches of footprint takes a lot of soil; budget for it before you buy plants.",
+        "Single small heater. Two smaller heaters at each end hold temperature better than one large unit."
+      ],
+      "co2": "recommended",
+      "faq": [
+        ["Can a 55 gallon planted tank work without CO2?", "Yes, with low-light plants: ferns, anubias, crypts, swords and vallisneria. The height means fast stems and carpets will struggle without CO2 and strong light."]
+      ]
+    },
+    {
+      "slug": "60p-aquascape-tank",
+      "name": "60P (60 x 30 x 36 cm)",
+      "short": "60P",
+      "dims": [23.6, 11.8, 14.2],
+      "keyword": "60p aquascape",
+      "summary": "The rimless 60 cm standard most aquascape contests and tutorials use. 64 litres, ultra-clear glass, nothing to hide behind.",
+      "style": "Iwagumi or nature aquarium built for a rimless, open-top display.",
+      "plants": ["Monte Carlo or Glossostigma carpet with CO2", "Hemianthus callitrichoides for advanced carpets", "Rotala wallichii and Ludwigia for a red accent", "Mini Bucephalandra on the main stones"],
+      "stocking": "A single school of 15 small fish such as ember tetras or green neons, plus amano shrimp. Keep it to one species for a clean look.",
+      "pitfalls": [
+        "Visible equipment. On a rimless tank every pipe shows; glass lily pipes and a clear drop checker keep it clean.",
+        "Skipping the dry start or the high-CO2 start. Carpets in a 60P fill in weeks with CO2 from day one, months without.",
+        "Light overhang. A 60 cm tank needs a bar that fits 48 to 61 cm, mounted with legs, not a clip."
+      ],
+      "co2": "recommended",
+      "faq": [
+        ["What size is a 60P aquarium?", "60 x 30 x 36 cm, or about 23.6 x 11.8 x 14.2 inches. That is 64 litres (17 US gallons) gross, around 55 litres of water once substrate and rock go in."]
+      ]
+    }
+  ]
+}

@@ -132,8 +132,8 @@
     },
     {
       "slug": "cheapest-aquarium-substrate",
-      "title": "Cheapest Aquarium Substrate: The Honest Truth",
-      "description": "Cut through the marketing hype. Discover the truly cheapest aquarium substrates, their real costs, and when spending more saves you money.",
+      "title": "Cheapest Aquarium Substrate (and When Cheap Costs More)",
+      "description": "The cheapest aquarium substrate options compared: sand, gravel and planted soils, how to prep them, and how to work out how much your tank needs.",
       "publishedAt": "2026-10-31",
       "readingMinutes": 9,
       "image": "/guides/cheapest-aquarium-substrate.jpg",
@@ -154,7 +154,8 @@
           "q": "Do I need to wash cheap substrate before putting it in my tank?",
           "a": "Yes, always. All new substrate, especially inexpensive sand and gravel not specifically marketed for aquariums, must be rinsed thoroughly until the water runs clear. This removes fine dust and debris that would cloud your water."
         }
-      ]
+      ],
+      "updatedAt": "2026-11-07"
     },
     {
       "slug": "fish-tank-sand-vs-gravel",
@@ -366,8 +367,8 @@
     },
     {
       "slug": "aquascaping-tools-set-guide",
-      "title": "Aquascaping Tool Sets: What You Actually Need",
-      "description": "Don't waste money on useless aquarium tools. Learn which aquascaping tools are essential, what to skip, and how to get started without breaking the bank.",
+      "title": "Aquascaping Tools: The Set You Actually Need",
+      "description": "Which aquascaping tools are essential (tweezers, scissors, spatula), which to skip, and how to start a planted tank without overspending on tools.",
       "publishedAt": "2026-10-22",
       "readingMinutes": 7,
       "image": "/guides/aquascaping-tools-set-guide.jpg",
@@ -388,7 +389,8 @@
           "q": "Are expensive aquascaping tools worth it?",
           "a": "Not always. The quality of stainless steel varies, but even budget-friendly options can last if cared for properly. Focus on functionality and material, not just brand."
         }
-      ]
+      ],
+      "updatedAt": "2026-11-07"
     },
     {
       "slug": "cheapest-aquarium-lights-worth-buying",
@@ -444,8 +446,8 @@
     },
     {
       "slug": "best-light-for-planted-tank",
-      "title": "Best Light for Planted Tank: A Guide to Strong Plant Growth",
-      "description": "Find the best light for your planted aquarium. Learn about PAR, spectrum, and intensity to grow thriving plants without algae. Get honest recommendations.",
+      "title": "Best LED Light for a Planted Tank: PAR, Spectrum, Size",
+      "description": "How to choose the best LED light for a planted aquarium: PAR, spectrum and bar length for your tank size, without growing an algae farm.",
       "publishedAt": "2026-10-19",
       "readingMinutes": 7,
       "image": "/guides/best-light-for-planted-tank.jpg",
@@ -466,7 +468,8 @@
           "q": "Is more powerful light always better for plants?",
           "a": "No. Too much light without adequate CO2 and nutrients will cause severe algae problems, not better plant growth. Match light intensity to your plants' needs and your tank's CO2 setup."
         }
-      ]
+      ],
+      "updatedAt": "2026-11-07"
     },
     {
       "slug": "best-led-lights-for-planted-tanks",
@@ -477,10 +480,11 @@
     },
     {
       "slug": "nano-tank-filter-guide",
-      "title": "Nano tank filters: sponge vs internal vs hang-on",
-      "description": "The three filter styles for small tanks, what each is genuinely good at, and the mistakes that kill shrimp.",
+      "title": "Nano Aquarium Filter: Sponge vs Internal vs Hang-On",
+      "description": "Which nano aquarium filter suits a small tank: sponge, internal or hang-on-back. Flow rates that suit shrimp and bettas, and the mistakes that kill them.",
       "publishedAt": "2026-10-18",
-      "readingMinutes": 5
+      "readingMinutes": 5,
+      "updatedAt": "2026-11-07"
     },
     {
       "slug": "faster-water-changes",

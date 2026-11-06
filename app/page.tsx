@@ -18,6 +18,7 @@ import {
   FREE_SHIPPING_THRESHOLD,
 } from "lib/brand";
 import { GUIDES_META } from "lib/guides";
+import { TANKS } from "lib/tanks";
 import { pageMeta } from "lib/seo";
 
 export const metadata = pageMeta({
@@ -222,6 +223,51 @@ export default async function HomePage() {
           ))}
         </div>
       </div>
+
+      {/* ── PLAN BY TANK SIZE ───────────────────────────────
+          Each outline is drawn to scale from the tank's real dimensions, so
+          the row doubles as a size comparison. Links feed the /tanks pages. */}
+      <section className="mx-auto max-w-[1400px] px-6 pt-20 md:px-12 md:pt-28">
+        <Reveal>
+          <h2 className="max-w-2xl text-3xl font-semibold leading-tight md:text-5xl">
+            Start from the tank you already own.
+          </h2>
+          <p className="mt-4 max-w-[52ch] leading-relaxed text-[var(--aq-muted)]">
+            Pick a size for the light that fits, heater wattage, filter flow and
+            how much substrate to buy.
+          </p>
+        </Reveal>
+        <div className="-mx-6 mt-10 flex snap-x snap-mandatory items-end gap-4 overflow-x-auto px-6 pb-4 [scrollbar-width:none] md:mx-0 md:grid md:grid-cols-4 md:px-0 lg:grid-cols-8">
+          {TANKS.map((t) => {
+            const scale = 2.4; // px per inch on both axes, so outlines are true to scale (48 in = 115 px)
+            return (
+              <Link
+                key={t.slug}
+                href={`/tanks/${t.slug}`}
+                className="group flex w-40 shrink-0 snap-start flex-col rounded-2xl bg-white p-4 ring-1 ring-[var(--aq-line)] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 hover:ring-[#2f6a37]/40 md:w-auto"
+              >
+                <div className="flex h-[92px] items-end justify-center">
+                  <div
+                    aria-hidden
+                    className="relative max-w-full rounded-[3px] border-[1.5px] border-[var(--aq-ink)]/70 bg-[linear-gradient(to_top,#2f6a37_0,#2f6a37_14%,rgba(47,106,55,0.08)_14%)] transition-colors group-hover:border-[#2f6a37]"
+                    style={{ width: `${t.dims[0] * scale}px`, height: `${t.dims[2] * scale}px` }}
+                  />
+                </div>
+                <p className="mt-4 text-[15px] font-semibold leading-tight">{t.name.split(" (")[0]}</p>
+                <p className="aq-spec mt-1 text-[12px] text-[var(--aq-muted)]">
+                  {t.netL} L
+                </p>
+              </Link>
+            );
+          })}
+        </div>
+        <Link
+          href="/tools/substrate-calculator"
+          className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[#2f6a37]"
+        >
+          Other size? Substrate calculator <Arrow />
+        </Link>
+      </section>
 
       {/* ── CATEGORY BENTO ───────────────────────────────── */}
       <section className="mx-auto max-w-[1400px] px-6 py-20 md:px-12 md:py-28">

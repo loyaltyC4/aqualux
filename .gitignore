@@ -42,3 +42,4 @@ next-env.d.ts
 # real supplier reference photos, kept locally for future regeneration
 # but never committed to the public repo
 reference-photos/
+.claude/

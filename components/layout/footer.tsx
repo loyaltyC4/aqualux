@@ -76,15 +76,28 @@ export default function Footer() {
           ]}
         />
 
-        <Column
-          title="Support"
-          links={[
-            { label: "Shipping & returns", href: "/shipping-returns" },
-            { label: "FAQ", href: "/faq" },
-            { label: "Contact", href: "/contact" },
-            { label: "About", href: "/about" },
-          ]}
-        />
+        <div className="space-y-10">
+          <Column
+            title="Plan"
+            links={[
+              { label: "Setups by tank size", href: "/tanks" },
+              { label: "10 gallon planted tank", href: "/tanks/10-gallon-planted-tank" },
+              { label: "20 long planted tank", href: "/tanks/20-gallon-long-planted-tank" },
+              { label: "40 breeder planted tank", href: "/tanks/40-gallon-breeder-planted-tank" },
+              { label: "Substrate calculator", href: "/tools/substrate-calculator" },
+              { label: "Guides", href: "/guides" },
+            ]}
+          />
+          <Column
+            title="Support"
+            links={[
+              { label: "Shipping & returns", href: "/shipping-returns" },
+              { label: "FAQ", href: "/faq" },
+              { label: "Contact", href: "/contact" },
+              { label: "About", href: "/about" },
+            ]}
+          />
+        </div>
 
         <div className="col-span-2 md:col-span-1">
           <h3 className="text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">

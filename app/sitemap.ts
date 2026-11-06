@@ -1,6 +1,7 @@
 import { getAllSiteUrls } from "lib/site-urls";
 import { getProducts } from "lib/shopify";
 import { GUIDES_META } from "lib/guides";
+import { TANKS_UPDATED } from "lib/tanks";
 import { baseUrl } from "lib/utils";
 import { MetadataRoute } from "next";
 
@@ -28,7 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ]),
   );
   const guideDate = new Map(
-    GUIDES_META.map((g) => [`${baseUrl}/guides/${g.slug}`, g.publishedAt]),
+    GUIDES_META.map((g) => [`${baseUrl}/guides/${g.slug}`, g.updatedAt ?? g.publishedAt]),
   );
   const newestProduct =
     products
@@ -40,10 +41,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const isHome = url === baseUrl;
     const isSearch = url.startsWith(`${baseUrl}/search`);
     const isProduct = url.includes("/product/");
-    const isGuide = url.includes("/guides/");
+    const isGuide = url.includes("/guides/") || url.includes("/tanks") || url.includes("/tools/");
     const lastModified =
       productDate.get(url) ??
       guideDate.get(url) ??
+      (url.includes("/tanks") || url.includes("/tools/") ? TANKS_UPDATED : undefined) ??
       (isHome || isSearch ? newestProduct : STATIC_UPDATED);
     return {
       url,

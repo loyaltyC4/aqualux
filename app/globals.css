@@ -64,17 +64,25 @@ h4 {
 }
 
 /* Scroll reveal — transform + opacity only */
-@media (prefers-reduced-motion: no-preference) {
-  .aq-reveal {
+/* Scroll reveal: CSS scroll-driven, transform + opacity only. Without
+   support for view timelines the content is simply static and visible. */
+@keyframes aq-rise {
+  from {
     opacity: 0;
     transform: translateY(22px);
   }
-  .aq-reveal.is-in {
+  to {
     opacity: 1;
     transform: none;
-    transition:
-      opacity 0.8s var(--ease-out-expo),
-      transform 0.8s var(--ease-out-expo);
+  }
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .aq-reveal {
+      animation: aq-rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry calc(45% + var(--aq-reveal-shift, 0%));
+    }
   }
 }
 

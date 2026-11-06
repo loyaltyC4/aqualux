@@ -25,6 +25,7 @@ export async function Navbar() {
     ...collections
       .filter((c) => c.handle)
       .map((c) => ({ title: SHORT[c.handle] ?? c.title, path: c.path })),
+    { title: "Tank setups", path: "/tanks" },
     { title: "Guides", path: "/guides" },
   ];
 
