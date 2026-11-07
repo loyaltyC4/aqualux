@@ -1,0 +1,240 @@
+{
+  "ceramic-bio-rings-filter-media": {
+    "sections": [
+      {
+        "h": "Where the bacteria actually live",
+        "body": "A filter does not clean water by itself. The work is done by nitrifying bacteria that coat every surface inside it and turn ammonia into nitrite, then nitrite into nitrate. These rings are porous all the way through and water passes through the centre of each one, so the colony lives on the inside surfaces as well as the outside. More surface area in the same volume is the whole reason to buy ring media instead of loose gravel.\n\nOne litre fills a hang-on-back chamber or a small canister tray. In a bigger canister, fill the baskets you have. What matters is that every ring sees flowing, oxygenated water."
+      },
+      {
+        "h": "Order of media in the filter",
+        "body": "Put mechanical media first and the rings after it. Water should hit a coarse sponge, then [filter floss](/product/aquarium-filter-floss-pad), then the rings. Bio media clogs with detritus if it is the first thing the water meets, and a clogged ring stops feeding the bacteria inside it.\n\nCarbon belongs at the end of the chain or in its own bag, never mixed in with the rings where it will compete for flow."
+      },
+      {
+        "h": "Cleaning without restarting your cycle",
+        "body": "Never rinse the rings under the tap. Chlorine in tap water kills the colony. Take a bucket of water you have just removed from the tank, swish the media in it until the loose gunk is gone and put it back. If you ever need to replace some, swap out no more than half at a time and keep the older half in the filter. Replacing the whole bag in one go is the same as starting the tank from scratch."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How long do ceramic bio rings last?",
+        "a": "Ceramic does not wear out the way carbon does. With gentle rinsing in tank water it can stay in a filter for years. Replace it only if rings crack or if the pores are packed so hard with sludge that a rinse no longer frees them."
+      },
+      {
+        "q": "Do I need bio media in a heavily planted tank?",
+        "a": "A dense planted tank takes up a lot of ammonia directly, but fish waste still arrives faster than plants can always use it, especially in a new tank. A bag of rings gives you a safety margin while the plants fill in, and it keeps the tank stable when you trim heavily."
+      }
+    ]
+  },
+  "activated-carbon-filter-bags": {
+    "sections": [
+      {
+        "h": "What carbon is good for",
+        "body": "Activated carbon adsorbs dissolved organics from the water. In practice that means three jobs: clearing the yellow tint that driftwood and leaf litter leave behind, removing smells from a tank that has gone swampy, and stripping medication out of the water once a treatment course is finished.\n\nIt does not remove ammonia, nitrite or nitrate, and it does nothing for cloudy water caused by suspended particles. For that you want floss or a fine sponge."
+      },
+      {
+        "h": "When to take it out",
+        "body": "Carbon is indiscriminate. If you dose medication while a bag is in the filter, the carbon removes the medicine and the treatment fails. Take the bag out before you start a course and put a fresh one in after the last dose.\n\nIn a planted tank, carbon also pulls out some of the dissolved nutrients you are paying to add. If you run it continuously, expect to dose a little more fertiliser, or better, use it for two weeks at a time when you need it and leave it out the rest of the time."
+      },
+      {
+        "h": "Using the bags",
+        "body": "Each bag is pre-portioned, so there is nothing to rinse and nothing escapes into the tank. Place one in a media basket, a hang-on-back chamber or a canister tray where water has to pass through it. A bag that sits in a dead corner does nothing.\n\nCarbon is exhausted after about a month. A bag that has been in longer is not helping. With twenty bags in the pack, a tank that only needs carbon occasionally will go through them slowly, so you are not forced to leave old carbon in."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I use carbon bags together with ceramic bio media?",
+        "a": "Yes. Use them in the same filter, with the carbon after the biological media or in a separate chamber. Carbon does not harm the bacteria on the rings. Just keep the bag where it is bathed in flow, and replace it monthly."
+      },
+      {
+        "q": "Will carbon fix cloudy green water?",
+        "a": "No. Green water is free-floating algae and white cloud is usually a bacterial bloom, and neither is removed by carbon. Carbon only clears dissolved colour and odour. A fine floss pad catches suspended particles."
+      }
+    ]
+  },
+  "auto-feeder-programmable": {
+    "sections": [
+      {
+        "h": "Set it up before you rely on it",
+        "body": "Clamp the feeder to the rim so the outlet sits over open water and clears the glass, then set the portion gate and run a few manual feeds into a cup to see how much comes out. Most overfeeding with these units comes from leaving the gate wide open. Start small. You can always add a manual portion.\n\nRun it for at least a week while you are home before you trust it on a trip. Watch what is left on the bottom an hour after each feed. If food is still sitting there, close the gate a little."
+      },
+      {
+        "h": "Food it handles well",
+        "body": "The hopper is a sealed 100 ml drum and suits flake, micro pellets and fine granules. Large pellets, wafers, freeze-dried cubes and anything oily or sticky can jam the outlet. The humidity part matters too: a feeder mounted over an open-top tank sees steam from the water, and the sealed drum and rotating outlet are what keep food dry for weeks.\n\nFill it only with the amount you will use in the next few weeks, not the whole 100 ml out of habit. Old food loses vitamins."
+      },
+      {
+        "h": "Planning for a week away",
+        "body": "Healthy adult fish are fine going a few days without food, so a feeder is more about keeping a steady routine than about saving a trip. For a longer absence, set the interval to 24 hours with a small portion, check that the batteries or USB-C connection are secure, and do a water change before you leave so the tank starts clean. If you keep fry, shrimp or fish that need several small feeds a day, a feeder is not a substitute for someone looking in."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Where is the best place to mount the feeder?",
+        "a": "On the rim where it clears the glass, away from the filter outlet and any spray bar. Food that lands in strong flow is blown to one corner or into the filter intake. A quiet corner over open water works best."
+      },
+      {
+        "q": "Can I feed twice a day?",
+        "a": "The 12 hour interval gives you two feeds a day and the 24 hour interval gives one. You can add an extra portion at any time with the manual button without changing the schedule."
+      }
+    ]
+  },
+  "diy-co2-generator-kit-2l": {
+    "sections": [
+      {
+        "h": "Who this kit is for",
+        "body": "This is the cheaper, hands-on way to put CO2 into a planted tank. Citric acid and bicarbonate react in the stainless bottle to produce gas, so there is no cylinder to refill. In exchange you recharge the bottle every few weeks and accept that the output tapers as the reaction runs down. If you want a steady, adjustable flow for months at a time, a regulator and refillable cylinder is the better route. For a small to medium tank, a first CO2 setup or a tank you only want to try CO2 on, a chemical generator is a sensible start."
+      },
+      {
+        "h": "Dialling it in",
+        "body": "Start low. Aim for a slow bubble rate and watch the livestock for the first few days. Fish gasping at the surface or hanging near the filter outlet in the morning means there is too much CO2 or too little oxygen, and you should cut the bubble rate and add surface agitation.\n\nA [drop checker](/product/co2-starter-bundle-regulator-diffuser-checker) is the easiest way to see what is happening. With the reference solution it turns from blue (too little CO2) through green (about right) to yellow (too much). Judge it by eye after a few hours, not minutes, since it lags."
+      },
+      {
+        "h": "Choosing the variant",
+        "body": "There are 2 L and 4 L bottles, each with a manual or a solenoid regulator. A larger bottle lasts longer between recharges at the same bubble rate. The solenoid versions let you put CO2 on a timer so that it stops when the lights go out, which is when plants are not using it and oxygen is lowest. If you pick the manual regulator, aim for a lower bubble rate."
+      },
+      {
+        "h": "Recharging safely",
+        "body": "Use the measuring cup and funnel that come in the kit and mix the reagents exactly as the instructions say, away from the tank. The valve and the automatic release above 30 kg are backstops, not a reason to run it harder. Keep the bottle upright and away from heat, and fit a [check valve](/product/bubble-counter-check-valve-set) in the line so water cannot siphon back into the bottle if the pressure drops."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How many bubbles per second should I run?",
+        "a": "Start with roughly one bubble every second or two in a small to medium tank and raise it slowly over several days while you watch the drop checker and the fish. Each tank differs with plant mass, light and surface agitation, so treat any number as a starting point."
+      },
+      {
+        "q": "Is a DIY CO2 kit safe for shrimp and fish?",
+        "a": "Yes if you keep the level moderate and the tank well aerated. The risk comes from too much CO2 overnight with no surface movement. Turn the bubble rate down, run the filter outlet at the surface, and if you have a solenoid, put it on a timer."
+      }
+    ]
+  },
+  "aqua-soil-planted-substrate": {
+    "sections": [
+      {
+        "h": "Why aquarists pick soil over gravel",
+        "body": "Aqua soil is fired, granular and active. Roots spread through it without it compacting, it gives heavy root feeders such as sword plants and crypts something to draw on, and it gently pulls the water toward the slightly acidic side. That is also why it is a standard for Caridina shrimp, which want soft, stable water. Its near-black colour makes greens look more saturated and hides fish waste between maintenance days."
+      },
+      {
+        "h": "How much to buy",
+        "body": "Plan for about 2 inches (5 cm) at the front glass rising to 3 or 4 inches (7 to 10 cm) at the back. The [substrate calculator](/tools/substrate-calculator) works out litres for any footprint, and each of the [tank-size pages](/tanks) shows the volume for that tank. Buy a little extra: soil settles, and a thin patch is the first thing you will notice once the plants grow."
+      },
+      {
+        "h": "The first weeks",
+        "body": "Rinse once only to remove dust, then add water slowly over a plate or a bag so the granules are not disturbed. Do not keep washing it, because the surface is what does the work.\n\nFresh active soil releases ammonia in the first weeks. Cycle the tank before you add fish, do frequent water changes while the plants settle, and test the water. Plants will take up much of that ammonia, but a new planted tank with fish too early is how most people meet their first algae bloom.\n\nThe pH and hardness buffering is strongest at the start and fades over months. Expect to retest and adjust as the soil ages, and be ready to replace it when you rescape."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do I need to cap aqua soil with sand or gravel?",
+        "a": "It is optional. A thin cap of sand or fine gravel keeps the soil from clouding the water when you replant and is useful in a tank where fish dig. In a shrimp tank many aquarists leave it uncapped so the buffering reaches the water."
+      },
+      {
+        "q": "Will aqua soil lower my pH permanently?",
+        "a": "No. The effect is strongest while the soil is new and fades gradually over months. If your tap water is hard and carbonate-rich, the buffering will be overcome sooner. Test pH and KH regularly rather than assuming it will hold."
+      }
+    ]
+  },
+  "aurora-48-planted-tank-led": {
+    "sections": [
+      {
+        "h": "Choosing the right length",
+        "body": "Pick the bar by the outside width of the rim, not by the water volume. The bar is 48 cm long and the bracket adds travel to fit rims from 48 to 61 cm (19 to 24 in). A bar that is much shorter than the tank leaves the ends of the scape dim. Measure, then check the range on this page before you order. For longer tanks the [Aurora Smart 78](/product/aurora-smart-78-rgb-led) and the [Aurora Pro](/product/aurora-pro-rgb-bluetooth) cover bigger rims, and the [clip-on nano light](/product/clip-on-nano-grow-light) suits small tanks."
+      },
+      {
+        "h": "Setting a photoperiod that avoids algae",
+        "body": "The built-in repeating timer is the most useful feature on a planted tank, because inconsistent light hours are a cause of algae. Start with six hours a day, then increase by half an hour a week up to seven or eight if the plants are growing and the glass is staying clear. If you see algae, shorten the day before you change anything else.\n\nUse the white mode for growth, white-plus-blue for display, and blue alone as a dim night light. Do not leave blue on overnight in a tank that has plants you want to rest."
+      },
+      {
+        "h": "What plants will do well",
+        "body": "Treat this as a low to medium light. We do not publish a PAR figure because the manufacturer does not provide one. That range suits java fern, anubias, crypts, vallisneria and hardy stem plants. Demanding carpeting plants such as dwarf hairgrass or monte carlo are better matched to a brighter fixture. If you run CO2, a [regulator and diffuser kit](/product/co2-starter-bundle-regulator-diffuser-checker) is the usual next step, with the light raised or lowered to suit."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How high above the water should the bar sit?",
+        "a": "On the rim the bracket holds it just above the water. A higher mount spreads the light wider but dims it at the plants. If you see algae on the glass near the light, lower the intensity or shorten the day before you move the bar."
+      },
+      {
+        "q": "How many hours a day should I run it?",
+        "a": "Six hours is a safe starting point for a new planted tank, raised by half an hour at a time to seven or eight if the plants are growing and the glass stays clear. Use the timer so the schedule never drifts."
+      }
+    ]
+  },
+  "aurora-smart-78-rgb-led": {
+    "sections": [
+      {
+        "h": "Sizing for 70 to 95 cm tanks",
+        "body": "The 78 cm bar comes with two bracket heights. Short legs for tanks 70 to 80 cm long, tall legs for 80 to 95 cm. That covers the common 90 cm tank and most 75 to 85 cm sizes. Measure the outside rim length, then choose the legs. At 34 W and 4200 lm it is the second brightest in the Aurora range, which is plenty for medium-light planted tanks. For a rim beyond 95 cm look at the [Aurora Pro](/product/aurora-pro-rgb-bluetooth)."
+      },
+      {
+        "h": "Why colour rendering matters",
+        "body": "CRI 90Ra means the light renders colours faithfully, so greens, reds and the orange of fish look the way they will in daylight. Cheap aquarium LEDs sit in the 70s and make a planted tank look flat and slightly grey. The RGB channels let you push the colour toward the plants or the fish, and the phone app saves you from cycling through modes on a cord."
+      },
+      {
+        "h": "Mounting and splash protection",
+        "body": "The aluminium body is IP44 splash resistant. That is enough for rim-mounted use, the occasional drip and the condensation on an open-top tank. It is not rated for submersion, so keep it clear of the waterline and use a drip loop on the lead. The 2 m lead gives you room to route the cable neatly behind the stand."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is this bright enough for carpet plants?",
+        "a": "For most carpets at this span, yes, especially with CO2 and a tank that is not too deep. We do not publish a PAR figure because the manufacturer does not measure one. For genuinely demanding species, ask us first."
+      },
+      {
+        "q": "Can I use the app to dim the light for evening viewing?",
+        "a": "Yes, the RGB mixing lets you lower the intensity and change the colour in the app. Keep a consistent daily schedule for the plants, and use the dimmed colour setting only after their growing day is done."
+      }
+    ]
+  },
+  "digital-ph-meter-lcd": {
+    "sections": [
+      {
+        "h": "Why a meter beats a colour chart",
+        "body": "Liquid test kits ask you to compare a coloured sample to a chart, and shades of yellow-green are hard to tell apart under aquarium light. A digital pH meter gives you a number to one decimal place, which is enough to see a drift of 0.2 or 0.3 over a week. That is the range where a planted tank on CO2 or a shrimp tank on soft water starts to go wrong."
+      },
+      {
+        "h": "Calibrating and keeping it accurate",
+        "body": "A cheap pocket meter is only as accurate as its last calibration. Calibrate it with fresh buffer solution before you start, and recheck every few weeks. Rinse the probe in clean water between readings, never let it dry out for long and never store it in tap water. Take readings from the same spot and at the same time of day. In a tank on CO2, pH falls once the gas comes on and rises after it stops, so a morning and an evening reading will not match."
+      },
+      {
+        "h": "Using pH and KH to watch CO2",
+        "body": "If you inject CO2 you can estimate the level from pH and carbonate hardness. A common rule of thumb for a planted tank is a pH drop of about one unit from tank water that has been left out overnight to degas. Treat it as a rough check, with a [drop checker](/product/co2-starter-bundle-regulator-diffuser-checker) and the behaviour of the fish as the main guides. For KH and general hardness use [test strips](/product/test-strips-8-in-1-100-count) or a liquid kit."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How often should I calibrate a pH meter?",
+        "a": "Check it against fresh buffer solution every few weeks, and always before an important reading such as setting up CO2 or after the meter has been unused for a while. If a reading looks wrong, calibrate before you adjust anything in the tank."
+      },
+      {
+        "q": "Does a digital meter replace test kits?",
+        "a": "It replaces the pH part only. You still need a way to test ammonia, nitrite, nitrate and KH, which are the other numbers that decide whether the tank is safe."
+      }
+    ]
+  },
+  "clip-on-nano-grow-light": {
+    "sections": [
+      {
+        "h": "Pick the size by tank length",
+        "body": "This light comes in four sizes: 5 W for tanks 10 to 20 cm, 7 W for 20 to 40 cm, 9 W for 30 to 50 cm and 12 W for 40 to 80 cm. Measure the tank's longest side and choose the size that matches. On an open-top nano tank the arm lets you point the light where the plants are, and on a desktop setup it can sit beside the tank rather than on it."
+      },
+      {
+        "h": "What it will grow",
+        "body": "A small clip light suits low and medium-light plants: anubias, java fern, mosses, cryptocoryne, floating plants and small stem plants kept close to the light. Carpeting plants and demanding reds need stronger light and CO2 than a nano clip provides. It also works for emersed setups, such as a plant cutting growing above the waterline or a small paludarium, where the plants sit close to the lamp."
+      },
+      {
+        "h": "Clip and placement",
+        "body": "Clip to the rim and aim the head down at the plants, not across the room. Keep the head a few centimetres above the water so it does not pick up splashes and condensation. If you see algae on the glass, shorten the lighting period before you change the plants or fertiliser. Six to seven hours a day is a good start."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will it fit a thick rim?",
+        "a": "Check the thickness of your tank rim and the clip's opening before you order. Rimless glass tanks are usually thin enough. If your tank has a thick or braced rim, a clamp may not seat properly."
+      },
+      {
+        "q": "Can I run it without a timer?",
+        "a": "You can, but a cheap plug-in timer is a good investment. A fixed daily schedule keeps light hours consistent, which helps plants and keeps algae down."
+      }
+    ]
+  }
+}

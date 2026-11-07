@@ -8,6 +8,8 @@ import { ProductCard } from "components/product-card";
 import { ReviewsSection } from "components/product/reviews-section";
 import { HIDDEN_PRODUCT_TAG } from "lib/constants";
 import { getProductReviews } from "lib/reviews";
+import { getProductGuide } from "lib/product-guides";
+import { ProductGuideSections } from "components/product/product-guide";
 import {
   getProduct,
   getProductCollection,
@@ -80,7 +82,8 @@ export default async function ProductPage(props: {
   // reach the storefront: publishing it hands competitors the exact supplier.
   const publicTags = product.tags.filter((t) => !t.startsWith("src1688:"));
   const specs = product.specs ?? [];
-  const faqs = product.faqs ?? [];
+  const guide = getProductGuide(product.handle);
+  const faqs = [...(product.faqs ?? []), ...(guide?.faqs ?? [])];
 
   const collectionHandle = await getProductCollection(product.handle);
   const collectionMeta = COLLECTIONS.find((c) => c.handle === collectionHandle);
@@ -311,10 +314,14 @@ export default async function ProductPage(props: {
           </div>
         )}
 
+        {guide && (
+          <ProductGuideSections guide={guide} title={product.title} />
+        )}
+
         {faqs.length > 0 && (
           <div className="mt-10 rounded-3xl border border-black/10 bg-[#ffffff] p-6 md:p-10">
             <h2 className="mb-6 text-xl font-semibold">
-              Questions about this light
+              Questions about this product
             </h2>
             <FaqList items={faqs} />
           </div>
