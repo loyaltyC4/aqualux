@@ -198,10 +198,6 @@
     ],
     "faqs": [
       {
-        "q": "Do I need an air pump?",
-        "a": "Yes. The filters are driven by air, so you need an air pump, airline tubing and ideally a check valve."
-      },
-      {
         "q": "Can a sponge filter be the only filter?",
         "a": "In a lightly stocked, planted or breeding tank, yes. For a heavily stocked tank add more sponges or a larger filter."
       }
@@ -248,16 +244,7 @@
         "body": "Choose 12/16 mm or 16/22 mm to match your filter hose. The set includes inflow, outflow and clamps, and suits canister and hang-on-back filters. Position the inflow and outflow at opposite ends so the flow crosses the whole tank. Rinse the pipes before use and clean the inside with a brush from time to time."
       }
     ],
-    "faqs": [
-      {
-        "q": "Glass or stainless, which should I buy?",
-        "a": "Glass if looks matter most and the tank is left alone. Stainless if the tank is bumped, rescaped often or has children or pets nearby."
-      },
-      {
-        "q": "Is it as quiet as glass?",
-        "a": "Water noise comes mostly from the surface return, not the material. Position the outflow just at the surface to keep it quiet."
-      }
-    ]
+    "faqs": []
   },
   "root-fertilizer-tabs-40": {
     "sections": [

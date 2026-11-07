@@ -1,0 +1,356 @@
+{
+  "dual-gauge-regulator-solenoid": {
+    "sections": [
+      {
+        "h": "Reading the two gauges",
+        "body": "One gauge shows cylinder pressure, which tells you how much gas is left. The other shows working pressure, the pressure the regulator sends down the line to your diffuser. The needle valve then sets how fast gas flows, and a standard port takes a bubble counter. The solenoid is built in, so a plug-in timer can switch CO2 on and off with the lights."
+      },
+      {
+        "h": "Match the thread to your cylinder",
+        "body": "The options are G5/8 with solenoid, W21.8 with solenoid, and G5/8 manual with no solenoid. G5/8 and W21.8 are different cylinder threads, and they do not interchange. Check the thread on the cylinder you plan to use, or ask the gas supplier, before ordering. Do not force a regulator onto a cylinder it does not fit."
+      },
+      {
+        "h": "Setup and safety",
+        "body": "Fit the regulator with the cylinder valve closed, then open the cylinder slowly. Brush soapy water on the joints and watch for bubbles to find leaks. Most setups run at a low working pressure, roughly 1 to 2 bar (15 to 30 psi), but follow your diffuser's instructions and start low. Fit a [bubble counter with check valve](/product/bubble-counter-check-valve-set) so water cannot run back into the regulator. Fix the cylinder upright so it cannot fall."
+      },
+      {
+        "h": "Timer schedule",
+        "body": "Plug the solenoid into a mains timer and start CO2 about an hour before the lights, then stop it about an hour before they go off. A [drop checker](/product/glass-drop-checker-4dkh-solution) shows whether the level is in the right range. Without a solenoid (the manual option) CO2 keeps flowing all night, which is the usual cause of fish gasping in the morning."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which thread do I need, G5/8 or W21.8?",
+        "a": "It depends on the cylinder. Look at the cylinder valve or ask the place that fills it. The two threads are not compatible."
+      },
+      {
+        "q": "Do I need the solenoid version?",
+        "a": "A solenoid lets a timer stop CO2 overnight. Without it you must close the needle valve by hand each evening, which is easy to forget."
+      }
+    ]
+  },
+  "glass-drop-checker-4dkh-solution": {
+    "sections": [
+      {
+        "h": "What a drop checker tells you",
+        "body": "The glass holds a 4 dKH reference solution with bromothymol blue indicator. Dissolved CO2 in the tank passes into the solution through an air gap and changes its colour. Blue means too little CO2. Green means about right. Yellow means too much. It reads the CO2 level indirectly, which is why it is a useful second pair of eyes on a CO2 setup."
+      },
+      {
+        "h": "Using it",
+        "body": "Hang it where water circulates, away from the diffuser mist and not in a dead corner. Fill it with the reference solution only, never with tank water, because the solution's carbonate hardness is what sets the colour. Aim for a lime green as the lights go off, as that is when the tank has been injected for the longest time. It lags the real level by an hour or more, so change the bubble rate in small steps and check the next day."
+      },
+      {
+        "h": "Keeping it accurate",
+        "body": "Replace the solution every few weeks or if it looks cloudy or stays stuck on one colour. The glass is borosilicate and fragile, so use the suction fitting or hook carefully. Several shapes are available (music note, teardrop, hook mount and crystal ball), and they all work the same way. If you run [DIY CO2](/product/diy-co2-generator-kit-2l) or a pressurised system, the checker is the cheapest safeguard."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why is mine always blue?",
+        "a": "Either the CO2 level is low, or the solution is old. Raise the bubble rate slowly and replace the solution if it never changes."
+      },
+      {
+        "q": "Can I top it up with tank water?",
+        "a": "No. Use fresh reference solution, since tank water has a different carbonate hardness and gives a wrong reading."
+      }
+    ]
+  },
+  "bubble-counter-check-valve-set": {
+    "sections": [
+      {
+        "h": "Two jobs in one part",
+        "body": "A bubble counter is a small chamber of water through which the CO2 passes, so you can count bubbles per second and set the same rate each time. A check valve is a one-way valve that stops water from flowing backwards. This glass unit does both. Put it between the regulator and the diffuser, in the CO2 line."
+      },
+      {
+        "h": "Why the check valve matters",
+        "body": "When CO2 is turned off, pressure in the line falls. If the diffuser is below the water level, water can move back up the tube and into the regulator, which can damage it. The check valve prevents that. Fit it the right way round, with the arrow or flow direction toward the tank. The same part is the recommended protection on an [air pump line](/product/dual-outlet-air-pump) too."
+      },
+      {
+        "h": "Straight or spiral",
+        "body": "The straight and spiral options work the same way. A spiral slows the bubbles, which makes them easier to count at a faster rate. Fill it about halfway with water, wipe off any fingerprints, and keep it upright. The glass is thin, so keep it where it cannot be knocked."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How full should the counter be?",
+        "a": "About half. Too full, and water can be pushed into the line, too empty and you cannot see the bubbles."
+      },
+      {
+        "q": "How many bubbles per second should I run?",
+        "a": "It depends on the tank, and the right number is the one the drop checker and the fish are comfortable with. Start low and raise it slowly."
+      }
+    ]
+  },
+  "spider-wood-centrepiece-set": {
+    "sections": [
+      {
+        "h": "Why spider wood",
+        "body": "Spider wood has thin, branching, root-like arms that suit planted-tank centrepieces. Mosses, ferns and anubias attach easily to the fine branches, and the shape gives a natural tree look that is hard to get from solid wood. Pieces are natural and sizes vary, so no two sets look the same."
+      },
+      {
+        "h": "Choosing a set",
+        "body": "Options run from three pieces of 10 to 15 cm and 15 to 20 cm, through two pieces of 20 to 30 cm, to a single centrepiece of 30 cm or more. Match the biggest piece to your tank, with the centrepiece about half the tank length or less. In a 60 cm tank, a 30 cm piece with a few smaller ones makes a convincing layout."
+      },
+      {
+        "h": "Preparing and anchoring",
+        "body": "Wood floats at first and releases tannins, which tint the water. Soak or boil it until it sinks, or weigh it down while it waterlogs. A tannin tint is harmless and can be cleared with [activated carbon](/product/activated-carbon-filter-bags). Attach moss with cotton thread or glue, and let it grow in. Wood is light, so wedge it into the substrate or tie it to a stone."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How big a piece for my tank?",
+        "a": "Choose a piece up to about half the tank length so it does not crowd the scape. Buy a larger set if you want a more dramatic layout."
+      },
+      {
+        "q": "Will it grow anything on it?",
+        "a": "Mosses, java fern and anubias attach to the wood and grow well. Tie them on until they grip."
+      }
+    ]
+  },
+  "rgbw-55-full-spectrum-led": {
+    "sections": [
+      {
+        "h": "Fit and size",
+        "body": "The bar is 40 cm long, and the extendable brackets reach tanks from 40 to 55 cm wide. It runs at 15 W with 66 RGBW LEDs, and plugs into a 12 V DC adapter. Measure the outside rim before you order. For longer tanks, see the [Aurora 48](/product/aurora-48-planted-tank-led) or the [Aurora Smart 78](/product/aurora-smart-78-rgb-led)."
+      },
+      {
+        "h": "Remote and timer",
+        "body": "A 28-key RF remote sets the colour and brightness, with thirteen static colours and dynamic modes, so there is no button on the cord to cycle through. The 24-hour timer turns the light on and off by itself, which is the most reliable way to keep the lighting period steady. Set it once, aim for six to eight hours a day, and avoid changing it often."
+      },
+      {
+        "h": "Colour for plants and fish",
+        "body": "RGBW gives you control over the colour balance. Plants use red and blue light, and a white channel keeps the tank looking natural. Many keepers run a mostly white mix for the day and add colour for display. As with any aquarium LED, this is a low to medium light, so match plants to it and see the FAQ on demanding species."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How many hours a day should I run it?",
+        "a": "Six to seven hours is a good starting point for a planted tank, raised slowly if growth is good and algae stays away. Use the built-in 24-hour timer so the schedule is the same every day."
+      },
+      {
+        "q": "What power does it use?",
+        "a": "It is a 15 W bar powered by an external 12 V DC adapter, according to the specification."
+      }
+    ]
+  },
+  "co2-solenoid-valve-12v": {
+    "sections": [
+      {
+        "h": "Why a solenoid helps",
+        "body": "Plants only use CO2 while the lights are on, and they release it at night. Running CO2 in the dark wastes gas, drops the pH for no benefit and can stress fish when oxygen is lowest. A 12 V solenoid valve shuts the gas off on a timer so that CO2 stops when the lights do."
+      },
+      {
+        "h": "Wiring it in",
+        "body": "Fit it inline between the regulator and the diffuser, in the CO2 line. It has a low-voltage 12 V coil, so there is no mains voltage near the tank. Connect it to a 12 V supply through a standard mains timer, so the same schedule runs your light and your CO2, or give CO2 its own schedule. Start the gas about an hour before the lights come on, and stop it about an hour before they go off."
+      },
+      {
+        "h": "Do you need it?",
+        "body": "If your regulator already includes a solenoid, such as the [dual-gauge regulator](/product/dual-gauge-regulator-solenoid), you do not need a second one. If your regulator is manual, a separate solenoid is the way to add timer control. Pair it with a [bubble counter and check valve](/product/bubble-counter-check-valve-set) to protect the line."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What powers it?",
+        "a": "It needs a 12 V DC supply. Check that your timer and supply suit it before you order."
+      }
+    ]
+  },
+  "digital-thermometer-lcd": {
+    "sections": [
+      {
+        "h": "Why a max/min thermometer",
+        "body": "A spot reading tells you nothing about the overnight swing. This thermometer remembers the highest and lowest temperatures since you last cleared it, which is how you catch a heater that is drifting at night or a tank that overheats under the lights. It reads to 0.1 °C with an accuracy of ±1 °C, in °C or °F."
+      },
+      {
+        "h": "Placement",
+        "body": "Put the sealed probe in the water, away from the heater and the filter outflow, and stick the display on the outside of the glass where you can read it. The 1 m lead gives you room to place it at the far end of the tank. Most tropical community fish are kept somewhere around 24 to 27 °C, so check your species."
+      },
+      {
+        "h": "Heater check",
+        "body": "Clear the memory, leave it for a day, and read the high and low. A swing of more than a degree or two suggests the heater is too big, too small or badly placed. Use the [tank-size pages](/tanks) to check heater wattage for your tank. The display runs on one LR44 cell, which is included."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How do I reset the max and min?",
+        "a": "Use the reset function described in the instructions. Clear it, then check again after a day for a fresh overnight range."
+      },
+      {
+        "q": "How long does the battery last?",
+        "a": "It uses one LR44 cell, which is included. Replace it when the display fades."
+      }
+    ]
+  },
+  "fine-mesh-fish-net-braided": {
+    "sections": [
+      {
+        "h": "Soft mesh, square mouth",
+        "body": "Coarse nets catch shrimp legs and split betta fins. This one has a fine, soft weave that is gentle on small fish, shrimp and fry. The net is 8 cm wide with a square mouth, which works neatly into the corner of the glass, where fish tend to run. The handle is braided stainless, so it does not bend or rust like a stamped one."
+      },
+      {
+        "h": "Using it",
+        "body": "Move slowly and use the net with a second hand or tool to steer the fish. Scoop and lift in one smooth motion, and keep the fish in water while you move it. For shrimp, keep the net in the water and lift out only once the shrimp are in a container."
+      },
+      {
+        "h": "Hygiene",
+        "body": "Rinse after each use and let it dry, and keep a separate net for any quarantine tank. A net that goes from a sick tank to a healthy one carries disease with it. For deep tanks, the [telescopic net](/product/telescopic-fish-net) reaches further."
+      }
+    ],
+    "faqs": []
+  },
+  "intake-pre-filter-sponge-9pack": {
+    "sections": [
+      {
+        "h": "The usual reason a shrimp disappears",
+        "body": "A filter intake without a guard is how shrimp, fry and small fish end up in the impeller. These slip-on foam sleeves fit intakes up to about 25 mm and stop animals and plant trimmings from being pulled in. They also hold bacteria once established, so they double as extra biological media."
+      },
+      {
+        "h": "Rotating the nine sleeves",
+        "body": "Nine sleeves let you run one while another dries or is cleaned, so you never strip the filter of bacteria in a single go. Rinse an in-use sleeve in a bucket of tank water, not under the tap. Replace it when the foam breaks down. Keep the spares dry and clean until needed."
+      },
+      {
+        "h": "Flow and fit",
+        "body": "A fouled sleeve reduces the flow a little, so rinse it when the flow drops. It slides over the intake tube and should fit snugly, with no gap that a shrimp can slip through. For a very fine intake, you can fit a [foam pad](/product/filter-media-foam-pads) over the sleeve."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does it fit an internal filter?",
+        "a": "It fits intakes up to about 25 mm in diameter, which covers many internal filters and canister intakes. Measure yours first."
+      }
+    ]
+  },
+  "pro-ph-meter-backlit": {
+    "sections": [
+      {
+        "h": "Why three-point calibration",
+        "body": "A cheap single-point pen drifts at the ends of the scale, which is exactly where a problem shows up. This meter calibrates against 4.00, 6.86 and 9.18 buffers and recognises which one it is in, so it is accurate across the range you care about. It resolves to 0.01 pH, with ±0.1 pH accuracy and automatic temperature compensation."
+      },
+      {
+        "h": "Calibration routine",
+        "body": "Calibrate before the first use and every few weeks after that, with fresh buffer. Rinse the electrode in clean water between buffers and pat it dry, never wipe it. Do not store it dry. The electrode is replaceable, so when it becomes slow or will not calibrate, you can fit a new one instead of buying a whole meter."
+      },
+      {
+        "h": "The out-of-range alarm",
+        "body": "The backlight turns red below 3.5 and above 12.5 pH, so you can see from across the room if a reading is off. On a tank running CO2 that can warn you when something has gone wrong. For everyday readings, a simpler [pH pen](/product/digital-ph-pen-meter) costs less, and the pro meter is for people who want to track changes accurately."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does it measure temperature?",
+        "a": "It measures temperature to compensate the reading automatically. Use a dedicated thermometer for the tank."
+      }
+    ]
+  },
+  "filter-media-foam-pads": {
+    "sections": [
+      {
+        "h": "Cut to fit any filter",
+        "body": "Brand-name cartridges are priced as consumables because they only fit one machine. These four reticulated open-cell foam pads are cut to size with scissors, so they fit canister trays, hang-on-back filters and internal filters. The foam rinses clean rather than clogging solid like cheap bonded wool."
+      },
+      {
+        "h": "Mechanical first, biological after",
+        "body": "A new pad traps debris. An established pad also carries bacteria. Put foam at the start of the filter chain to catch coarse waste, then add [bio media](/product/ceramic-bio-rings-filter-media) and a [floss pad](/product/aquarium-filter-floss-pad) after it. Keep the pads in the flow path with no gaps around the edge, so that water cannot bypass them."
+      },
+      {
+        "h": "Cleaning and replacing",
+        "body": "Squeeze the foam in a bucket of tank water until the brown is out, and put it back. Stagger replacement, so that you never swap everything at once and restart the cycle. Four pads means you can replace one at a time over several months."
+      }
+    ],
+    "faqs": []
+  },
+  "disc-air-stone-diffuser": {
+    "sections": [
+      {
+        "h": "Why a disc",
+        "body": "A cheap cylinder stone produces coarse, chugging bubbles. A wide ceramic disc breaks the air into a fine, even column. Small bubbles stay in contact with the water longer, so gas exchange improves and the noise drops. The wide flat base sits on the substrate without rolling."
+      },
+      {
+        "h": "Uses",
+        "body": "It drives a [sponge filter](/product/bio-sponge-filter-4-pack), aerates a tank in hot weather or during medication, and makes a bubble column behind hardscape. It connects to a standard 4 mm airline barb, so any [airline tubing](/product/airline-tubing-25ft) will fit."
+      },
+      {
+        "h": "Keeping output up",
+        "body": "Over time the pores clog with mineral film, and the bubbles get coarser or fewer. Soak the stone in a dilute vinegar solution, rinse it well and let it dry before reuse. Replace it if cleaning no longer restores the output. Fit a check valve on the line so that water cannot siphon back."
+      }
+    ],
+    "faqs": []
+  },
+  "airline-tubing-25ft": {
+    "sections": [
+      {
+        "h": "The right size",
+        "body": "This is 25 feet (7.6 m) of clear 3/16\" airline, the size that almost all aquarium air fittings are built around. It fits air pumps, sponge filters, air stones and check valves. It stays flexible, where cheap tubing goes stiff and yellow in a few months, kinks at every bend and cracks at the barb."
+      },
+      {
+        "h": "Running a clean line",
+        "body": "Cut with scissors for a square end, and warm the end in hot water to slide it over a barb more easily. Run the tubing in gentle curves, and hold it against the glass with [suction clips](/product/airline-suction-clips-10pk) so it does not drift through the flow. Always fit a check valve on a line that runs below the pump's water level."
+      },
+      {
+        "h": "How much do you need",
+        "body": "Twenty-five feet is enough to run lines to several tanks, rather than patching a short run. Replace tubing that has gone stiff, discoloured or has a hardened end, since it will leak air at the barb."
+      }
+    ],
+    "faqs": []
+  },
+  "airline-suction-clips-10pk": {
+    "sections": [
+      {
+        "h": "Tidy is not cosmetic",
+        "body": "Loose airline drifts into the flow, bobs across the front pane and tangles with plants. Suction clips hold tubing, heater cables and CO2 lines flat against the glass. It is the cheapest thing that makes a tank look considered. The tube snaps into the clip rather than sliding through a slot, so it stays put under tension."
+      },
+      {
+        "h": "Where to use them",
+        "body": "Mount clips inside or outside the glass, along the back and corners, where lines run toward the rim. Use them for [airline tubing](/product/airline-tubing-25ft), the CO2 line and a thin cable. They fit 4 mm airline and similar. Leave a little slack so that the line is not pulled tight."
+      },
+      {
+        "h": "Making them last",
+        "body": "Suction cups perish before anything else in a tank. Wet the cup and press it onto clean, dry glass free of algae and film. Replace any that start to slip. Ten clips is enough for a full run, with spares for the cups that fail."
+      }
+    ],
+    "faqs": []
+  },
+  "gravel-siphon-kit": {
+    "sections": [
+      {
+        "h": "The water-change kit in one box",
+        "body": "The kit has a hand-pump siphon, a gravel tube, an algae scraper, a net and a stick-on thermometer strip. Squeeze the bulb and the siphon starts, so you never have to start it by mouth. The wide gravel tube slows the flow, so that gravel drops back while light waste is lifted out."
+      },
+      {
+        "h": "Siphoning properly",
+        "body": "Push the tube into gravel and lift it as the debris swirls up, working across a section of the tank on each pass. Do not dig deep into planted areas, where you would disturb roots. Over [aqua soil](/product/aqua-soil-planted-substrate), hover just above the surface instead, because soil granules siphon out easily."
+      },
+      {
+        "h": "Water-change routine",
+        "body": "Change a portion of the water weekly rather than a huge amount rarely, and always treat the new water with a conditioner. Match the temperature of the new water to the tank with the thermometer strip. A steady routine keeps nitrate low and plants and fish stable."
+      }
+    ],
+    "faqs": []
+  },
+  "5-in-1-tank-cleaning-set": {
+    "sections": [
+      {
+        "h": "Five heads, one handle",
+        "body": "The kit has an extending handle with five interchangeable heads: a fine mesh net, a gravel rake, a sponge pad, a rubber scraper and an angled brush. Swap heads for each job, so one handle does what a drawer of tools would. Options are a 3-in-1 set, a 5-in-1 standard and a 5-in-1 extended reach for deeper tanks."
+      },
+      {
+        "h": "Which head for which job",
+        "body": "Use the net for catching fish and removing floating debris. The rake loosens debris in sand or gravel before you siphon. The sponge pad cleans soft film from glass, the rubber scraper handles harder spots, and the angled brush reaches corners and decor. Test a head on a small area of acrylic before using it widely."
+      },
+      {
+        "h": "Keeping heads clean",
+        "body": "Rinse every head in clean water and let it dry, and keep the heads from a quarantine tank separate. For a magnet-based option that keeps your hands dry, see the [floating magnetic cleaner](/product/magnetic-glass-cleaner-float), and pair it with a [gravel siphon](/product/gravel-siphon-kit) for water changes."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which version should I choose?",
+        "a": "The extended-reach version suits deeper tanks. The 3-in-1 set covers the basics if you have other tools."
+      },
+      {
+        "q": "Is it safe for acrylic tanks?",
+        "a": "Use the soft sponge head and test a small area first. Hard scrapers can scratch acrylic."
+      }
+    ]
+  }
+}
