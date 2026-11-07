@@ -60,7 +60,7 @@ export default function MobileMenu({ menu }: { menu: Menu[] }) {
             leaveFrom="translate-x-0"
             leaveTo="translate-x-[-100%]"
           >
-            <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-full flex-col bg-[#f3f5f1] pb-6 text-[#0f1d18]">
+            <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-full flex-col bg-[#ffffff] pb-6 text-[#0f1d18]">
               <div className="p-4">
                 <div className="mb-5 flex items-center justify-between">
                   <BrandLogo />

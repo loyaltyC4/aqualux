@@ -24,14 +24,14 @@ input,
 button,
 select,
 textarea {
-  @apply focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#2f6a37]/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#f3f5f1];
+  @apply focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#2f6a37]/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#ffffff];
 }
 
 /* ===== Lush Aquarium: nature-aquarium retail system (moss on stone) ===== */
 :root {
-  --aq-canvas: #f3f5f1; /* canvas: cool stone */
+  --aq-canvas: #ffffff; /* canvas: white */
   --aq-surface: #ffffff; /* raised surface: white cards */
-  --aq-raised: #e9eee7; /* tinted panel: pale moss */
+  --aq-raised: #f2f3f1; /* tinted panel: neutral stone */
   --aq-line: rgba(15,29,24, 0.12);
   --aq-deep: #0c1a14; /* dark band: tank-at-night */
   --aq-accent: #2f6a37; /* single accent: moss green */

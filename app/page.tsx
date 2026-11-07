@@ -206,7 +206,7 @@ export default async function HomePage() {
                 className="aq-in group relative flex items-center gap-4 overflow-hidden rounded-3xl bg-white p-3 pr-16 shadow-[0_30px_60px_-30px_rgba(6,17,12,0.55)] ring-1 ring-black/[0.05] transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 sm:flex-col sm:items-stretch sm:p-4 sm:pr-4"
                 style={{ "--d": `${320 + i * 90}ms` } as React.CSSProperties}
               >
-                <div className="relative aspect-square w-24 flex-none overflow-hidden rounded-2xl bg-[radial-gradient(circle_at_50%_35%,#ffffff,#e4ece1_70%)] sm:w-full sm:aspect-[5/3]">
+                <div className="relative aspect-square w-24 flex-none overflow-hidden rounded-2xl bg-[radial-gradient(circle_at_50%_35%,#ffffff,#eeefed_70%)] sm:w-full sm:aspect-[5/3]">
                   {p.featuredImage?.url && (
                     <Image
                       src={p.featuredImage.url}

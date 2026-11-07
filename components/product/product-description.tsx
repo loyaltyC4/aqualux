@@ -54,7 +54,7 @@ export function ProductDescription({ product }: { product: Product }) {
         .
       </p>
 
-      <div className="mt-4 rounded-2xl border border-[#2f6a37]/20 bg-[#f3f5f1] p-4 text-sm leading-relaxed text-neutral-700">
+      <div className="mt-4 rounded-2xl border border-[#2f6a37]/20 bg-[#ffffff] p-4 text-sm leading-relaxed text-neutral-700">
         <p className="font-semibold text-[#0f1d18]">Try it risk-free</p>
         <p className="mt-1">
           Unused and in its packaging within 30 days? Send it back for a refund

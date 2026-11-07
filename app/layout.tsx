@@ -94,7 +94,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en" className={GeistSans.variable}>
-      <body className="bg-[#f3f5f1] text-[#0f1d18] antialiased selection:bg-[#2f6a37] selection:text-white">
+      <body className="bg-[#ffffff] text-[#0f1d18] antialiased selection:bg-[#2f6a37] selection:text-white">
         {/* Direction C display + body fonts (Fontshare); React hoists these to <head> */}
         <link rel="preconnect" href="https://api.fontshare.com" />
         <link
