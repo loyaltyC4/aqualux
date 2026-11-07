@@ -117,97 +117,128 @@ export default async function HomePage() {
 
   return (
     <div className="bg-[var(--aq-canvas)] text-[var(--aq-ink)]">
-      {/* ── HERO: the products are the photograph ────────────
-          Real supplier photography of the actual lights we sell, with live
-          prices and spec lines from the catalogue. No stock or generated
-          imagery. No scroll-reveal here: the H1 is the LCP candidate. */}
-      <section className="relative overflow-hidden">
-        <div className="mx-auto grid w-full max-w-[1400px] items-center gap-12 px-6 pb-16 pt-12 md:px-12 md:pb-24 md:pt-16 lg:grid-cols-[0.9fr_1.1fr] lg:gap-8">
-          <div className="max-w-[34rem]">
-            <h1 className="text-[2.5rem] font-semibold leading-[1.03] tracking-tight md:text-6xl lg:text-[4.1rem]">
-              Everything your planted tank needs to grow.
+      {/* ── HERO: a lit planted tank at night ─────────────────
+          Full-bleed photo of a planted tank under a bar light, so the first
+          thing a visitor sees is the result the products produce. Entrance
+          stagger, gradient headline word and the notched-arrow product cards
+          are adapted from the 21st.dev "Commerce Hero" (bankkroll), rebuilt
+          in plain CSS so the H1 (LCP) never waits on JavaScript. Light rays
+          and bubbles are CSS-only and switch off under reduced motion. */}
+      <section className="relative isolate overflow-hidden bg-[#06110c] text-white">
+        <Image
+          src="/brand/hero.jpg"
+          alt="Planted aquarium with stem plants, a grass carpet and seiryu stone under a full-spectrum LED bar"
+          fill
+          priority
+          sizes="100vw"
+          className="-z-20 object-cover object-[78%_center] opacity-90 max-lg:opacity-55"
+        />
+        {/* Fade the dark wall behind the copy; keep the tank lit. */}
+        <div
+          aria-hidden
+          className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,#06110c_0%,rgba(6,17,12,0.92)_32%,rgba(6,17,12,0.25)_62%,transparent_80%),linear-gradient(0deg,#06110c_0%,transparent_38%)] max-lg:bg-[linear-gradient(0deg,#06110c_8%,rgba(6,17,12,0.7)_55%,rgba(6,17,12,0.35)_100%)]"
+        />
+        <div aria-hidden className="aq-rays -z-10" />
+        <div aria-hidden className="aq-bubbles -z-10">
+          {Array.from({ length: 9 }).map((_, i) => (
+            <span key={i} style={{ "--i": i } as React.CSSProperties} />
+          ))}
+        </div>
+
+        <div className="mx-auto flex min-h-[min(88dvh,820px)] w-full max-w-[1400px] flex-col justify-center px-6 pb-40 pt-20 md:px-12 md:pb-48 md:pt-24">
+          <div className="max-w-[36rem]">
+            <p className="aq-in inline-flex items-center gap-2.5 rounded-full border border-white/15 bg-white/[0.06] py-1.5 pl-2.5 pr-4 text-[13px] text-white/80 backdrop-blur-md">
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8fe07a] opacity-60 motion-reduce:hidden" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-[#8fe07a]" />
+              </span>
+              {total} products for planted tanks, picked on real specs
+            </p>
+            <h1
+              className="aq-in mt-7 text-[2.75rem] font-semibold leading-[1.02] tracking-tight md:text-7xl lg:text-[4.75rem]"
+              style={{ "--d": "80ms" } as React.CSSProperties}
+            >
+              Everything your planted tank needs to{" "}
+              <span className="bg-[linear-gradient(100deg,#c6f08a_0%,#7fd46b_45%,#f3c46b_100%)] bg-clip-text pb-1 italic text-transparent">
+                grow.
+              </span>
             </h1>
-            <p className="mt-6 max-w-[30rem] text-base leading-relaxed text-[var(--aq-muted)] md:text-lg">
-              Full-spectrum lights, CO2 and scaping tools, chosen on real specs.
+            <p
+              className="aq-in mt-6 max-w-[32rem] text-base leading-relaxed text-white/70 md:text-lg"
+              style={{ "--d": "160ms" } as React.CSSProperties}
+            >
+              Full-spectrum lights, CO2 and scaping tools sized to your tank.
               Free shipping over ${FREE_SHIPPING_THRESHOLD} to the US and Canada.
             </p>
-            <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
+            <div
+              className="aq-in mt-10 flex flex-wrap items-center gap-x-4 gap-y-4"
+              style={{ "--d": "240ms" } as React.CSSProperties}
+            >
               <Link
                 href="/search/lighting"
-                className="group inline-flex items-center gap-3 rounded-full bg-[var(--aq-ink)] py-2 pl-6 pr-2 text-sm font-semibold text-white transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] active:scale-[0.98]"
+                className="group inline-flex items-center gap-3 rounded-full bg-[#8fe07a] py-2 pl-6 pr-2 text-sm font-semibold text-[#06110c] shadow-[0_0_0_1px_rgba(143,224,122,0.4),0_18px_50px_-12px_rgba(143,224,122,0.55)] transition-[transform,box-shadow] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:shadow-[0_0_0_1px_rgba(143,224,122,0.6),0_22px_60px_-10px_rgba(143,224,122,0.75)] active:scale-[0.98]"
               >
                 Shop lighting
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#2f6a37] text-white transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-x-0.5">
+                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#06110c] text-[#8fe07a] transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-x-0.5">
                   <Arrow />
                 </span>
               </Link>
               <Link
-                href="/search"
-                className="text-sm font-medium text-[var(--aq-muted)] underline decoration-black/20 underline-offset-[6px] transition-colors hover:text-[var(--aq-ink)] hover:decoration-[var(--aq-ink)]"
+                href="/tanks"
+                className="inline-flex items-center rounded-full border border-white/20 bg-white/[0.04] px-6 py-3.5 text-sm font-medium text-white backdrop-blur-md transition-colors hover:border-white/40 hover:bg-white/[0.08]"
               >
-                Browse all {total} products
+                Plan by tank size
               </Link>
-            </div>
-          </div>
-
-          {/* Display case: double-bezel shell, three real products at slightly different heights.
-              Rotation and overlap collapse below md so nothing fights for touch targets. */}
-          <div className="rounded-[2rem] bg-[var(--aq-deep)]/[0.06] p-2 ring-1 ring-black/[0.06]">
-            <div className="relative overflow-hidden rounded-[calc(2rem-0.5rem)] bg-[var(--aq-deep)] p-5 shadow-[inset_0_1px_1px_rgba(255,255,255,0.12)] md:p-8">
-              <div
-                aria-hidden
-                className="absolute inset-0 opacity-[0.5]"
-                style={{
-                  backgroundImage:
-                    "radial-gradient(circle at 70% 0%, rgba(120,190,120,0.22), transparent 55%), radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1px)",
-                  backgroundSize: "100% 100%, 22px 22px",
-                }}
-              />
-              <div className="relative grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-5">
-                {showcase.map((p, i) => {
-                  const spec = p.specs?.[0];
-                  return (
-                    <Link
-                      key={p.id}
-                      href={`/product/${p.handle}`}
-                      className={`group relative flex flex-col overflow-hidden rounded-2xl bg-white shadow-[0_24px_48px_-28px_rgba(0,0,0,0.65)] transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1.5 ${
-                        i === 0
-                          ? "col-span-2 md:col-span-2 md:row-span-2 md:-rotate-[1.5deg]"
-                          : i === 1
-                            ? "md:translate-y-6 md:rotate-[2deg]"
-                            : "md:-translate-y-2 md:-rotate-[1deg]"
-                      }`}
-                    >
-                      <div className={`relative bg-[var(--aq-raised)] ${i === 0 ? "min-h-[240px] flex-1" : "aspect-[4/3] md:aspect-square"}`}>
-                        {p.featuredImage?.url && (
-                          <Image
-                            src={p.featuredImage.url}
-                            alt={p.featuredImage.altText || p.title}
-                            fill
-                            priority={i === 0}
-                            sizes={i === 0 ? "(min-width:1024px) 34vw, 90vw" : "(min-width:1024px) 16vw, 44vw"}
-                            className="object-contain p-5 mix-blend-multiply transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.05]"
-                          />
-                        )}
-                      </div>
-                      <div className="p-4">
-                        <p className="line-clamp-2 text-[13px] font-medium leading-snug text-[var(--aq-ink)]">{p.title}</p>
-                        <div className="mt-2 flex items-baseline justify-between gap-2">
-                          <span className="aq-spec text-[15px] font-semibold">${Math.round(price(p))}</span>
-                          {spec && <span className="aq-spec truncate text-[11px] text-[var(--aq-muted)]">{spec.value}</span>}
-                        </div>
-                      </div>
-                    </Link>
-                  );
-                })}
-              </div>
             </div>
           </div>
         </div>
       </section>
 
+      {/* ── FEATURED LIGHTS: overlap the hero edge ───────────── */}
+      <div className="relative z-10 mx-auto -mt-32 max-w-[1400px] px-6 md:-mt-36 md:px-12">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-5">
+          {showcase.map((p, i) => {
+            const spec = p.specs?.[0];
+            return (
+              <Link
+                key={p.id}
+                href={`/product/${p.handle}`}
+                className="aq-in group relative flex items-center gap-4 overflow-hidden rounded-3xl bg-white p-3 pr-16 shadow-[0_30px_60px_-30px_rgba(6,17,12,0.55)] ring-1 ring-black/[0.05] transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 sm:flex-col sm:items-stretch sm:p-4 sm:pr-4"
+                style={{ "--d": `${320 + i * 90}ms` } as React.CSSProperties}
+              >
+                <div className="relative aspect-square w-24 flex-none overflow-hidden rounded-2xl bg-[radial-gradient(circle_at_50%_35%,#ffffff,#e4ece1_70%)] sm:w-full sm:aspect-[5/3]">
+                  {p.featuredImage?.url && (
+                    <Image
+                      src={p.featuredImage.url}
+                      alt={p.featuredImage.altText || p.title}
+                      fill
+                      priority
+                      sizes="(min-width:640px) 30vw, 96px"
+                      className="object-contain p-3 mix-blend-multiply transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.06]"
+                    />
+                  )}
+                </div>
+                <div className="min-w-0 sm:px-1 sm:pb-1 sm:pr-14">
+                  <p className="line-clamp-2 text-sm font-medium leading-snug text-[var(--aq-ink)]">{p.title}</p>
+                  <div className="mt-1.5 flex items-baseline gap-3">
+                    <span className="aq-spec text-base font-semibold text-[var(--aq-ink)]">${Math.round(price(p))}</span>
+                    {spec && <span className="aq-spec truncate text-xs text-[var(--aq-muted)]">{spec.value}</span>}
+                  </div>
+                </div>
+                {/* Notched corner with arrow (21st.dev Commerce Hero tile). */}
+                <span className="absolute bottom-0 right-0 flex h-14 w-14 items-center justify-center rounded-tl-2xl bg-[var(--aq-canvas)]">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--aq-raised)] text-[var(--aq-ink)] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110 group-hover:bg-[#2f6a37] group-hover:text-white">
+                    <Arrow />
+                  </span>
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+
       {/* ── USP STRIP ────────────────────────────────────── */}
-      <div className="border-b border-black/[0.07] bg-white">
+      <div className="mt-14 border-y border-black/[0.07] bg-white">
         <div className="mx-auto grid max-w-[1400px] grid-cols-2 gap-x-6 px-6 md:grid-cols-4 md:px-12">
           {USP.map(([Icon, t, d]) => (
             <div key={t} className="flex items-start gap-3 py-6 md:py-7">
