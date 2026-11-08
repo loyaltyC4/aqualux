@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "best-fish-tank-water-test-kit",
+      "title": "Best Fish Tank Water Test Kit for Planted Tanks",
+      "description": "Get the truth on fish tank water test kits. Learn what to buy and what to skip for healthy planted aquariums. Understand strips vs. digital meters.",
+      "publishedAt": "2026-11-08",
+      "readingMinutes": 6,
+      "image": "/guides/best-fish-tank-water-test-kit.jpg",
+      "faq": [
+        {
+          "q": "Do I really need to test my aquarium water?",
+          "a": "Yes, regular water testing is essential for a healthy planted tank to prevent issues that harm fish and plants."
+        },
+        {
+          "q": "Are test strips accurate enough for planted tanks?",
+          "a": "Test strips offer quick readings for parameters like pH, GH, and KH, useful for daily checks, but digital meters provide more precise results for specific parameters."
+        },
+        {
+          "q": "What is the most important water parameter to test for?",
+          "a": "pH is crucial for overall tank health, while GH and KH are important for plant growth and buffering capacity. Ammonia, nitrite, and nitrate are also vital."
+        },
+        {
+          "q": "How often should I test my aquarium water?",
+          "a": "Test daily during the initial tank cycling, then weekly or bi-weekly once the tank is established, and any time you notice problems."
+        }
+      ]
+    },
+    {
       "slug": "best-aquascaping-tool-kit-guide",
       "title": "Best Aquascaping Tool Kit: What You Actually Need",
       "description": "Cut through the marketing hype. Learn which aquascaping tools are essential for a thriving planted tank and where to save your money.",
