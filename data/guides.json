@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "freshwater-aquarium-light-schedule-guide",
+      "title": "Aquarium Light Schedule: 6-8 Hours Prevents Algae",
+      "description": "Set your freshwater aquarium light schedule to 6-8 hours daily. This balances plant growth, prevents algae, and keeps fish healthy.",
+      "publishedAt": "2026-11-08",
+      "readingMinutes": 7,
+      "image": "/guides/freshwater-aquarium-light-schedule-guide.jpg",
+      "faq": [
+        {
+          "q": "Can I leave my aquarium light on 24/7?",
+          "a": "No, this causes severe algae growth and stresses fish."
+        },
+        {
+          "q": "What is a \"siesta\" period for aquarium lights?",
+          "a": "A siesta is a break of a few hours in the middle of the light cycle, often used to control algae."
+        },
+        {
+          "q": "How many hours of light do low-tech planted tanks need?",
+          "a": "Low-tech tanks typically need 6-7 hours of light per day."
+        },
+        {
+          "q": "Do fish need darkness?",
+          "a": "Yes, fish need darkness for rest and to maintain natural circadian rhythms."
+        }
+      ]
+    },
+    {
       "slug": "best-aquascaping-tool-kit-guide",
       "title": "Best Aquascaping Tool Kit: What You Actually Need",
       "description": "Cut through the marketing hype. Learn which aquascaping tools are essential for a thriving planted tank and where to save your money.",
