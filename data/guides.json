@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "aquarium-soil-guide",
+      "title": "Aquarium Soil: Why Your Plants Need It",
+      "description": "Get the blunt truth on aquarium soil for planted tanks. Learn how it works, why it's better for plants, setup tips, and maintenance.",
+      "publishedAt": "2026-11-10",
+      "readingMinutes": 8,
+      "image": "/guides/aquarium-soil-guide.jpg",
+      "faq": [
+        {
+          "q": "Do I need to wash aquarium soil before use?",
+          "a": "No, washing aquarium soil is generally not recommended as it can break down the granules and release nutrients too quickly, clouding your water."
+        },
+        {
+          "q": "How long does aquarium soil last?",
+          "a": "Aquarium soil provides essential nutrients for a finite period, though its buffering capacity may diminish sooner than its nutrient supply."
+        },
+        {
+          "q": "Can I use aquarium soil with fish?",
+          "a": "Yes, but be aware that aquarium soil often releases ammonia initially. Cycle your tank thoroughly before adding any fish to prevent harm."
+        },
+        {
+          "q": "Is aquarium soil better than sand or gravel for plants?",
+          "a": "For most aquatic plants, yes. Aquarium soil offers a nutrient-rich environment and better root support compared to inert substrates like sand or gravel."
+        }
+      ]
+    },
+    {
       "slug": "best-aquascaping-tool-kit-guide",
       "title": "Best Aquascaping Tool Kit: What You Actually Need",
       "description": "Cut through the marketing hype. Learn which aquascaping tools are essential for a thriving planted tank and where to save your money.",
