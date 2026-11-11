@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "best-led-grow-lights-explosive-aquarium-plant-growth",
+      "title": "Best LED Lights for Explosive Aquarium Plant Growth",
+      "description": "Find the LED fixture that fuels rapid plant growth, with real specs and price points for every budget.",
+      "publishedAt": "2026-11-11",
+      "readingMinutes": 8,
+      "image": "/guides/best-led-grow-lights-explosive-aquarium-plant-growth.jpg",
+      "faq": [
+        {
+          "q": "Which LED light gives the most growth in a 75 cm tank?",
+          "a": "The Aurora Smart 78 RGB bar delivers the highest output and a full spectrum that drives fast growth."
+        },
+        {
+          "q": "Can I get good growth on a tight budget?",
+          "a": "Yes. The Aurora 48 and RGBW 55 provide solid performance for much less money."
+        },
+        {
+          "q": "Do I need a CO₂ system with these lights?",
+          "a": "For truly explosive growth, CO₂ plus a strong light is the best combo, but strong lights alone still boost growth noticeably."
+        },
+        {
+          "q": "Is a timer important?",
+          "a": "A timer guarantees consistent photoperiods, which keeps plants healthy and prevents algae spikes."
+        }
+      ]
+    },
+    {
       "slug": "aquarium-soil-guide",
       "title": "Aquarium Soil: Why Your Plants Need It",
       "description": "Get the blunt truth on aquarium soil for planted tanks. Learn how it works, why it's better for plants, setup tips, and maintenance.",
