@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "best-small-fish-tank-filter-pump",
+      "title": "Best Filter Pumps for Small Aquariums",
+      "description": "Cut through the marketing noise to find the best filter pump for your small aquarium. Learn which options deliver clean water without breaking the bank.",
+      "publishedAt": "2026-11-12",
+      "readingMinutes": 7,
+      "image": "/guides/best-small-fish-tank-filter-pump.jpg",
+      "faq": [
+        {
+          "q": "Do small tanks always need a filter pump?",
+          "a": "Yes, every aquarium needs filtration to remove waste and maintain water quality. A filter pump is essential for most small tanks."
+        },
+        {
+          "q": "What is the best type of filter pump for shrimp or fry?",
+          "a": "Air-driven sponge filters are often the best choice for shrimp and fry tanks because they create gentle flow and prevent small creatures from being sucked into the intake."
+        },
+        {
+          "q": "How do I know if a filter pump is too strong for my small tank?",
+          "a": "If your fish are struggling against the current, or if plants are constantly blown over, the flow rate is too high. Look for filters with adjustable flow or opt for sponge filters."
+        },
+        {
+          "q": "Can I run a small tank without a filter pump?",
+          "a": "No, a small tank without a filter pump will quickly accumulate waste and ammonia, harming aquatic life. Filtration is vital for a healthy, stable environment."
+        }
+      ]
+    },
+    {
       "slug": "aquarium-soil-guide",
       "title": "Aquarium Soil: Why Your Plants Need It",
       "description": "Get the blunt truth on aquarium soil for planted tanks. Learn how it works, why it's better for plants, setup tips, and maintenance.",
