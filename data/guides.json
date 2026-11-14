@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "best-aquarium-light-schedule",
+      "title": "Best Aquarium Light Schedule for Planted Tanks",
+      "description": "Discover the optimal light schedule for your planted aquarium. Learn to prevent algae, boost plant growth, and choose the right timer for your setup.",
+      "publishedAt": "2026-11-14",
+      "readingMinutes": 9,
+      "image": "/guides/best-aquarium-light-schedule.jpg",
+      "faq": [
+        {
+          "q": "How many hours a day should my aquarium light be on?",
+          "a": "For most planted tanks, aim for 6 to 8 hours of light daily."
+        },
+        {
+          "q": "What is a siesta light schedule?",
+          "a": "A siesta schedule involves splitting the total daily light period into two shorter sessions, separated by a dark break."
+        },
+        {
+          "q": "Does a planted tank need light at night?",
+          "a": "No, plants require a period of darkness each day to complete their metabolic processes."
+        },
+        {
+          "q": "Can too much light cause algae?",
+          "a": "Yes, excessive light intensity or duration is a primary trigger for algae outbreaks in planted aquariums."
+        }
+      ]
+    },
+    {
       "slug": "best-small-fish-tank-filter-pump",
       "title": "Best Filter Pumps for Small Aquariums",
       "description": "Cut through the marketing noise to find the best filter pump for your small aquarium. Learn which options deliver clean water without breaking the bank.",
