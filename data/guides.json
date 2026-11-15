@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "how-to-get-rid-of-algae-planted-tank",
+      "title": "How to Get Rid of Algae in Your Planted Tank",
+      "description": "Stop algae in your planted aquarium. Learn to identify common algae types, remove them manually, and fix the root causes like light and nutrient imbalance.",
+      "publishedAt": "2026-11-15",
+      "readingMinutes": 8,
+      "image": "/guides/how-to-get-rid-of-algae-planted-tank.jpg",
+      "faq": [
+        {
+          "q": "Why is there so much algae in my planted tank?",
+          "a": "Too much light, too few nutrients for your plants, or inconsistent CO2 supply are the most common reasons your plants are struggling, allowing algae to take over."
+        },
+        {
+          "q": "How do I identify different types of algae?",
+          "a": "Green dust algae forms a thin film on glass. Hair algae forms long, fine strands. Black beard algae looks like dark tufts. Green water algae makes the tank water cloudy and green."
+        },
+        {
+          "q": "Can I use chemicals to remove algae?",
+          "a": "Chemical algae removers are a temporary fix at best and can stress your plants and fish. Always focus on addressing the underlying imbalance in your tank."
+        },
+        {
+          "q": "How long does it take for algae to disappear after fixing the cause?",
+          "a": "Algae will not vanish overnight. Once you correct the underlying imbalance, it can take several weeks of consistent effort, including manual removal, for your tank to become algae-free."
+        }
+      ]
+    },
+    {
       "slug": "best-aquarium-light-schedule",
       "title": "Best Aquarium Light Schedule for Planted Tanks",
       "description": "Discover the optimal light schedule for your planted aquarium. Learn to prevent algae, boost plant growth, and choose the right timer for your setup.",
