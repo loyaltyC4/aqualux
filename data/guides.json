@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "how-many-hours-aquarium-light-on",
+      "title": "Lighting Your Planted Tank: How Many Hours?",
+      "description": "Get the straight answer on ideal light duration for your planted tank. Balance plant growth, prevent algae, and set an effective lighting schedule.",
+      "publishedAt": "2026-11-16",
+      "readingMinutes": 8,
+      "image": "/guides/how-many-hours-aquarium-light-on.jpg",
+      "faq": [
+        {
+          "q": "Can I run my aquarium lights for a very long period each day?",
+          "a": "Running aquarium lights for an excessively long period each day will almost always lead to severe algae outbreaks, regardless of how strong or weak your light is. Plants cannot utilize light constantly, and the excess fuels unwelcome growth."
+        },
+        {
+          "q": "How do I know if my light duration is too short for my plants?",
+          "a": "If your light duration is too short, your aquatic plants will show signs of slow or stunted growth, pale leaves, and may even begin to melt or waste away. They need enough time to photosynthesize and produce energy."
+        },
+        {
+          "q": "Should new planted tanks have a different light duration than established ones?",
+          "a": "Yes, it is a good practice to start new planted tanks with a shorter daily light duration. This helps the tank's ecosystem stabilize and reduces the risk of initial algae blooms while plants are still establishing. You can gradually extend the duration later."
+        },
+        {
+          "q": "Do strong lights need shorter daily durations?",
+          "a": "Yes, powerful aquarium lights often require a shorter daily duration compared to weaker lights. High intensity light provides more energy per unit of time, so plants can get what they need in less time. Running a strong light for a long period almost guarantees algae problems."
+        }
+      ]
+    },
+    {
       "slug": "how-to-get-rid-of-algae-planted-tank",
       "title": "How to Get Rid of Algae in Your Planted Tank",
       "description": "Stop algae in your planted aquarium. Learn to identify common algae types, remove them manually, and fix the root causes like light and nutrient imbalance.",
