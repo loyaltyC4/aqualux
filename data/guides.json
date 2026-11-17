@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "where-is-aquascape-located",
+      "title": "Aquascaping Isn't a Location, It's an Art Form",
+      "description": "Aquascape isn't a single location for planted aquariums. Understand the hobby, find supplies, and connect with communities for planted tanks.",
+      "publishedAt": "2026-11-17",
+      "readingMinutes": 9,
+      "image": "/guides/where-is-aquascape-located.jpg",
+      "faq": [
+        {
+          "q": "Is Aquascape a physical company for planted aquariums?",
+          "a": "No, \"aquascape\" refers to the art and hobby of creating underwater landscapes in an aquarium, not a single company for planted tanks."
+        },
+        {
+          "q": "Where can I buy aquascaping supplies?",
+          "a": "You can find supplies at local fish stores, dedicated aquascaping shops, and online retailers that specialize in planted tank equipment."
+        },
+        {
+          "q": "What is the company \"Aquascape Inc.\"?",
+          "a": "Aquascape Inc. is a company that specializes in products and designs for outdoor ponds and water gardens, not indoor planted aquariums."
+        },
+        {
+          "q": "How can I learn aquascaping?",
+          "a": "You can learn aquascaping through online forums, social media groups, YouTube tutorials, books, and by joining local aquarium clubs."
+        }
+      ]
+    },
+    {
       "slug": "algae-in-fish-tank-bad-or-not",
       "title": "Algae in Fish Tank: When It's Bad and When It's Not",
       "description": "Find out when algae helps, when it hurts, and how to keep it under control in your freshwater aquarium.",
