@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "algae-in-fish-tank-bad-or-not",
+      "title": "Algae in Fish Tank: When It's Bad and When It's Not",
+      "description": "Find out when algae helps, when it hurts, and how to keep it under control in your freshwater aquarium.",
+      "publishedAt": "2026-11-17",
+      "readingMinutes": 5,
+      "image": "/guides/algae-in-fish-tank-bad-or-not.jpg",
+      "faq": [
+        {
+          "q": "Can algae provide food for my fish?",
+          "a": "Yes, some fish and invertebrates graze on algae, but it's often not enough for their sole diet. Commercial options like Sinking Algae Wafers are specifically formulated."
+        },
+        {
+          "q": "Is brown algae (diatoms) a sign of a bad tank?",
+          "a": "Brown algae is common in new tanks and usually indicates excess silicates. It often resolves as the tank matures, but persistent brown algae can point to poor lighting or excess nutrients."
+        },
+        {
+          "q": "Does algae produce oxygen?",
+          "a": "Yes, like plants, algae perform photosynthesis and release oxygen. However, the amount is usually not significant enough to rely on for tank oxygenation compared to surface agitation."
+        },
+        {
+          "q": "What's the biggest cause of bad algae?",
+          "a": "Imbalance. Too much light, too many nutrients, or insufficient CO2 (in planted tanks) are the common culprits that let algae take over."
+        }
+      ]
+    },
+    {
       "slug": "how-to-get-rid-of-algae-planted-tank",
       "title": "How to Get Rid of Algae in Your Planted Tank",
       "description": "Stop algae in your planted aquarium. Learn to identify common algae types, remove them manually, and fix the root causes like light and nutrient imbalance.",
