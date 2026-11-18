@@ -1,6 +1,32 @@
 {
   "guides": [
     {
+      "slug": "best-aquascaping-hardscape-guide",
+      "title": "Best Aquascaping Hardscape: Wood and Rock Guide",
+      "description": "Find the right wood and rock for your aquascape. Learn selection, preparation, and layout tips from a seasoned hobbyist.",
+      "publishedAt": "2026-11-18",
+      "readingMinutes": 8,
+      "image": "/guides/best-aquascaping-hardscape-guide.jpg",
+      "faq": [
+        {
+          "q": "How much hardscape do I need?",
+          "a": "This depends on your tank size and desired style. For a dense, impactful aquascape, aim for at least 50% of your tank's footprint to be covered by hardscape elements, allowing space for plants."
+        },
+        {
+          "q": "Can I use wood or rocks from outside?",
+          "a": "You can, but it requires careful preparation. Wood must be thoroughly cleaned, boiled to remove tannins and pests, and soaked until it sinks. Rocks need scrubbing and testing to ensure they do not alter water parameters. Buying aquarium-specific hardscape avoids these steps and risks."
+        },
+        {
+          "q": "Will hardscape change my water parameters?",
+          "a": "Some types of wood release tannins, which can lower pH and soften water. Some rocks, like limestone, can raise pH and GH. Always test new hardscape in a separate container before adding it to your main display tank."
+        },
+        {
+          "q": "What is the purpose of hardscape in an aquascape?",
+          "a": "Hardscape provides the foundational structure and aesthetic appeal of your aquascape. It creates focal points, defines spaces for plants and fish, and offers surfaces for beneficial bacteria to colonize."
+        }
+      ]
+    },
+    {
       "slug": "algae-in-fish-tank-bad-or-not",
       "title": "Algae in Fish Tank: When It's Bad and When It's Not",
       "description": "Find out when algae helps, when it hurts, and how to keep it under control in your freshwater aquarium.",
