@@ -254,6 +254,7 @@ export function tankUrls(): string[] {
     "/tools/substrate-calculator",
     "/tools/aquarium-volume-calculator",
     "/tools/co2-ppm-calculator",
+    "/tools/water-change-calculator",
     "/tools/aquarium-heater-size-calculator",
   ];
 }
