@@ -6,7 +6,7 @@ import { baseUrl } from "lib/utils";
 import { TANKS } from "lib/tanks";
 
 export const metadata = pageMeta({
-  title: "Aquarium Substrate Calculator: Soil, Sand & Gravel in L, kg and Bags",
+  title: "Aquarium Substrate Calculator: Soil, Sand & Gravel",
   description:
     "How much aquarium substrate do you need? Enter tank length, depth and slope to get litres, kg, lb and how many bags of aqua soil, sand or gravel to buy. Inches or cm.",
   path: "/tools/substrate-calculator",
