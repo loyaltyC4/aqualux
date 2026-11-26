@@ -6,13 +6,25 @@ import { baseUrl } from "lib/utils";
 import { TANKS } from "lib/tanks";
 
 export const metadata = pageMeta({
-  title: "Aquarium Substrate Calculator (Litres, kg and lb)",
+  title: "Aquarium Substrate Calculator: Soil, Sand & Gravel in L, kg and Bags",
   description:
-    "How much aquarium substrate do you need? Enter tank length, depth and slope to get litres of aqua soil or sand, in kilograms and pounds. Includes standard tank sizes.",
+    "How much aquarium substrate do you need? Enter tank length, depth and slope to get litres, kg, lb and how many bags of aqua soil, sand or gravel to buy. Inches or cm.",
   path: "/tools/substrate-calculator",
 });
 
 const FAQ = [
+  {
+    q: "How many bags of aqua soil do I need?",
+    a: "Work out the litres first, then divide by the bag size and round up. A 20-gallon long sloped from 2 to 3.5 inches needs about 16 litres, so two 9-litre bags. Aqua soil is usually sold by the litre (3 L and 9 L are common), so it is easier to buy by volume than by weight.",
+  },
+  {
+    q: "How many pounds of sand do I need per gallon?",
+    a: "The old rule of 1 lb per gallon gives roughly a 1-inch bed in a standard tank, which is enough for fish-only tanks. For a planted tank at 2 to 3 inches, plan on 2 to 3 lb per gallon, or use the calculator with your exact dimensions.",
+  },
+  {
+    q: "Can I use this calculator in centimetres?",
+    a: "Yes. Press Use cm and enter the tank length, front-to-back depth and substrate depth in centimetres; the result is the same litres, kilograms and bag count.",
+  },
   {
     q: "How deep should planted tank substrate be?",
     a: "About 2 inches (5 cm) at the front glass rising to 3 to 4 inches (7.5 to 10 cm) at the back. Rooted plants like swords and crypts need the depth; the slope also makes a small tank look deeper.",
