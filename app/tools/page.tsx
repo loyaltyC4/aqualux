@@ -8,7 +8,7 @@ export const metadata = pageMeta({
   path: "/tools",
 });
 
-const TOOLS = [{"href": "/tools/substrate-calculator", "name": "Substrate calculator", "blurb": "Litres, kg and bags of aqua soil, sand or gravel for your tank and slope."}, {"href": "/tools/aquarium-volume-calculator", "name": "Aquarium volume calculator", "blurb": "Gallons and litres from tank dimensions, including the real water volume."}, {"href": "/tools/co2-ppm-calculator", "name": "CO2 calculator", "blurb": "Dissolved CO2 in ppm from KH and pH, and the pH to aim for."}, {"href": "/tools/aquarium-heater-size-calculator", "name": "Heater size calculator", "blurb": "Heater watts for your tank volume and room temperature."}];
+const TOOLS = [{"href": "/tools/substrate-calculator", "name": "Substrate calculator", "blurb": "Litres, kg and bags of aqua soil, sand or gravel for your tank and slope."}, {"href": "/tools/aquarium-volume-calculator", "name": "Aquarium volume calculator", "blurb": "Gallons and litres from tank dimensions, including the real water volume."}, {"href": "/tools/co2-ppm-calculator", "name": "CO2 calculator", "blurb": "Dissolved CO2 in ppm from KH and pH, and the pH to aim for."}, {"href": "/tools/water-change-calculator","name":"Water change calculator","blurb":"The percentage of water to change to bring nitrate to your target."},{"href":"/tools/aquarium-heater-size-calculator", "name": "Heater size calculator", "blurb": "Heater watts for your tank volume and room temperature."}];
 
 export default function ToolsPage() {
   return (

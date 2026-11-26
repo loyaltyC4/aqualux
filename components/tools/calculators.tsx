@@ -162,3 +162,44 @@ export function HeaterCalculator() {
     />
   );
 }
+
+/** Percentage of water to change to bring nitrate down, from the dilution formula. */
+export function WaterChangeCalculator() {
+  const [litresMode, setLitresMode] = useState(false);
+  const [vol, setVol] = useState(29);
+  const [now, setNow] = useState(40);
+  const [target, setTarget] = useState(20);
+  const [tap, setTap] = useState(0);
+  const pct = now > tap ? ((now - target) / (now - tap)) * 100 : NaN;
+  const valid = Number.isFinite(pct) && pct > 0 && pct <= 100;
+  const unit = litresMode ? "L" : "gal";
+  const amount = valid ? (vol * pct) / 100 : NaN;
+  const afterFive = tap + (now - tap) * Math.pow(0.5, 1);
+  return (
+    <Shell
+      inputs={<>
+        <Toggle on={litresMode} onClick={() => setLitresMode(!litresMode)} a="Use gallons" b="Use litres" />
+        <Num id="wv" label="Water volume" value={vol} onChange={setVol} unit={unit} step={1} />
+        <Num id="wn" label="Nitrate now" value={now} onChange={setNow} unit="ppm" step={5} />
+        <Num id="wt" label="Nitrate you want" value={target} onChange={setTarget} unit="ppm" step={5} />
+        <Num id="wp" label="Nitrate in your tap water" value={tap} onChange={setTap} unit="ppm" step={1} />
+      </>}
+      result={<>
+        <div>
+          <p className="text-sm text-[var(--aq-muted)]">Change about</p>
+          <p className="aq-spec mt-1 text-5xl font-medium tracking-tight">{valid ? `${Math.round(pct)}%` : "–"}</p>
+          <p className="mt-1 text-sm text-[var(--aq-muted)]">{valid ? `${f1(amount)} ${unit} of the water` : "Check the numbers: the target must be below the current level."}</p>
+        </div>
+        <dl className="mt-6 text-sm">
+          <dt className="text-[var(--aq-muted)]">A 50% change leaves nitrate at</dt>
+          <dd className="aq-spec mt-0.5 text-lg">{f0(afterFive)} ppm</dd>
+        </dl>
+        <p className="mt-6 text-xs leading-relaxed text-[var(--aq-muted)]">
+          Dilution formula: percent = (current − target) ÷ (current − tap). It assumes the new water is mixed in
+          fully. Large changes in one go are hard on fish; match temperature and use a dechlorinator, and for a
+          big drop split it over two changes a day apart.
+        </p>
+      </>}
+    />
+  );
+}

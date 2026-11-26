@@ -128,6 +128,16 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             </ul>
           </nav>
         ) : null}
+        <nav className="mt-12" aria-label="Free calculators">
+          <h2 className="text-sm font-semibold uppercase tracking-[0.15em] text-[#0f1d18]/60">Free calculators</h2>
+          <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-[15px]">
+            <li><Link href="/tools/substrate-calculator" className="text-[#2f6a37] underline underline-offset-2">Substrate</Link></li>
+            <li><Link href="/tools/aquarium-volume-calculator" className="text-[#2f6a37] underline underline-offset-2">Tank volume</Link></li>
+            <li><Link href="/tools/co2-ppm-calculator" className="text-[#2f6a37] underline underline-offset-2">CO2 ppm</Link></li>
+            <li><Link href="/tools/water-change-calculator" className="text-[#2f6a37] underline underline-offset-2">Water change</Link></li>
+            <li><Link href="/tools/aquarium-heater-size-calculator" className="text-[#2f6a37] underline underline-offset-2">Heater size</Link></li>
+          </ul>
+        </nav>
         <div className="mt-12 border-t border-[#0f1d18]/10 pt-6 text-sm">
           <Link href="/search" className="text-[#2f6a37] underline underline-offset-2">Shop the gear from this guide →</Link>
         </div>
