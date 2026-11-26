@@ -85,6 +85,7 @@ export default function Footer() {
               { label: "20 long planted tank", href: "/tanks/20-gallon-long-planted-tank" },
               { label: "40 breeder planted tank", href: "/tanks/40-gallon-breeder-planted-tank" },
               { label: "Substrate calculator", href: "/tools/substrate-calculator" },
+              { label: "Aquarium calculators", href: "/tools" },
               { label: "Guides", href: "/guides" },
             ]}
           />

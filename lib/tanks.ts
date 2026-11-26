@@ -250,7 +250,11 @@ export function tankUrls(): string[] {
   return [
     "/tanks",
     ...TANKS.map((t) => `/tanks/${t.slug}`),
+    "/tools",
     "/tools/substrate-calculator",
+    "/tools/aquarium-volume-calculator",
+    "/tools/co2-ppm-calculator",
+    "/tools/aquarium-heater-size-calculator",
   ];
 }
 
