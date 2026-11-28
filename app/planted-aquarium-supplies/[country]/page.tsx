@@ -24,7 +24,7 @@ export async function generateMetadata(props: { params: Promise<{ country: strin
   const z = countryZone(c);
   const w = countryWindow(c);
   return pageMeta({
-    title: `Planted Aquarium Supplies Shipped to ${place(c.name)}`,
+    title: `Planted Aquarium Supplies to ${c.short}`,
     description: `Planted aquarium lights, CO2, tools and substrate shipped to ${c.name}: ${w.min}-${w.max} business days, $${z.rate.toFixed(2)} flat rate, free over $${z.freeOver}. ${c.voltage} plug and tax guide.`,
     path: `/planted-aquarium-supplies/${c.slug}`,
   });

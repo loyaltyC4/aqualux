@@ -15,6 +15,8 @@ export type Units = "us" | "metric" | "metric-us" | "metric-uk";
 export type Country = {
   slug: string;
   name: string;
+  /** Short form for the title tag. */
+  short: string;
   /** ISO 3166-1 alpha-2 used to look up the shipping zone. */
   iso: string;
   voltage: string;
@@ -31,37 +33,37 @@ export type Country = {
 
 export const COUNTRIES: Country[] = [
   {
-    slug: "australia-new-zealand", name: "Australia and New Zealand", iso: "AU", voltage: "230 V", hz: "50 Hz", plugs: ["Type I"],
+    slug: "australia-new-zealand", short: "Australia & NZ", name: "Australia and New Zealand", iso: "AU", voltage: "230 V", hz: "50 Hz", plugs: ["Type I"],
     powerNote: "Australia and New Zealand share the Type I plug and a 230 V supply, so a plug that works in Sydney works in Auckland.",
     tax: "GST", taxNote: "Both countries charge GST on imported goods (10% in Australia, 15% in New Zealand), and duty can apply on some items; the recipient pays both.",
     units: "metric", angle: "Australia and New Zealand share one shipping lane, one plug standard and the same litre-based tank sizes, and biosecurity rules make soil, wood and rock the items most likely to be inspected.",
   },
   {
-    slug: "united-states", name: "the United States", iso: "US", voltage: "120 V", hz: "60 Hz", plugs: ["Type A", "Type B"],
+    slug: "united-states", short: "the US", name: "the United States", iso: "US", voltage: "120 V", hz: "60 Hz", plugs: ["Type A", "Type B"],
     powerNote: "The US runs on 120 V. Equipment rated only for 220 to 240 V will not run properly on it, so check the rating before you order any mains-powered item.",
     tax: "sales tax and any import duty", taxNote: "US sales tax varies by state and import duty depends on the goods; our prices do not include either.",
     units: "us", angle: "US buyers think in gallons and get our fastest lane, with the lowest flat shipping rate of any zone.",
   },
   {
-    slug: "canada", name: "Canada", iso: "CA", voltage: "120 V", hz: "60 Hz", plugs: ["Type A", "Type B"],
+    slug: "canada", short: "Canada", name: "Canada", iso: "CA", voltage: "120 V", hz: "60 Hz", plugs: ["Type A", "Type B"],
     powerNote: "Canada runs on 120 V at 60 Hz with the same Type A and B sockets as the US, so plugs are not the problem; voltage rating is.",
     tax: "GST or HST and any duty", taxNote: "Canada applies GST (HST in some provinces) and may charge duty on imports; the recipient pays them on arrival.",
     units: "metric-us", angle: "Canadian aquarists mix litres and US gallons, and ride the same fast lane as the US.",
   },
   {
-    slug: "united-kingdom", name: "the United Kingdom", iso: "GB", voltage: "230 V", hz: "50 Hz", plugs: ["Type G"],
+    slug: "united-kingdom", short: "the UK", name: "the United Kingdom", iso: "GB", voltage: "230 V", hz: "50 Hz", plugs: ["Type G"],
     powerNote: "UK sockets are the Type G three-pin at 230 V. A two-pin or Type C adaptor will not fit, so confirm what plug a mains item arrives with.",
     tax: "import VAT and any duty", taxNote: "Import VAT and any duty are payable by the recipient, and clearance is the variable on UK deliveries, not transit.",
     units: "metric-uk", angle: "UK keepers use litres and sometimes imperial gallons, on the Type G plug.",
   },
   {
-    slug: "europe", name: "Europe and Ireland", iso: "DE", voltage: "230 V", hz: "50 Hz", plugs: ["Type C", "Type E", "Type F"],
+    slug: "europe", short: "Europe & Ireland", name: "Europe and Ireland", iso: "DE", voltage: "230 V", hz: "50 Hz", plugs: ["Type C", "Type E", "Type F"],
     powerNote: "Continental Europe and Ireland run on 230 V at 50 Hz, but the plug differs by country (see the table below): Ireland uses the UK Type G, while the mainland uses Types C, E and F.",
     tax: "import VAT and any duty", taxNote: "EU countries, Ireland included, charge import VAT on goods from outside the union and may charge duty; the recipient pays, and clearance time is the variable.",
     units: "metric", angle: "Europe and Ireland share one shipping lane and one voltage but at least five plug standards, and EU import VAT is the variable on clearance.",
   },
   {
-    slug: "asia", name: "Singapore, Japan, Hong Kong, South Korea, Malaysia and the UAE", iso: "SG", voltage: "230 V", hz: "50 Hz", plugs: ["Type G"],
+    slug: "asia", short: "Asia & the Gulf", name: "Singapore, Japan, Hong Kong, South Korea, Malaysia and the UAE", iso: "SG", voltage: "230 V", hz: "50 Hz", plugs: ["Type G"],
     powerNote: "Asia and the Gulf do not share a standard: Japan runs on 100 V (50 Hz in the east, 60 Hz in the west), South Korea on 220 V at 60 Hz with round pins, and Singapore, Hong Kong, Malaysia and the UAE use the UK-style Type G plug at 220 to 240 V. Equipment rated only for 220 to 240 V will under-perform on Japan's 100 V.",
     tax: "local tax and any duty", taxNote: "Each destination differs: Singapore applies GST, Japan consumption tax, South Korea, the UAE and Malaysia VAT or sales tax, and Hong Kong generally charges no VAT or GST and no duty on most goods. The recipient pays whatever applies.",
     units: "metric", angle: "These six destinations share one short-haul shipping lane but have six different electrical and tax set-ups, so the details matter more than the delivery time.",
