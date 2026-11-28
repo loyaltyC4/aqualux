@@ -23,6 +23,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { staticGetProducts } from "lib/shopify/static-data";
+import { shippingDetailsLd, returnPolicyLd } from "lib/shipping";
 
 /**
  * Without these two, PPR serves a prerendered shell with HTTP 200 for ANY
@@ -111,18 +112,22 @@ export default async function ProductPage(props: {
           },
         }
       : {}),
-    offers: {
-      "@type": "AggregateOffer",
-      availability: product.availableForSale
-        ? "https://schema.org/InStock"
-        : "https://schema.org/OutOfStock",
-      priceCurrency: product.priceRange.minVariantPrice.currencyCode,
-      lowPrice: product.priceRange.minVariantPrice.amount,
-      highPrice: product.priceRange.maxVariantPrice.amount,
-      offerCount: product.variants.length || 1,
+    offers: (product.variants.length ? product.variants : [null]).map((v) => ({
+      "@type": "Offer",
       url: `${baseUrl}/product/${product.handle}`,
+      priceCurrency: product.priceRange.minVariantPrice.currencyCode,
+      price: v ? v.price.amount : product.priceRange.minVariantPrice.amount,
+      availability:
+        (v ? v.availableForSale : product.availableForSale)
+          ? "https://schema.org/InStock"
+          : "https://schema.org/OutOfStock",
+      itemCondition: "https://schema.org/NewCondition",
+      ...(v && v.sku ? { sku: v.sku } : {}),
+      ...(v && product.variants.length > 1 ? { name: v.title } : {}),
       seller: { "@type": "Organization", name: SITE_NAME },
-    },
+      shippingDetails: shippingDetailsLd(),
+      hasMerchantReturnPolicy: returnPolicyLd(),
+    })),
   };
 
   const breadcrumbJsonLd = {

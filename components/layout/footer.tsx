@@ -3,6 +3,9 @@ import { BrandLogo } from "components/brand-logo";
 import { EmailLink } from "components/email-link";
 import { NewsletterForm } from "components/newsletter-form";
 import { COLLECTIONS, SITE_NAME, SOCIALS } from "lib/brand";
+import { HUBS } from "lib/seo-hubs";
+
+const POPULAR = ["planted-tank-lights", "aquarium-co2-systems", "aquascaping-tools", "aquarium-water-test-kits", "nano-tank-filters", "aquarium-substrate-and-sand", "planted-tank-starter-kit", "aquarium-heaters-and-thermometers"];
 
 function Column({
   title,
@@ -78,6 +81,10 @@ export default function Footer() {
 
         <div className="space-y-10">
           <Column
+            title="Popular"
+            links={POPULAR.map((slug) => HUBS.find((h) => h.slug === slug)).filter((h): h is NonNullable<typeof h> => !!h).map((h) => ({ label: h.name, href: `/${h.slug}` }))}
+          />
+          <Column
             title="Plan"
             links={[
               { label: "Setups by tank size", href: "/tanks" },
@@ -93,6 +100,7 @@ export default function Footer() {
             title="Support"
             links={[
               { label: "Shipping & returns", href: "/shipping-returns" },
+              { label: "Shipping by country", href: "/planted-aquarium-supplies" },
               { label: "FAQ", href: "/faq" },
               { label: "Contact", href: "/contact" },
               { label: "About", href: "/about" },

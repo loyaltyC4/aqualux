@@ -28,7 +28,10 @@ export function VariantPrice({ product }: { product: Product }) {
 
   const was = parseFloat(selected?.compareAtPrice ?? "0");
   const cur = parseFloat(amount);
-  const savePct = was > cur ? Math.round((1 - cur / was) * 100) : 0;
+  // Strikethrough 'was' prices are not shown: no sale at the higher price is on record, and Google Merchant Center
+  // suspends accounts for reference prices that were never charged (Misrepresentation, 26 Nov 2026).
+  const savePct = 0;
+  void was; void cur;
 
   return (
     <div className="mt-4 flex flex-wrap items-center gap-3">

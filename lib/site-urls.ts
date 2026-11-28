@@ -24,6 +24,8 @@ export async function getAllSiteUrls(): Promise<string[]> {
   const urls = [
     ...(await import("lib/guides")).guideUrls().map((u) => `${baseUrl}${u}`),
     ...(await import("lib/tanks")).tankUrls().map((u) => `${baseUrl}${u}`),
+    ...(await import("lib/hub-products")).liveHubs().map((h) => `${baseUrl}/${h.slug}`),
+    ...(await import("lib/countries")).countryUrls().map((u) => `${baseUrl}${u}`),
     ...STATIC_PATHS.map((p) => `${baseUrl}${p}`),
     ...collections.filter((c) => c.handle).map((c) => `${baseUrl}${c.path}`),
     ...products.map((p) => `${baseUrl}/product/${p.handle}`),
