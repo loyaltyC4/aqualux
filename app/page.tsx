@@ -20,6 +20,7 @@ import {
 import { GUIDES_META } from "lib/guides";
 import { TANKS } from "lib/tanks";
 import { pageMeta } from "lib/seo";
+import { liveHubs } from "lib/hub-products";
 
 export const metadata = pageMeta({
   title: "Lush Aquarium | Planted Tank Lighting, CO2 & Aquascaping",
@@ -497,6 +498,19 @@ export default async function HomePage() {
             <NewsletterForm source="homepage" />
           </Reveal>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 py-14" aria-label="Popular searches">
+        <h2 className="text-sm font-semibold uppercase tracking-[0.15em] text-[var(--aq-muted)]">Popular searches</h2>
+        <ul className="mt-4 flex flex-wrap gap-2">
+          {liveHubs().map((h) => (
+            <li key={h.slug}>
+              <Link href={`/${h.slug}`} className="rounded-full border border-black/10 bg-white px-3.5 py-1.5 text-sm text-neutral-700 transition hover:border-[#2f6a37]/50 hover:text-[#2f6a37]">{h.name}</Link>
+            </li>
+          ))}
+          <li><Link href="/planted-aquarium-supplies" className="rounded-full border border-black/10 bg-white px-3.5 py-1.5 text-sm text-neutral-700 transition hover:border-[#2f6a37]/50 hover:text-[#2f6a37]">Shipping by country</Link></li>
+          <li><Link href="/tools" className="rounded-full border border-black/10 bg-white px-3.5 py-1.5 text-sm text-neutral-700 transition hover:border-[#2f6a37]/50 hover:text-[#2f6a37]">Aquarium calculators</Link></li>
+        </ul>
       </section>
 
       <Footer />
