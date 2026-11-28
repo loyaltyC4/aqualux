@@ -10,6 +10,8 @@ import { FilterBar } from "components/layout/search/filter-bar";
 import { defaultSort, sorting } from "lib/constants";
 import { COLLECTIONS, SITE_NAME } from "lib/brand";
 import { COLLECTION_COPY } from "lib/collection-copy";
+import { liveHubs } from "lib/hub-products";
+import Link from "next/link";
 import { baseUrl } from "lib/utils";
 import {
   applyFilters,
@@ -143,6 +145,22 @@ export default async function CategoryPage(props: {
           </Grid>
         </>
       )}
+
+      {(() => {
+        const topics = liveHubs().filter((h) => h.collection === params.collection);
+        return topics.length ? (
+          <nav className="mt-12" aria-label="Shop by topic">
+            <h2 className="text-sm font-semibold uppercase tracking-[0.15em] text-neutral-500">Shop by topic</h2>
+            <ul className="mt-3 flex flex-wrap gap-2">
+              {topics.map((h) => (
+                <li key={h.slug}>
+                  <Link href={`/${h.slug}`} className="rounded-full border border-black/10 px-3.5 py-1.5 text-sm text-neutral-700 transition hover:border-[#2f6a37]/50 hover:text-[#2f6a37]">{h.name}</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ) : null;
+      })()}
 
       {copy ? (
         <div className="mx-auto mt-16 max-w-3xl px-2 md:mt-24">

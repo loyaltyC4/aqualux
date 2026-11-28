@@ -14,7 +14,7 @@ import { MetadataRoute } from "next";
  *   home, /search and collections -> the newest product they list
  *   static pages -> the date their copy last changed (bump by hand)
  */
-const STATIC_UPDATED = "2026-10-19";
+const STATIC_UPDATED = "2026-11-28";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [urls, products] = await Promise.all([

@@ -140,3 +140,31 @@ export function deliveryText(zone: Zone): string {
   const { min, max } = deliveryWindow(zone);
   return `${min}-${max} business days to ${zone.label}`;
 }
+
+/**
+ * schema.org shipping details for every zone, straight from ZONES so structured data can never drift from the
+ * policy page. Rate is the zone's flat rate; orders over the zone's free-shipping threshold ship free, which a
+ * per-product schema cannot express, so the rate shown is the one a single small order pays.
+ */
+export function shippingDetailsLd() {
+  return ZONES.map((z) => ({
+    "@type": "OfferShippingDetails",
+    shippingRate: { "@type": "MonetaryAmount", value: z.rate.toFixed(2), currency: "USD" },
+    shippingDestination: z.countries.map((c) => ({ "@type": "DefinedRegion", addressCountry: c })),
+    deliveryTime: {
+      "@type": "ShippingDeliveryTime",
+      handlingTime: { "@type": "QuantitativeValue", minValue: DISPATCH_MIN_DAYS, maxValue: DISPATCH_MAX_DAYS, unitCode: "DAY" },
+      transitTime: { "@type": "QuantitativeValue", minValue: z.minDays, maxValue: z.maxDays, unitCode: "DAY" },
+    },
+  }));
+}
+
+/** The 30-day return window stated on /shipping-returns. */
+export function returnPolicyLd() {
+  return {
+    "@type": "MerchantReturnPolicy",
+    applicableCountry: ALLOWED_COUNTRIES,
+    returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
+    merchantReturnDays: 30,
+  };
+}

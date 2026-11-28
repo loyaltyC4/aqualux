@@ -1,3 +1,5 @@
+import { COUNTRIES } from "lib/countries";
+import Link from "next/link";
 import { DeliveryTable } from "components/delivery-table";
 import { PageShell, Section } from "components/page-shell";
 import type { Metadata } from "next";
@@ -41,6 +43,21 @@ export default function ShippingReturnsPage() {
           You&apos;ll receive an order confirmation by email at checkout, and a
           tracking link once your order ships. Every order is tracked from
           dispatch to delivery.
+        </p>
+      </Section>
+      <Section heading="Shipping by country">
+        <p>
+          Country guides with delivery windows, import tax notes, plug and
+          voltage details and tank sizes in local units:{" "}
+          {COUNTRIES.map((c, i) => (
+            <span key={c.slug}>
+              {i > 0 ? ", " : ""}
+              <Link href={`/planted-aquarium-supplies/${c.slug}`} className="underline underline-offset-2">
+                {c.name.replace(/^the /, "")}
+              </Link>
+            </span>
+          ))}
+          .
         </p>
       </Section>
       <Section heading="30-day returns">

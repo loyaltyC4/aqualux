@@ -28,7 +28,8 @@ export function ProductCard({
   priority?: boolean;
 }) {
   const price = product.priceRange.minVariantPrice;
-  const compare = product.variants[0]?.compareAtPrice;
+  // Reference ('was') prices are not displayed; see components/product/variant-price.tsx.
+  const compare: string | null = null;
   const img = product.featuredImage?.url;
 
   return (

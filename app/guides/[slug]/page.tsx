@@ -6,6 +6,7 @@ import { GUIDES_META, getGuide } from "lib/guides";
 import { guideProductHandle } from "lib/guide-products";
 import { getProduct } from "lib/shopify";
 import { pageMeta } from "lib/seo";
+import { liveHubs } from "lib/hub-products";
 
 export function generateStaticParams() {
   return GUIDES_META.map((g) => ({ slug: g.slug }));
@@ -128,6 +129,19 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             </ul>
           </nav>
         ) : null}
+        {(() => {
+          const topics = liveHubs().filter((h) => h.guides.some((x) => x.href === `/guides/${g.slug}`));
+          return topics.length ? (
+            <nav className="mt-12" aria-label="Shop this topic">
+              <h2 className="text-sm font-semibold uppercase tracking-[0.15em] text-[#0f1d18]/60">Shop this topic</h2>
+              <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-[15px]">
+                {topics.map((h) => (
+                  <li key={h.slug}><Link href={`/${h.slug}`} className="text-[#2f6a37] underline underline-offset-2">{h.name}</Link></li>
+                ))}
+              </ul>
+            </nav>
+          ) : null;
+        })()}
         <nav className="mt-12" aria-label="Free calculators">
           <h2 className="text-sm font-semibold uppercase tracking-[0.15em] text-[#0f1d18]/60">Free calculators</h2>
           <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-[15px]">
